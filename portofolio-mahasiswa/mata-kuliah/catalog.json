@@ -1,0 +1,596 @@
+[
+  {
+    "angkatan": 2022,
+    "semester": 1,
+    "semester_code": "20221",
+    "period": "Ganjil 20222023",
+    "course_code": "D20B.101",
+    "course": "Teori Statistika",
+    "pdf": "mata-kuliah/angkatan-2022/semester-1-20221/Portofolio_D20B.101_Teori_Statistika.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 1,
+    "semester_code": "20221",
+    "period": "Ganjil 20222023",
+    "course_code": "D20B.102",
+    "course": "Analisis Data Multivariat",
+    "pdf": "mata-kuliah/angkatan-2022/semester-1-20221/Portofolio_D20B.102_Analisis_Data_Multivariat.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 1,
+    "semester_code": "20221",
+    "period": "Ganjil 20222023",
+    "course_code": "D20B.103",
+    "course": "Analisis Regresi",
+    "pdf": "mata-kuliah/angkatan-2022/semester-1-20221/Portofolio_D20B.103_Analisis_Regresi.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 1,
+    "semester_code": "20221",
+    "period": "Ganjil 20222023",
+    "course_code": "D20B.104",
+    "course": "Proses Stokastik",
+    "pdf": "mata-kuliah/angkatan-2022/semester-1-20221/Portofolio_D20B.104_Proses_Stokastik.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 1,
+    "semester_code": "20221",
+    "period": "Ganjil 20222023",
+    "course_code": "D20B.105",
+    "course": "Komputasi Statistik",
+    "pdf": "mata-kuliah/angkatan-2022/semester-1-20221/Portofolio_D20B.105_Komputasi_Statistik.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 1,
+    "semester_code": "20221",
+    "period": "Ganjil 20222023",
+    "course_code": "D20O.106",
+    "course": "Konsep - konsep Dasar Statistika",
+    "pdf": "mata-kuliah/angkatan-2022/semester-1-20221/Portofolio_D20O.106_Konsep_-_konsep_Dasar_Statistika.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 2,
+    "semester_code": "20222",
+    "period": "Genap 20222023",
+    "course_code": "D200.207",
+    "course": "Analisis Data Deret Waktu",
+    "pdf": "mata-kuliah/angkatan-2022/semester-2-20222/Portofolio_D200.207_Analisis_Data_Deret_Waktu.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 2,
+    "semester_code": "20222",
+    "period": "Genap 20222023",
+    "course_code": "D200.209",
+    "course": "Analisis Data Kategori",
+    "pdf": "mata-kuliah/angkatan-2022/semester-2-20222/Portofolio_D200.209_Analisis_Data_Kategori.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 2,
+    "semester_code": "20222",
+    "period": "Genap 20222023",
+    "course_code": "D200.210",
+    "course": "Statistika Non Parametrik",
+    "pdf": "mata-kuliah/angkatan-2022/semester-2-20222/Portofolio_D200.210_Statistika_Non_Parametrik.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 2,
+    "semester_code": "20222",
+    "period": "Genap 20222023",
+    "course_code": "D20B.214",
+    "course": "Epidemiologi",
+    "pdf": "mata-kuliah/angkatan-2022/semester-2-20222/Portofolio_D20B.214_Epidemiologi.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 2,
+    "semester_code": "20222",
+    "period": "Genap 20222023",
+    "course_code": "D20B.222",
+    "course": "Analisis Data Spasial",
+    "pdf": "mata-kuliah/angkatan-2022/semester-2-20222/Portofolio_D20B.222_Analisis_Data_Spasial.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 2,
+    "semester_code": "20222",
+    "period": "Genap 20222023",
+    "course_code": "D20B.301",
+    "course": "Seminar Usulan Riset (SUR)",
+    "pdf": "mata-kuliah/angkatan-2022/semester-2-20222/Portofolio_D20B.301_Seminar_Usulan_Riset_SUR.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 2,
+    "semester_code": "20222",
+    "period": "Genap 20222023",
+    "course_code": "D20O.120",
+    "course": "Data Mining & Competitive Intelligence",
+    "pdf": "mata-kuliah/angkatan-2022/semester-2-20222/Portofolio_D20O.120_Data_Mining_Competitive_Intelligence.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 3,
+    "semester_code": "20231",
+    "period": "Ganjil 20232024",
+    "course_code": "D20B.321",
+    "course": "Seminar Usulan Riset",
+    "pdf": "mata-kuliah/angkatan-2022/semester-3-20231/Portofolio_D20B.321_Seminar_Usulan_Riset.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 3,
+    "semester_code": "20231",
+    "period": "Ganjil 20232024",
+    "course_code": "D20B.322",
+    "course": "Tesis",
+    "pdf": "mata-kuliah/angkatan-2022/semester-3-20231/Portofolio_D20B.322_Tesis.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 4,
+    "semester_code": "20232",
+    "period": "Genap 20232024",
+    "course_code": "D20B.321",
+    "course": "Seminar Usulan Riset",
+    "pdf": "mata-kuliah/angkatan-2022/semester-4-20232/Portofolio_D20B.321_Seminar_Usulan_Riset.pdf"
+  },
+  {
+    "angkatan": 2022,
+    "semester": 4,
+    "semester_code": "20232",
+    "period": "Genap 20232024",
+    "course_code": "D20B.322",
+    "course": "Tesis",
+    "pdf": "mata-kuliah/angkatan-2022/semester-4-20232/Portofolio_D20B.322_Tesis.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 1,
+    "semester_code": "20231",
+    "period": "Ganjil 20232024",
+    "course_code": "D20B.101",
+    "course": "Statistik Inferential",
+    "pdf": "mata-kuliah/angkatan-2023/semester-1-20231/Portofolio_D20B.101_Statistik_Inferential.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 1,
+    "semester_code": "20231",
+    "period": "Ganjil 20232024",
+    "course_code": "D20B.102",
+    "course": "Analisis Multivariat Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2023/semester-1-20231/Portofolio_D20B.102_Analisis_Multivariat_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 1,
+    "semester_code": "20231",
+    "period": "Ganjil 20232024",
+    "course_code": "D20B.103",
+    "course": "Analisis Regresi Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2023/semester-1-20231/Portofolio_D20B.103_Analisis_Regresi_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 1,
+    "semester_code": "20231",
+    "period": "Ganjil 20232024",
+    "course_code": "D20B.104",
+    "course": "Proses Stokastik Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2023/semester-1-20231/Portofolio_D20B.104_Proses_Stokastik_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 1,
+    "semester_code": "20231",
+    "period": "Ganjil 20232024",
+    "course_code": "D20B.105",
+    "course": "Komputasi Statistik dan Optimasi",
+    "pdf": "mata-kuliah/angkatan-2023/semester-1-20231/Portofolio_D20B.105_Komputasi_Statistik_dan_Optimasi.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 1,
+    "semester_code": "20231",
+    "period": "Ganjil 20232024",
+    "course_code": "D20B.107",
+    "course": "Analisis Deret Waktu Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2023/semester-1-20231/Portofolio_D20B.107_Analisis_Deret_Waktu_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 2,
+    "semester_code": "20232",
+    "period": "Genap 20232024",
+    "course_code": "D20B.206",
+    "course": "Model persamaan struktural",
+    "pdf": "mata-kuliah/angkatan-2023/semester-2-20232/Portofolio_D20B.206_Model_persamaan_struktural.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 2,
+    "semester_code": "20232",
+    "period": "Genap 20232024",
+    "course_code": "D20B.209",
+    "course": "Analisis Data Kategori Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2023/semester-2-20232/Portofolio_D20B.209_Analisis_Data_Kategori_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 2,
+    "semester_code": "20232",
+    "period": "Genap 20232024",
+    "course_code": "D20B.210",
+    "course": "Nonparamerics statistics dan flexible modeling",
+    "pdf": "mata-kuliah/angkatan-2023/semester-2-20232/Portofolio_D20B.210_Nonparamerics_statistics_dan_flexible_modeling.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 2,
+    "semester_code": "20232",
+    "period": "Genap 20232024",
+    "course_code": "D20B.222",
+    "course": "Analisis Data Spasial Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2023/semester-2-20232/Portofolio_D20B.222_Analisis_Data_Spasial_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 2,
+    "semester_code": "20232",
+    "period": "Genap 20232024",
+    "course_code": "D20B.223",
+    "course": "Machine Learning",
+    "pdf": "mata-kuliah/angkatan-2023/semester-2-20232/Portofolio_D20B.223_Machine_Learning.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 2,
+    "semester_code": "20232",
+    "period": "Genap 20232024",
+    "course_code": "D20B.225",
+    "course": "Text Analytics",
+    "pdf": "mata-kuliah/angkatan-2023/semester-2-20232/Portofolio_D20B.225_Text_Analytics.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 2,
+    "semester_code": "20232",
+    "period": "Genap 20232024",
+    "course_code": "D20B.226",
+    "course": "Database",
+    "pdf": "mata-kuliah/angkatan-2023/semester-2-20232/Portofolio_D20B.226_Database.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 2,
+    "semester_code": "20232",
+    "period": "Genap 20232024",
+    "course_code": "D20B.321",
+    "course": "Seminar Usulan Riset",
+    "pdf": "mata-kuliah/angkatan-2023/semester-2-20232/Portofolio_D20B.321_Seminar_Usulan_Riset.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 2,
+    "semester_code": "20232",
+    "period": "Genap 20232024",
+    "course_code": "D20O.120",
+    "course": "Data Mining dan Artificial Intelligence",
+    "pdf": "mata-kuliah/angkatan-2023/semester-2-20232/Portofolio_D20O.120_Data_Mining_dan_Artificial_Intelligence.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 3,
+    "semester_code": "20241",
+    "period": "Ganjil 20242025",
+    "course_code": "D20B.321",
+    "course": "Seminar Usulan Riset",
+    "pdf": "mata-kuliah/angkatan-2023/semester-3-20241/Portofolio_D20B.321_Seminar_Usulan_Riset.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 3,
+    "semester_code": "20241",
+    "period": "Ganjil 20242025",
+    "course_code": "D20B.322",
+    "course": "Tesis",
+    "pdf": "mata-kuliah/angkatan-2023/semester-3-20241/Portofolio_D20B.322_Tesis.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 4,
+    "semester_code": "20242",
+    "period": "Genap 20242025",
+    "course_code": "D20B.321",
+    "course": "Seminar Usulan Riset",
+    "pdf": "mata-kuliah/angkatan-2023/semester-4-20242/Portofolio_D20B.321_Seminar_Usulan_Riset.pdf"
+  },
+  {
+    "angkatan": 2023,
+    "semester": 4,
+    "semester_code": "20242",
+    "period": "Genap 20242025",
+    "course_code": "D20B.322",
+    "course": "Tesis",
+    "pdf": "mata-kuliah/angkatan-2023/semester-4-20242/Portofolio_D20B.322_Tesis.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 1,
+    "semester_code": "20241",
+    "period": "Ganjil 20242025",
+    "course_code": "D20B.101",
+    "course": "Statistik Inferential",
+    "pdf": "mata-kuliah/angkatan-2024/semester-1-20241/Portofolio_D20B.101_Statistik_Inferential.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 1,
+    "semester_code": "20241",
+    "period": "Ganjil 20242025",
+    "course_code": "D20B.102",
+    "course": "Analisis Multivariat Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2024/semester-1-20241/Portofolio_D20B.102_Analisis_Multivariat_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 1,
+    "semester_code": "20241",
+    "period": "Ganjil 20242025",
+    "course_code": "D20B.103",
+    "course": "Analisis Regresi Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2024/semester-1-20241/Portofolio_D20B.103_Analisis_Regresi_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 1,
+    "semester_code": "20241",
+    "period": "Ganjil 20242025",
+    "course_code": "D20B.104",
+    "course": "Proses Stokastik Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2024/semester-1-20241/Portofolio_D20B.104_Proses_Stokastik_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 1,
+    "semester_code": "20241",
+    "period": "Ganjil 20242025",
+    "course_code": "D20B.105",
+    "course": "Komputasi Statistik dan Optimasi",
+    "pdf": "mata-kuliah/angkatan-2024/semester-1-20241/Portofolio_D20B.105_Komputasi_Statistik_dan_Optimasi.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 1,
+    "semester_code": "20241",
+    "period": "Ganjil 20242025",
+    "course_code": "D20B.107",
+    "course": "Analisis Deret Waktu Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2024/semester-1-20241/Portofolio_D20B.107_Analisis_Deret_Waktu_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 2,
+    "semester_code": "20242",
+    "period": "Genap 20242025",
+    "course_code": "D20B.210",
+    "course": "Nonparamerics statistics dan flexible modeling",
+    "pdf": "mata-kuliah/angkatan-2024/semester-2-20242/Portofolio_D20B.210_Nonparamerics_statistics_dan_flexible_modeling.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 2,
+    "semester_code": "20242",
+    "period": "Genap 20242025",
+    "course_code": "D20B.222",
+    "course": "Analisis Spasial Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2024/semester-2-20242/Portofolio_D20B.222_Analisis_Spasial_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 2,
+    "semester_code": "20242",
+    "period": "Genap 20242025",
+    "course_code": "D20B.223",
+    "course": "Machine Learning",
+    "pdf": "mata-kuliah/angkatan-2024/semester-2-20242/Portofolio_D20B.223_Machine_Learning.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 2,
+    "semester_code": "20242",
+    "period": "Genap 20242025",
+    "course_code": "D20B.225",
+    "course": "Text Analytic",
+    "pdf": "mata-kuliah/angkatan-2024/semester-2-20242/Portofolio_D20B.225_Text_Analytic.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 2,
+    "semester_code": "20242",
+    "period": "Genap 20242025",
+    "course_code": "D20B.226",
+    "course": "Database",
+    "pdf": "mata-kuliah/angkatan-2024/semester-2-20242/Portofolio_D20B.226_Database.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 2,
+    "semester_code": "20242",
+    "period": "Genap 20242025",
+    "course_code": "D20B.321",
+    "course": "Seminar Usulan Riset",
+    "pdf": "mata-kuliah/angkatan-2024/semester-2-20242/Portofolio_D20B.321_Seminar_Usulan_Riset.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 2,
+    "semester_code": "20242",
+    "period": "Genap 20242025",
+    "course_code": "D20O.120",
+    "course": "Data Mining dan Artificial Intelligence",
+    "pdf": "mata-kuliah/angkatan-2024/semester-2-20242/Portofolio_D20O.120_Data_Mining_dan_Artificial_Intelligence.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 3,
+    "semester_code": "20251",
+    "period": "Ganjil 20252026",
+    "course_code": "D20B.321",
+    "course": "Seminar Usulan Riset",
+    "pdf": "mata-kuliah/angkatan-2024/semester-3-20251/Portofolio_D20B.321_Seminar_Usulan_Riset.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 3,
+    "semester_code": "20251",
+    "period": "Ganjil 20252026",
+    "course_code": "D20B.322",
+    "course": "Tesis",
+    "pdf": "mata-kuliah/angkatan-2024/semester-3-20251/Portofolio_D20B.322_Tesis.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 4,
+    "semester_code": "20252",
+    "period": "Genap 20252026",
+    "course_code": "D20B.321",
+    "course": "Seminar Usulan Riset",
+    "pdf": "mata-kuliah/angkatan-2024/semester-4-20252/Portofolio_D20B.321_Seminar_Usulan_Riset.pdf"
+  },
+  {
+    "angkatan": 2024,
+    "semester": 4,
+    "semester_code": "20252",
+    "period": "Genap 20252026",
+    "course_code": "D20B.322",
+    "course": "Tesis",
+    "pdf": "mata-kuliah/angkatan-2024/semester-4-20252/Portofolio_D20B.322_Tesis.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 1,
+    "semester_code": "20251",
+    "period": "Ganjil 20252026",
+    "course_code": "140720-UND202511001",
+    "course": "Statistika Inferensial",
+    "pdf": "mata-kuliah/angkatan-2025/semester-1-20251/Portofolio_140720-UND202511001_Statistika_Inferensial.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 1,
+    "semester_code": "20251",
+    "period": "Ganjil 20252026",
+    "course_code": "140720-UND202511002",
+    "course": "Komputasi Statistik dan Optimasi",
+    "pdf": "mata-kuliah/angkatan-2025/semester-1-20251/Portofolio_140720-UND202511002_Komputasi_Statistik_dan_Optimasi.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 1,
+    "semester_code": "20251",
+    "period": "Ganjil 20252026",
+    "course_code": "140720-UND202511003",
+    "course": "Analisis Multivariat Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2025/semester-1-20251/Portofolio_140720-UND202511003_Analisis_Multivariat_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 1,
+    "semester_code": "20251",
+    "period": "Ganjil 20252026",
+    "course_code": "140720-UND202511004",
+    "course": "Analisis Regresi Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2025/semester-1-20251/Portofolio_140720-UND202511004_Analisis_Regresi_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 1,
+    "semester_code": "20251",
+    "period": "Ganjil 20252026",
+    "course_code": "140720-UND202511005",
+    "course": "Proses Stokastik Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2025/semester-1-20251/Portofolio_140720-UND202511005_Proses_Stokastik_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 1,
+    "semester_code": "20251",
+    "period": "Ganjil 20252026",
+    "course_code": "140720-UND202511006",
+    "course": "Analisis Deret Waktu Tingkat Lanjut",
+    "pdf": "mata-kuliah/angkatan-2025/semester-1-20251/Portofolio_140720-UND202511006_Analisis_Deret_Waktu_Tingkat_Lanjut.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 2,
+    "semester_code": "20252",
+    "period": "Genap 20252026",
+    "course_code": "140720-UND202522001",
+    "course": "Statistika Nonparametrik dan Pemodelan Fleksibel",
+    "pdf": "mata-kuliah/angkatan-2025/semester-2-20252/Portofolio_140720-UND202522001_Statistika_Nonparametrik_dan_Pemodelan_Fleksibel.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 2,
+    "semester_code": "20252",
+    "period": "Genap 20252026",
+    "course_code": "140720-UND202522002",
+    "course": "Penambangan Data dan Kecerdasan Buatan",
+    "pdf": "mata-kuliah/angkatan-2025/semester-2-20252/Portofolio_140720-UND202522002_Penambangan_Data_dan_Kecerdasan_Buatan.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 2,
+    "semester_code": "20252",
+    "period": "Genap 20252026",
+    "course_code": "140720-UND202522004",
+    "course": "Analisis Spasial",
+    "pdf": "mata-kuliah/angkatan-2025/semester-2-20252/Portofolio_140720-UND202522004_Analisis_Spasial.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 2,
+    "semester_code": "20252",
+    "period": "Genap 20252026",
+    "course_code": "140720-UND202522014",
+    "course": "Epidemiologi",
+    "pdf": "mata-kuliah/angkatan-2025/semester-2-20252/Portofolio_140720-UND202522014_Epidemiologi.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 2,
+    "semester_code": "20252",
+    "period": "Genap 20252026",
+    "course_code": "140720-UND202522015",
+    "course": "Pembelajaran Mesin",
+    "pdf": "mata-kuliah/angkatan-2025/semester-2-20252/Portofolio_140720-UND202522015_Pembelajaran_Mesin.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 2,
+    "semester_code": "20252",
+    "period": "Genap 20252026",
+    "course_code": "140720-UND202522016",
+    "course": "Analisis Image",
+    "pdf": "mata-kuliah/angkatan-2025/semester-2-20252/Portofolio_140720-UND202522016_Analisis_Image.pdf"
+  },
+  {
+    "angkatan": 2025,
+    "semester": 2,
+    "semester_code": "20252",
+    "period": "Genap 20252026",
+    "course_code": "140720-UND202522018",
+    "course": "Basis Data",
+    "pdf": "mata-kuliah/angkatan-2025/semester-2-20252/Portofolio_140720-UND202522018_Basis_Data.pdf"
+  }
+]
