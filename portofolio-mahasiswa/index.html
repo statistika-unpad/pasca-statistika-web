@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#123e56">
   <title>Portofolio Mahasiswa | S2 Statistika Terapan FMIPA UNPAD</title>
   <link rel="stylesheet" href="portfolio.css?v=20260903-ppepp">
-  <link rel="stylesheet" href="course-portfolio.css?v=20260907">
+  <link rel="stylesheet" href="course-portfolio.css?v=20260907-tabs">
 </head>
 <body>
   <header class="portfolio-header">
@@ -51,13 +51,13 @@
         <a href="metodologi-portofolio-obe.html"><span>Metodologi OBE</span><strong>Dasar perhitungan portofolio ↗</strong><p>Sumber data, proxy CPMK–CPL, ambang ketercapaian, dan penanganan nilai yang tidak tersedia.</p></a>
       </div>
       <p class="course-method-note">Capaian dalam dokumen ini merupakan <strong>proxy internal OBE</strong> dari data historis. Nilai akademik asli dipertahankan; ringkasan ini tidak menggantikan agregasi CPL resmi tingkat program.</p>
-      <nav class="course-cohort-nav" aria-label="Pilih angkatan portofolio mata kuliah">
-<a href="#mk-angkatan-2025">Angkatan 2025</a>
-<a href="#mk-angkatan-2024">Angkatan 2024</a>
-<a href="#mk-angkatan-2023">Angkatan 2023</a>
-<a href="#mk-angkatan-2022">Angkatan 2022</a>
+      <nav class="course-cohort-nav" role="tablist" aria-label="Pilih angkatan portofolio mata kuliah">
+<button type="button" role="tab" id="mk-tab-2025" aria-controls="mk-angkatan-2025" aria-selected="true" tabindex="0">Angkatan 2025</button>
+<button type="button" role="tab" id="mk-tab-2024" aria-controls="mk-angkatan-2024" aria-selected="false" tabindex="-1">Angkatan 2024</button>
+<button type="button" role="tab" id="mk-tab-2023" aria-controls="mk-angkatan-2023" aria-selected="false" tabindex="-1">Angkatan 2023</button>
+<button type="button" role="tab" id="mk-tab-2022" aria-controls="mk-angkatan-2022" aria-selected="false" tabindex="-1">Angkatan 2022</button>
 </nav>
-<section class="course-cohort" id="mk-angkatan-2025" aria-labelledby="mk-title-2025"><div class="course-cohort-heading"><h3 id="mk-title-2025">Angkatan 2025</h3><span>13 dokumen · 2 semester</span></div>
+<section class="course-cohort" id="mk-angkatan-2025" role="tabpanel" aria-labelledby="mk-tab-2025"><div class="course-cohort-heading"><h3 id="mk-title-2025">Angkatan 2025</h3><span>13 dokumen · 2 semester</span></div>
 <details class="course-semester" open><summary><span><strong>Semester 1</strong><small>Ganjil 2025/2026 · 20251</small></span><span>6 PDF</span></summary><ul>
 <li><a href="mata-kuliah/angkatan-2025/semester-1-20251/Portofolio_140720-UND202511001_Statistika_Inferensial.pdf"><span><small>140720-UND202511001</small><strong>Statistika Inferensial</strong></span><b>Buka PDF ↗</b></a></li>
 <li><a href="mata-kuliah/angkatan-2025/semester-1-20251/Portofolio_140720-UND202511002_Komputasi_Statistik_dan_Optimasi.pdf"><span><small>140720-UND202511002</small><strong>Komputasi Statistik dan Optimasi</strong></span><b>Buka PDF ↗</b></a></li>
@@ -76,7 +76,7 @@
 <li><a href="mata-kuliah/angkatan-2025/semester-2-20252/Portofolio_140720-UND202522018_Basis_Data.pdf"><span><small>140720-UND202522018</small><strong>Basis Data</strong></span><b>Buka PDF ↗</b></a></li>
 </ul></details>
 </section>
-<section class="course-cohort" id="mk-angkatan-2024" aria-labelledby="mk-title-2024"><div class="course-cohort-heading"><h3 id="mk-title-2024">Angkatan 2024</h3><span>17 dokumen · 4 semester</span></div>
+<section class="course-cohort" id="mk-angkatan-2024" role="tabpanel" aria-labelledby="mk-tab-2024" hidden><div class="course-cohort-heading"><h3 id="mk-title-2024">Angkatan 2024</h3><span>17 dokumen · 4 semester</span></div>
 <details class="course-semester"><summary><span><strong>Semester 1</strong><small>Ganjil 2024/2025 · 20241</small></span><span>6 PDF</span></summary><ul>
 <li><a href="mata-kuliah/angkatan-2024/semester-1-20241/Portofolio_D20B.101_Statistik_Inferential.pdf"><span><small>D20B.101</small><strong>Statistik Inferential</strong></span><b>Buka PDF ↗</b></a></li>
 <li><a href="mata-kuliah/angkatan-2024/semester-1-20241/Portofolio_D20B.102_Analisis_Multivariat_Tingkat_Lanjut.pdf"><span><small>D20B.102</small><strong>Analisis Multivariat Tingkat Lanjut</strong></span><b>Buka PDF ↗</b></a></li>
@@ -103,7 +103,7 @@
 <li><a href="mata-kuliah/angkatan-2024/semester-4-20252/Portofolio_D20B.322_Tesis.pdf"><span><small>D20B.322</small><strong>Tesis</strong></span><b>Buka PDF ↗</b></a></li>
 </ul></details>
 </section>
-<section class="course-cohort" id="mk-angkatan-2023" aria-labelledby="mk-title-2023"><div class="course-cohort-heading"><h3 id="mk-title-2023">Angkatan 2023</h3><span>19 dokumen · 4 semester</span></div>
+<section class="course-cohort" id="mk-angkatan-2023" role="tabpanel" aria-labelledby="mk-tab-2023" hidden><div class="course-cohort-heading"><h3 id="mk-title-2023">Angkatan 2023</h3><span>19 dokumen · 4 semester</span></div>
 <details class="course-semester"><summary><span><strong>Semester 1</strong><small>Ganjil 2023/2024 · 20231</small></span><span>6 PDF</span></summary><ul>
 <li><a href="mata-kuliah/angkatan-2023/semester-1-20231/Portofolio_D20B.101_Statistik_Inferential.pdf"><span><small>D20B.101</small><strong>Statistik Inferential</strong></span><b>Buka PDF ↗</b></a></li>
 <li><a href="mata-kuliah/angkatan-2023/semester-1-20231/Portofolio_D20B.102_Analisis_Multivariat_Tingkat_Lanjut.pdf"><span><small>D20B.102</small><strong>Analisis Multivariat Tingkat Lanjut</strong></span><b>Buka PDF ↗</b></a></li>
@@ -132,7 +132,7 @@
 <li><a href="mata-kuliah/angkatan-2023/semester-4-20242/Portofolio_D20B.322_Tesis.pdf"><span><small>D20B.322</small><strong>Tesis</strong></span><b>Buka PDF ↗</b></a></li>
 </ul></details>
 </section>
-<section class="course-cohort" id="mk-angkatan-2022" aria-labelledby="mk-title-2022"><div class="course-cohort-heading"><h3 id="mk-title-2022">Angkatan 2022</h3><span>17 dokumen · 4 semester</span></div>
+<section class="course-cohort" id="mk-angkatan-2022" role="tabpanel" aria-labelledby="mk-tab-2022" hidden><div class="course-cohort-heading"><h3 id="mk-title-2022">Angkatan 2022</h3><span>17 dokumen · 4 semester</span></div>
 <details class="course-semester"><summary><span><strong>Semester 1</strong><small>Ganjil 2022/2023 · 20221</small></span><span>6 PDF</span></summary><ul>
 <li><a href="mata-kuliah/angkatan-2022/semester-1-20221/Portofolio_D20B.101_Teori_Statistika.pdf"><span><small>D20B.101</small><strong>Teori Statistika</strong></span><b>Buka PDF ↗</b></a></li>
 <li><a href="mata-kuliah/angkatan-2022/semester-1-20221/Portofolio_D20B.102_Analisis_Data_Multivariat.pdf"><span><small>D20B.102</small><strong>Analisis Data Multivariat</strong></span><b>Buka PDF ↗</b></a></li>
@@ -275,5 +275,6 @@
   <footer>Program Studi Magister Statistika Terapan · FMIPA Universitas Padjadjaran</footer>
   <script src="portfolio.js?v=20260820" defer></script>
   <script src="cpl-reports.js?v=20260903-ppepp" defer></script>
+  <script src="course-portfolio.js?v=20260907-tabs" defer></script>
 </body>
 </html>
