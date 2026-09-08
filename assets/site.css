@@ -6946,23 +6946,33 @@ tbody tr:hover td {
   padding: 24px;
   overflow: hidden;
   border-radius: 16px;
-  color: #503512;
+  color: #fff;
   background:
-    linear-gradient(115deg, #fff8eb 0%, #ffedcf 55%, #ffdbab 100%);
-  border: 1px solid #f5d8af;
-  box-shadow: 0 14px 36px rgba(148, 93, 26, 0.09);
+    linear-gradient(110deg, #153f5b 0%, #105e61 42%, #14715d 69%, #d5a62c 100%);
+  border: 1px solid rgba(255, 221, 148, 0.2);
+  isolation: isolate;
+  box-shadow: 0 16px 36px rgba(17, 68, 77, 0.16);
 }
 
 .tracer-cta::before {
   content: "";
   position: absolute;
-  inset: 0 0 auto;
-  height: 5px;
-  background: linear-gradient(90deg, #eda333, #ffdc9e, #f3ae51);
+  inset: 0;
+  pointer-events: none;
+  background: url("tracer-batik.svg") right center / auto 120% no-repeat;
+  opacity: 0.65;
+}
+.tracer-cta::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg, rgba(16, 57, 78, 0.3), transparent 75%);
 }
 
 .tracer-cta-copy {
   position: relative;
+  z-index: 1;
   display: grid;
   gap: 8px;
   max-width: 760px;
@@ -6972,8 +6982,9 @@ tbody tr:hover td {
   width: max-content;
   border-radius: 6px;
   padding: 6px 10px;
-  color: #241800;
-  background: linear-gradient(135deg, #ffcf87, #ffe7bd);
+  color: #fff0be;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 233, 181, 0.4);
   font-size: 12px;
   font-weight: 950;
   letter-spacing: 0.04em;
@@ -6989,13 +7000,14 @@ tbody tr:hover td {
 .tracer-cta p {
   max-width: 680px;
   margin: 0;
-  color: #715435;
+  color: #e0edf0;
   font-size: 15px;
   line-height: 1.7;
 }
 
 .tracer-cta a {
   position: relative;
+  z-index: 1;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -7004,7 +7016,7 @@ tbody tr:hover td {
   border-radius: 6px;
   padding: 12px 18px;
   color: #231600;
-  background: linear-gradient(135deg, #ffb347, #ffd28a);
+  background: linear-gradient(135deg, #ffbf26, #ffe6a0);
   text-decoration: none;
   font-size: 14px;
   font-weight: 950;
@@ -7032,7 +7044,7 @@ tbody tr:hover td {
   85%, 100% { transform: translateX(140%); }
 }
 .tracer-cta a:focus-visible {
-  outline: 3px solid #85551c;
+  outline: 3px solid #fff0bf;
   outline-offset: 4px;
 }
 @media (prefers-reduced-motion: reduce) {
