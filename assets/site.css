@@ -6945,12 +6945,12 @@ tbody tr:hover td {
   margin: 0 0 22px;
   padding: 24px;
   overflow: hidden;
-  border-radius: 8px;
-  color: #fff;
+  border-radius: 16px;
+  color: #503512;
   background:
-    linear-gradient(135deg, rgba(20, 61, 93, 0.94), rgba(14, 107, 88, 0.94) 54%, rgba(169, 15, 38, 0.9)),
-    #143d5d;
-  box-shadow: 0 20px 46px rgba(23, 23, 23, 0.14);
+    linear-gradient(115deg, #fff8eb 0%, #ffedcf 55%, #ffdbab 100%);
+  border: 1px solid #f5d8af;
+  box-shadow: 0 14px 36px rgba(148, 93, 26, 0.09);
 }
 
 .tracer-cta::before {
@@ -6958,7 +6958,7 @@ tbody tr:hover td {
   position: absolute;
   inset: 0 0 auto;
   height: 5px;
-  background: linear-gradient(90deg, var(--gold), #fff2bf, var(--red));
+  background: linear-gradient(90deg, #eda333, #ffdc9e, #f3ae51);
 }
 
 .tracer-cta-copy {
@@ -6973,7 +6973,7 @@ tbody tr:hover td {
   border-radius: 6px;
   padding: 6px 10px;
   color: #241800;
-  background: linear-gradient(135deg, var(--gold), #ffe7a8);
+  background: linear-gradient(135deg, #ffcf87, #ffe7bd);
   font-size: 12px;
   font-weight: 950;
   letter-spacing: 0.04em;
@@ -6989,7 +6989,7 @@ tbody tr:hover td {
 .tracer-cta p {
   max-width: 680px;
   margin: 0;
-  color: rgba(255, 255, 255, 0.86);
+  color: #715435;
   font-size: 15px;
   line-height: 1.7;
 }
@@ -7004,16 +7004,41 @@ tbody tr:hover td {
   border-radius: 6px;
   padding: 12px 18px;
   color: #231600;
-  background: linear-gradient(135deg, var(--gold), #fff2bf);
+  background: linear-gradient(135deg, #ffb347, #ffd28a);
   text-decoration: none;
   font-size: 14px;
   font-weight: 950;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18);
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(171, 104, 20, 0.16);
+  transition: transform 200ms ease, box-shadow 200ms ease;
 }
 
 .tracer-cta a:hover {
   filter: saturate(1.08) brightness(1.03);
   transform: translateY(-1px);
+}
+
+.tracer-cta a::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(110deg, transparent 25%, rgba(255, 255, 255, 0.35) 50%, transparent 75%);
+  transform: translateX(-140%);
+  animation: tracer-button-shimmer 6s ease-in-out infinite;
+}
+@keyframes tracer-button-shimmer {
+  0%, 55% { transform: translateX(-140%); }
+  85%, 100% { transform: translateX(140%); }
+}
+.tracer-cta a:focus-visible {
+  outline: 3px solid #85551c;
+  outline-offset: 4px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .tracer-cta a::after { animation: none; display: none; }
+  .tracer-cta a { transition: none; }
+  .tracer-cta a:hover { transform: none; }
 }
 
 .stakeholder-survey-section {
