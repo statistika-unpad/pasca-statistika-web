@@ -5,6 +5,8 @@
   const lecturer = byId('lecturer');
   const search = byId('search');
   const stage = byId('stage');
+  const year = byId('academic-year');
+  const semester = byId('semester');
   const cards = [...root.querySelectorAll('.document-card')];
   const categories = [...root.querySelectorAll('[data-filter]')];
   let category = 'akademik';
@@ -15,27 +17,29 @@
     cards.forEach(card => {
       const rows = [...card.querySelectorAll('[data-person]')];
       const nameMatch = !lecturer.value || rows.some(row => row.dataset.person === lecturer.value);
-      const matches = nameMatch && (!category || (category === 'akademik' ? card.dataset.category !== 'pengelola' : card.dataset.category === category)) && (!stage.value || card.dataset.stage === stage.value) && words.every(word => normalize(card.dataset.search).includes(word));
+      const matches = nameMatch && (!year.value || card.dataset.year === year.value) && (!semester.value || card.dataset.semester === semester.value) && (!category || (category === 'akademik' ? card.dataset.category !== 'pengelola' : card.dataset.category === category)) && (!stage.value || card.dataset.stage === stage.value) && words.every(word => normalize(card.dataset.search).includes(word));
       card.hidden = !matches;
       if (matches) count++;
       rows.forEach(row => { row.hidden = !!lecturer.value && row.dataset.person !== lecturer.value; });
       const assignments = card.querySelector('.assignments');
       if (assignments) assignments.open = !!lecturer.value && matches;
     });
-    byId('result-count').textContent = `${count} dokumen ditampilkan${lecturer.value ? ' · ' + lecturer.value : ''}`;
+    byId('result-count').textContent = `${count} dokumen ditampilkan${semester.value ? ' · '+semester.value : ''}${year.value ? ' '+year.value : ''}${lecturer.value ? ' · ' + lecturer.value : ''}`;
     byId('empty').hidden = count !== 0;
     categories.forEach(button => button.setAttribute('aria-pressed', String(button.dataset.filter === category)));
   }
   categories.forEach(button => button.addEventListener('click', () => {
     category = button.dataset.filter;
-    if (category === "pengelola") lecturer.value = "";
-    if (category !== 'undangan') stage.value = '';
+    if (category === "pengelola") { lecturer.value = ""; year.value = ""; semester.value = ""; }
+    if (!['undangan', 'pengujian'].includes(category)) stage.value = '';
     filter();
   }));
   lecturer.addEventListener('change', () => { if (lecturer.value && category === 'pengelola') category = 'akademik'; filter(); });
   search.addEventListener('input', filter);
-  stage.addEventListener('change', () => { if (stage.value) category = 'undangan'; filter(); });
-  byId('reset').addEventListener('click', () => { lecturer.value = ''; search.value = ''; stage.value = ''; category = 'akademik'; filter(); });
+  stage.addEventListener('change', () => { if (stage.value && !['undangan','pengujian'].includes(category)) category = 'akademik'; filter(); });
+  year.addEventListener('change', () => { if(category === 'pengelola') category='akademik'; filter(); });
+  semester.addEventListener('change', () => { if(category === 'pengelola') category='akademik'; filter(); });
+  byId('reset').addEventListener('click', () => { lecturer.value = ''; search.value = ''; stage.value = ''; year.value = ''; semester.value = ''; category = 'akademik'; filter(); });
   root.querySelectorAll('.pdf-url').forEach(input => input.addEventListener('click', () => input.select()));
   let noticeTimer;
   root.querySelectorAll('[data-copy]').forEach(button => button.addEventListener('click', async () => {
