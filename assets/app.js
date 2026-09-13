@@ -455,6 +455,41 @@ let pendingWorkspaceSelection = null;
 
 const I18N = {
   id: {
+    "obeTitle": "Matriks Keselarasan Profil Lulusan, PEO, dan CPL",
+    "obeSubtitle": "Keterkaitan Profil Lulusan, Program Educational Objectives (PEO), dan Capaian Pembelajaran Lulusan (CPL) dalam kerangka Outcome-Based Education.",
+    "obeIntro": "Program Studi Magister Statistika Terapan FMIPA Universitas Padjadjaran memiliki matriks keterkaitan antara Profil Lulusan, Program Educational Objectives (PEO), dan Capaian Pembelajaran Lulusan (CPL) sebagai bagian dari implementasi Outcome-Based Education (OBE). Matriks ini menunjukkan kesinambungan antara peran yang dipersiapkan bagi lulusan, pencapaian profesional yang diharapkan dalam 3–5 tahun setelah kelulusan, dan kemampuan yang harus dikuasai mahasiswa pada saat menyelesaikan program.",
+    "obeEvidenceTitle": "Dokumentasi dan Evaluasi",
+    "obeEvidence": "Matriks CPL, Profil Lulusan, dan PEO terdokumentasi dalam dokumen kurikulum Program Studi yang telah melalui pembahasan pada tingkat akademik/senat sesuai tata kelola yang berlaku, ditetapkan oleh pimpinan yang berwenang, serta dievaluasi secara berkala sebagai bagian dari siklus peningkatan mutu berkelanjutan.",
+    "obeMethod": "Catatan pemetaan: PL–PEO mengikuti rancangan yang diberikan Program Studi. PEO–CPL merupakan interpretasi keselarasan berdasarkan rumusan PEO pada website dan CPL resmi, bukan salinan matriks penetapan. Alasan setiap hubungan dapat diperiksa melalui simbol pada tabel.",
+    "obeDistinction": "Profil Lulusan menjelaskan peran yang dipersiapkan bagi lulusan; PEO menggambarkan pencapaian profesional 3–5 tahun setelah kelulusan; sedangkan CPL menunjukkan kemampuan yang harus dikuasai mahasiswa pada saat menyelesaikan program.",
+    "obeCurriculum": "Kurikulum & Pembelajaran",
+    "obeAssessment": "Asesmen",
+    "obeImprove": "Evaluasi & Perbaikan Berkelanjutan",
+    "obePlMatrix": "Profil Lulusan × PEO",
+    "obePeoMatrix": "PEO × CPL",
+    "obePl": "Profil Lulusan",
+    "obeCpl": "CPL",
+    "obeStrong": "Keterkaitan utama",
+    "obeSupport": "Keterkaitan pendukung",
+    "obeNone": "Tidak ada hubungan langsung yang substansial",
+    "obeHint": "Geser untuk melihat seluruh matriks →",
+    "obeHelp": "Arahkan kursor, fokuskan dengan Tab, atau klik simbol untuk membaca alasan keterkaitan. Tekan Escape untuk menutup.",
+    "obeIntegrated": "Integrated OBE Alignment Matrix",
+    "obeDerived": "Alur ini diturunkan dari dua matriks di atas. CPL yang ditampilkan merupakan gabungan jalur melalui PEO, bukan pengganti matriks langsung Profil Lulusan–CPL pada dokumen kurikulum. Arahkan kursor atau fokuskan kode untuk menyoroti jalurnya.",
+    "obeFull": "Lihat Rumusan Lengkap CPL",
+    "obeSource": "Sumber: Kurikulum OBE 2025 Edisi Revisi, Tabel 2.1 (Indonesia) dan Tabel 2.4 (Inggris). Rumusan disalin tanpa perubahan; kode tampilan CPL-1–CPL-7 setara dengan CPL1–CPL7 pada sumber.",
+    "obeGovernance": "Dokumentasi, Penetapan, dan Evaluasi",
+    "obeGov1": "Terdokumentasi",
+    "obeGov1Text": "Matriks Profil Lulusan–PEO–CPL menjadi bagian dari dokumentasi Kurikulum OBE Program Studi.",
+    "obeGov2": "Dibahas dan Ditetapkan",
+    "obeGov2Text": "Dokumen kurikulum melalui mekanisme pembahasan akademik dan penetapan oleh pimpinan sesuai tata kelola Universitas/Fakultas.",
+    "obeGov3": "Dievaluasi Berkala",
+    "obeGov3Text": "Keselarasan Profil Lulusan, PEO, CPL, dan kurikulum dievaluasi melalui tracer study, survei pengguna lulusan, masukan stakeholder, evaluasi CPL, dan evaluasi kurikulum.",
+    "obeLinks": "Dokumen dan Layanan Pendukung",
+    "obeDoc": "Dokumen Kurikulum OBE",
+    "obeReport": "Laporan PEO",
+    "obeSurvey": "Survei Stakeholder/Pengguna Lulusan",
+    "obeNoApproval": "Dokumen SK khusus penetapan matriks PEO–CPL belum ditemukan pada arsip yang ditelusuri. Tautan pengesahan khusus tidak ditampilkan.",
     "peoSubtitle": "Tujuan Pendidikan Program",
     "peoIntro": "Program Educational Objectives (PEO) menggambarkan pencapaian profesional yang diharapkan dari lulusan Program Studi Magister Statistika Terapan FMIPA Universitas Padjadjaran dalam 3–5 tahun setelah menyelesaikan studi.",
     "peoBadge": "3–5 Tahun Setelah Lulus",
@@ -1357,6 +1392,41 @@ const I18N = {
     modeFallbackLocal: "Fallback lokal"
   },
   en: {
+    "obeTitle": "Graduate Profile – PEO – PLO Alignment Matrix",
+    "obeSubtitle": "Alignment of Graduate Profiles, Program Educational Objectives (PEOs), and Program Learning Outcomes (PLOs) within the Outcome-Based Education framework.",
+    "obeIntro": "The Master of Applied Statistics Program, Faculty of Mathematics and Natural Sciences, Universitas Padjadjaran, has an alignment matrix linking Graduate Profiles, Program Educational Objectives (PEOs), and Program Learning Outcomes (PLOs) as part of its implementation of Outcome-Based Education (OBE). The matrix connects the roles for which graduates are prepared, the professional achievements expected within 3–5 years after graduation, and the abilities students must demonstrate upon completing the program.",
+    "obeEvidenceTitle": "Documentation and Evaluation",
+    "obeEvidence": "The PLO, Graduate Profile, and PEO matrix is documented in the program curriculum, which undergoes academic/senate discussion in accordance with applicable governance, is adopted by the authorized leadership, and is periodically evaluated as part of the continuous quality improvement cycle.",
+    "obeMethod": "Mapping note: the Graduate Profile–PEO matrix follows the design supplied by the program. The PEO–PLO matrix interprets alignment between the website PEO statements and official PLOs; it is not a reproduction of an approved matrix. Select any table symbol to inspect its rationale.",
+    "obeDistinction": "Graduate Profiles describe the roles for which graduates are prepared; PEOs describe professional achievements 3–5 years after graduation; PLOs describe the abilities students must demonstrate upon completing the program.",
+    "obeCurriculum": "Curriculum & Learning",
+    "obeAssessment": "Assessment",
+    "obeImprove": "Evaluation & Continuous Improvement",
+    "obePlMatrix": "Graduate Profiles × PEOs",
+    "obePeoMatrix": "PEOs × PLOs",
+    "obePl": "Graduate Profile",
+    "obeCpl": "PLO",
+    "obeStrong": "Strong alignment",
+    "obeSupport": "Supporting alignment",
+    "obeNone": "No substantial direct alignment",
+    "obeHint": "Scroll to view the entire matrix →",
+    "obeHelp": "Hover, focus with Tab, or select a symbol to read the rationale. Press Escape to close.",
+    "obeIntegrated": "Integrated OBE Alignment Matrix",
+    "obeDerived": "These pathways are derived from the two matrices above. The PLOs shown are the union of paths through PEOs, not a replacement for the curriculum’s direct Graduate Profile–PLO matrix. Hover or focus on a code to highlight its path.",
+    "obeFull": "View Full PLO Statements",
+    "obeSource": "Source: 2025 OBE Curriculum, Revised Edition, Table 2.1 (Indonesian) and Table 2.4 (English). Statements are reproduced without alteration; display codes PLO-1–PLO-7 correspond to CPL1–CPL7 in the source.",
+    "obeGovernance": "Documentation, Approval, and Evaluation",
+    "obeGov1": "Documented",
+    "obeGov1Text": "The Graduate Profile–PEO–PLO matrix forms part of the program’s OBE curriculum documentation.",
+    "obeGov2": "Discussed and Approved",
+    "obeGov2Text": "Curriculum documents undergo academic discussion and approval by the leadership in accordance with University/Faculty governance.",
+    "obeGov3": "Periodically Evaluated",
+    "obeGov3Text": "Alignment of Graduate Profiles, PEOs, PLOs, and the curriculum is evaluated through tracer studies, employer surveys, stakeholder input, PLO evaluation, and curriculum evaluation.",
+    "obeLinks": "Supporting Documents and Services",
+    "obeDoc": "OBE Curriculum Document",
+    "obeReport": "PEO Report",
+    "obeSurvey": "Stakeholder/Employer Survey",
+    "obeNoApproval": "A decree specifically approving the PEO–PLO matrix was not found in the reviewed archive. No specific approval link is displayed.",
     "peoSubtitle": "Program Educational Objectives",
     "peoIntro": "The Program Educational Objectives (PEOs) describe the professional achievements expected of graduates of the Master of Applied Statistics Program, Faculty of Mathematics and Natural Sciences, Universitas Padjadjaran, within 3–5 years after graduation.",
     "peoBadge": "3–5 Years After Graduation",
@@ -2315,14 +2385,14 @@ function t(key) {
 }
 
 function normalizeWorkspacePanelId(id) {
-  if (id === "peo") return "program-profile";
+  if (id === "peo" || id === "obe-alignment") return "program-profile";
   if (id === "panduan-akademik") return "pedoman-pendidikan";
   if (id === "prestasi-mahasiswa") return "mahasiswa";
   return id;
 }
 
 function workspacePanelScrollTargetFromHash(id) {
-  if (id === "peo") return "peo";
+  if (id === "peo" || id === "obe-alignment") return id;
   return id === "prestasi-mahasiswa" ? "prestasi-mahasiswa" : "";
 }
 
@@ -2465,6 +2535,7 @@ function updateInspirationVoiceLanguage() {
 }
 
 function applyLanguage() {
+  renderObeAlignment();
   document.documentElement.lang = currentLang;
   document.querySelectorAll("[data-i18n]").forEach((element) => {
     const key = element.dataset.i18n;
