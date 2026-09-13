@@ -455,6 +455,27 @@ let pendingWorkspaceSelection = null;
 
 const I18N = {
   id: {
+    "peoSubtitle": "Tujuan Pendidikan Program",
+    "peoIntro": "Program Educational Objectives (PEO) menggambarkan pencapaian profesional yang diharapkan dari lulusan Program Studi Magister Statistika Terapan FMIPA Universitas Padjadjaran dalam 3–5 tahun setelah menyelesaikan studi.",
+    "peoBadge": "3–5 Tahun Setelah Lulus",
+    "peoPathVision": "Visi dan Misi",
+    "peoPathGraduate": "Profil Lulusan",
+    "peoPathCpl": "CPL",
+    "peoReportTitle": "Laporan dan Evaluasi PEO",
+    "peoReportPeriod": "Kurikulum OBE 2023 · Evaluasi 2025",
+    "peoReadHtml": "Baca Laporan HTML",
+    "peoReadPdf": "Buka Laporan PDF",
+    "peoEvaluate": "Evaluasi PEO",
+    "peo1Title": "Keunggulan Profesional",
+    "peo1Text": "Dalam 3–5 tahun setelah lulus, lulusan mampu berkembang sebagai profesional di bidang statistika dan analitika data dengan menerapkan metode statistika lanjut, komputasi, dan teknologi data untuk memberikan solusi berbasis bukti terhadap permasalahan nyata.",
+    "peo2Title": "Riset dan Inovasi",
+    "peo2Text": "Dalam 3–5 tahun setelah lulus, lulusan mampu berkontribusi dalam penelitian, pengembangan, dan inovasi melalui penerapan dan/atau pengembangan metodologi statistika dan analitika data untuk menghasilkan pengetahuan dan solusi yang relevan bagi perkembangan ilmu pengetahuan dan kebutuhan masyarakat.",
+    "peo3Title": "Kepemimpinan, Komunikasi, dan Kolaborasi",
+    "peo3Text": "Dalam 3–5 tahun setelah lulus, lulusan mampu mengambil peran profesional yang semakin mandiri dan bertanggung jawab, berkomunikasi secara efektif, serta berkolaborasi dan/atau memimpin dalam tim multidisiplin untuk mendukung pengambilan keputusan berbasis data.",
+    "peo4Title": "Etika dan Pengembangan Profesional Berkelanjutan",
+    "peo4Text": "Dalam 3–5 tahun setelah lulus, lulusan menunjukkan integritas dan tanggung jawab profesional dalam penggunaan statistika dan data serta secara berkelanjutan mengembangkan kompetensinya melalui pembelajaran sepanjang hayat, pendidikan lanjut, sertifikasi, penelitian, dan/atau kegiatan profesional.",
+    "peoRelation": "Profil Lulusan menjelaskan peran yang dipersiapkan bagi lulusan, sedangkan PEO menggambarkan pencapaian profesional yang diharapkan dalam 3–5 tahun setelah kelulusan. Pencapaian PEO dievaluasi secara berkala melalui tracer study, survei pengguna lulusan, masukan pemangku kepentingan, dan evaluasi kurikulum.",
+
     topbarCampus: "FMIPA Universitas Padjadjaran",
     topbarCurriculum: "Kurikulum OBE 2025 Edisi Revisi",
     navProfile: "Profil",
@@ -1336,6 +1357,27 @@ const I18N = {
     modeFallbackLocal: "Fallback lokal"
   },
   en: {
+    "peoSubtitle": "Program Educational Objectives",
+    "peoIntro": "The Program Educational Objectives (PEOs) describe the professional achievements expected of graduates of the Master of Applied Statistics Program, Faculty of Mathematics and Natural Sciences, Universitas Padjadjaran, within 3–5 years after graduation.",
+    "peoBadge": "3–5 Years After Graduation",
+    "peoPathVision": "Vision and Mission",
+    "peoPathGraduate": "Graduate Profiles",
+    "peoPathCpl": "Program Learning Outcomes",
+    "peoReportTitle": "PEO Report and Evaluation",
+    "peoReportPeriod": "OBE Curriculum 2023 · Evaluation 2025",
+    "peoReadHtml": "Read HTML Report",
+    "peoReadPdf": "Open PDF Report",
+    "peoEvaluate": "PEO Evaluation",
+    "peo1Title": "Professional Excellence",
+    "peo1Text": "Within 3–5 years after graduation, graduates are expected to develop as professionals in statistics and data analytics by applying advanced statistical methods, computational approaches, and data technologies to provide evidence-based solutions to real-world problems.",
+    "peo2Title": "Research and Innovation",
+    "peo2Text": "Within 3–5 years after graduation, graduates are expected to contribute to research, development, and innovation through the application and/or development of statistical and data-analytics methodologies to generate knowledge and solutions relevant to scientific advancement and societal needs.",
+    "peo3Title": "Leadership, Communication, and Collaboration",
+    "peo3Text": "Within 3–5 years after graduation, graduates are expected to assume increasingly independent and responsible professional roles, communicate effectively, and collaborate and/or lead multidisciplinary teams in supporting data-driven decision-making.",
+    "peo4Title": "Ethics and Lifelong Professional Development",
+    "peo4Text": "Within 3–5 years after graduation, graduates are expected to demonstrate integrity and professional responsibility in the use of statistics and data while continuously developing their competencies through lifelong learning, further education, professional certification, research, and/or professional activities.",
+    "peoRelation": "Graduate Profiles describe the roles for which graduates are prepared, whereas PEOs describe the professional achievements expected within 3–5 years after graduation. PEO attainment is periodically evaluated through graduate tracer studies, employer/user surveys, stakeholder feedback, and curriculum evaluation.",
+
     topbarCampus: "Faculty of Mathematics and Natural Sciences, Universitas Padjadjaran",
     topbarCurriculum: "2025 OBE Curriculum, Revised Edition",
     navProfile: "Profile",
@@ -2273,12 +2315,14 @@ function t(key) {
 }
 
 function normalizeWorkspacePanelId(id) {
+  if (id === "peo") return "program-profile";
   if (id === "panduan-akademik") return "pedoman-pendidikan";
   if (id === "prestasi-mahasiswa") return "mahasiswa";
   return id;
 }
 
 function workspacePanelScrollTargetFromHash(id) {
+  if (id === "peo") return "peo";
   return id === "prestasi-mahasiswa" ? "prestasi-mahasiswa" : "";
 }
 
