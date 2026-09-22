@@ -1,0 +1,22 @@
+/* Academic service links are intentionally scoped to the curriculum workspace. */
+.academic-apps { position:relative; z-index:1; padding:clamp(20px,3vw,30px); border:1px solid #cededb; border-radius:18px; background:linear-gradient(135deg,#f1f7f4,#fff 65%); color:#143d5d; }
+.academic-apps-kicker { margin:0 0 8px; color:#0e6b58; font-size:11px; font-weight:800; letter-spacing:.13em; }
+.academic-apps-heading h3 { margin:0 0 10px; font-size:clamp(23px,2.5vw,30px); line-height:1.25; color:#143d5d; }
+.academic-apps-heading p:not(.academic-apps-kicker) { margin:0; max-width:720px; color:#536675; font-size:14px; line-height:1.65; }
+.academic-apps-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin:24px 0; }
+.academic-apps-card { display:flex; flex-direction:column; min-width:0; padding:22px; background:#fff; border:1px solid #d6e2e5; border-radius:12px; }
+.academic-apps-index { display:grid; place-items:center; width:36px; height:36px; margin-bottom:18px; border-radius:10px; background:#e9f3ef; color:#0e6b58; font-size:12px; font-weight:800; }
+.academic-apps-card h4 { margin:0 0 10px; color:#143d5d; font-size:18px; line-height:1.35; }
+.academic-apps-card p { margin:0 0 22px; color:#536675; font-size:13px; line-height:1.65; }
+.academic-apps-button { margin-top:auto; display:flex; align-items:center; justify-content:space-between; gap:12px; min-height:48px; padding:12px 14px; border:1px solid #143d5d; border-radius:8px; background:#143d5d; color:#fff; font-size:13px; font-weight:750; line-height:1.45; text-decoration:none; transition:background .15s; }
+.academic-apps-button:hover { background:#0e6b58; border-color:#0e6b58; }
+.academic-apps-support { display:flex; flex-wrap:wrap; align-items:center; gap:12px 22px; padding-top:18px; border-top:1px solid #d6e2df; }
+.academic-apps-support strong { font-size:12px; color:#536675; }
+.academic-apps-support>div { display:flex; flex-wrap:wrap; gap:8px; }
+.academic-apps-support a { display:inline-flex; align-items:center; justify-content:space-between; gap:12px; min-height:44px; padding:10px 13px; border:1px solid #bdcec7; border-radius:8px; color:#0d5b4c; background:#fff; font-size:12px; font-weight:700; text-decoration:none; }
+.academic-apps-support a:hover { background:#e9f3ef; }
+.academic-apps>p:last-child { margin:16px 0 0; font-size:12px; line-height:1.6; color:#536675; }
+.academic-apps a:focus-visible { outline:3px solid #aa7400; outline-offset:4px; }
+@media(max-width:1150px) { .academic-apps-grid { grid-template-columns:1fr; }.academic-apps-card { display:grid; grid-template-columns:36px minmax(0,1fr); gap:0 16px; padding:18px; }.academic-apps-index { grid-row:1/4; margin:0; }.academic-apps-card h4,.academic-apps-card p,.academic-apps-button { grid-column:2; }.academic-apps-card p { margin-bottom:15px; }.academic-apps-button { justify-self:start; min-width:200px; } }
+@media(max-width:540px) { .academic-apps { padding:18px 14px; }.academic-apps-card { padding:18px 14px; }.academic-apps-button { grid-column:1/-1; width:100%; min-width:0; }.academic-apps-support>div,.academic-apps-support a { width:100%; }.academic-apps-card h4 { font-size:17px; } }
+@media(prefers-reduced-motion:reduce) { .academic-apps-button { transition:none; } }
