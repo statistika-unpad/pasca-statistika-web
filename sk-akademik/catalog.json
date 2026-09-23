@@ -537,5 +537,181 @@
     "notes": [
       "Nama mahasiswa pada SK SUR No. 201 tertulis Muhamad Sahid, sedangkan pada SK SAM No. 273 tertulis Muhammad Sahid. NPM pada kedua lampiran sama; ejaan nama pada setiap kartu mengikuti dokumennya."
     ]
+  },
+  {
+    "id": "sk-tim-sur-757-2026",
+    "category": "pengujian",
+    "type": "SK Tim SUR",
+    "title": "Tim Pembimbing dan Penguji SUR — Kiki Amelia, Angga Pratama, dan Sri Yuliana",
+    "number": "757/UN6.D/Kep/FMIPA/2026",
+    "date": "3 September 2026",
+    "period": "Pelaksanaan: 9 September 2026",
+    "people": [
+      {
+        "name": "I Gede Nyoman Mindra Jaya",
+        "role": "Pembimbing",
+        "context": "Kiki Amelia",
+        "page": 3
+      },
+      {
+        "name": "Bertho Tantular",
+        "role": "Pembimbing",
+        "context": "Angga Pratama",
+        "page": 3
+      },
+      {
+        "name": "Anindya Apriliyanti Pravitasari",
+        "role": "Pembimbing",
+        "context": "Sri Yuliana",
+        "page": 3
+      },
+      {
+        "name": "Bertho Tantular",
+        "role": "Co. Pembimbing",
+        "context": "Kiki Amelia",
+        "page": 3
+      },
+      {
+        "name": "Defi Yusti Faidah",
+        "role": "Co. Pembimbing",
+        "context": "Angga Pratama",
+        "page": 3
+      },
+      {
+        "name": "Triyani Hendrawati",
+        "role": "Co. Pembimbing",
+        "context": "Sri Yuliana",
+        "page": 3
+      },
+      {
+        "name": "Irlandia Ginanjar",
+        "role": "Penguji",
+        "context": "Sri Yuliana",
+        "page": 3
+      },
+      {
+        "name": "Sri Winarni",
+        "role": "Penguji",
+        "context": "Angga Pratama; Sri Yuliana",
+        "page": 3
+      },
+      {
+        "name": "Budhi Handoko",
+        "role": "Penguji",
+        "context": "Kiki Amelia",
+        "page": 3
+      },
+      {
+        "name": "Triyani Hendrawati",
+        "role": "Penguji",
+        "context": "Kiki Amelia",
+        "page": 3
+      },
+      {
+        "name": "Restu Arisanti",
+        "role": "Penguji",
+        "context": "Angga Pratama",
+        "page": 3
+      }
+    ],
+    "pdf": "dokumen/sk-tim-sur-757-2026.pdf",
+    "stage": "SUR",
+    "academic_year": "2026/2027",
+    "semester": "Ganjil",
+    "semester_basis": "Berdasarkan tanggal seminar pada lampiran SK",
+    "notes": [],
+    "source": "757 SK TIM PENGUJI SUR S2 Statistika an. Angga Pratama, dkk (3 September 2026).pdf"
+  },
+  {
+    "id": "sk-tim-sur-767-2026",
+    "category": "pengujian",
+    "type": "SK Tim SUR",
+    "title": "Tim Pembimbing dan Penguji SUR — Mahdayani Putri Yunizar",
+    "number": "767/UN6.D/Kep/FMIPA/2026",
+    "date": "8 September 2026",
+    "period": "Pelaksanaan: 11 September 2026",
+    "people": [
+      {
+        "name": "Sri Winarni",
+        "role": "Pembimbing",
+        "context": "Mahdayani Putri Yunizar",
+        "page": 3
+      },
+      {
+        "name": "Defi Yusti Faidah",
+        "role": "Co. Pembimbing",
+        "context": "Mahdayani Putri Yunizar",
+        "page": 3
+      },
+      {
+        "name": "Gumgum Darmawan",
+        "role": "Penguji",
+        "context": "Mahdayani Putri Yunizar",
+        "page": 3
+      },
+      {
+        "name": "Yusep Suparman",
+        "role": "Penguji",
+        "context": "Mahdayani Putri Yunizar",
+        "page": 3
+      }
+    ],
+    "pdf": "dokumen/sk-tim-sur-767-2026.pdf",
+    "stage": "SUR",
+    "academic_year": "2026/2027",
+    "semester": "Ganjil",
+    "semester_basis": "Berdasarkan tanggal seminar pada lampiran SK",
+    "notes": [
+      "Tanggal seminar mengikuti lampiran halaman 3, yaitu 11 September 2026. Nama berkas sumber menyebut 9 September 2026."
+    ],
+    "source": "767 SK TIM PENGUJI SUR S2 Statistika an. Mahdayani Putri Yunizar, tgl SUR 9 September 2026.pdf"
+  },
+  {
+    "id": "sk-adhoc-510-2026",
+    "category": "pengelola",
+    "type": "SK Tim Ad Hoc",
+    "title": "Tim Ad Hoc Penyusunan Reakreditasi S-2 Statistika Terapan",
+    "number": "510/UN6.D/Kep/FMIPA/2026",
+    "date": "8 Juli 2026",
+    "period": "Masa berlaku: 1 Juli 2026–1 Juli 2027",
+    "people": [
+      {
+        "name": "Budhi Handoko",
+        "role": "Penanggung Jawab",
+        "context": "Reakreditasi Program Studi S-2 Statistika Terapan",
+        "page": 3
+      },
+      {
+        "name": "I Gede Nyoman Mindra Jaya",
+        "role": "Ketua",
+        "context": "Reakreditasi Program Studi S-2 Statistika Terapan",
+        "page": 3
+      },
+      {
+        "name": "Irlandia Ginanjar",
+        "role": "Anggota",
+        "context": "Reakreditasi Program Studi S-2 Statistika Terapan",
+        "page": 3
+      },
+      {
+        "name": "Yusep Suparman",
+        "role": "Anggota",
+        "context": "Reakreditasi Program Studi S-2 Statistika Terapan",
+        "page": 3
+      },
+      {
+        "name": "Anindya Apriliyanti Pravitasari",
+        "role": "Anggota",
+        "context": "Reakreditasi Program Studi S-2 Statistika Terapan",
+        "page": 3
+      }
+    ],
+    "pdf": "../dokumen-sk/pengelola/sk-adhoc-510-2026.pdf",
+    "stage": "",
+    "academic_year": "",
+    "semester": "",
+    "semester_basis": "",
+    "notes": [],
+    "source": "510.UN6.D.Kep.FMIPA.2026 Pengangkatan Tim AdHoc Penyusunan Reakreditasi S-2 Statistika Terapan FMIPA Unpad (1).pdf"
   }
 ]

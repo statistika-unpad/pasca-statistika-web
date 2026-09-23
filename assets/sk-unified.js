@@ -9,7 +9,7 @@
   const semester = byId('semester');
   const cards = [...root.querySelectorAll('.document-card')];
   const categories = [...root.querySelectorAll('[data-filter]')];
-  let category = 'akademik';
+  let category = '';
   const normalize = value => value.normalize('NFKD').toLocaleLowerCase('id').replace(/\s+/g, ' ').trim();
   function filter() {
     const words = normalize(search.value).split(' ').filter(Boolean);
@@ -30,16 +30,16 @@
   }
   categories.forEach(button => button.addEventListener('click', () => {
     category = button.dataset.filter;
-    if (category === "pengelola") { lecturer.value = ""; year.value = ""; semester.value = ""; }
+    if (category === "pengelola") { year.value = ""; semester.value = ""; }
     if (!['undangan', 'pengujian'].includes(category)) stage.value = '';
     filter();
   }));
-  lecturer.addEventListener('change', () => { if (lecturer.value && category === 'pengelola') category = 'akademik'; filter(); });
+  lecturer.addEventListener('change', filter);
   search.addEventListener('input', filter);
-  stage.addEventListener('change', () => { if (stage.value && !['undangan','pengujian'].includes(category)) category = 'akademik'; filter(); });
-  year.addEventListener('change', () => { if(category === 'pengelola') category='akademik'; filter(); });
-  semester.addEventListener('change', () => { if(category === 'pengelola') category='akademik'; filter(); });
-  byId('reset').addEventListener('click', () => { lecturer.value = ''; search.value = ''; stage.value = ''; year.value = ''; semester.value = ''; category = 'akademik'; filter(); });
+  stage.addEventListener('change', () => { if (stage.value && !['undangan','pengujian'].includes(category)) category = ''; filter(); });
+  year.addEventListener('change', filter);
+  semester.addEventListener('change', filter);
+  byId('reset').addEventListener('click', () => { lecturer.value = ''; search.value = ''; stage.value = ''; year.value = ''; semester.value = ''; category = ''; filter(); });
   root.querySelectorAll('.pdf-url').forEach(input => input.addEventListener('click', () => input.select()));
   let noticeTimer;
   root.querySelectorAll('[data-copy]').forEach(button => button.addEventListener('click', async () => {
