@@ -12,5 +12,5 @@ for d in rows:
  info=subprocess.check_output(['pdfinfo',str(p)],text=True)
  pages=int(next(l.split(':')[1] for l in info.splitlines() if l.startswith('Pages:')))
  assert all(n['name'] in allowed and 1<=n['page']<=pages for n in d['people'])
- assert d['href'] in (root/'index.html').read_text()
+ assert d['href'] in (root/'index.html').read_text() or any(g['documentHref']==d['href'] for g in json.loads((root/'data/research_grants.json').read_text())['grants'])
 print(f'PASS: {len(rows)} PDF unik; hash, tahun, nama, halaman, dan tautan valid. Broken link: 0.')

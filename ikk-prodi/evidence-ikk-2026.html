@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<title>Evidence IKK 2026 — S2 Statistika Terapan FMIPA Unpad</title>
+<style>
+:root{
+  --orange:#f47c20;--orange2:#ff9b42;--gold:#f6b73c;--green:#0f6b4f;--green2:#164f3c;
+  --ink:#16231e;--muted:#66736e;--paper:#fff;--bg:#f3f6f4;--line:#dce6e1;--soft:#edf6f2;
+  --danger:#a83b2f;--blue:#245f9e;--shadow:0 18px 55px rgba(17,49,39,.12)
+}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;color:var(--ink);background:
+  radial-gradient(circle at 8% 2%,rgba(244,124,32,.08),transparent 27%),
+  radial-gradient(circle at 95% 10%,rgba(15,107,79,.07),transparent 28%),#f4f7f5;line-height:1.58}
+a{color:#0d7055;text-decoration:none;font-weight:650}a:hover{text-decoration:underline}
+.topbar{background:#123f31;color:#fff;padding:7px 0;border-bottom:3px solid var(--orange)}
+.topbar .inner{max-width:1260px;margin:auto;padding:0 28px;display:flex;justify-content:space-between;gap:20px;font-size:12px;opacity:.94}
+.page{max-width:1260px;margin:24px auto 40px;background:var(--paper);box-shadow:var(--shadow);border-radius:24px;overflow:hidden;position:relative}
+.page:before{content:"";position:absolute;inset:0 0 auto 0;height:9px;background:linear-gradient(90deg,var(--green),var(--orange),var(--gold),var(--green));z-index:5}
+.hero{min-height:420px;position:relative;color:#fff;overflow:hidden;padding:32px 44px 42px;display:flex;flex-direction:column;justify-content:space-between;
+  background-image:linear-gradient(90deg,rgba(10,48,36,.96) 0%,rgba(12,66,49,.90) 44%,rgba(10,48,36,.56) 72%,rgba(10,48,36,.35) 100%),url('https://ik.imagekit.io/unpad/unpad.ac.id/lokasi_unpad_02.jpg');
+  background-size:cover;background-position:center 46%}
+.hero:after{content:"";position:absolute;inset:auto 0 0 0;height:86px;opacity:.18;background:
+  radial-gradient(ellipse at 12px 24px,transparent 0 8px,#fff 9px 11px,transparent 12px),
+  radial-gradient(ellipse at 36px 24px,transparent 0 8px,#fff 9px 11px,transparent 12px),
+  radial-gradient(ellipse at 24px 44px,transparent 0 8px,#fff 9px 11px,transparent 12px);
+  background-size:48px 48px;transform:skewY(-1.5deg);transform-origin:right bottom}
+.brandline{position:relative;z-index:2;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brandlock{display:flex;align-items:center;gap:14px;background:rgba(255,255,255,.94);padding:12px 16px;border-radius:18px;box-shadow:0 10px 28px rgba(0,0,0,.16);color:#13251e}
+.brandlock img{width:64px;height:64px;object-fit:contain}.brandlock .brandtxt{line-height:1.05}.brandlock .brandtxt b{font-size:23px;display:block;color:#f07a19}.brandlock .brandtxt span{font-size:12px;letter-spacing:.05em;text-transform:uppercase;font-weight:800;color:#143f31}
+.hero-badge{border:1px solid rgba(255,255,255,.35);background:rgba(13,83,61,.62);backdrop-filter:blur(6px);padding:9px 13px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:.04em}
+.hero-copy{position:relative;z-index:2;max-width:850px;margin-top:58px}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:12px;font-weight:900;color:#ffd5a8}.hero h1{font-size:clamp(34px,5.3vw,64px);line-height:.98;margin:9px 0 15px;letter-spacing:-.035em}.hero h1 .accent{color:#ffae57}.hero p{max-width:770px;font-size:16px;margin:0;color:#edf7f2}.hero .meta{margin-top:20px;font-size:12px;color:#d3e8df}
+.batikbar{height:18px;background-color:#ef7d22;background-image:
+  radial-gradient(circle at 9px 9px,transparent 0 4px,rgba(255,255,255,.42) 4.5px 5.8px,transparent 6.2px),
+  radial-gradient(circle at 27px 9px,transparent 0 4px,rgba(21,82,61,.42) 4.5px 5.8px,transparent 6.2px);background-size:36px 18px}
+.content{padding:34px 44px 52px}.introgrid{display:grid;grid-template-columns:1.35fr .65fr;gap:18px;margin:0 0 28px}.note,.callout{padding:17px 19px;border:1px solid #d9e8e1;background:#f2f8f5;border-radius:16px}.note{border-left:6px solid var(--orange);background:#fff9f2}.sidebrand{position:relative;overflow:hidden;background:linear-gradient(135deg,#123f31,#0d7153);color:#fff;border-radius:16px;padding:18px}.sidebrand:after{content:"";position:absolute;width:150px;height:150px;border:26px solid rgba(255,255,255,.08);border-radius:50%;right:-50px;top:-55px}.sidebrand b{font-size:28px;display:block}.sidebrand span{font-size:12px;color:#cfe8de}
+h2{font-size:25px;margin:36px 0 14px;color:#133f31;display:flex;align-items:center;gap:11px}h2:before{content:"";width:7px;height:28px;border-radius:999px;background:linear-gradient(var(--orange),var(--gold))}h3{font-size:18px;margin:22px 0 10px;color:#1b3329}
+table{width:100%;border-collapse:separate;border-spacing:0;margin:14px 0 22px;font-size:13.2px;border:1px solid var(--line);border-radius:15px;overflow:hidden}th,td{border-bottom:1px solid var(--line);padding:11px 12px;vertical-align:top}th{background:#163f32;color:white;text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.045em}th:not(:last-child),td:not(:last-child){border-right:1px solid var(--line)}tbody tr:last-child td{border-bottom:0}tbody tr:nth-child(even){background:#fbfdfc}.target{text-align:center;font-weight:800}.value{font-weight:850;color:#153e31}
+.status{display:inline-block;padding:4px 9px;border-radius:999px;font-size:10.5px;font-weight:850;white-space:nowrap}.ok{background:#e4f4eb;color:#0b6940}.proxy{background:#fff2da;color:#8b5800}.gap{background:#fceae7;color:#9c3025}.info{background:#e9f2fc;color:#225b92}
+.evidence{border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin:16px 0;background:#fff;box-shadow:0 8px 28px rgba(20,61,48,.045);position:relative;overflow:hidden}.evidence:before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:linear-gradient(var(--orange),var(--green))}.evidence .head{display:flex;gap:14px;align-items:flex-start}.evidence .num{width:38px;height:38px;border-radius:12px;display:grid;place-items:center;background:linear-gradient(135deg,var(--orange),#ff9d3f);color:#fff;font-weight:900;box-shadow:0 7px 15px rgba(244,124,32,.2);flex:0 0 auto}.evidence h3{margin:1px 0 4px}.evidence ul{margin:8px 0 8px 20px;padding:0}.evidence li{margin:6px 0}.calc{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#f7faf8;border:1px dashed #cadbd3;padding:11px 13px;border-radius:10px;margin:11px 0;font-size:12.2px}
+.src{font-size:12.5px;color:#475467}.tag{font-size:10px;font-weight:850;letter-spacing:.03em;color:#fff;background:#61736b;padding:2px 7px;border-radius:6px;margin-right:5px}.warn{color:#9a3b21;font-weight:700}.muted{color:var(--muted)}.small{font-size:12px}
+.kpi{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;margin:19px 0}.kpi>div{border:1px solid var(--line);border-radius:16px;padding:15px;background:linear-gradient(145deg,#fff,#f8fbf9);min-height:102px}.kpi b{font-size:27px;display:block;color:#0f654b}.kpi span{font-size:11.5px;color:#66736e}.kpi .orange b{color:var(--orange)}
+.collab-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:14px 0}.collab-card{border:1px solid #dce8e2;background:#fbfdfc;border-radius:14px;padding:13px 14px}.collab-card b{color:#113f31}.collab-card .mini{font-size:11px;color:#687770;margin-top:5px}.collab-card .pill{display:inline-block;background:#e9f5ef;color:#0d6748;padding:2px 7px;border-radius:999px;font-size:10px;font-weight:800;margin-top:6px}.foreign-card{display:grid;grid-template-columns:84px 1fr;gap:14px;align-items:center;background:linear-gradient(135deg,#eff8f4,#fff8ef);border:1px solid #d6e7de;border-radius:15px;padding:15px}.foreign-card .avatar{width:70px;height:70px;border-radius:18px;background:#164f3c;color:#fff;display:grid;place-items:center;font-size:23px;font-weight:900;border:3px solid #f1a04d}.foreign-card h4{margin:0 0 4px;font-size:17px}.foreign-card p{margin:2px 0;font-size:12.5px}
+.register td:first-child{font-weight:850;white-space:nowrap}.checklist td:first-child{font-weight:800}.footer{border-top:1px solid var(--line);margin-top:38px;padding:20px 0 2px;font-size:12px;color:#67746e}.footer-brand{display:flex;align-items:center;gap:10px;margin-bottom:8px}.footer-brand img{width:36px;height:36px;object-fit:contain}
+.printbtn{position:fixed;right:20px;bottom:20px;border:0;background:#153f31;color:#fff;padding:11px 15px;border-radius:999px;font-weight:800;box-shadow:0 10px 26px rgba(0,0,0,.2);cursor:pointer;z-index:20}.printbtn:hover{background:#0f6b4f}
+@media(max-width:900px){.page{margin:0;border-radius:0}.topbar .inner,.hero,.content{padding-left:20px;padding-right:20px}.brandline{align-items:flex-start}.brandlock .brandtxt b{font-size:18px}.hero{min-height:460px}.introgrid,.collab-grid{grid-template-columns:1fr}.kpi{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.brandlock img{width:50px;height:50px}.brandlock{padding:9px 11px}.hero-badge{display:none}.hero h1{font-size:38px}.kpi{grid-template-columns:1fr}.content{padding:26px 15px}.foreign-card{grid-template-columns:1fr}.printbtn{display:none}}
+@media print{body{background:#fff}.topbar,.printbtn{display:none}.page{max-width:none;margin:0;box-shadow:none;border-radius:0}.hero{min-height:310px;print-color-adjust:exact;-webkit-print-color-adjust:exact}.content{padding:22px}.evidence,.collab-card,.foreign-card{break-inside:avoid}a{color:#000;text-decoration:none}.status,th,.batikbar{print-color-adjust:exact;-webkit-print-color-adjust:exact}}
+</style>
+</head>
+<body><div class="topbar"><div class="inner"><span>FMIPA Universitas Padjadjaran · Evidence IKK Prodi 2026</span><span>Statistika Terapan · OBE · Internationalization · Digital Academic Governance</span></div></div>
+<div class="page">
+<header class="hero">
+<div class="brandline">
+<div class="brandlock">
+<img alt="Lambang Universitas Padjadjaran" src="../assets/logo-unpad.png"/>
+<div class="brandtxt"><b>S2 Statistika Terapan</b><span>FMIPA · Universitas Padjadjaran</span></div>
+</div>
+<div class="hero-badge">IKK 2026 · Evidence Dossier</div>
+</div>
+<div class="hero-copy">
+<div class="eyebrow">Program Pascasarjana · Akreditasi · Quality Evidence</div>
+<h1>Kumpulan <span class="accent">Evidence IKK</span> Prodi</h1>
+<p>Dokumen bukti dukung Program Studi Magister Statistika Terapan FMIPA Universitas Padjadjaran, disusun untuk memudahkan verifikasi indikator, sumber data, dan audit trail tahun 2026.</p>
+<div class="meta">Diperbarui 30 September 2026 · visual mengikuti identitas portal Pascasarjana Statistika Unpad dengan aksen ornamen Sunda</div>
+</div>
+</header><div class="batikbar"></div>
+<main class="content">
+<div class="introgrid"><div class="note">
+<strong>Prinsip penyusunan.</strong> Dokumen ini membedakan antara <em>realisasi yang sudah dapat diverifikasi dari sumber publik</em>, <em>proxy/indikasi</em>, dan <em>angka yang masih membutuhkan snapshot SIAT/PDDikti atau dokumen internal</em>. Hal ini penting karena beberapa IKK didefinisikan pada level fakultas, sedangkan dossier ini difokuskan pada kontribusi Prodi S2 Statistika Terapan.
+    </div><div class="sidebrand"><b>39</b><span>mahasiswa S2 aktif saat ini<br/>Angka ditampilkan sebagai jumlah, bukan persentase, karena denominator total mahasiswa fakultas/pasca belum digunakan.</span></div></div>
+<h2>1. Ringkasan Realisasi dan Evidence</h2>
+<table>
+<thead><tr><th>No</th><th>Indikator</th><th>Satuan</th><th>Jenis</th><th>Target 2026</th><th>S2 Statistika Terapan</th><th>Status Evidence</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Angka Efisiensi Edukasi Prodi</td><td>%</td><td>Strategis</td><td class="target">81</td><td class="value">100%*</td><td><span class="status proxy">Publik / perlu rekonsiliasi formula IKK</span></td></tr>
+<tr><td>2</td><td>Jumlah mahasiswa S2 aktif saat ini</td><td>Mahasiswa</td><td>Strategis</td><td class="target">—</td><td class="value"><span class="value">39 mahasiswa aktif</span><br/><span class="small muted">Persentase belum dihitung sampai denominator resmi tersedia.</span></td><td><span class="status ok">Jumlah aktif ditetapkan</span></td></tr>
+<tr><td>3</td><td>Persentase mahasiswa internasional</td><td>%</td><td>Strategis</td><td class="target">7</td><td class="value">N/D 2026</td><td><span class="status gap">Perlu daftar mahasiswa non-WNI aktif</span></td></tr>
+<tr><td>4</td><td>Kolaborasi dan Rekognisi Akademik Internasional</td><td>Kolaborator / kegiatan</td><td>Strategis</td><td class="target">4</td><td class="value"><span class="value">14 eviden internasional unik*</span><br/><span class="small muted">Hanya dosen dengan eviden kolaborasi/rekognisi ditampilkan.</span></td><td><span class="status ok">Evidence publik terverifikasi</span></td></tr>
+<tr><td>5</td><td>Dosen Asing dalam Program Double Degree, Reguler, atau Non Degree</td><td>Orang</td><td>Unggulan</td><td class="target">2</td><td class="value"><span class="value">1 dosen asing</span><br/><span class="small muted">Eric J. Beh · University of Wollongong, Australia</span></td><td><span class="status proxy">Realisasi teridentifikasi; lengkapi bukti formal perkuliahan</span></td></tr>
+<tr><td>6</td><td>Tingkat Maturity Digital Fakultas / kontribusi Prodi</td><td>Level</td><td>Strategis</td><td class="target">L3</td><td class="value">L3 (indikatif/proxy)</td><td><span class="status proxy">Evidence proses digital kuat; rubric formal perlu</span></td></tr>
+<tr><td>7</td><td>Alumni yang berkontribusi (materi, waktu, dana, jaringan)</td><td>Alumni</td><td>Partisipatif</td><td class="target">5</td><td class="value">3 pada 2026<br/><span class="small muted">5 alumni kumulatif 2023–2026</span></td><td><span class="status ok">3 terverifikasi publik untuk 2026</span></td></tr>
+</tbody>
+</table>
+<p class="small muted"><strong>*Catatan:</strong> Angka kolaborasi adalah eviden internasional unik yang teridentifikasi pada kompilasi 2026 setelah penambahan co-authorship Restu Arisanti–Universiti Malaya. Jumlah mahasiswa S2 ditampilkan sebagai <strong>39 mahasiswa aktif</strong>, bukan persentase, karena denominator total mahasiswa fakultas/pascasarjana belum digunakan. Eric J. Beh dicatat sebagai satu dosen asing yang terlibat dalam Analisis Multivariat Tingkat Lanjut bersama Dr. Irlandia Ginanjar; bukti eksternal UOW mendukung hubungan kolaborasi akademik keduanya.</p>
+<div class="kpi">
+<div><b>100%</b><span>ketepatan waktu pada laporan lulusan 2022–2024</span></div>
+<div class="orange"><b>39</b><span>mahasiswa S2 aktif saat ini</span></div>
+<div><b>14</b><span>eviden internasional unik yang dikompilasi</span></div>
+<div><b>L3</b><span>maturity digital indikatif dari proses terstandar daring</span></div>
+</div>
+<h2>2. Evidence per Indikator</h2>
+<section class="evidence">
+<div class="head"><div class="num">1</div><div style="flex:1"><h3>Angka Efisiensi Edukasi (AEE)</h3><span class="status proxy">Usulan realisasi: 100%*</span></div></div>
+<p><strong>Dasar IKK:</strong> untuk S2, mahasiswa tepat waktu adalah yang lulus sesuai masa studi standar dua tahun/four semester. Dokumen IKK menetapkan AEE ideal S2 sebesar 50%, dan AEE dihitung dari jumlah mahasiswa pada tahun akademik yang lulus tepat waktu dibanding total mahasiswa yang masuk pada periode/kohort yang relevan.</p>
+<ul>
+<li>Laporan Prodi mengenai ketepatan waktu kelulusan mencatat <strong>44 lulusan terverifikasi</strong> pada kohort 2022, 2023, dan 2024; seluruhnya dilaporkan lulus tepat waktu: 10/10, 21/21, dan 13/13.</li>
+<li>Portal monitoring OBE Prodi juga menampilkan <strong>AEE 100%</strong> dan keterangan bahwa kelulusan empat tahun terakhir mencapai 100% tepat waktu.</li>
+</ul>
+<div class="calc">Bukti publik Prodi = 44 / 44 lulusan yang dievaluasi × 100% = 100% ketepatan waktu.
+Audit IKK formal: rekonsiliasi dengan denominator “mahasiswa masuk” per kohort dari SIAT/PDDikti.</div>
+<p class="src"><span class="tag">EV-01</span><a href="../%40OBE%202026/Laporan_Ketepatan_Waktu_Kelulusan_S2_Statistika_2022_2024.html" target="_blank">Laporan Ketepatan Waktu Kelulusan S2 Statistika 2022–2024</a><br/>
+<span class="tag">EV-02</span><a href="../" target="_blank">Portal Pascasarjana Statistika Unpad – Monitoring OBE</a></p>
+<p class="warn">Penutup audit yang disarankan: lampirkan daftar mahasiswa masuk per kohort dan status kelulusan dari SIAT/PDDikti agar formula AEE IKK identik dengan definisi formal.</p>
+</section>
+<section class="evidence">
+<div class="head"><div class="num">2</div><div style="flex:1"><h3>Jumlah Mahasiswa S2 Aktif Saat Ini</h3><span class="status ok">39 mahasiswa aktif</span></div></div>
+<p>Untuk kebutuhan dossier Prodi, indikator ini untuk sementara <strong>tidak dinyatakan sebagai persentase</strong>. Denominator total mahasiswa aktif pada level fakultas/pascasarjana belum digunakan sehingga menampilkan persentase justru berisiko menghasilkan angka yang tidak konsisten dengan basis data resmi.</p>
+<ul>
+<li><strong>Jumlah mahasiswa aktif S2 Statistika Terapan saat ini: 39 mahasiswa.</strong></li>
+<li>Angka ini menjadi nilai kerja Prodi untuk pelaporan jumlah mahasiswa aktif.</li>
+<li>Persentase terhadap total mahasiswa baru dihitung setelah tersedia denominator resmi dari SIAT/PDDikti/Fakultas pada snapshot semester yang sama.</li>
+</ul>
+<div class="calc">Realisasi Prodi yang dicantumkan sekarang = 39 mahasiswa aktif.
+Persentase = ditunda sampai total mahasiswa aktif pada denominator resmi tersedia.</div>
+<p class="src"><span class="tag">EV-03</span><a href="../" target="_blank">Portal Pascasarjana Statistika Unpad — data dan dokumentasi mahasiswa</a><br/><span class="tag">EV-07</span><a href="https://pddikti.kemdiktisaintek.go.id/" target="_blank">PDDikti — validasi status mahasiswa aktif bila diperlukan</a></p>
+</section>
+<section class="evidence">
+<div class="head"><div class="num">3</div><div style="flex:1"><h3>Persentase Mahasiswa Internasional</h3><span class="status gap">N/D 2026</span></div></div>
+<p><strong>Dasar IKK:</strong> mahasiswa internasional adalah mahasiswa non-WNI dengan registrasi resmi; dapat berupa degree seeker maupun non-degree mobility yang memenuhi ketentuan. Persentase menggunakan total mahasiswa aktif sebagai denominator.</p>
+<ul>
+<li>Portal Prodi mencatat secara historis <strong>80 peserta Student Exchange</strong> pada 2021–2022. Data tersebut menunjukkan pengalaman internasionalisasi, tetapi <strong>tidak dapat digunakan sebagai realisasi 2026</strong>.</li>
+<li>Belum ditemukan sumber publik yang memberikan jumlah mahasiswa non-WNI aktif S2 Statistika Terapan/FMIPA pada semester berjalan 2026/2027.</li>
+</ul>
+<div class="calc">Formula IKK = Mahasiswa internasional aktif / Total mahasiswa aktif × 100%.</div>
+<p class="src"><span class="tag">EV-06</span><a href="../" target="_blank">Portal Prodi – ringkasan mahasiswa dan Student Exchange</a><br/>
+<span class="tag">EV-07</span><a href="https://pddikti.kemdiktisaintek.go.id/" target="_blank">PDDikti – sumber validasi status mahasiswa aktif</a></p>
+<p class="warn">Data wajib untuk angka final: daftar mahasiswa non-WNI aktif 2026/2027 beserta NIM/registrasi dan status PDDikti. Jangan memakai data exchange 2021–2022 sebagai numerator 2026.</p>
+</section>
+<section class="evidence">
+<div class="head"><div class="num">4</div><div style="flex:1"><h3>Kolaborasi dan Rekognisi Akademik Internasional</h3><span class="status ok">14 eviden internasional unik</span></div></div>
+<p><strong>Prinsip tampilan:</strong> hanya dosen yang memiliki eviden kolaborasi atau rekognisi internasional 2026 yang dicantumkan. Nama tanpa bukti internasional tidak dimasukkan dalam daftar ini.</p>
+<div class="collab-grid">
+<div class="collab-card"><b>Dr. Aceng Komarudin Mutaqin</b><div class="mini">IARC 2026 · Secretariat · jejaring aktuaria internasional</div><span class="pill">International network</span></div>
+<div class="collab-card"><b>Dr. Anindya Apriliyanti Pravitasari</b><div class="mini">PLoS ONE 2026 · UTM Malaysia · Ghana · Azerbaijan</div><span class="pill">International co-authorship</span></div>
+<div class="collab-card"><b>Dr. Bertho Tantular</b><div class="mini">Sustainability &amp; Mathematics 2026 · Universiti Malaysia Terengganu</div><span class="pill">International co-authorship</span></div>
+<div class="collab-card"><b>Dr. Defi Yusti Faidah</b><div class="mini">Sustainability 2026 · Universiti Malaysia Terengganu</div><span class="pill">International co-authorship</span></div>
+<div class="collab-card"><b>Dr. Gumgum Darmawan</b><div class="mini">Sustainability &amp; Mathematics 2026 · Universiti Malaysia Terengganu</div><span class="pill">International co-authorship</span></div>
+<div class="collab-card"><b>Prof. Dr. I Gede Nyoman Mindra Jaya</b><div class="mini">Henk Folmer · University of Groningen; Associate Editor, Springer</div><span class="pill">Research &amp; editorial recognition</span></div>
+<div class="collab-card"><b>Dr. Irlandia Ginanjar</b><div class="mini">PLoS ONE multicountry 2026; academic collaboration with Eric J. Beh, UOW</div><span class="pill">Co-authorship &amp; teaching collaboration</span></div>
+<div class="collab-card"><b>Dr. Restu Arisanti</b><div class="mini">International Journal of Data and Network Science 2026 · Universiti Malaya, Malaysia</div><span class="pill">International co-authorship</span></div>
+<div class="collab-card"><b>Dr. Sri Winarni</b><div class="mini">PLoS ONE; Mathematics; IJDNS 2026 · Malaysia &amp; multicountry partners</div><span class="pill">International co-authorship</span></div>
+<div class="collab-card"><b>Dr. Triyani Hendrawati</b><div class="mini">PLoS ONE 2026 · UTM Malaysia · Ghana · Azerbaijan</div><span class="pill">International co-authorship</span></div>
+<div class="collab-card"><b>Prof. Dr. Budi Nurani Ruchjana</b><div class="mini">ICCCE, ICRCET, IMU CWM Ambassador, AOWM Executive Committee</div><span class="pill">International recognition &amp; network</span></div>
+<div class="collab-card"><b>Hasna Afifah Rusyda, Ph.D.</b><div class="mini">ASTIN Bulletin; Insurance: Mathematics &amp; Economics; IARC 2026 · Macquarie University</div><span class="pill">International co-authorship</span></div>
+</div>
+<p><strong>Tambahan eviden Restu Arisanti.</strong> Restu Arisanti dan Sri Winarni (Universitas Padjadjaran) berkolaborasi dengan <strong>Maizatul Akmar Ismail, Universiti Malaya, Malaysia</strong> pada artikel <em>Generalized linear mixed models in epidemiological data analysis: A systematic review of methodological developments</em>, International Journal of Data and Network Science, 10(3), 1227–1246, 2026.</p>
+<p class="src"><span class="tag">EV-08</span><a href="../" target="_blank">Portal Prodi — jejaring kerja sama dan kolaborasi</a><br/>
+<span class="tag">EV-16</span><a href="https://growingscience.com/beta/ijds/8335-generalized-linear-mixed-models-in-epidemiological-data-analysis-a-systematic-review-of-methodological-developments.html" target="_blank">Restu Arisanti &amp; Sri Winarni — Universiti Malaya, Malaysia</a><br/>
+<span class="tag">COAUTH</span><a href="https://doi.org/10.1371/journal.pone.0346790" target="_blank">PLoS ONE 2026 — multicountry co-authorship</a> · <a href="https://doi.org/10.3390/su18094243" target="_blank">Sustainability: Dengue</a> · <a href="https://doi.org/10.3390/math14122095" target="_blank">Mathematics: HPP</a> · <a href="https://doi.org/10.3390/su18126121" target="_blank">Sustainability: Extreme Rainfall</a></p>
+<p class="warn">Untuk audit IKK, simpan bukti per item (PDF/PNG/JPG) dan konfirmasi mitra bila ketentuan QS/PIRSA mensyaratkannya. Daftar di atas sengaja tidak memuat dosen yang belum memiliki eviden internasional 2026.</p>
+</section>
+<section class="evidence">
+<div class="head"><div class="num">5</div><div style="flex:1"><h3>Dosen Asing dalam Program Reguler / Non-Degree</h3><span class="status proxy">1 dosen asing teridentifikasi</span></div></div>
+<div class="foreign-card">
+<div class="avatar">EB</div>
+<div><h4>Eric J. Beh — University of Wollongong, Australia</h4>
+<p><strong>Keterlibatan:</strong> perkuliahan <em>Analisis Multivariat Tingkat Lanjut</em>, berkolaborasi dengan Dr. Irlandia Ginanjar.</p>
+<p><strong>Bukti eksternal pendukung:</strong> University of Wollongong mencatat Working Paper Series 2026 No. 04-26 oleh Eric J. Beh, Irlandia Ginanjar, dan Karunia Eka Lestari.</p></div>
+</div>
+<p style="margin-top:14px"><strong>Realisasi sementara:</strong> 1 orang dari target 2. Untuk dikunci sebagai eviden IKK kategori Guest Lecture Series/regular teaching, dokumentasi Prodi sebaiknya dilengkapi dengan surat tugas/SK, RPS atau jadwal yang mencantumkan dosen tamu, daftar hadir/pertemuan, dan dokumentasi kegiatan.</p>
+<p class="src"><span class="tag">EV-17</span><a href="https://www.uow.edu.au/niasra/publications/" target="_blank">University of Wollongong — Statistics Working Paper Series 2026</a><br/>
+<span class="tag">EV-18</span><a href="../kurikulum_obe_2025_edisi_revisi_web/index.html" target="_blank">Kurikulum OBE — Analisis Multivariat Tingkat Lanjut (koordinator: Dr. Irlandia Ginanjar)</a></p>
+</section>
+<section class="evidence">
+<div class="head"><div class="num">6</div><div style="flex:1"><h3>Tingkat Maturity Digital</h3><span class="status proxy">L3 indikatif</span></div></div>
+<p>Rubrik formal maturity digital tidak terdapat pada dokumen IKK yang tersedia. Oleh karena itu, level berikut dicatat sebagai <strong>proxy internal</strong>, bukan hasil asesmen resmi.</p>
+<ul>
+<li>Prodi memiliki <strong>Sistem Tesis Online</strong> yang menstandardisasi alur Pra-SUR, SUR, SKR, SAM, pelaporan, logbook, dokumen, jadwal, dan penilaian.</li>
+<li>Portal OBE menampilkan monitoring akademik digital secara real-time, pengelolaan portofolio mata kuliah, serta dokumentasi OBE terstruktur.</li>
+<li>Laporan implementasi OBE-SCL menunjukkan implementasi pada <strong>27/27 mata kuliah</strong>; portal juga memuat puluhan dokumen/eviden digital dan portofolio mahasiswa.</li>
+</ul>
+<div class="callout"><strong>Interpretasi proxy L3:</strong> proses utama telah terdigitalisasi, terstandar, digunakan lintas siklus akademik, dan menghasilkan jejak/eviden yang dapat dimonitor. Validasi resmi tetap harus menggunakan instrumen maturity digital yang ditetapkan Fakultas/Universitas.</div>
+<p class="src"><span class="tag">EV-11</span><a href="../Panduan_Tesis_Online_S2_Statistika_Terapan_UNPAD.html" target="_blank">Panduan Sistem Tesis Online S2 Statistika Terapan</a><br/>
+<span class="tag">EV-12</span><a href="../%40OBE%202026/Laporan_100_Persen_OBE_SCL_S2_Statistika_Terapan_2026.html" target="_blank">Laporan Implementasi 100% OBE-SCL 2026</a><br/>
+<span class="tag">EV-13</span><a href="../portofolio-mahasiswa/" target="_blank">Portofolio Mahasiswa dan Monitoring OBE</a></p>
+<p class="warn">Penutup audit: tambahkan lembar asesmen/rubrik resmi maturity digital dan berita acara/hasil penilaian Fakultas jika tersedia.</p>
+</section>
+<section class="evidence">
+<div class="head"><div class="num">7</div><div style="flex:1"><h3>Alumni yang Berkontribusi</h3><span class="status ok">3 alumni terverifikasi pada 2026</span></div></div>
+<p>Portal Prodi memuat rangkaian <strong>Sharing Session Alumni</strong>. Kontribusi dalam bentuk materi dan waktu dapat dihitung selama kegiatan dan identitas alumni terdokumentasi.</p>
+<ul>
+<li><strong>Dr. Yoga Sasmita, S.ST., M.Stat.</strong> — “Karier, AI, dan Sukses Setelah S2 Statistika Terapan”, 16 Maret 2026.</li>
+<li><strong>Naima Rafifah, S.Stat., M.Stat.</strong> — “Introduction to Text Analysis in Data Science”, 18 dan 25 Mei 2026.</li>
+<li><strong>Leivina Saliaputri, S.Si., M.Stat.</strong> — “Membedah Strategi Published di Jurnal Scopus Q1”, 15 Juli 2026.</li>
+<li>Portal juga mendokumentasikan Dila Fitriani Azuri (2025) dan Dr. Agus Muslim (2023), sehingga total kumulatif yang ditampilkan pada periode 2023–2026 adalah <strong>5 alumni</strong>.</li>
+</ul>
+<p class="src"><span class="tag">EV-14</span><a href="../" target="_blank">Portal Prodi – Sharing Session Alumni</a><br/>
+<span class="tag">EV-15</span><a href="https://www.instagram.com/magister_stat_unpad/" target="_blank">Instagram S2 Statistika Terapan Unpad – sumber pelengkap dokumentasi kegiatan</a></p>
+<p class="warn">Target tahunan 2026 = 5 alumni. Bukti publik yang sudah teridentifikasi secara jelas pada 2026 = 3 alumni. Untuk mencapai angka 5, tambahkan minimal dua kegiatan/kontribusi alumni lain pada 2026 beserta poster, foto, daftar hadir, notula, surat tugas, bukti donasi, atau bukti jejaring.</p>
+</section>
+<h2>3. Register Evidence</h2>
+<table class="register">
+<thead><tr><th>ID</th><th>Evidence</th><th>Sumber</th><th>Indikator</th><th>Kekuatan saat ini</th></tr></thead>
+<tbody>
+<tr><td>EV-01</td><td>Laporan Ketepatan Waktu Kelulusan 2022–2024</td><td><a href="../%40OBE%202026/Laporan_Ketepatan_Waktu_Kelulusan_S2_Statistika_2022_2024.html">Portal Prodi</a></td><td>1</td><td><span class="status ok">Kuat</span></td></tr>
+<tr><td>EV-02</td><td>Dashboard/monitoring OBE: AEE dan indikator akademik</td><td><a href="../">Portal Prodi</a></td><td>1, 6</td><td><span class="status ok">Kuat</span></td></tr>
+<tr><td>EV-03</td><td>Jumlah mahasiswa aktif S2 Statistika Terapan: 39 mahasiswa</td><td><a href="../">Portal Prodi</a></td><td>2</td><td><span class="status ok">Angka kerja Prodi</span></td></tr>
+
+
+<tr><td>EV-06</td><td>Rekap historis 80 Student Exchange 2021–2022</td><td><a href="../">Portal Prodi</a></td><td>3</td><td><span class="status proxy">Historis, bukan 2026</span></td></tr>
+<tr><td>EV-07</td><td>PDDikti sebagai validasi status aktif</td><td><a href="https://pddikti.kemdiktisaintek.go.id/">PDDikti</a></td><td>2, 3</td><td><span class="status gap">Perlu snapshot</span></td></tr>
+<tr><td>EV-08</td><td>Inventori kerja sama: 17 total; 10 internasional</td><td><a href="../">Portal Prodi</a></td><td>4</td><td><span class="status proxy">Perlu validasi IKK per item</span></td></tr>
+<tr><td>EV-09</td><td>International Actuarial Research Conference 2026 / workshop</td><td><a href="../kegiatan-workshop/berita-workshop-asuransi-gempa.html">Portal Prodi</a></td><td>4</td><td><span class="status info">Pendukung</span></td></tr>
+
+<tr><td>EV-11</td><td>Panduan Sistem Tesis Online</td><td><a href="../Panduan_Tesis_Online_S2_Statistika_Terapan_UNPAD.html">Portal Prodi</a></td><td>6</td><td><span class="status ok">Kuat</span></td></tr>
+<tr><td>EV-12</td><td>Laporan Implementasi 100% OBE-SCL</td><td><a href="../%40OBE%202026/Laporan_100_Persen_OBE_SCL_S2_Statistika_Terapan_2026.html">Portal Prodi</a></td><td>6</td><td><span class="status ok">Kuat</span></td></tr>
+<tr><td>EV-13</td><td>Portofolio mahasiswa dan monitoring digital</td><td><a href="../portofolio-mahasiswa/">Portal Prodi</a></td><td>6</td><td><span class="status ok">Kuat</span></td></tr>
+<tr><td>EV-14</td><td>Sharing Session Alumni 2023–2026</td><td><a href="../">Portal Prodi</a></td><td>7</td><td><span class="status ok">Kuat untuk 3 alumni 2026</span></td></tr>
+<tr><td>EV-15</td><td>Dokumentasi kegiatan alumni di media sosial</td><td><a href="https://www.instagram.com/magister_stat_unpad/">Instagram Prodi</a></td><td>7</td><td><span class="status info">Pelengkap; verifikasi manual</span></td></tr>
+<tr><td>EV-16</td><td>Publikasi co-authorship internasional 2026: Restu Arisanti &amp; Sri Winarni (Unpad) bersama Maizatul Akmar Ismail (Universiti Malaya, Malaysia), International Journal of Data and Network Science 10(3):1227–1246</td><td><a href="https://growingscience.com/beta/ijds/8335-generalized-linear-mixed-models-in-epidemiological-data-analysis-a-systematic-review-of-methodological-developments.html">Growing Science / IJDNS</a></td><td>4</td><td><span class="status ok">Kuat untuk co-authorship; lengkapi konfirmasi mitra untuk audit IKK</span></td></tr>
+<tr><td>EV-17</td><td>Eric J. Beh — University of Wollongong: kolaborasi akademik dengan Irlandia Ginanjar; UOW Working Paper 04-26</td><td><a href="https://www.uow.edu.au/niasra/publications/">University of Wollongong</a></td><td>5 (juga mendukung 4)</td><td><span class="status ok">Kuat untuk afiliasi/kolaborasi; bukti kelas internal dilampirkan</span></td></tr>
+<tr><td>EV-18</td><td>Analisis Multivariat Tingkat Lanjut — koordinator Dr. Irlandia Ginanjar; konteks mata kuliah untuk keterlibatan Eric J. Beh</td><td><a href="../kurikulum_obe_2025_edisi_revisi_web/index.html">Portal Prodi</a></td><td>5</td><td><span class="status info">Pendukung konteks perkuliahan</span></td></tr></tbody>
+</table>
+<h2>4. Daftar Bukti Internal yang Perlu Ditambahkan</h2>
+<table class="checklist">
+<thead><tr><th>Prioritas</th><th>Dokumen yang perlu dilampirkan</th><th>Menutup gap indikator</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Jika persentase mahasiswa S2 akan dihitung, tambahkan denominator resmi total mahasiswa aktif pada snapshot semester yang sama dari SIAT/PDDikti/Fakultas.</td><td>2</td></tr>
+<tr><td>2</td><td>Daftar mahasiswa internasional/non-WNI aktif 2026/2027 berikut NIM/nomor registrasi dan status PDDikti.</td><td>3</td></tr>
+<tr><td>3</td><td>Daftar mahasiswa masuk per kohort + tanggal/status kelulusan untuk rekonsiliasi formula AEE IKK.</td><td>1</td></tr>
+<tr><td>4</td><td>Matriks minimal 4 kolaborasi internasional 2026 berikut PKS/MoA/MoU atau bukti co-authorship/networking, dokumentasi kegiatan, dan konfirmasi mitra sesuai persyaratan IKK.</td><td>4</td></tr>
+<tr><td>5</td><td>Lengkapi paket eviden Eric J. Beh (SK/surat tugas, jadwal/RPS, attendance, dokumentasi). Untuk mencapai target 2 dosen asing, tambahkan satu dosen asing lain dengan paket bukti setara.</td><td>5</td></tr>
+<tr><td>6</td><td>Instrumen/rubrik dan berita acara asesmen maturity digital resmi Fakultas/Universitas.</td><td>6</td></tr>
+<tr><td>7</td><td>Bukti dua alumni tambahan yang berkontribusi pada 2026: poster, foto, daftar hadir, notula, bukti dana, atau bukti jaringan.</td><td>7</td></tr>
+</tbody>
+</table>
+<h2>5. Kesimpulan Kerja</h2>
+<div class="callout"><p style="margin-top:0"><strong>Evidence yang saat ini paling siap:</strong> AEE/ketepatan waktu, <strong>39 mahasiswa aktif</strong>, kolaborasi internasional yang hanya menampilkan dosen dengan bukti terverifikasi, digitalisasi proses akademik, dan kontribusi alumni.</p><p><strong>Dosen asing:</strong> Eric J. Beh (University of Wollongong, Australia) telah teridentifikasi sebagai satu dosen asing yang terlibat dalam Analisis Multivariat Tingkat Lanjut bersama Dr. Irlandia Ginanjar. Target IKK = 2, sehingga masih diperlukan satu dosen asing tambahan atau bukti kegiatan dosen asing lain pada 2026.</p><p style="margin-bottom:0"><strong>Persentase mahasiswa S2</strong> sengaja belum dihitung. Dossier menggunakan jumlah <strong>39 mahasiswa aktif</strong> sampai denominator resmi tersedia.</p></div>
+<div class="footer"><div class="footer-brand"><img alt="Unpad" src="../assets/logo-unpad.png"/><div><strong>S2 Statistika Terapan · FMIPA Universitas Padjadjaran</strong><br/>Evidence Dossier IKK 2026</div></div><div><strong>Sumber utama:</strong> dokumen definisi operasional IKK; Portal Pascasarjana Statistika Unpad; PDDikti; publikasi/jaringan internasional; University of Wollongong; dan dokumentasi resmi Prodi. Foto Gedung Rektorat digunakan sebagai elemen identitas visual kampus.</div></div>
+</main>
+</div>
+<button class="printbtn" onclick="window.print()">Cetak / Simpan PDF</button></body>
+</html>

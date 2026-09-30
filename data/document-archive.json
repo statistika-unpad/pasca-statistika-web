@@ -2910,5 +2910,21 @@
     "href": "dokumen-sk/arsip-2023-2026/contract-2023-3313a6facb92.pdf",
     "sha256": "3313a6facb928973a27137168ac0d0d4662e047183c81ed99aec16aa9731eda3",
     "source": "YUYUN HIDAYAT HRU RDPD 2023.pdf"
+  },
+  {
+    "id": "5ab994c0b4ee",
+    "kind": "contract",
+    "year": 2026,
+    "number": "6078/UN6.D/PM.01.01/2026",
+    "title": "Hibah PPM Unpad 2026 — Bertho Tantular",
+    "people": [
+      {
+        "name": "Bertho Tantular",
+        "page": 1
+      }
+    ],
+    "href": "dokumen-sk/arsip-2023-2026/contract-2026-5ab994c0b4ee.pdf",
+    "sha256": "5ab994c0b4ee51915c978ff02bd7559e04a9e17795654ab3e6a2897db10c2c23",
+    "source": "2026 PPM FMIPA Unpad a.n Bertho Tantular.pdf"
   }
 ]

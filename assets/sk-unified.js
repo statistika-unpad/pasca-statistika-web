@@ -7,6 +7,7 @@
   const stage = byId('stage');
   const year = byId('academic-year');
   const semester = byId('semester');
+  const documentYear = byId('document-year');
   const cards = [...root.querySelectorAll('.document-card')];
   const categories = [...root.querySelectorAll('[data-filter]')];
   let category = '';
@@ -17,7 +18,7 @@
     cards.forEach(card => {
       const rows = [...card.querySelectorAll('[data-person]')];
       const nameMatch = !lecturer.value || rows.some(row => row.dataset.person === lecturer.value);
-      const matches = nameMatch && (!year.value || card.dataset.year === year.value) && (!semester.value || card.dataset.semester === semester.value) && (!category || (category === 'akademik' ? card.dataset.category !== 'pengelola' : card.dataset.category === category)) && (!stage.value || card.dataset.stage === stage.value) && words.every(word => normalize(card.dataset.search).includes(word));
+      const matches = nameMatch && (!documentYear.value || card.dataset.documentYear === documentYear.value) && (!year.value || card.dataset.year === year.value) && (!semester.value || card.dataset.semester === semester.value) && (!category || (category === 'akademik' ? card.dataset.category !== 'pengelola' : card.dataset.category === category)) && (!stage.value || card.dataset.stage === stage.value) && words.every(word => normalize(card.dataset.search).includes(word));
       card.hidden = !matches;
       if (matches) count++;
       rows.forEach(row => { row.hidden = !!lecturer.value && row.dataset.person !== lecturer.value; });
@@ -38,8 +39,9 @@
   search.addEventListener('input', filter);
   stage.addEventListener('change', () => { if (stage.value && !['undangan','pengujian'].includes(category)) category = ''; filter(); });
   year.addEventListener('change', filter);
+  documentYear.addEventListener('change', filter);
   semester.addEventListener('change', filter);
-  byId('reset').addEventListener('click', () => { lecturer.value = ''; search.value = ''; stage.value = ''; year.value = ''; semester.value = ''; category = ''; filter(); });
+  byId('reset').addEventListener('click', () => { lecturer.value = ''; search.value = ''; stage.value = ''; year.value = ''; documentYear.value = ''; semester.value = ''; category = ''; filter(); });
   root.querySelectorAll('.pdf-url').forEach(input => input.addEventListener('click', () => input.select()));
   let noticeTimer;
   root.querySelectorAll('[data-copy]').forEach(button => button.addEventListener('click', async () => {
