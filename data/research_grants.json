@@ -1,34 +1,34 @@
 {
-  "source": "Kontrak PDF @SK-SK dan empat ZIP tahun 2023–2026 dari pengguna",
-  "reviewedAt": "2026-09-30",
+  "source": "Kontrak PDF @SK-SK dan empat ZIP tahun 2023–2026 dari pengguna; 10 PDF tambahan @SK-SK/New; 2 kontrak Atje Setiawan dari pengguna",
+  "reviewedAt": "2026-10-01",
   "period": [
     2023,
     2026
   ],
-  "total": 36,
-  "totalAmount": 1762255000,
-  "linkedDocuments": 36,
+  "total": 44,
+  "totalAmount": 2132255000,
+  "linkedDocuments": 44,
   "years": {
     "2023": {
-      "count": 7,
-      "amount": 449975000
+      "count": 11,
+      "amount": 644975000
     },
     "2024": {
-      "count": 9,
-      "amount": 455500000
+      "count": 10,
+      "amount": 515500000
     },
     "2025": {
-      "count": 14,
-      "amount": 631000000
+      "count": 16,
+      "amount": 686000000
     },
     "2026": {
-      "count": 6,
-      "amount": 225780000
+      "count": 7,
+      "amount": 285780000
     }
   },
   "metricDefinition": "Jumlah nominal pendanaan yang dinyatakan dalam kontrak, termasuk komponen luaran jika nominalnya ditetapkan; bukan realisasi pencairan. Satu kontrak per ketua, skema, judul, dan tahun dihitung sekali.",
   "lecturerAttribution": "Nilai diatribusikan kepada ketua/pihak kedua dalam kontrak; tidak dibagi atau digandakan ke anggota tim.",
-  "coverageNote": "Berdasarkan berkas yang tersedia hingga 30 September 2026; tahun 2026 belum satu tahun penuh. Tidak ditemukannya berkas bukan berarti dosen tidak menerima hibah.",
+  "coverageNote": "Berdasarkan berkas yang tersedia hingga 1 Oktober 2026; tahun 2026 belum satu tahun penuh. Tidak ditemukannya berkas bukan berarti dosen tidak menerima hibah. Arsip 2021–2022 disajikan terpisah dan tidak masuk statistik.",
   "lecturers": [
     "Budhi Handoko",
     "Aceng Kamarudin Mutaqin",
@@ -45,7 +45,8 @@
     "Yusep Suparman",
     "Budi Nurani Ruchjana",
     "Yuyun Hidayat",
-    "Hasna Afifah Rusyda"
+    "Hasna Afifah Rusyda",
+    "Atje Setiawan Abdullah"
   ],
   "grants": [
     {
@@ -66,6 +67,28 @@
       "sha256": "5ab994c0b4ee51915c978ff02bd7559e04a9e17795654ab3e6a2897db10c2c23",
       "sourceFile": "2026 PPM FMIPA Unpad a.n Bertho Tantular.pdf",
       "notes": [],
+      "attachments": []
+    },
+    {
+      "id": "80b35ff31006",
+      "year": 2026,
+      "researcher": "Budi Nurani Ruchjana",
+      "title": "Model Peramalan Spasio-Temporal Hibrida: Integrasi GSTARI-X dan Deep Representation Learning pada Dinamika Harga Pangan di Jawa Barat",
+      "scheme": "Riset Disertasi Doktor Unpad",
+      "schemeCode": "RDDU",
+      "group": "Penelitian",
+      "contractNumber": "1635/UN6.3.1/PT.00/2026",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 60000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2026-80b35ff31006.pdf",
+      "amountPage": 2,
+      "amountEvidence": "(1) PIHAK PERTAMA memberikan dana pelaksanaan kegiatan sebagaimana dimaksud\ndalam Pasal 1 sebesar Rp. 60.000.000,- (Enam Puluh Juta Rupiah) yang dibebankan\nkepada Anggaran Universitas Padjadjaran PTN-BH.",
+      "sha256": "80b35ff310065d6601b06882ddeec15656345fa40abf402eace8d37b7f42ac16",
+      "sourceFile": "2026 MIPA HRU RDDU a.n Budi Nurani R - Firas A (3).pdf",
+      "notes": [
+        "Hanya nominal dana riset yang ditetapkan dihitung; biaya pendidikan mahasiswa tanpa nominal dalam kontrak tidak ditambahkan."
+      ],
       "attachments": []
     },
     {
@@ -216,6 +239,48 @@
       "sha256": "f52370a4700b8babf76c3dc0d698f60fa7d67dc2d34474e5ce569af085045ead",
       "sourceFile": "Hibah Unpad Artikel Review 2025 a.n  Budi Handoko.pdf",
       "notes": [],
+      "attachments": []
+    },
+    {
+      "id": "525df5902594",
+      "year": 2025,
+      "researcher": "Budi Nurani Ruchjana",
+      "title": "Modeling and Predicting Spatio-Temporal Climate Variability using the GSTARI-X-Casetti-Kriging Model on Big Data POWER NASA to Support Pillar 13th in SDGs",
+      "scheme": "Artikel Review Equity–WCU",
+      "schemeCode": "AR Equity",
+      "group": "Penelitian",
+      "contractNumber": "3904/UN6.3.1/PT.00/2025",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 25000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2025-525df5902594.pdf",
+      "amountPage": 2,
+      "amountEvidence": "(1) PIHAK PERTAMA memberikan dana Total Pelaksanaan kegiatan sebagaimana\ndimaksud dalam pasal 1 sebesar Rp. 25.000.000,- (Dua puluh lima juta rupiah).",
+      "sha256": "525df59025941940124d28d5f151f3743e518a1845dd5e0287d231d358ac3fa2",
+      "sourceFile": "2025 MIPA HR EQUITY WCU Skema ARTIKEL a.n Budi Nurani R.pdf",
+      "notes": [],
+      "attachments": []
+    },
+    {
+      "id": "e2310de5437e",
+      "year": 2025,
+      "researcher": "Budi Nurani Ruchjana",
+      "title": "Pengembangan Model Spatio Temporal Data Mining dalam Era Big Data berbasis Media Sosial",
+      "scheme": "Beasiswa Unggulan Pascasarjana Padjadjaran",
+      "schemeCode": "BUPP",
+      "group": "Penelitian",
+      "contractNumber": "968/UN6.3.1/PT.00/2025",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 30000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2025-e2310de5437e.pdf",
+      "amountPage": 2,
+      "amountEvidence": "(1) PIHAK PERTAMA memberikan dana pelaksanaan kegiatan sebagaimana dimaksud\ndalam Pasal 1 sebesar Rp. 30.000.000,- (Tiga Puluh Juta Rupiah) yang dibebankan kepada\nAnggaran Universitas Padjadjaran PTN-BH.",
+      "sha256": "e2310de5437e3eb4c3f503016e7713bbb53a6bc58408d932c7f6468e104fdb62",
+      "sourceFile": "2025 MIPA HRU BUPP a.n Budi Nurani Ruchjana.pdf",
+      "notes": [
+        "Hanya nominal dana riset yang ditetapkan dihitung; biaya pendidikan mahasiswa tanpa nominal dalam kontrak tidak ditambahkan."
+      ],
       "attachments": []
     },
     {
@@ -519,6 +584,26 @@
       "attachments": []
     },
     {
+      "id": "db72c6f86caf",
+      "year": 2024,
+      "researcher": "Budi Nurani Ruchjana",
+      "title": "Rancangan dan Implementasi Sistem Informasi Berbasis Model Matematika untuk Integrasi Pemasaran Wisata Warisan Budaya",
+      "scheme": "Riset Disertasi Doktor Unpad",
+      "schemeCode": "RDDU",
+      "group": "Penelitian",
+      "contractNumber": "2002/UN6.3.1/PT.00/2024",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 60000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2024-db72c6f86caf.pdf",
+      "amountPage": 2,
+      "amountEvidence": "(1) PIHAK PERTAMA memberikan dana pelaksanaan kegiatan sebagaimana dimaksud\ndalam Pasal 1 sebesar Rp. 60.000.000,- (Enam Puluh Juta Rupiah) yang dibebankan\nkepada Anggaran Universitas Padjadjaran PTN-BH.",
+      "sha256": "db72c6f86caf1f31ef6874e225a6d967d39074a1a1f207e41ba875f5643d23f3",
+      "sourceFile": "BUDI NURANI RUCHJANA HRU RDDU 2024.pdf",
+      "notes": [],
+      "attachments": []
+    },
+    {
       "id": "a23554100eab",
       "year": 2024,
       "researcher": "Defi Yusti Faidah",
@@ -664,6 +749,93 @@
       "sha256": "f38c10eef9139d8034b4f56cf5e8fd08b41676b2077868bf5aa6168422d8afb1",
       "sourceFile": "ANINDYA APRILIYANTI FMIPA DIKTI PDKN 2023.pdf",
       "notes": [],
+      "attachments": []
+    },
+    {
+      "id": "445f5f999731",
+      "year": 2023,
+      "researcher": "Atje Setiawan Abdullah",
+      "title": "Etno-informatika untuk Deskripsi Perubahan Budaya Antroponimi Masyarakat Sunda melalui Pendekatan Spasial Data Mining",
+      "scheme": "Penulisan Buku Ajar/Referensi",
+      "schemeCode": "Buku",
+      "group": "Penelitian",
+      "contractNumber": "1549/UN6.3.1/PT.00/2023",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 10000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2023-445f5f999731.pdf",
+      "amountPage": 2,
+      "amountEvidence": "(1) PIHAK PERTAMA memberikan dana Total Pelaksanaan kegiatan sebagaimana\ndimaksud dalam pasal 1 sebesar Rp 10.000.000,- (Sepuluh Juta Rupiah).",
+      "sha256": "445f5f99973136ed95d4a8ffc96caa5faf1a26975430b440e8102a40e5be22c2",
+      "sourceFile": "ATJE SETIAWAN HRU BUKU 2023.pdf",
+      "notes": [],
+      "attachments": []
+    },
+    {
+      "id": "81217b6d0ec2",
+      "year": 2023,
+      "researcher": "Budi Nurani Ruchjana",
+      "title": "Pengembangan Model Spatio Temporal dan Aplikasinya untuk Mendukung Common Goals Jawa Barat",
+      "scheme": "Academic Leadership Grant",
+      "schemeCode": "ALG",
+      "group": "Penelitian",
+      "contractNumber": "1549/UN6.3.1/PT.00/2023",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 125000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2023-81217b6d0ec2.pdf",
+      "amountPage": 2,
+      "amountEvidence": "(1) PІНAK PERTAMA memberikan Dana Pelaksanaan Riset sebesar Rp. 100.000.000,-\n(Seratus Juta rupiah), Dana Pembimbingan Output dan Dana Kolaborasi sebesar Rp.\n25.000.000,- (Dua Puluh Lima Juta rupiah).",
+      "sha256": "81217b6d0ec22398ef3a700cf86bdb6462fd61d978ea19a83d433f26e3c32a1d",
+      "sourceFile": "BUDI NURANI R HRU ALG 2023.pdf",
+      "notes": [
+        "Nomor 1549/UN6.3.1/PT.00/2023 digunakan pada beberapa kontrak. Berkas ini dibedakan menurut skema dan judul penelitian, bukan nomor saja.",
+        "Rp100.000.000 dana riset + Rp25.000.000 pembimbingan output/kolaborasi pada Pasal 3 ayat (1). Rp25.000.000 pada tabel kolaborasi tidak ditambahkan lagi."
+      ],
+      "attachments": []
+    },
+    {
+      "id": "4b4b349ab9ca",
+      "year": 2023,
+      "researcher": "Budi Nurani Ruchjana",
+      "title": "Model Spatio Temporal dengan Pendekatan Data Mining untuk Kajian Fenomena Iklim di Indonesia",
+      "scheme": "Beasiswa Unggulan Pascasarjana Padjadjaran",
+      "schemeCode": "BUPP",
+      "group": "Penelitian",
+      "contractNumber": "1549/UN6.3.1/PT.00/2023",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 30000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2023-4b4b349ab9ca.pdf",
+      "amountPage": 2,
+      "amountEvidence": "(1) PIHAK PERTAMA memberikan dana pelaksanaan kegiatan sebagaimana dimaksud\ndalam Pasal 1 sebesar Rp. 30.000.000,- (Tiga Puluh Juta Rupiah) yang dibebankan kepada\nAnggaran Universitas Padjadjaran PTN-BH.",
+      "sha256": "4b4b349ab9cacaf25dcbcd5865eb70b820a61cb0fecccf88646e0881b468f566",
+      "sourceFile": "BUDI NURANI R HRU BUPP 2023.pdf",
+      "notes": [
+        "Nomor 1549/UN6.3.1/PT.00/2023 digunakan pada beberapa kontrak. Berkas ini dibedakan menurut skema dan judul penelitian, bukan nomor saja."
+      ],
+      "attachments": []
+    },
+    {
+      "id": "4610ec37b770",
+      "year": 2023,
+      "researcher": "Budi Nurani Ruchjana",
+      "title": "Pengembangan Model Spatio Temporal Data Mining dalam Era Big Data berbasis Media Sosial",
+      "scheme": "Beasiswa Unggulan Pascasarjana Padjadjaran",
+      "schemeCode": "BUPP",
+      "group": "Penelitian",
+      "contractNumber": "1549/UN6.3.1/PT.00/2023",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 30000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2023-4610ec37b770.pdf",
+      "amountPage": 2,
+      "amountEvidence": "(1) PIHAK PERTAMA memberikan dana pelaksanaan kegiatan sebagaimana dimaksud\ndalam Pasal 1 sebesar Rp. 30.000.000,- (Tiga Puluh Juta Rupiah) yang dibebankan kepada\nAnggaran Universitas Padjadjaran PTN-BH.",
+      "sha256": "4610ec37b7701fa63c789a1540e1cbc173574d264628681552c14c8f3b7b4666",
+      "sourceFile": "BUDI NURANI R HRU BUPP 2023 KE 2.pdf",
+      "notes": [
+        "Nomor 1549/UN6.3.1/PT.00/2023 digunakan pada beberapa kontrak. Berkas ini dibedakan menurut skema dan judul penelitian, bukan nomor saja."
+      ],
       "attachments": []
     },
     {
@@ -821,6 +993,32 @@
       "documentAvailable": false,
       "status": "Kontrak belum ditemukan; tidak masuk total terverifikasi",
       "reportedAmount": 695915000
+    }
+  ],
+  "historical": [
+    {
+      "year": 2022,
+      "researcher": "Budi Nurani Ruchjana",
+      "scheme": "BUPP",
+      "title": "Model Spatio Temporal dengan Pendekatan Data Mining untuk Kajian Fenomena Iklim di Indonesia",
+      "contractNumber": "2203/UN6.3.1/PT.00/2022",
+      "amount": 30000000,
+      "amountPage": 2,
+      "documentHref": "dokumen-sk/arsip-sebelum-2023/contract-2022-98092d182078.pdf",
+      "sha256": "98092d18207839e0782afd182e57c3c27ac4e8f2fc4c56ae92c6e298457617a0",
+      "note": "Arsip di luar periode 2023–2026; tidak masuk KPI, grafik, dan ekspor statistik."
+    },
+    {
+      "year": 2021,
+      "researcher": "Atje Setiawan Abdullah",
+      "scheme": "PPM",
+      "title": "Penerapan Etno-informatika untuk Pelestarian Budaya Sunda",
+      "contractNumber": "1960/UN6.3.1/PM.00/2021",
+      "amount": 10000000,
+      "amountPage": 2,
+      "documentHref": "dokumen-sk/arsip-sebelum-2023/contract-2021-a6563a6e1981.pdf",
+      "sha256": "a6563a6e1981565dfdd295c94091180330c63ac78682eadc230e011ec83ac74a",
+      "note": "Arsip di luar periode 2023–2026; tidak masuk KPI, grafik, dan ekspor statistik."
     }
   ]
 }

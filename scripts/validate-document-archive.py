@@ -3,6 +3,7 @@ from pathlib import Path
 root=Path(__file__).resolve().parents[1]
 rows=json.loads((root/'data/document-archive.json').read_text())
 allowed=json.loads((root/'data/document-archive-audit.json').read_text())['lecturers']
+allowed += ['Atje Setiawan Abdullah']  # Explicitly requested supplementary contracts, 1 October 2026.
 seen=set()
 for d in rows:
  p=root/d['href']; assert p.is_file(),d['href']
