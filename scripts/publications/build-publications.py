@@ -70,12 +70,9 @@ for i,(sid,name) in enumerate(roster):
  f['scopusProfile']='https://www.scopus.com/authid/detail.uri?authorId='+f['scopusId'] if f.get('scopusId') else None
  f['wosProfile']='https://www.webofscience.com/wos/author/record/'+f['wosId'] if re.fullmatch(r'[A-Z]+-\d+-\d+',f.get('wosId','')) else None
  faculty.append(f)
-# Preserve eligible historical records; do not relabel their old verification as current.
-for r in old['publications']:
- f=next((f for f in faculty if f['sintaId']==str(r['sintaId'])),None)
- if not f:continue
- label=r['indexSource'].replace('SINTA-','')
- records.append(dict(title=r['title'],year=r['year'],venue=r['venue'],lecturers=[f['name']],facultyIds=[f['sintaId']],category=r['category'],indexSources=[label],href=r['href'],doi=None,evidence=[dict(source=label,via='SINTA · arsip',url=r['href'],recordUrl=r['href'],checkedAt=old['generatedAt'])]))
+# Only current SINTA Scopus/WoS/Garuda records may enter the final catalog.
+# Google Scholar pages remain in the inspection audit, never publication evidence.
+records=[r for r in records if 'Google Scholar' not in r['indexSources']]
 # Union by normalized title+year, DOI, or source record identifier; shared faculty stay on one record.
 groups=[];keymap={}
 for r in records:
@@ -104,6 +101,6 @@ for i,g in enumerate(pubs):
 for f in faculty:
  subset=[r for r in pubs if f['sintaId'] in r['facultyIds']];f['publicationsCaptured']=len(subset);f['byYear']={str(y):sum(r['year']==y for r in subset) for y in range(2022,2027)}
 years=[dict(year=y,count=sum(r['year']==y for r in pubs)) for y in range(2022,2027)]
-indices=[dict(name=s,count=sum(s in r['indexSources'] for r in pubs)) for s in labels.values()]
-result=dict(source='SINTA public Scopus, Web of Science, Google Scholar and Garuda tabs; historical public snapshot',generatedAt=date,period=[2022,2026],partialPublicData=True,totals=dict(publications=len(pubs),lecturers=len(faculty),facultyPublicationLinks=sum(f['publicationsCaptured'] for f in faculty)),years=years,indexSources=indices,categories=[dict(name=k,count=v) for k,v in Counter(r['category'] for r in pubs).items()],publications=pubs,faculty=faculty,sourceAudit=audit,notes=['Public profiles expose a limited selection; this is not an exhaustive bibliography.','Source totals overlap; one article can appear in multiple indexes.','Profile metrics are all-time snapshots reported by SINTA and are not totals for 2022–2026.','Quartiles reflect the source snapshot, not a verified historical quartile for the publication year.','Old records outside current public pages retain their original verification date.'])
+indices=[dict(name=s,count=sum(s in r['indexSources'] for r in pubs)) for s in labels.values() if s!='Google Scholar']
+result=dict(source='SINTA public Scopus, Web of Science and Garuda tabs only',generatedAt=date,period=[2022,2026],partialPublicData=True,catalogRevisedAt='2026-10-04',inclusionPolicy='Current SINTA Scopus/WoS/Garuda records only; Google Scholar and historical-only records excluded',totals=dict(publications=len(pubs),lecturers=len(faculty),facultyPublicationLinks=sum(f['publicationsCaptured'] for f in faculty)),years=years,indexSources=indices,categories=[dict(name=k,count=v) for k,v in Counter(r['category'] for r in pubs).items()],publications=pubs,faculty=faculty,sourceAudit=audit,notes=['Public profiles expose a limited selection; this is not an exhaustive bibliography.','Source totals overlap; one article can appear in multiple indexes.','Profile metrics are all-time snapshots reported by SINTA and are not totals for 2022–2026.','Quartiles reflect the source snapshot, not a verified historical quartile for the publication year.','Google Scholar and historical-only records are excluded from the catalog and all publication counts.'])
 (root/'data/faculty_publications.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(dict(unique=len(pubs),faculty=len(faculty),sources=indices,pages=len(audit),legacyOnly=sum(r['historicalOnly'] for r in pubs)),indent=2))

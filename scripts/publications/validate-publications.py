@@ -11,6 +11,9 @@ assert sum(x['count'] for x in d['years'])==len(rows)
 assert d['totals']['facultyPublicationLinks']==sum(len(r['facultyIds']) for r in rows)
 seen=set();urls={};dois={}
 for r in rows:
+ assert 'Google Scholar' not in r['indexSources']
+ assert not r['historicalOnly']
+ assert all(e['via']=='SINTA' and e['source']!='Google Scholar' for e in r['evidence'])
  key=(re.sub('[^a-z0-9]','',unicodedata.normalize('NFKD',r['title']).encode('ascii','ignore').decode().lower()),r['year'])
  assert key not in seen,('duplicate',key)
  seen.add(key)

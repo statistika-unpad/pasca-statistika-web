@@ -96,7 +96,7 @@
   <link rel="stylesheet" href="assets/academic-apps.css?v=20260922-vivid" />
   <link rel="stylesheet" href="assets/handbook-library.css?v=20260928-visual">
 <link rel="stylesheet" href="assets/grant-dashboard.css?v=20260930-v4">
-<link rel="stylesheet" href="assets/publications-refresh.css?v=20261004-years" />
+<link rel="stylesheet" href="assets/publications-refresh.css?v=20261004-sinta-final" />
 </head>
 <body>
   <div class="topbar">
@@ -1092,12 +1092,12 @@
           <div class="faculty-publication-hero-copy">
             <p class="section-kicker" data-i18n="publicationKicker">Publikasi Dosen</p>
             <h2 data-i18n="publicationTitle">Jejak publikasi yang memperkuat kontribusi Statistika.</h2>
-            <p>Publikasi 17 dosen pada daftar program studi, dihimpun dari tab Scopus, Web of Science, Google Scholar, dan Garuda di SINTA. Periode 2022–2026.</p>
+            <p>Publikasi 17 dosen pada daftar program studi, dihimpun dari tab Scopus, Web of Science, dan Garuda di SINTA. Periode 2022–2026.</p>
           </div>
           <div class="faculty-publication-metrics" aria-label="Ringkasan publikasi dosen">
             <div>
               <span>Artikel unik terhimpun</span>
-              <strong id="publicationTotalCount">323</strong>
+              <strong id="publicationTotalCount">221</strong>
             </div>
             <div>
               <span data-i18n="publicationFacultyLabel">Profil dosen</span>
@@ -1113,7 +1113,7 @@
         <div class="faculty-publication-sheet-head">
           <div>
             <span>Cakupan Sumber</span>
-            <h3>Empat sumber, satu katalog publikasi.</h3>
+            <h3>SINTA sebagai sumber katalog publikasi.</h3>
           </div>
           <a href="%40Publikasi%20Dosen.xlsx" target="_blank" rel="noopener">
             <span aria-hidden="true">&#8681;</span>
@@ -1148,7 +1148,7 @@
 
         <div class="faculty-publication-note">
           <span aria-hidden="true">i</span>
-          <p>Diperiksa 3 Oktober 2026. Daftar publik terbatas pada rekaman yang ditampilkan SINTA; bukan bibliografi lengkap atau ekspor langsung seluruh indeks. Artikel bersama digabung berdasarkan judul/tahun, DOI, atau ID rekaman. Jumlah antarindeks beririsan. Rekaman lama mempertahankan tanggal sumber awal.</p>
+          <p>Diperiksa 3 Oktober 2026. Daftar publik terbatas pada rekaman yang ditampilkan SINTA; bukan bibliografi lengkap atau ekspor langsung seluruh indeks. Artikel bersama digabung berdasarkan judul/tahun, DOI, atau ID rekaman. Jumlah antarindeks beririsan. Revisi 4 Oktober 2026: entri Google Scholar tidak digunakan dalam katalog atau statistik. Rekaman arsip yang belum terkonfirmasi pada snapshot SINTA terbaru juga tidak dihitung.</p>
         </div>
 
         <div class="faculty-publication-controls">
@@ -1159,7 +1159,7 @@
           <details class="pub-person-picker pub-year-picker" id="publicationYearPicker"><summary>Tahun: <span id="publicationYearSummaryLabel">Semua tahun</span></summary><p>Pilih satu atau beberapa tahun publikasi.</p><div class="pub-person-actions"><button type="button" id="publicationYearsAll">Semua tahun</button><button type="button" id="publicationYearsClear">Hapus pilihan</button></div><fieldset id="publicationYears"><legend class="sr-only">Pilih tahun publikasi</legend></fieldset></details>
         </div>
 
-        <div class="pub-filters"><details class="pub-person-picker"><summary>Dosen: <span id="publicationPersonSummary">Semua dosen</span></summary><p>Pilih satu atau beberapa dosen. Artikel dari salah satu dosen terpilih akan ditampilkan; artikel bersama tetap dihitung sekali.</p><div class="pub-person-actions"><button type="button" id="publicationPeopleAll">Semua dosen</button><button type="button" id="publicationPeopleClear">Hapus pilihan</button></div><fieldset id="publicationPeople"><legend class="sr-only">Pilih dosen untuk ditampilkan</legend></fieldset></details><label>Sumber indeks<select id="publicationSource"><option value="">Semua sumber</option><option>Scopus</option><option>Web of Science</option><option>Google Scholar</option><option>Garuda</option></select></label></div>
+        <div class="pub-filters"><details class="pub-person-picker"><summary>Dosen: <span id="publicationPersonSummary">Semua dosen</span></summary><p>Pilih satu atau beberapa dosen. Artikel dari salah satu dosen terpilih akan ditampilkan; artikel bersama tetap dihitung sekali.</p><div class="pub-person-actions"><button type="button" id="publicationPeopleAll">Semua dosen</button><button type="button" id="publicationPeopleClear">Hapus pilihan</button></div><fieldset id="publicationPeople"><legend class="sr-only">Pilih dosen untuk ditampilkan</legend></fieldset></details><label>Sumber indeks<select id="publicationSource"><option value="">Semua sumber</option><option>Scopus</option><option>Web of Science</option><option>Garuda</option></select></label></div>
         <p><a href="data/faculty_publications.json" target="_blank" rel="noopener">Buka data terbaru dan jejak sumber ↗</a></p>
         <div class="faculty-publication-toolbar">
           <label class="faculty-publication-search" for="publicationSearch">
@@ -3414,7 +3414,7 @@
   <script src="assets/obe-alignment.js?v=20260913" defer></script>
   <script src="assets/obe-monev-2026-data.js?v=20260921" defer></script>
   <script src="assets/obe-monev-2026.js?v=20260921-2" defer></script>
-  <script src="assets/app.js?v=20261003-publications" defer></script>
+  <script src="assets/app.js?v=20261004-sinta-final" defer></script>
   <script>
     window.addEventListener("load", () => {
       const loadEnhancements = () => {
@@ -3550,6 +3550,6 @@
     </script><script src="assets/visit-us-enhancement.js?v=20260726-bilingual"></script><script src="assets/visit-us-image-fix.js?v=20260726-ethics-navigation-v2"></script><script id="static-index-flattened">window.__PASCA_STATIC_INDEX__="20260814-no-loader";</script><script src="assets/sk-unified.js?v=20260930-unified" defer></script>
   <script src="assets/handbook-library.js?v=20260928" defer></script>
 <script type="module" src="assets/grant-dashboard.js?v=20261001-v1"></script>
-<script src="assets/publications-refresh.js?v=20261004-years" defer></script>
+<script src="assets/publications-refresh.js?v=20261004-sinta-final" defer></script>
 </body>
 </html>
