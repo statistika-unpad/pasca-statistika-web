@@ -9,10 +9,14 @@ window.renderPublicationDashboard = function(data, state) {
   const peopleSelected=[...picker.querySelectorAll('input:checked')].map(input=>input.value);
   $('publicationPersonSummary').textContent=peopleSelected.length===data.faculty.length?'Semua dosen':peopleSelected.length===1?data.faculty.find(f=>f.sintaId===peopleSelected[0]).name:peopleSelected.length+' dosen dipilih';
   const source=$('publicationSource')?.value||'';
+  const yearPicker=$('publicationYears');
+  if(!yearPicker.querySelector('input'))yearPicker.insertAdjacentHTML('beforeend',data.years.slice().reverse().map(y=>`<label><input type="checkbox" value="${y.year}" checked><span>${y.year} (${y.count} artikel)</span></label>`).join(''));
+  const yearsSelected=[...yearPicker.querySelectorAll('input:checked')].map(input=>input.value);
+  $('publicationYearSummaryLabel').textContent=yearsSelected.length===data.years.length?'Semua tahun':yearsSelected.length?yearsSelected.join(', '):'Belum ada tahun dipilih';
   const all=data.publications;
   $('publicationSource').disabled=state.view==='faculty';
-  $('publicationYearTabs').hidden=state.view==='faculty';
-  const selected=all.filter(r=>(state.year==='all'||String(r.year)===state.year)&&r.facultyIds.some(id=>peopleSelected.includes(id))&&(!source||r.indexSources.includes(source))&&(!query||[r.title,r.lecturer,r.venue,r.category,r.indexSource,r.doi].join(' ').toLocaleLowerCase('id').includes(query)));
+  $('publicationYearPicker').hidden=state.view==='faculty';
+  const selected=all.filter(r=>yearsSelected.includes(String(r.year))&&r.facultyIds.some(id=>peopleSelected.includes(id))&&(!source||r.indexSources.includes(source))&&(!query||[r.title,r.lecturer,r.venue,r.category,r.indexSource,r.doi].join(' ').toLocaleLowerCase('id').includes(query)));
   $('publicationTotalCount').textContent=data.totals.publications;$('publicationFacultyCount').textContent=data.faculty.length;$('publicationPeriod').textContent=data.period.join('–');
   $('publicationSheetSummary').innerHTML=data.indexSources.map(s=>`<article class="faculty-publication-sheet-card"><span>TERCATAT PADA SUMBER</span><div><strong>${s.count}</strong><small>artikel dalam katalog</small></div><h4>${esc(s.name)}</h4><p>Melalui tab publik SINTA. Dapat beririsan dengan sumber lain.</p></article>`).join('');
   const max=Math.max(...data.years.map(y=>y.count),1);
@@ -20,7 +24,6 @@ window.renderPublicationDashboard = function(data, state) {
   $('publicationIndexSummary').innerHTML=`<p><strong>${data.totals.facultyPublicationLinks}</strong> hubungan dosen–artikel, digabung menjadi <strong>${all.length}</strong> artikel unik.</p><p>Satu artikel bersama dihitung sekali pada total, tetapi tetap terhubung dengan setiap dosen yang tercatat pada sumber.</p><p>Data diperiksa ${esc(data.generatedAt)}. Tahun 2026 masih berjalan.</p>`;
   $('publicationCategorySummary').innerHTML=data.categories.map(c=>`<span><b>${c.count}</b>${esc(c.name)}</span>`).join('')+'<p>Kuartil mengikuti label sumber saat diperiksa, bukan verifikasi kuartil pada tahun terbit.</p>';
   document.querySelectorAll('[data-publication-view]').forEach(b=>{const active=b.dataset.publicationView===state.view;b.classList.toggle('active',active);b.setAttribute('aria-pressed',String(active));});
-  $('publicationYearTabs').innerHTML=[['all','Semua tahun'],...data.years.slice().reverse().map(y=>[String(y.year),`${y.year} (${y.count})`])].map(([v,label])=>`<button type="button" data-publication-year="${v}" class="${state.year===v?'active':''}" aria-pressed="${state.year===v}">${label}</button>`).join('');
   if(state.view==='faculty'){
     const people=data.faculty.filter(f=>peopleSelected.includes(f.sintaId)&&(!query||[f.name,f.sintaId,f.scopusId,f.googleScholarId].join(' ').toLowerCase().includes(query)));
     $('publicationVisibleCount').textContent=people.length;$('publicationVisibleLabel').textContent='profil dosen ditampilkan';
@@ -31,6 +34,7 @@ window.renderPublicationDashboard = function(data, state) {
   }
   if(!$('publicationRows').innerHTML)$('publicationRows').innerHTML='<p class="empty-note">Tidak ada hasil yang sesuai. Berkas yang tidak tampil bukan bukti tidak adanya publikasi.</p>';
 };
-for(const id of ['publicationPeople','publicationSource'])document.getElementById(id)?.addEventListener('change',()=>renderFacultyPublications());
+for(const id of ['publicationPeople','publicationYears','publicationSource'])document.getElementById(id)?.addEventListener('change',()=>renderFacultyPublications());
 for(const [id,checked] of [['publicationPeopleAll',true],['publicationPeopleClear',false]])document.getElementById(id)?.addEventListener('click',()=>{document.querySelectorAll('#publicationPeople input').forEach(input=>input.checked=checked);renderFacultyPublications();});
+for(const [id,checked] of [['publicationYearsAll',true],['publicationYearsClear',false]])document.getElementById(id)?.addEventListener('click',()=>{document.querySelectorAll('#publicationYears input').forEach(input=>input.checked=checked);renderFacultyPublications();});
 if(typeof facultyPublicationsData!=='undefined'&&facultyPublicationsData)renderFacultyPublications();
