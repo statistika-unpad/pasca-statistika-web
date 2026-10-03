@@ -96,7 +96,7 @@
   <link rel="stylesheet" href="assets/academic-apps.css?v=20260922-vivid" />
   <link rel="stylesheet" href="assets/handbook-library.css?v=20260928-visual">
 <link rel="stylesheet" href="assets/grant-dashboard.css?v=20260930-v4">
-<link rel="stylesheet" href="assets/publications-refresh.css?v=20261003" />
+<link rel="stylesheet" href="assets/publications-refresh.css?v=20261003-multi" />
 </head>
 <body>
   <div class="topbar">
@@ -1159,7 +1159,7 @@
           <div class="faculty-publication-year-tabs" id="publicationYearTabs" role="group" aria-label="Filter tahun publikasi"></div>
         </div>
 
-        <div class="pub-filters"><label>Dosen<select id="publicationPerson" aria-label="Filter dosen"></select></label><label>Sumber indeks<select id="publicationSource"><option value="">Semua sumber</option><option>Scopus</option><option>Web of Science</option><option>Google Scholar</option><option>Garuda</option></select></label></div>
+        <div class="pub-filters"><details class="pub-person-picker"><summary>Dosen: <span id="publicationPersonSummary">Semua dosen</span></summary><p>Pilih satu atau beberapa dosen. Artikel dari salah satu dosen terpilih akan ditampilkan; artikel bersama tetap dihitung sekali.</p><div class="pub-person-actions"><button type="button" id="publicationPeopleAll">Semua dosen</button><button type="button" id="publicationPeopleClear">Hapus pilihan</button></div><fieldset id="publicationPeople"><legend class="sr-only">Pilih dosen untuk ditampilkan</legend></fieldset></details><label>Sumber indeks<select id="publicationSource"><option value="">Semua sumber</option><option>Scopus</option><option>Web of Science</option><option>Google Scholar</option><option>Garuda</option></select></label></div>
         <p><a href="data/faculty_publications.json" target="_blank" rel="noopener">Buka data terbaru dan jejak sumber ↗</a></p>
         <div class="faculty-publication-toolbar">
           <label class="faculty-publication-search" for="publicationSearch">
@@ -3550,6 +3550,6 @@
     </script><script src="assets/visit-us-enhancement.js?v=20260726-bilingual"></script><script src="assets/visit-us-image-fix.js?v=20260726-ethics-navigation-v2"></script><script id="static-index-flattened">window.__PASCA_STATIC_INDEX__="20260814-no-loader";</script><script src="assets/sk-unified.js?v=20260930-unified" defer></script>
   <script src="assets/handbook-library.js?v=20260928" defer></script>
 <script type="module" src="assets/grant-dashboard.js?v=20261001-v1"></script>
-<script src="assets/publications-refresh.js?v=20261003" defer></script>
+<script src="assets/publications-refresh.js?v=20261003-multi" defer></script>
 </body>
 </html>
