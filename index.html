@@ -96,7 +96,7 @@
   <link rel="stylesheet" href="assets/academic-apps.css?v=20260922-vivid" />
   <link rel="stylesheet" href="assets/handbook-library.css?v=20260928-visual">
 <link rel="stylesheet" href="assets/grant-dashboard.css?v=20260930-v4">
-<link rel="stylesheet" href="assets/publications-refresh.css?v=20261004-dtps" />
+<link rel="stylesheet" href="assets/publications-refresh.css?v=20261004-topics" />
 </head>
 <body>
   <div class="topbar">
@@ -1097,7 +1097,7 @@
           <div class="faculty-publication-metrics" aria-label="Ringkasan publikasi dosen">
             <div>
               <span>Artikel unik terhimpun</span>
-              <strong id="publicationTotalCount">188</strong>
+              <strong id="publicationTotalCount">186</strong>
             </div>
             <div>
               <span data-i18n="publicationFacultyLabel">Profil dosen</span>
@@ -1169,8 +1169,17 @@
           </label>
         </div>
 
+        <section id="publicationTopicPanel" class="pub-topic-panel" aria-labelledby="publicationTopicTitle">
+          <h3 id="publicationTopicTitle">Topik publikasi</h3>
+          <p id="publicationTopicScope" class="pub-topic-scope"></p>
+          <div class="pub-topic-layout"><div id="publicationTopicChart" class="pub-topic-chart"></div><div id="publicationTopicLegend" class="pub-topic-legend" role="group" aria-label="Lihat artikel berdasarkan topik"></div></div>
+          <p id="publicationTopicSummary" aria-live="polite"></p>
+          <p class="pub-topic-method">Pengelompokan berdasarkan judul, bukan klasifikasi resmi SINTA. Setiap publikasi dihitung sekali pada topik utama; untuk karya lintas bidang, fokus aplikasi didahulukan. Grafik mengikuti filter dosen, tahun, indeks, dan pencarian. Pilih topik di legenda untuk melihat artikelnya; komposisi grafik tetap menunjukkan seluruh topik dalam filter tersebut.</p>
+          <div class="pub-topic-actions"><span id="publicationTopicSelection" aria-live="polite"></span><button type="button" id="publicationTopicReset" hidden>Tampilkan semua topik</button></div>
+        </section>
+
         <div class="faculty-publication-result-bar">
-          <strong id="publicationVisibleCount">124</strong>
+          <strong id="publicationVisibleCount">186</strong>
           <span id="publicationVisibleLabel" data-i18n="publicationRecordsShown">publikasi ditampilkan</span>
         </div>
         <div class="faculty-publication-grid" id="publicationRows" aria-live="polite"></div>
@@ -3414,7 +3423,7 @@
   <script src="assets/obe-alignment.js?v=20260913" defer></script>
   <script src="assets/obe-monev-2026-data.js?v=20260921" defer></script>
   <script src="assets/obe-monev-2026.js?v=20260921-2" defer></script>
-  <script src="assets/app.js?v=20261004-dtps" defer></script>
+  <script src="assets/app.js?v=20261004-topics" defer></script>
   <script>
     window.addEventListener("load", () => {
       const loadEnhancements = () => {
@@ -3550,6 +3559,7 @@
     </script><script src="assets/visit-us-enhancement.js?v=20260726-bilingual"></script><script src="assets/visit-us-image-fix.js?v=20260726-ethics-navigation-v2"></script><script id="static-index-flattened">window.__PASCA_STATIC_INDEX__="20260814-no-loader";</script><script src="assets/sk-unified.js?v=20260930-unified" defer></script>
   <script src="assets/handbook-library.js?v=20260928" defer></script>
 <script type="module" src="assets/grant-dashboard.js?v=20261001-v1"></script>
-<script src="assets/publications-refresh.js?v=20261004-dtps" defer></script>
+<script src="assets/publication-topics.js?v=20261004-topics" defer></script>
+<script src="assets/publications-refresh.js?v=20261004-topics" defer></script>
 </body>
 </html>

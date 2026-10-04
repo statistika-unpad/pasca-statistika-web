@@ -14,7 +14,7 @@ links=re.compile(r'\[([^\]\n]+)\]\((https?://[^\s]+?)\)')
 def clean(s):
  s=s.replace('\\_','_').replace('\\','').strip()
  try:
-  if 'Ã' in s or 'Â' in s:s=s.encode('latin1').decode('utf8')
+  if any(mark in s for mark in ('Ã','Â','â','ã')):s=s.encode('latin1').decode('utf8')
  except (UnicodeError,ValueError):pass
  return s
 def norm(s):return re.sub(r'[^a-z0-9]','',unicodedata.normalize('NFKD',clean(s)).encode('ascii','ignore').decode().lower())
@@ -73,6 +73,19 @@ for i,(sid,name) in enumerate(roster):
 # Only current SINTA Scopus/WoS/Garuda records may enter the final catalog.
 # Google Scholar pages remain in the inspection audit, never publication evidence.
 records=[r for r in records if 'Google Scholar' not in r['indexSources']]
+# Review each Mindra attribution against an explicit identity audit, never surname matching.
+identity_reviews=json.loads((root/'scripts/publications/mindra-author-verification.json').read_text())['entries']
+reviewed_records=[];withheld=[]
+for r in records:
+ r['identityVerifications']=[]
+ if '6026564' in r['facultyIds']:
+  review=next((x for x in identity_reviews if x['title']==r['title'] and r['href'] in x['recordUrls'] and x['status']=='verified'),None)
+  if not review:
+   withheld.append(dict(title=r['title'],facultyId='6026564',recordUrl=r['href'],reason='Author identity requires review'))
+   continue
+  r['identityVerifications']=[{k:v for k,v in review.items() if k not in ('title','recordUrls')}]
+ reviewed_records.append(r)
+records=reviewed_records
 # Union by normalized title+year, DOI, or source record identifier; shared faculty stay on one record.
 groups=[];keymap={}
 for r in records:
@@ -85,22 +98,28 @@ for r in records:
   for other in sorted(matches-{idx}):
    if groups[other]:
     o=groups[other]
-    for field in ('lecturers','facultyIds','indexSources','evidence'):g[field]+= [x for x in o[field] if x not in g[field]]
+    for field in ('lecturers','facultyIds','indexSources','evidence','identityVerifications'):g[field]+= [x for x in o[field] if x not in g[field]]
     groups[other]=None
     for k,v in list(keymap.items()):
      if v==other:keymap[k]=idx
-  for field in ('lecturers','facultyIds','indexSources','evidence'):g[field]+=[x for x in r[field] if x not in g[field]]
+  for field in ('lecturers','facultyIds','indexSources','evidence','identityVerifications'):g[field]+=[x for x in r[field] if x not in g[field]]
   if not g.get('doi'):g['doi']=r.get('doi')
   if r['category'].startswith('Scopus') and not g['category'].startswith('Scopus'):
    g['category']=r['category'];g['href']=r['href'];g['venue']=r['venue'] or g['venue']
  else:idx=len(groups);groups.append(r)
  for k in keys:keymap[k]=idx
 pubs=[g for g in groups if g]
+topic_map=json.loads((root/'scripts/publications/topic-classification.json').read_text())
+topic_keys={(norm(e['title']),e['year']):e for e in topic_map['entries']}
 for i,g in enumerate(pubs):
+ t=topic_keys.get((norm(g['title']),g['year']))
+ g['topicId']=t['topicId'] if t else 'review'
+ g['topicBasis']=t['basis'] if t else 'Judul belum memiliki pemetaan topik yang ditinjau.'
+ g['topicReviewStatus']=t['reviewStatus'] if t else 'needs-review'
  g['id']=i+1;g['lecturer']='; '.join(g['lecturers']);g['indexSource']=' · '.join(g['indexSources']);g['lastVerifiedAt']=max(e['checkedAt'] for e in g['evidence']);g['historicalOnly']=g['lastVerifiedAt']!=date
 for f in faculty:
  subset=[r for r in pubs if f['sintaId'] in r['facultyIds']];f['publicationsCaptured']=len(subset);f['byYear']={str(y):sum(r['year']==y for r in subset) for y in range(2023,2027)}
 years=[dict(year=y,count=sum(r['year']==y for r in pubs)) for y in range(2023,2027)]
 indices=[dict(name=s,count=sum(s in r['indexSources'] for r in pubs)) for s in labels.values() if s!='Google Scholar']
-result=dict(source='SINTA public Scopus, Web of Science and Garuda tabs only',generatedAt=date,period=[2023,2026],partialPublicData=True,catalogRevisedAt='2026-10-04',inclusionPolicy='Current SINTA Scopus/WoS/Garuda records only; Google Scholar and historical-only records excluded',totals=dict(publications=len(pubs),lecturers=len(faculty),facultyPublicationLinks=sum(f['publicationsCaptured'] for f in faculty)),years=years,indexSources=indices,categories=[dict(name=k,count=v) for k,v in Counter(r['category'] for r in pubs).items()],publications=pubs,faculty=faculty,sourceAudit=audit,notes=['Public profiles expose a limited selection; this is not an exhaustive bibliography.','Source totals overlap; one article can appear in multiple indexes.','Profile metrics are all-time snapshots reported by SINTA and are not totals for 2023–2026.','Quartiles reflect the source snapshot, not a verified historical quartile for the publication year.','Google Scholar and historical-only records are excluded from the catalog and all publication counts.'])
+result=dict(source='SINTA public Scopus, Web of Science and Garuda tabs only',generatedAt=date,period=[2023,2026],partialPublicData=True,catalogRevisedAt='2026-10-04',inclusionPolicy='Current SINTA Scopus/WoS/Garuda records only; Google Scholar and historical-only records excluded',totals=dict(publications=len(pubs),lecturers=len(faculty),facultyPublicationLinks=sum(f['publicationsCaptured'] for f in faculty)),years=years,indexSources=indices,categories=[dict(name=k,count=v) for k,v in Counter(r['category'] for r in pubs).items()],publications=pubs,faculty=faculty,topicClassification=dict(method=topic_map['method'],categories=topic_map['categories']+[dict(id='review',label='Perlu tinjauan',color='#939393',description='Judul yang belum dapat ditempatkan pada topik utama.')]),sourceAudit=audit,withheldAttributions=withheld,notes=['Public profiles expose a limited selection; this is not an exhaustive bibliography.','Source totals overlap; one article can appear in multiple indexes.','Profile metrics are all-time snapshots reported by SINTA and are not totals for 2023–2026.','Quartiles reflect the source snapshot, not a verified historical quartile for the publication year.','Google Scholar and historical-only records are excluded from the catalog and all publication counts.'])
 (root/'data/faculty_publications.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(dict(unique=len(pubs),faculty=len(faculty),sources=indices,pages=len(audit),legacyOnly=sum(r['historicalOnly'] for r in pubs)),indent=2))

@@ -1,0 +1,282 @@
+{
+  "facultyId": "6026564",
+  "policy": "No surname-only matches. Exact reviewed title and source record must be present; new unmatched attributions are withheld pending review.",
+  "entries": [
+    {
+      "title": "HYBRID MOBILENETV3-LSTM MODEL FOR DETECTING PHASIC AND TONIC RECEPTOR RESPONSES IN FACIAL IMAGES",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.scopus.com/record/display.uri?eid=2-s2.0-105028869318&origin=resultslist"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://scik.org/index.php/cmbn/article/viewFile/9648/4432",
+      "basis": "Publisher PDF: full name and Department of Statistics, Universitas Padjadjaran"
+    },
+    {
+      "title": "Mapping and Forecasting District-Level Stunting Dynamics in Indonesia Toward SDG Target 2.2: A Hybrid Bayesian-Machine Learning Spatiotemporal Analysis",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.scopus.com/record/display.uri?eid=2-s2.0-105043029732&origin=resultslist"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://api.crossref.org/works/10.3390/su18125959",
+      "doi": "10.3390/su18125959",
+      "affiliations": [
+        "Department of Statistics, Universitas Padjadjaran, Sumedang 45363, Indonesia"
+      ],
+      "orcid": "https://orcid.org/0000-0003-1391-4138",
+      "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+    },
+    {
+      "title": "Spatiotemporal Cokriging for Modeling and Prediction of PM2.5 Concentrations in Jakarta",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.scopus.com/record/display.uri?eid=2-s2.0-105015468249&origin=resultslist"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://www.iaeng.org/IJAM/issues_v55/issue_7/IJAM_55_7_38.pdf",
+      "basis": "Publisher PDF: full author name"
+    },
+    {
+      "title": "A Bayesian latent gaussian model with time-varying spatial weight matrices: Application to modeling the impact of multi-pollutant exposure on tuberculosis",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.scopus.com/record/display.uri?eid=2-s2.0-105012612852&origin=resultslist"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://scholar.unpad.ac.id/en/persons/i-gede-nyoman-mindra-jaya-2/",
+      "basis": "Institutional profile with full name, Statistics affiliation and this exact research output"
+    },
+    {
+      "title": "Regional Patterns of Digital Skills Mismatch in Indonesia’s Digital Economy: Insights from the Indonesia Digital Society Index",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.scopus.com/record/display.uri?eid=2-s2.0-105028757874&origin=resultslist"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://api.crossref.org/works/10.3390/su18021077",
+      "doi": "10.3390/su18021077",
+      "affiliations": [
+        "Department of Statistics, Universitas Padjadjaran, Sumedang 45363, Indonesia"
+      ],
+      "orcid": "https://orcid.org/0000-0003-1391-4138",
+      "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+    },
+    {
+      "title": "Bayesian modelling of dengue incidence with climatic drivers: comparing fixed-effects, nonlinear and dynamic approaches",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.scopus.com/record/display.uri?eid=2-s2.0-105029323863&origin=resultslist"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://www.geospatialhealth.net/gh/article/download/1461/1547",
+      "basis": "Publisher PDF: full name and Department of Statistics, Universitas Padjadjaran"
+    },
+    {
+      "title": "SPATIAL INTERPOLATION OF RAINFALL INTENSITY IN JAVA ISLAND USING ORDINARY KRIGING",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://garuda.kemdiktisaintek.go.id/documents/detail/5145545",
+        "https://www.scopus.com/record/display.uri?eid=2-s2.0-105010332474&origin=resultslist"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://ojs3.unpatti.ac.id/index.php/barekeng/article/download/15748/10708",
+      "basis": "Publisher PDF: full name and Department of Statistics, Universitas Padjadjaran"
+    },
+    {
+      "title": "Bayesian spatiotemporal stochastic partial differential equation for high-resolution earthquake magnitude mapping: Application to Sumatra Island, Indonesia",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.scopus.com/record/display.uri?eid=2-s2.0-105010201455&origin=resultslist"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://api.crossref.org/works/10.1016/j.mex.2025.103487",
+      "doi": "10.1016/j.mex.2025.103487",
+      "affiliations": [],
+      "orcid": null,
+      "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+    },
+    {
+      "title": "Spatiotemporal forecasting models with and without a confounded covariate",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.scopus.com/record/display.uri?eid=2-s2.0-85217385721&origin=resultslist"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://research.rug.nl/en/publications/spatiotemporal-forecasting-models-with-and-without-a-confounded-c/",
+      "basis": "Institutional publication record: full author name and exact title"
+    },
+    {
+      "title": "Spatiotemporal Dengue Forecasting for Sustainable Public Health in Bandung, Indonesia: A Comparative Study of Classical, Machine Learning, and Bayesian Models",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.scopus.com/record/display.uri?eid=2-s2.0-105013164532&origin=resultslist"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://api.crossref.org/works/10.3390/su17156777",
+      "doi": "10.3390/su17156777",
+      "affiliations": [
+        "Department of Statistics, Universitas Padjadjaran, Sumedang 45363, Indonesia"
+      ],
+      "orcid": "https://orcid.org/0000-0003-1391-4138",
+      "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+    },
+    {
+      "title": "Sensitivity Analysis on Hyperprior Distribution of the Variance Components of Hierarchical Bayesian Spatiotemporal Disease Mapping",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.webofscience.com/wos/woscc/full-record/WOS:001160231000001"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://api.crossref.org/works/10.3390/math12030451",
+      "doi": "10.3390/math12030451",
+      "affiliations": [
+        "Department of Statistics, Universitas Padjadjaran, Sumedang 45363, Indonesia"
+      ],
+      "orcid": "https://orcid.org/0000-0003-1391-4138",
+      "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+    },
+    {
+      "title": "Framework for Monitoring the Spatiotemporal Distribution and Clustering of the Digital Society Index of Indonesia",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.webofscience.com/wos/woscc/full-record/WOS:001386610600001"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://api.crossref.org/works/10.3390/su162411258",
+      "doi": "10.3390/su162411258",
+      "affiliations": [
+        "Department of Statistics, Universitas Padjadjaran, Sumedang 45363, Indonesia"
+      ],
+      "orcid": "https://orcid.org/0000-0003-1391-4138",
+      "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+    },
+    {
+      "title": "High-Resolution Spatiotemporal Forecasting with Missing Observations Including an Application to Daily Particulate Matter 2.5 Concentrations in Jakarta Province, Indonesia",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.webofscience.com/wos/woscc/full-record/WOS:001326514200001"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://api.crossref.org/works/10.3390/math12182899",
+      "doi": "10.3390/math12182899",
+      "affiliations": [
+        "Department of Statistics, Universitas Padjadjaran, Jl. Raya Bandung Sumedang km 21 Jatinangor, Sumedang 45363, Indonesia"
+      ],
+      "orcid": "https://orcid.org/0000-0003-1391-4138",
+      "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+    },
+    {
+      "title": "Multivariate Bayesian Semiparametric Regression Model for Forecasting and Mapping HIV and TB Risks in West Java, Indonesia",
+      "facultyId": "6026564",
+      "authorName": "I. Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://www.webofscience.com/wos/woscc/full-record/WOS:001061847300001"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://api.crossref.org/works/10.3390/math11173641",
+      "doi": "10.3390/math11173641",
+      "affiliations": [
+        "Center of Epidemiology, Department of Statistics, Universitas Padjadjaran, Jl. Raya Bandung Sumedang km 21 Jatinangor, Sumedang 45363, Indonesia"
+      ],
+      "orcid": null,
+      "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+    },
+    {
+      "title": "Modeling the Cigarette Consumption of Poor Households Using Penalized Zero-Inflated Negative Binomial Regression with Minimax Concave Penalty",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Mindra Jaya",
+      "recordUrls": [
+        "https://www.webofscience.com/wos/woscc/full-record/WOS:001038852500001"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://api.crossref.org/works/10.3390/math11143192",
+      "doi": "10.3390/math11143192",
+      "affiliations": [
+        "Department of Statistics, Faculty of Mathematics and Natural Sciences, Universitas Padjadjaran, Sumedang 45363, Indonesia"
+      ],
+      "orcid": null,
+      "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+    },
+    {
+      "title": "Community Participation and Mosquito Breeding Sites in Cimahi City: Current Conditions and Challenges in Dengue Fever Control",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://garuda.kemdiktisaintek.go.id/documents/detail/5209111",
+        "https://garuda.kemdiktisaintek.go.id/documents/detail/5435889"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://ejournal.unisba.ac.id/index.php/gmhc/article/download/14138/pdf",
+      "basis": "Publisher PDF: full name and Department of Statistics, Universitas Padjadjaran"
+    },
+    {
+      "title": "MODEL KOEFISIEN REGRESI VARIASI SPASIAL UNTUK PREDIKSI HOTSPOT STUNTING DI INDONESIA",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://garuda.kemdiktisaintek.go.id/documents/detail/4594301"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://api.crossref.org/works/10.29303/jppipa.v10i10.8270",
+      "doi": "10.29303/jppipa.v10i10.8270",
+      "affiliations": [],
+      "orcid": null,
+      "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+    },
+    {
+      "title": "Calculation of the Risk Index for Diarrhea, ISPA, and Pneumonia in Toddlers in the City of Bandung Using Geographically Weighted Principal Component Analysis",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://garuda.kemdiktisaintek.go.id/documents/detail/3444165"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://download.garuda.kemdikbud.go.id/article.php?article=3444165&title=Calculation+of+the+Risk+Index+for+Diarrhea+ISPA+and+Pneumonia+in+Toddlers+in+the+City+of+Bandung+Using+Geographically+Weighted+Principal+Component+Analysis&val=29994",
+      "basis": "Published PDF: full name and Universitas Padjadjaran"
+    },
+    {
+      "title": "Spatial Analysis of Dengue Disease in Jakarta Province",
+      "facultyId": "6026564",
+      "authorName": "I Gede Nyoman Mindra Jaya",
+      "recordUrls": [
+        "https://garuda.kemdiktisaintek.go.id/documents/detail/4406109"
+      ],
+      "checkedAt": "2026-10-04",
+      "status": "verified",
+      "sourceUrl": "https://ejournal.uin-malang.ac.id/index.php/Math/article/download/17423/pdf",
+      "basis": "Publisher PDF: full author name"
+    }
+  ]
+}

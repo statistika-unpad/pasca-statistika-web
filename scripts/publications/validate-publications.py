@@ -9,6 +9,8 @@ assert len(faculty)==16 and {f['sintaId'] for f in faculty}==expected
 assert d['totals']['publications']==len(rows)
 assert sum(x['count'] for x in d['years'])==len(rows)
 assert d['totals']['facultyPublicationLinks']==sum(len(r['facultyIds']) for r in rows)
+topic_ids={c['id'] for c in d['topicClassification']['categories']}
+assert len(topic_ids)==len(d['topicClassification']['categories'])
 seen=set();urls={};dois={}
 for r in rows:
  assert 'Google Scholar' not in r['indexSources']
@@ -20,7 +22,10 @@ for r in rows:
  assert 2023<=r['year']<=2026
  assert r['facultyIds'] and set(r['facultyIds'])<=expected
  assert len(r['facultyIds'])==len(r['lecturers'])
+ assert r['topicId'] in topic_ids and r['topicBasis']
  assert r['evidence'] and r['title'].strip()
+ if '6026564' in r['facultyIds']:
+  assert any(v['facultyId']=='6026564' and v['status']=='verified' and v['sourceUrl'].startswith('https://') for v in r.get('identityVerifications',[])),r['title']
  for e in r['evidence']:
   assert e['source'] in r['indexSources']
   for field in ['url','recordUrl']:

@@ -9,9 +9,9 @@
   "catalogRevisedAt": "2026-10-04",
   "inclusionPolicy": "Current SINTA Scopus/WoS/Garuda records only; Google Scholar and historical-only records excluded",
   "totals": {
-    "publications": 188,
+    "publications": 186,
     "lecturers": 16,
-    "facultyPublicationLinks": 258
+    "facultyPublicationLinks": 255
   },
   "years": [
     {
@@ -20,7 +20,7 @@
     },
     {
       "year": 2024,
-      "count": 58
+      "count": 57
     },
     {
       "year": 2025,
@@ -28,7 +28,7 @@
     },
     {
       "year": 2026,
-      "count": 28
+      "count": 27
     }
   ],
   "indexSources": [
@@ -64,7 +64,7 @@
     },
     {
       "name": "Sinta 3",
-      "count": 20
+      "count": 18
     },
     {
       "name": "Garuda",
@@ -132,6 +132,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 1,
       "lecturer": "Budhi Handoko; Irlandia Ginanjar",
       "indexSource": "Scopus",
@@ -164,6 +168,10 @@
           "citations": 3
         }
       ],
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 2,
       "lecturer": "Budhi Handoko",
       "indexSource": "Scopus",
@@ -196,6 +204,10 @@
           "citations": 1
         }
       ],
+      "identityVerifications": [],
+      "topicId": "mobility",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 3,
       "lecturer": "Budhi Handoko",
       "indexSource": "Scopus",
@@ -238,6 +250,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 4,
       "lecturer": "Budhi Handoko; Defi Yusti Faidah",
       "indexSource": "Scopus",
@@ -280,6 +296,10 @@
           "citations": 1
         }
       ],
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 5,
       "lecturer": "Budhi Handoko; Yuyun Hidayat",
       "indexSource": "Scopus",
@@ -322,6 +342,10 @@
           "citations": 2
         }
       ],
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 6,
       "lecturer": "Budhi Handoko; Defi Yusti Faidah",
       "indexSource": "Scopus",
@@ -354,6 +378,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 7,
       "lecturer": "Budhi Handoko",
       "indexSource": "Scopus",
@@ -405,6 +433,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "technology",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 8,
       "lecturer": "Budhi Handoko; Triyani Hendrawati",
       "indexSource": "Scopus · Web of Science",
@@ -456,6 +488,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 9,
       "lecturer": "Budhi Handoko; Anindya Apriliyanti Pravitasari",
       "indexSource": "Scopus · Garuda",
@@ -488,6 +524,10 @@
           "citations": 4
         }
       ],
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 10,
       "lecturer": "Budhi Handoko",
       "indexSource": "Scopus",
@@ -520,6 +560,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 11,
       "lecturer": "Budhi Handoko",
       "indexSource": "Garuda",
@@ -552,6 +596,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 12,
       "lecturer": "Budhi Handoko",
       "indexSource": "Garuda",
@@ -604,6 +652,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 13,
       "lecturer": "Anindya Apriliyanti Pravitasari; Gumgum Darmawan; Irlandia Ginanjar",
       "indexSource": "Scopus",
@@ -666,6 +718,19 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://scik.org/index.php/cmbn/article/viewFile/9648/4432",
+          "basis": "Publisher PDF: full name and Department of Statistics, Universitas Padjadjaran"
+        }
+      ],
+      "topicId": "technology",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 14,
       "lecturer": "Anindya Apriliyanti Pravitasari; I Gede Nyoman Mindra Jaya; Triyani Hendrawati; Yusep Suparman",
       "indexSource": "Scopus",
@@ -717,6 +782,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "food",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 15,
       "lecturer": "Anindya Apriliyanti Pravitasari; Triyani Hendrawati",
       "indexSource": "Scopus · Garuda",
@@ -759,6 +828,10 @@
           "citations": 1
         }
       ],
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 16,
       "lecturer": "Anindya Apriliyanti Pravitasari; Sri Winarni",
       "indexSource": "Scopus",
@@ -821,6 +894,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "technology",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 17,
       "lecturer": "Anindya Apriliyanti Pravitasari; Irlandia Ginanjar; Sri Winarni; Triyani Hendrawati",
       "indexSource": "Scopus",
@@ -883,6 +960,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 18,
       "lecturer": "Anindya Apriliyanti Pravitasari; Irlandia Ginanjar; Restu Arisanti; Triyani Hendrawati",
       "indexSource": "Scopus",
@@ -936,6 +1017,10 @@
           "citations": 4
         }
       ],
+      "identityVerifications": [],
+      "topicId": "technology",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 19,
       "lecturer": "Anindya Apriliyanti Pravitasari; Sri Winarni; Yuyun Hidayat",
       "indexSource": "Scopus · Web of Science",
@@ -995,6 +1080,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "technology",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 20,
       "lecturer": "Anindya Apriliyanti Pravitasari; Triyani Hendrawati",
       "indexSource": "Scopus · Garuda",
@@ -1047,6 +1136,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "methods",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 21,
       "lecturer": "Anindya Apriliyanti Pravitasari; Gumgum Darmawan; Irlandia Ginanjar",
       "indexSource": "Scopus",
@@ -1089,6 +1182,10 @@
           "citations": 2
         }
       ],
+      "identityVerifications": [],
+      "topicId": "technology",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 22,
       "lecturer": "Anindya Apriliyanti Pravitasari; Gumgum Darmawan",
       "indexSource": "Scopus",
@@ -1131,6 +1228,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 23,
       "lecturer": "Anindya Apriliyanti Pravitasari; Triyani Hendrawati",
       "indexSource": "Garuda",
@@ -1163,6 +1264,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 24,
       "lecturer": "Anindya Apriliyanti Pravitasari",
       "indexSource": "Garuda",
@@ -1195,6 +1300,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "methods",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 25,
       "lecturer": "Anindya Apriliyanti Pravitasari",
       "indexSource": "Garuda",
@@ -1227,6 +1336,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 26,
       "lecturer": "Anindya Apriliyanti Pravitasari",
       "indexSource": "Garuda",
@@ -1269,6 +1382,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 27,
       "lecturer": "Anindya Apriliyanti Pravitasari; Triyani Hendrawati",
       "indexSource": "Garuda",
@@ -1301,6 +1418,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 28,
       "lecturer": "Anindya Apriliyanti Pravitasari",
       "indexSource": "Garuda",
@@ -1353,6 +1474,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 29,
       "lecturer": "Bertho Tantular; Defi Yusti Faidah; Gumgum Darmawan",
       "indexSource": "Scopus",
@@ -1405,6 +1530,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "food",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 30,
       "lecturer": "Bertho Tantular; Gumgum Darmawan; Sri Winarni",
       "indexSource": "Scopus",
@@ -1457,6 +1586,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 31,
       "lecturer": "Bertho Tantular; Defi Yusti Faidah; Gumgum Darmawan",
       "indexSource": "Scopus",
@@ -1499,6 +1632,24 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://api.crossref.org/works/10.3390/su18125959",
+          "doi": "10.3390/su18125959",
+          "affiliations": [
+            "Department of Statistics, Universitas Padjadjaran, Sumedang 45363, Indonesia"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1391-4138",
+          "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+        }
+      ],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 32,
       "lecturer": "Bertho Tantular; I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
@@ -1541,6 +1692,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "methods",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 33,
       "lecturer": "Bertho Tantular; Defi Yusti Faidah",
       "indexSource": "Scopus",
@@ -1583,6 +1738,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "food",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 34,
       "lecturer": "Bertho Tantular; Yuyun Hidayat",
       "indexSource": "Scopus",
@@ -1625,6 +1784,19 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://www.iaeng.org/IJAM/issues_v55/issue_7/IJAM_55_7_38.pdf",
+          "basis": "Publisher PDF: full author name"
+        }
+      ],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 35,
       "lecturer": "Bertho Tantular; I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
@@ -1667,6 +1839,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 36,
       "lecturer": "Bertho Tantular; Budi Nurani Ruchjana",
       "indexSource": "Scopus",
@@ -1709,6 +1885,19 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://scholar.unpad.ac.id/en/persons/i-gede-nyoman-mindra-jaya-2/",
+          "basis": "Institutional profile with full name, Statistics affiliation and this exact research output"
+        }
+      ],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 37,
       "lecturer": "Bertho Tantular; I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
@@ -1741,6 +1930,10 @@
           "citations": 4
         }
       ],
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 38,
       "lecturer": "Bertho Tantular",
       "indexSource": "Scopus",
@@ -1783,6 +1976,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "methods",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 39,
       "lecturer": "Bertho Tantular; Irlandia Ginanjar",
       "indexSource": "Garuda",
@@ -1825,6 +2022,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "mobility",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 40,
       "lecturer": "Bertho Tantular; Gumgum Darmawan",
       "indexSource": "Garuda",
@@ -1857,6 +2058,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 41,
       "lecturer": "Bertho Tantular",
       "indexSource": "Garuda",
@@ -1899,6 +2104,10 @@
           "citations": 0
         }
       ],
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 42,
       "lecturer": "Defi Yusti Faidah; Irlandia Ginanjar",
       "indexSource": "Scopus",
@@ -1931,6 +2140,10 @@
           "citations": 1
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 43,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Scopus",
@@ -1963,6 +2176,10 @@
           "citations": 42
         }
       ],
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 44,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Scopus",
@@ -1995,6 +2212,10 @@
           "citations": 3
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 45,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Scopus",
@@ -2015,10 +2236,11 @@
       ],
       "category": "Scopus Q4",
       "indexSources": [
-        "Scopus"
+        "Scopus",
+        "Garuda"
       ],
       "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85217738315&origin=resultslist",
-      "doi": null,
+      "doi": "10.30598/barekengvol18iss3pp1839-1852",
       "evidence": [
         {
           "source": "Scopus",
@@ -2029,17 +2251,37 @@
           "citations": 1
         },
         {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014997/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4149391",
+          "checkedAt": "2026-10-03",
+          "citations": null
+        },
+        {
           "source": "Scopus",
           "via": "SINTA",
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084299/?view=scopus",
           "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85217738315&origin=resultslist",
           "checkedAt": "2026-10-03",
           "citations": 1
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084299/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4149391",
+          "checkedAt": "2026-10-03",
+          "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 46,
       "lecturer": "Defi Yusti Faidah; Triyani Hendrawati",
-      "indexSource": "Scopus",
+      "indexSource": "Scopus · Garuda",
       "lastVerifiedAt": "2026-10-03",
       "historicalOnly": false
     },
@@ -2079,6 +2321,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 47,
       "lecturer": "Defi Yusti Faidah; Gumgum Darmawan",
       "indexSource": "Garuda",
@@ -2111,6 +2357,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "food",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 48,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Garuda",
@@ -2151,6 +2401,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 49,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Garuda",
@@ -2191,6 +2445,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 50,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Garuda",
@@ -2223,6 +2481,10 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 51,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Garuda",
@@ -2255,50 +2517,12 @@
           "citations": null
         }
       ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
       "id": 52,
       "lecturer": "Defi Yusti Faidah",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "GROUPING REGENCIES/CITIES IN WEST JAVA PROVINCE BASED ON PEOPLEâS WELFARE INDICATORS USING BIPLOT AND CLUSTERING",
-      "year": 2024,
-      "venue": "BAREKENG: Jurnal Ilmu Matematika dan Terapan Vol 18 No 3 (2024): BAREKENG: Journal of Mathematics and Its Application1839-1852",
-      "lecturers": [
-        "Defi Yusti Faidah",
-        "Triyani Hendrawati"
-      ],
-      "facultyIds": [
-        "6014997",
-        "6084299"
-      ],
-      "category": "Sinta 3",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/4149391",
-      "doi": "10.30598/barekengvol18iss3pp1839-1852",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014997/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4149391",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        },
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084299/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4149391",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 53,
-      "lecturer": "Defi Yusti Faidah; Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
       "historicalOnly": false
@@ -2329,7 +2553,11 @@
           "citations": null
         }
       ],
-      "id": 54,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 53,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2361,7 +2589,11 @@
           "citations": 0
         }
       ],
-      "id": 55,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 54,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2381,10 +2613,11 @@
       ],
       "category": "Scopus Q3",
       "indexSources": [
-        "Scopus"
+        "Scopus",
+        "Garuda"
       ],
       "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105048410278&origin=resultslist",
-      "doi": null,
+      "doi": "10.30598/barekengvol20iss4pp3575-3588",
       "evidence": [
         {
           "source": "Scopus",
@@ -2395,6 +2628,14 @@
           "citations": 0
         },
         {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/6667371",
+          "checkedAt": "2026-10-03",
+          "citations": null
+        },
+        {
           "source": "Scopus",
           "via": "SINTA",
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=scopus",
@@ -2403,9 +2644,13 @@
           "citations": 0
         }
       ],
-      "id": 56,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 55,
       "lecturer": "Gumgum Darmawan; Budi Nurani Ruchjana",
-      "indexSource": "Scopus",
+      "indexSource": "Scopus · Garuda",
       "lastVerifiedAt": "2026-10-03",
       "historicalOnly": false
     },
@@ -2435,7 +2680,11 @@
           "citations": 0
         }
       ],
-      "id": 57,
+      "identityVerifications": [],
+      "topicId": "mobility",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 56,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2477,14 +2726,18 @@
           "citations": 0
         }
       ],
-      "id": 58,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 57,
       "lecturer": "Gumgum Darmawan; Yuyun Hidayat",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
       "historicalOnly": false
     },
     {
-      "title": "Forecasting Arrival Delay at HartsfieldâJackson Atlanta International Airport âUsing Autoregressive Fractionally Integrated Moving Average (ARFIMA)",
+      "title": "Forecasting Arrival Delay at Hartsfield–Jackson Atlanta International Airport ‎Using Autoregressive Fractionally Integrated Moving Average (ARFIMA)",
       "year": 2026,
       "venue": "Future Academia : The Journal of Multidisciplinary Research on Scientific and Advanced Vol. 4 No. 1 (2026): Future Academia : The Journal of Multidisciplinary Research on Scientific and A55-69",
       "lecturers": [
@@ -2509,14 +2762,18 @@
           "citations": null
         }
       ],
-      "id": 59,
+      "identityVerifications": [],
+      "topicId": "mobility",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 58,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
       "historicalOnly": false
     },
     {
-      "title": "Peramalan Kedatangan Wisatawan Macanegara ke Provinsi Bali âMenggunakan Metode Singular Spectrum Analysis (SSA)â",
+      "title": "Peramalan Kedatangan Wisatawan Macanegara ke Provinsi Bali ‎Menggunakan Metode Singular Spectrum Analysis (SSA)‎",
       "year": 2026,
       "venue": "Future Academia : The Journal of Multidisciplinary Research on Scientific and Advanced Vol. 4 No. 1 (2026): Future Academia : The Journal of Multidisciplinary Research on Scientific and A131-144",
       "lecturers": [
@@ -2541,7 +2798,11 @@
           "citations": null
         }
       ],
-      "id": 60,
+      "identityVerifications": [],
+      "topicId": "mobility",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 59,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2583,46 +2844,18 @@
           "citations": null
         }
       ],
-      "id": 61,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 60,
       "lecturer": "Gumgum Darmawan; Restu Arisanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
       "historicalOnly": false
     },
     {
-      "title": "FORECASTING OIL PRODUCTION USING SSA AND TREND REGRESSION IN THE WORLDâS TOP THREE OIL PRODUCERS",
-      "year": 2026,
-      "venue": "BAREKENG: Jurnal Ilmu Matematika dan Terapan Vol 20 No 4 (2026): BAREKENG: Journal of Mathematics and Its Application3575-3588",
-      "lecturers": [
-        "Gumgum Darmawan"
-      ],
-      "facultyIds": [
-        "6083056"
-      ],
-      "category": "Sinta 3",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/6667371",
-      "doi": "10.30598/barekengvol20iss4pp3575-3588",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/6667371",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 62,
-      "lecturer": "Gumgum Darmawan",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "ENHANCING ãPMã_(2.5) PREDICTION IN KEMAYORAN DISTRICT, DKI JAKARTA USING DEEP BILSTM METHOD",
+      "title": "ENHANCING 〖PM〗_(2.5) PREDICTION IN KEMAYORAN DISTRICT, DKI JAKARTA USING DEEP BILSTM METHOD",
       "year": 2025,
       "venue": "BAREKENG: Jurnal Ilmu Matematika dan Terapan Vol 19 No 1 (2025): BAREKENG: Journal of Mathematics and Its Application185-198",
       "lecturers": [
@@ -2657,7 +2890,11 @@
           "citations": null
         }
       ],
-      "id": 63,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 61,
       "lecturer": "Gumgum Darmawan; Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2666,7 +2903,7 @@
     {
       "title": "Forecasting Ferry Passenger Traffic in New York City Using the Seasonal Arima (SARIMA) Model",
       "year": 2025,
-      "venue": "STATMAT : JURNAL STATISTIKA DAN MATEMATIKA Vol 7 No 3 (2025)378 â 388",
+      "venue": "STATMAT : JURNAL STATISTIKA DAN MATEMATIKA Vol 7 No 3 (2025)378 – 388",
       "lecturers": [
         "Gumgum Darmawan"
       ],
@@ -2689,7 +2926,11 @@
           "citations": null
         }
       ],
-      "id": 64,
+      "identityVerifications": [],
+      "topicId": "mobility",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 62,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2721,7 +2962,11 @@
           "citations": null
         }
       ],
-      "id": 65,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 63,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2753,7 +2998,11 @@
           "citations": null
         }
       ],
-      "id": 66,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 64,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2785,7 +3034,25 @@
           "citations": 3
         }
       ],
-      "id": 67,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://api.crossref.org/works/10.3390/su18021077",
+          "doi": "10.3390/su18021077",
+          "affiliations": [
+            "Department of Statistics, Universitas Padjadjaran, Sumedang 45363, Indonesia"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1391-4138",
+          "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+        }
+      ],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 65,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2817,7 +3084,20 @@
           "citations": 2
         }
       ],
-      "id": 68,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://www.geospatialhealth.net/gh/article/download/1461/1547",
+          "basis": "Publisher PDF: full name and Department of Statistics, Universitas Padjadjaran"
+        }
+      ],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 66,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2876,7 +3156,20 @@
           "citations": null
         }
       ],
-      "id": 69,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://ojs3.unpatti.ac.id/index.php/barekeng/article/download/15748/10708",
+          "basis": "Publisher PDF: full name and Department of Statistics, Universitas Padjadjaran"
+        }
+      ],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 67,
       "lecturer": "I Gede Nyoman Mindra Jaya; Budi Nurani Ruchjana",
       "indexSource": "Scopus · Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2908,7 +3201,23 @@
           "citations": 2
         }
       ],
-      "id": 70,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://api.crossref.org/works/10.1016/j.mex.2025.103487",
+          "doi": "10.1016/j.mex.2025.103487",
+          "affiliations": [],
+          "orcid": null,
+          "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+        }
+      ],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 68,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2940,7 +3249,20 @@
           "citations": 2
         }
       ],
-      "id": 71,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://research.rug.nl/en/publications/spatiotemporal-forecasting-models-with-and-without-a-confounded-c/",
+          "basis": "Institutional publication record: full author name and exact title"
+        }
+      ],
+      "topicId": "methods",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 69,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2972,7 +3294,25 @@
           "citations": 14
         }
       ],
-      "id": 72,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://api.crossref.org/works/10.3390/su17156777",
+          "doi": "10.3390/su17156777",
+          "affiliations": [
+            "Department of Statistics, Universitas Padjadjaran, Sumedang 45363, Indonesia"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1391-4138",
+          "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+        }
+      ],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 70,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3004,7 +3344,25 @@
           "citations": 2
         }
       ],
-      "id": 73,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://api.crossref.org/works/10.3390/math12030451",
+          "doi": "10.3390/math12030451",
+          "affiliations": [
+            "Department of Statistics, Universitas Padjadjaran, Sumedang 45363, Indonesia"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1391-4138",
+          "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+        }
+      ],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 71,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3036,7 +3394,25 @@
           "citations": 0
         }
       ],
-      "id": 74,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://api.crossref.org/works/10.3390/su162411258",
+          "doi": "10.3390/su162411258",
+          "affiliations": [
+            "Department of Statistics, Universitas Padjadjaran, Sumedang 45363, Indonesia"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1391-4138",
+          "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+        }
+      ],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 72,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3068,7 +3444,25 @@
           "citations": 0
         }
       ],
-      "id": 75,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://api.crossref.org/works/10.3390/math12182899",
+          "doi": "10.3390/math12182899",
+          "affiliations": [
+            "Department of Statistics, Universitas Padjadjaran, Jl. Raya Bandung Sumedang km 21 Jatinangor, Sumedang 45363, Indonesia"
+          ],
+          "orcid": "https://orcid.org/0000-0003-1391-4138",
+          "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+        }
+      ],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 73,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3100,7 +3494,25 @@
           "citations": 1
         }
       ],
-      "id": 76,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I. Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://api.crossref.org/works/10.3390/math11173641",
+          "doi": "10.3390/math11173641",
+          "affiliations": [
+            "Center of Epidemiology, Department of Statistics, Universitas Padjadjaran, Jl. Raya Bandung Sumedang km 21 Jatinangor, Sumedang 45363, Indonesia"
+          ],
+          "orcid": null,
+          "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+        }
+      ],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 74,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3132,7 +3544,25 @@
           "citations": 1
         }
       ],
-      "id": 77,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://api.crossref.org/works/10.3390/math11143192",
+          "doi": "10.3390/math11143192",
+          "affiliations": [
+            "Department of Statistics, Faculty of Mathematics and Natural Sciences, Universitas Padjadjaran, Sumedang 45363, Indonesia"
+          ],
+          "orcid": null,
+          "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+        }
+      ],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 75,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3141,7 +3571,7 @@
     {
       "title": "Community Participation and Mosquito Breeding Sites in Cimahi City: Current Conditions and Challenges in Dengue Fever Control",
       "year": 2025,
-      "venue": "Global Medical & Health Communication (GMHC) Vol 13, No 1 (2025)23â28",
+      "venue": "Global Medical & Health Communication (GMHC) Vol 13, No 1 (2025)23–28",
       "lecturers": [
         "I Gede Nyoman Mindra Jaya"
       ],
@@ -3172,7 +3602,20 @@
           "citations": null
         }
       ],
-      "id": 78,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://ejournal.unisba.ac.id/index.php/gmhc/article/download/14138/pdf",
+          "basis": "Publisher PDF: full name and Department of Statistics, Universitas Padjadjaran"
+        }
+      ],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 76,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3214,7 +3657,23 @@
           "citations": null
         }
       ],
-      "id": 79,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://api.crossref.org/works/10.29303/jppipa.v10i10.8270",
+          "doi": "10.29303/jppipa.v10i10.8270",
+          "affiliations": [],
+          "orcid": null,
+          "basis": "Exact article title (including registered translated title) and full author name in publisher-deposited Crossref metadata; ORCID/affiliation retained where available"
+        }
+      ],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 77,
       "lecturer": "I Gede Nyoman Mindra Jaya; Restu Arisanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3246,7 +3705,20 @@
           "citations": null
         }
       ],
-      "id": 80,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://download.garuda.kemdikbud.go.id/article.php?article=3444165&title=Calculation+of+the+Risk+Index+for+Diarrhea+ISPA+and+Pneumonia+in+Toddlers+in+the+City+of+Bandung+Using+Geographically+Weighted+Principal+Component+Analysis&val=29994",
+          "basis": "Published PDF: full name and Universitas Padjadjaran"
+        }
+      ],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 78,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3278,7 +3750,20 @@
           "citations": null
         }
       ],
-      "id": 81,
+      "identityVerifications": [
+        {
+          "facultyId": "6026564",
+          "authorName": "I Gede Nyoman Mindra Jaya",
+          "checkedAt": "2026-10-04",
+          "status": "verified",
+          "sourceUrl": "https://ejournal.uin-malang.ac.id/index.php/Math/article/download/17423/pdf",
+          "basis": "Publisher PDF: full author name"
+        }
+      ],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 79,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3337,7 +3822,11 @@
           "citations": 1
         }
       ],
-      "id": 82,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 80,
       "lecturer": "Irlandia Ginanjar; Yuyun Hidayat",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3378,7 +3867,11 @@
           "citations": 0
         }
       ],
-      "id": 83,
+      "identityVerifications": [],
+      "topicId": "methods",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 81,
       "lecturer": "Irlandia Ginanjar",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3410,7 +3903,11 @@
           "citations": 0
         }
       ],
-      "id": 84,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 82,
       "lecturer": "Irlandia Ginanjar",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3442,7 +3939,11 @@
           "citations": 4
         }
       ],
-      "id": 85,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 83,
       "lecturer": "Irlandia Ginanjar",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3474,7 +3975,11 @@
           "citations": 1
         }
       ],
-      "id": 86,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 84,
       "lecturer": "Irlandia Ginanjar",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3516,7 +4021,11 @@
           "citations": null
         }
       ],
-      "id": 87,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 85,
       "lecturer": "Irlandia Ginanjar; Lienda Noviyanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3548,7 +4057,11 @@
           "citations": null
         }
       ],
-      "id": 88,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 86,
       "lecturer": "Irlandia Ginanjar",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3580,7 +4093,11 @@
           "citations": 0
         }
       ],
-      "id": 89,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 87,
       "lecturer": "Lienda Noviyanti",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3622,7 +4139,11 @@
           "citations": 0
         }
       ],
-      "id": 90,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 88,
       "lecturer": "Lienda Noviyanti; Hasna Afifah Rusyda",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3654,7 +4175,11 @@
           "citations": null
         }
       ],
-      "id": 91,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 89,
       "lecturer": "Lienda Noviyanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3686,7 +4211,11 @@
           "citations": null
         }
       ],
-      "id": 92,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 90,
       "lecturer": "Lienda Noviyanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3726,7 +4255,11 @@
           "citations": null
         }
       ],
-      "id": 93,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 91,
       "lecturer": "Lienda Noviyanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3768,7 +4301,11 @@
           "citations": 0
         }
       ],
-      "id": 94,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 92,
       "lecturer": "Restu Arisanti; Sri Winarni",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3800,7 +4337,11 @@
           "citations": 3
         }
       ],
-      "id": 95,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 93,
       "lecturer": "Restu Arisanti",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3842,7 +4383,11 @@
           "citations": 1
         }
       ],
-      "id": 96,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 94,
       "lecturer": "Restu Arisanti; Sri Winarni",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3874,7 +4419,11 @@
           "citations": 0
         }
       ],
-      "id": 97,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 95,
       "lecturer": "Restu Arisanti",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3925,7 +4474,11 @@
           "citations": 0
         }
       ],
-      "id": 98,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 96,
       "lecturer": "Restu Arisanti; Sri Winarni",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3976,7 +4529,11 @@
           "citations": 0
         }
       ],
-      "id": 99,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 97,
       "lecturer": "Restu Arisanti; Sri Winarni",
       "indexSource": "Scopus · Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4008,7 +4565,11 @@
           "citations": 0
         }
       ],
-      "id": 100,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 98,
       "lecturer": "Restu Arisanti",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4051,7 +4612,11 @@
           "citations": 0
         }
       ],
-      "id": 101,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 99,
       "lecturer": "Restu Arisanti; Sri Winarni",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4094,7 +4659,11 @@
           "citations": 0
         }
       ],
-      "id": 102,
+      "identityVerifications": [],
+      "topicId": "technology",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 100,
       "lecturer": "Restu Arisanti; Sri Winarni",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4126,7 +4695,11 @@
           "citations": null
         }
       ],
-      "id": 103,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 101,
       "lecturer": "Restu Arisanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4158,7 +4731,11 @@
           "citations": null
         }
       ],
-      "id": 104,
+      "identityVerifications": [],
+      "topicId": "methods",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 102,
       "lecturer": "Restu Arisanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4198,7 +4775,11 @@
           "citations": null
         }
       ],
-      "id": 105,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 103,
       "lecturer": "Restu Arisanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4230,7 +4811,11 @@
           "citations": 0
         }
       ],
-      "id": 106,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 104,
       "lecturer": "Sri Winarni",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4272,7 +4857,11 @@
           "citations": 0
         }
       ],
-      "id": 107,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 105,
       "lecturer": "Sri Winarni; Yuyun Hidayat",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4304,7 +4893,11 @@
           "citations": 1
         }
       ],
-      "id": 108,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 106,
       "lecturer": "Sri Winarni",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4336,7 +4929,11 @@
           "citations": 0
         }
       ],
-      "id": 109,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 107,
       "lecturer": "Sri Winarni",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4368,7 +4965,11 @@
           "citations": 0
         }
       ],
-      "id": 110,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 108,
       "lecturer": "Sri Winarni",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4400,7 +5001,11 @@
           "citations": 0
         }
       ],
-      "id": 111,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 109,
       "lecturer": "Sri Winarni",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4432,7 +5037,11 @@
           "citations": 0
         }
       ],
-      "id": 112,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 110,
       "lecturer": "Sri Winarni",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4464,7 +5073,11 @@
           "citations": 0
         }
       ],
-      "id": 113,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 111,
       "lecturer": "Sri Winarni",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4496,7 +5109,11 @@
           "citations": null
         }
       ],
-      "id": 114,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 112,
       "lecturer": "Sri Winarni",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4528,7 +5145,11 @@
           "citations": 1
         }
       ],
-      "id": 115,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 113,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4560,7 +5181,11 @@
           "citations": 0
         }
       ],
-      "id": 116,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 114,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4592,7 +5217,11 @@
           "citations": 0
         }
       ],
-      "id": 117,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 115,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4624,7 +5253,11 @@
           "citations": 0
         }
       ],
-      "id": 118,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 116,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4656,7 +5289,11 @@
           "citations": 3
         }
       ],
-      "id": 119,
+      "identityVerifications": [],
+      "topicId": "technology",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 117,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4688,7 +5325,11 @@
           "citations": 7
         }
       ],
-      "id": 120,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 118,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4720,7 +5361,11 @@
           "citations": null
         }
       ],
-      "id": 121,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 119,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4752,7 +5397,11 @@
           "citations": null
         }
       ],
-      "id": 122,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 120,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4784,7 +5433,11 @@
           "citations": null
         }
       ],
-      "id": 123,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 121,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4816,7 +5469,11 @@
           "citations": null
         }
       ],
-      "id": 124,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 122,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4848,7 +5505,11 @@
           "citations": 1
         }
       ],
-      "id": 125,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 123,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4880,7 +5541,11 @@
           "citations": 0
         }
       ],
-      "id": 126,
+      "identityVerifications": [],
+      "topicId": "food",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 124,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4912,7 +5577,11 @@
           "citations": 1
         }
       ],
-      "id": 127,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 125,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4944,7 +5613,11 @@
           "citations": 4
         }
       ],
-      "id": 128,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 126,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4976,7 +5649,11 @@
           "citations": 0
         }
       ],
-      "id": 129,
+      "identityVerifications": [],
+      "topicId": "food",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 127,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5017,7 +5694,11 @@
           "citations": 2
         }
       ],
-      "id": 130,
+      "identityVerifications": [],
+      "topicId": "food",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 128,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5058,14 +5739,18 @@
           "citations": 12
         }
       ],
-      "id": 131,
+      "identityVerifications": [],
+      "topicId": "food",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 129,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
       "historicalOnly": false
     },
     {
-      "title": "Exploring the Role of Urban Agriculture in Indonesiaâs Socio-Economic and Environmental Landscape: A Systematic Literature Review",
+      "title": "Exploring the Role of Urban Agriculture in Indonesia’s Socio-Economic and Environmental Landscape: A Systematic Literature Review",
       "year": 2025,
       "venue": "Jurnal Ilmu Lingkungan Vol 23, No 1 (2025): January 2025175-188",
       "lecturers": [
@@ -5090,7 +5775,11 @@
           "citations": null
         }
       ],
-      "id": 132,
+      "identityVerifications": [],
+      "topicId": "food",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 130,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5122,7 +5811,11 @@
           "citations": null
         }
       ],
-      "id": 133,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 131,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5154,7 +5847,11 @@
           "citations": null
         }
       ],
-      "id": 134,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 132,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5186,7 +5883,11 @@
           "citations": null
         }
       ],
-      "id": 135,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 133,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5218,7 +5919,11 @@
           "citations": null
         }
       ],
-      "id": 136,
+      "identityVerifications": [],
+      "topicId": "food",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 134,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5250,7 +5955,11 @@
           "citations": null
         }
       ],
-      "id": 137,
+      "identityVerifications": [],
+      "topicId": "methods",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 135,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5282,7 +5991,11 @@
           "citations": null
         }
       ],
-      "id": 138,
+      "identityVerifications": [],
+      "topicId": "mobility",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 136,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5324,7 +6037,11 @@
           "citations": 0
         }
       ],
-      "id": 139,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 137,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5366,7 +6083,11 @@
           "citations": 0
         }
       ],
-      "id": 140,
+      "identityVerifications": [],
+      "topicId": "mobility",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 138,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5407,7 +6128,11 @@
           "citations": null
         }
       ],
-      "id": 141,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 139,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Scopus · Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5439,7 +6164,11 @@
           "citations": 0
         }
       ],
-      "id": 142,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 140,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5481,7 +6210,11 @@
           "citations": 1
         }
       ],
-      "id": 143,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 141,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5523,7 +6256,11 @@
           "citations": 0
         }
       ],
-      "id": 144,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 142,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5565,7 +6302,11 @@
           "citations": 1
         }
       ],
-      "id": 145,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 143,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5597,7 +6338,11 @@
           "citations": 2
         }
       ],
-      "id": 146,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 144,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5629,7 +6374,11 @@
           "citations": 1
         }
       ],
-      "id": 147,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 145,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5671,7 +6420,11 @@
           "citations": 3
         }
       ],
-      "id": 148,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 146,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5703,7 +6456,11 @@
           "citations": 0
         }
       ],
-      "id": 149,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 147,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5745,7 +6502,11 @@
           "citations": 3
         }
       ],
-      "id": 150,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 148,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5787,7 +6548,11 @@
           "citations": 0
         }
       ],
-      "id": 151,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 149,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5829,7 +6594,11 @@
           "citations": null
         }
       ],
-      "id": 152,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 150,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5869,7 +6638,11 @@
           "citations": null
         }
       ],
-      "id": 153,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 151,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5909,7 +6682,11 @@
           "citations": null
         }
       ],
-      "id": 154,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 152,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5941,7 +6718,11 @@
           "citations": null
         }
       ],
-      "id": 155,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 153,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5973,7 +6754,11 @@
           "citations": null
         }
       ],
-      "id": 156,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 154,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6005,7 +6790,11 @@
           "citations": null
         }
       ],
-      "id": 157,
+      "identityVerifications": [],
+      "topicId": "methods",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 155,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6037,7 +6826,11 @@
           "citations": 0
         }
       ],
-      "id": 158,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 156,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6069,7 +6862,11 @@
           "citations": 3
         }
       ],
-      "id": 159,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 157,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6101,7 +6898,11 @@
           "citations": 3
         }
       ],
-      "id": 160,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 158,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6142,7 +6943,11 @@
           "citations": 1
         }
       ],
-      "id": 161,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 159,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -6174,7 +6979,11 @@
           "citations": 1
         }
       ],
-      "id": 162,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 160,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -6206,7 +7015,11 @@
           "citations": 0
         }
       ],
-      "id": 163,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 161,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -6238,7 +7051,11 @@
           "citations": 4
         }
       ],
-      "id": 164,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 162,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -6270,7 +7087,11 @@
           "citations": 0
         }
       ],
-      "id": 165,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 163,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -6302,7 +7123,11 @@
           "citations": 4
         }
       ],
-      "id": 166,
+      "identityVerifications": [],
+      "topicId": "economy",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 164,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -6334,7 +7159,11 @@
           "citations": null
         }
       ],
-      "id": 167,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 165,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6366,7 +7195,11 @@
           "citations": null
         }
       ],
-      "id": 168,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 166,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6398,7 +7231,11 @@
           "citations": null
         }
       ],
-      "id": 169,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 167,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6430,7 +7267,11 @@
           "citations": null
         }
       ],
-      "id": 170,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 168,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6462,7 +7303,11 @@
           "citations": null
         }
       ],
-      "id": 171,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 169,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6494,7 +7339,11 @@
           "citations": null
         }
       ],
-      "id": 172,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 170,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6526,7 +7375,11 @@
           "citations": null
         }
       ],
-      "id": 173,
+      "identityVerifications": [],
+      "topicId": "technology",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 171,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6558,7 +7411,11 @@
           "citations": null
         }
       ],
-      "id": 174,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 172,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6590,7 +7447,11 @@
           "citations": null
         }
       ],
-      "id": 175,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 173,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6622,7 +7483,11 @@
           "citations": null
         }
       ],
-      "id": 176,
+      "identityVerifications": [],
+      "topicId": "technology",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 174,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6654,7 +7519,11 @@
           "citations": 9
         }
       ],
-      "id": 177,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 175,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6686,7 +7555,11 @@
           "citations": 6
         }
       ],
-      "id": 178,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 176,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6718,7 +7591,11 @@
           "citations": 2
         }
       ],
-      "id": 179,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 177,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6750,7 +7627,11 @@
           "citations": 1
         }
       ],
-      "id": 180,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 178,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6782,7 +7663,11 @@
           "citations": 4
         }
       ],
-      "id": 181,
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 179,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6814,7 +7699,11 @@
           "citations": 16
         }
       ],
-      "id": 182,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 180,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -6846,7 +7735,11 @@
           "citations": null
         }
       ],
-      "id": 183,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 181,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6878,7 +7771,11 @@
           "citations": null
         }
       ],
-      "id": 184,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 182,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6910,7 +7807,11 @@
           "citations": null
         }
       ],
-      "id": 185,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 183,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6942,7 +7843,11 @@
           "citations": null
         }
       ],
-      "id": 186,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 184,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6974,7 +7879,11 @@
           "citations": null
         }
       ],
-      "id": 187,
+      "identityVerifications": [],
+      "topicId": "social",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 185,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7006,7 +7915,11 @@
           "citations": null
         }
       ],
-      "id": 188,
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "topicReviewStatus": "title-reviewed",
+      "id": 186,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7265,7 +8178,7 @@
       "scopusId": "57211960559",
       "googleScholarId": "Q0JFqdUAAAAJ",
       "wosId": "Tidak tersedia di sumber publik",
-      "publicationsCaptured": 18,
+      "publicationsCaptured": 17,
       "sintaScore3Yr": 423,
       "sintaScoreOverall": 629,
       "hIndexScopus": 3,
@@ -7275,7 +8188,7 @@
       ],
       "byYear": {
         "2023": 0,
-        "2024": 10,
+        "2024": 9,
         "2025": 5,
         "2026": 3
       },
@@ -7346,7 +8259,7 @@
       "scopusId": "57193953012",
       "googleScholarId": "okt0MdsAAAAJ",
       "wosId": "Tidak tersedia di sumber publik",
-      "publicationsCaptured": 20,
+      "publicationsCaptured": 19,
       "sintaScore3Yr": 671,
       "sintaScoreOverall": 1534,
       "hIndexScopus": 6,
@@ -7359,7 +8272,7 @@
         "2023": 0,
         "2024": 1,
         "2025": 7,
-        "2026": 12
+        "2026": 11
       },
       "auditStatus": "Parsial: terambil dari halaman publik SINTA. Untuk semua publikasi penuh perlu SINTA login/Insight/API atau export dari masing-masing akun dosen.",
       "sourceChecks": [
@@ -7833,7 +8746,7 @@
       "scopusId": "57218831551",
       "googleScholarId": "572z_AIAAAAJ",
       "wosId": "Tidak tersedia di sumber publik",
-      "publicationsCaptured": 21,
+      "publicationsCaptured": 20,
       "sintaScore3Yr": 504,
       "sintaScoreOverall": 755,
       "hIndexScopus": 4,
@@ -7844,7 +8757,7 @@
       ],
       "byYear": {
         "2023": 5,
-        "2024": 6,
+        "2024": 5,
         "2025": 6,
         "2026": 4
       },
@@ -8311,6 +9224,65 @@
       }
     }
   ],
+  "topicClassification": {
+    "method": "Satu topik utama per publikasi, ditinjau dari judul. Bukan klasifikasi resmi SINTA atau hasil telaah abstrak; bidang lintas topik ditempatkan menurut fokus aplikasi. Judul baru tanpa pemetaan ditandai Perlu tinjauan.",
+    "categories": [
+      {
+        "id": "health",
+        "label": "Kesehatan & biomedis",
+        "color": "#087f8c",
+        "description": "Penyakit, epidemiologi, gizi, kesehatan mental, fasilitas kesehatan, dan analisis biomedis."
+      },
+      {
+        "id": "environment",
+        "label": "Lingkungan, iklim & energi",
+        "color": "#43934e",
+        "description": "Curah hujan, kualitas udara dan air, perubahan iklim, energi, serta bahaya lingkungan."
+      },
+      {
+        "id": "economy",
+        "label": "Ekonomi, keuangan & aktuaria",
+        "color": "#be8324",
+        "description": "Harga, pertumbuhan ekonomi, perbankan, portofolio, asuransi, dan pembiayaan risiko."
+      },
+      {
+        "id": "social",
+        "label": "Sosial, pendidikan & budaya",
+        "color": "#8258a5",
+        "description": "Kemiskinan, kesejahteraan, pendidikan, kesenjangan digital, masyarakat, dan warisan budaya."
+      },
+      {
+        "id": "food",
+        "label": "Pertanian & ketahanan pangan",
+        "color": "#b8543e",
+        "description": "Produksi dan harga pangan, pertanian perkotaan, serta ketahanan pangan rumah tangga."
+      },
+      {
+        "id": "technology",
+        "label": "Teknologi informasi & AI",
+        "color": "#347bb8",
+        "description": "Pengolahan citra, bahasa, chatbot, perangkat lunak, dan keamanan informasi tanpa fokus aplikasi lain yang lebih spesifik pada judul."
+      },
+      {
+        "id": "methods",
+        "label": "Metodologi statistika",
+        "color": "#606879",
+        "description": "Pengembangan metode statistik atau komputasi yang judulnya tidak menyebut bidang aplikasi khusus."
+      },
+      {
+        "id": "mobility",
+        "label": "Transportasi & pariwisata",
+        "color": "#bf547f",
+        "description": "Mobilitas penumpang, transportasi, destinasi, dan layanan pariwisata."
+      },
+      {
+        "id": "review",
+        "label": "Perlu tinjauan",
+        "color": "#939393",
+        "description": "Judul yang belum dapat ditempatkan pada topik utama."
+      }
+    ]
+  },
   "sourceAudit": [
     {
       "facultyId": "6089789",
@@ -9017,6 +9989,7 @@
       "via": "SINTA"
     }
   ],
+  "withheldAttributions": [],
   "notes": [
     "Public profiles expose a limited selection; this is not an exhaustive bibliography.",
     "Source totals overlap; one article can appear in multiple indexes.",

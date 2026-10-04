@@ -33,3 +33,11 @@ Respons mentah tidak dipublikasikan sebagai halaman website. Jejak sumber dan ha
 
 
 Koreksi DTPS, 4 Oktober 2026: atas arahan pengelola, tahun 2022 dan Aceng Komarudin Mutaqin (bukan DTPS) dikeluarkan dari katalog aktif. Build kini memakai 16 dosen, periode 2023–2026, serta 64 halaman sumber. Publikasi bersama tetap dapat muncul hanya jika tercatat pada sumber dosen DTPS yang dipertahankan. Angka pada uraian sebelumnya merupakan riwayat perubahan, bukan angka katalog saat ini.
+
+
+Audit identitas Mindra Jaya: seluruh 19 atribusi aktif diperiksa terhadap nama lengkap pada metadata Crossref, naskah penerbit, atau rekaman institusi. Bukti dicatat dalam `mindra-author-verification.json` dan ditampilkan pada Jejak sumber. Tidak ditemukan bukti salah identitas pada 19 entri aktif ini. Build memerlukan judul dan URL rekaman yang sudah ditinjau; atribusi baru tanpa bukti masuk `withheldAttributions` dan tidak dihitung untuk Mindra. Ini tidak menyatakan bahwa semua penulis bernama Jaya adalah Mindra, dan bukan audit identitas seluruh dosen.
+
+
+Ringkasan topik dan pie chart: `topic-classification.json` memuat tinjauan judul untuk delapan topik utama. Kategori merupakan interpretasi editorial judul, bukan klasifikasi SINTA dan bukan analisis abstrak. Satu publikasi masuk satu topik, dengan bidang aplikasi didahulukan dari metodenya. Judul baru tanpa pemetaan masuk Perlu tinjauan. Grafik menghitung publikasi unik setelah filter dosen/tahun/indeks/pencarian; memilih legenda menyaring daftar artikel tanpa mengubah penyebut pie chart. Persentase = jumlah topik / seluruh publikasi sesuai filter × 100, ditampilkan satu desimal. Grafik kosong tidak menggambar pie. Profil dosen menyembunyikan chart karena metrik profil berbeda cakupan.
+
+Dua duplikat akibat mojibake pada apostrof (judul kesejahteraan dan produksi minyak) digabung setelah perbaikan encoding. Total katalog menjadi 186. Varian judul berbeda substantif, misalnya PM2.5 versus PM5.5 pada dua sumber, tidak otomatis digabung tanpa bukti identitas rekaman yang cukup.

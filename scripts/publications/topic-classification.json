@@ -1,0 +1,1372 @@
+{
+  "version": "2026-10-04",
+  "method": "Satu topik utama per publikasi, ditinjau dari judul. Bukan klasifikasi resmi SINTA atau hasil telaah abstrak; bidang lintas topik ditempatkan menurut fokus aplikasi. Judul baru tanpa pemetaan ditandai Perlu tinjauan.",
+  "categories": [
+    {
+      "id": "health",
+      "label": "Kesehatan & biomedis",
+      "color": "#087f8c",
+      "description": "Penyakit, epidemiologi, gizi, kesehatan mental, fasilitas kesehatan, dan analisis biomedis."
+    },
+    {
+      "id": "environment",
+      "label": "Lingkungan, iklim & energi",
+      "color": "#43934e",
+      "description": "Curah hujan, kualitas udara dan air, perubahan iklim, energi, serta bahaya lingkungan."
+    },
+    {
+      "id": "economy",
+      "label": "Ekonomi, keuangan & aktuaria",
+      "color": "#be8324",
+      "description": "Harga, pertumbuhan ekonomi, perbankan, portofolio, asuransi, dan pembiayaan risiko."
+    },
+    {
+      "id": "social",
+      "label": "Sosial, pendidikan & budaya",
+      "color": "#8258a5",
+      "description": "Kemiskinan, kesejahteraan, pendidikan, kesenjangan digital, masyarakat, dan warisan budaya."
+    },
+    {
+      "id": "food",
+      "label": "Pertanian & ketahanan pangan",
+      "color": "#b8543e",
+      "description": "Produksi dan harga pangan, pertanian perkotaan, serta ketahanan pangan rumah tangga."
+    },
+    {
+      "id": "technology",
+      "label": "Teknologi informasi & AI",
+      "color": "#347bb8",
+      "description": "Pengolahan citra, bahasa, chatbot, perangkat lunak, dan keamanan informasi tanpa fokus aplikasi lain yang lebih spesifik pada judul."
+    },
+    {
+      "id": "methods",
+      "label": "Metodologi statistika",
+      "color": "#606879",
+      "description": "Pengembangan metode statistik atau komputasi yang judulnya tidak menyebut bidang aplikasi khusus."
+    },
+    {
+      "id": "mobility",
+      "label": "Transportasi & pariwisata",
+      "color": "#bf547f",
+      "description": "Mobilitas penumpang, transportasi, destinasi, dan layanan pariwisata."
+    }
+  ],
+  "entries": [
+    {
+      "title": "Why Do Stunting Interventions Remain Unequal in Urban Areas? A Multivariate Analysis of Subdistrict Risk Profiles in Cirebon City, Indonesia",
+      "year": 2026,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Quantifying Uncertainty of Insurance Claims Based on Expert Judgments",
+      "year": 2025,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "ATTENTIVE ITEM2VEC MACHINE LEARNING METHOD FOR RECOMMENDING TOURIST DESTINATIONS IN INDONESIA",
+      "year": 2025,
+      "topicId": "mobility",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "MODEL-BASED CLUSTERING APPROACH FOR CLUSTERING OF HEART DISEASE PATIENTS BASED ON RISK FACTORS",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Rainfall Forecasting in Central Lombok Using an Enhanced Facebook Prophet Model with Multiplicative Seasonality",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Lunar Calendar Usage to Improve Forecasting Accuracy Rainfall via Machine Learning Methods",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Forecasting the incidence of acute lymphoid leukaemia in males and females in the Saudi population from 2020 to 2029: application of ARIMA models and public health implications",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "STraVEns: Sentence Transformer Voting Ensemble for Intent Classification-Based Chatbot Model",
+      "year": 2024,
+      "topicId": "technology",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Machine Learning Methods for Forecasting Intermittent Tin Ore Production",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Improving the Forecasting Accuracy Based on the Lunar Calendar in Modeling Rainfall Levels Using the Bi-LSTM Method through the Grid Search Approach",
+      "year": 2023,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "The Analysis of Factors Influencing Incidence Rates of Toddler Pneumonia in Purwakarta Districts Using Panel Data Spatial Regression",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Modelling Primary Energy by Long Memory Time Series",
+      "year": 2023,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Sentiment Analysis of X Users Regarding Bandung Regency Using Support Vector Machine",
+      "year": 2026,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "HYBRID MOBILENETV3-LSTM MODEL FOR DETECTING PHASIC AND TONIC RECEPTOR RESPONSES IN FACIAL IMAGES",
+      "year": 2026,
+      "topicId": "technology",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "LSTM AND GRU IN RICE PREDICTION FOR FOOD SECURITY IN INDONESIA",
+      "year": 2026,
+      "topicId": "food",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "TOPIC-BASED SENTIMENT ANALYSIS OF JAMSOSTEK MOBILE APPLICATION REVIEWS USING THE BERTopic METHOD",
+      "year": 2026,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Enhancing symbolic image classification through Gaussian copulas and optimized distinguishing points",
+      "year": 2026,
+      "topicId": "technology",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "MAPPING DISTRICTS IN WEST JAVA BY UNDER-FIVE PNEUMONIA INDICATORS: AN AGGLOMERATIVE HIERARCHICAL CLUSTERING STUDY (OPEN DATA JABAR 2023)",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "EMOTION CLASSIFICATION IN SOCIAL MEDIA POSTS RELATED TO TELECOMMUNICATION SERVICES USING BIDIRECTIONAL LSTM",
+      "year": 2025,
+      "topicId": "technology",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Real-time Emotion Recognition Using the MobileNetV2 Architecture",
+      "year": 2025,
+      "topicId": "technology",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "CHARACTERIZATION METHOD FOR MORE THAN THREE DIMENSIONS BASED ON DEPENDENCE AND CORRELATION USING HYBRID MULTIPLE CORRESPONDENCE ANALYSIS",
+      "year": 2025,
+      "topicId": "methods",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Improving Accuracy with Hyperparameter Tuning for Sarcasm Detection in Twitter Comments using BiLSTM",
+      "year": 2025,
+      "topicId": "technology",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Analisis Regresi Binomial Negatif terhadap Faktor-Faktor yang Memengaruhi Kasus Tuberkulosis di Jawa Barat, Indonesia",
+      "year": 2026,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "NLP-Based Intent Classification Model for Academic Curriculum Chatbots in Universities Study Programs",
+      "year": 2025,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Adding MSNBURR-IIa Distribution to MultiBUGS",
+      "year": 2025,
+      "topicId": "methods",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Implementation of Spatial Autoregressive with Autoregressive Disturbance (SARAR) using GMM to Identify Factors Caused Poverty in West Java",
+      "year": 2024,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Parents' Understanding of the Safety and Comfort in Using Gadgets for Children",
+      "year": 2023,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "MRI-Based Brain Tumor Classification Using Inception Resnet V2",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Calibration of Ensemble Forecasts for Extreme Rainfall Using Bayesian Model Averaging: A Comparative Review of Gaussian and Gamma Distributions",
+      "year": 2026,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Evaluating the Impact of the Government Floor Price Policy (HPP) on Farm-Gate-Level Harvested Dry Paddy (GKP) Price Trends Through Machine Learning-Based Forecasting",
+      "year": 2026,
+      "topicId": "food",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Time Series Modeling of Dengue Outbreaks Through Singular Spectrum Analysis Incorporating Lunar and Solar Calendars for Improved Forecasting",
+      "year": 2026,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Mapping and Forecasting District-Level Stunting Dynamics in Indonesia Toward SDG Target 2.2: A Hybrid Bayesian-Machine Learning Spatiotemporal Analysis",
+      "year": 2026,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "QUASI LIKELIHOOD ON LINEAR MIXED EFFECT OF BINARY RESPONSE IN LONGITUDINAL DATA",
+      "year": 2025,
+      "topicId": "methods",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Forecasting Rice Crisis Dynamics in Southeast Asia Using a Spatio-Temporal Autoregressive Model Based on the Restlessness Indicator",
+      "year": 2025,
+      "topicId": "food",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Spatiotemporal Cokriging for Modeling and Prediction of PM2.5 Concentrations in Jakarta",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Space-Time Varying Coefficient Model on Longitudinal Data of the Dengue Fever in Bandung City",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "A Bayesian latent gaussian model with time-varying spatial weight matrices: Application to modeling the impact of multi-pollutant exposure on tuberculosis",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Enhancing Stock Price Forecasting with CNN-BiGRU-Attention: A Case Study on INDY",
+      "year": 2025,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Stacking-Correspondence Analysis for Fuzzy Data: Computational Framework for Analyzing Complex Qualitative Survey Data",
+      "year": 2026,
+      "topicId": "methods",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Improving the Accuracy of Room Occupancy Forecasts with Hybrid Models",
+      "year": 2025,
+      "topicId": "mobility",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "PEMODELAN PRODUK DOMESTIK BRUTO (PDB) DENGAN PENDEKATAN VECTOR ERROR CORRECTION MODEL (VECM)",
+      "year": 2023,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "DEPENDENCY-BASED CLUSTERING USING CORRESPONDENCE AND WARD'S HIERARCHICAL ANALYSIS: A CASE STUDY ON CLEAN WATER AND SANITATION INDICATORS IN WEST JAVA'S CITIES AND REGENCIES",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "ASSESSING THE PERFORMANCE OF K-MEANS AND DBSCAN CLUSTERING METHODS IN TUBERCULOSIS MAPPING",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Fine-Tuning of Predictive Models CNN-LSTM and CONV-LSTM for Nowcasting PM2.5Level",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "SPATIAL CLUSTERS AND DETERMINANTS OF THE HIGH INCIDENCE OF DIARRHEA IN CHILDREN",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "GROUPING REGENCIES/CITIES IN WEST JAVA PROVINCE BASED ON PEOPLE’S WELFARE INDICATORS USING BIPLOT AND CLUSTERING",
+      "year": 2024,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Storytelling dan Permainan Edukatif dalam Menumbuhkan Kepedulian Lingkungan di SDN Babakancianjur",
+      "year": 2026,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "OPTIMALISASI STRATEGI PENGELOMPOKKAN POTENSI PADI SEBAGAI SOLUSI EFEKTIF KELANGKAAN BERAS DI JAWA BARAT",
+      "year": 2024,
+      "topicId": "food",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Pengaruh Gender pada Pengembangan Diri Mahasiswa dalam Konteks Perguruan Tinggi Menggunakan Statistika Nonparametrik",
+      "year": 2024,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Pemodelan Faktor-Faktor yang Memengaruhi Kejadian HIV/AIDS di Provinsi Jawa Barat",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "PENDEKATAN NONPARAMETRIK UNTUK MENGANALISIS KESEHATAN MENTAL MAHASISWA DALAM KONTEKS PROSES PEMBELAJARAN",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "ANALISIS FAKTOR PENYEBAB PENYAKIT TBC DI JAWA BARAT MENGGUNAKAN REGRESI BINOMIAL NEGATIF",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "GROUPING REGENCIES/CITIES IN WEST JAVA PROVINCE BASED ON PEOPLEâS WELFARE INDICATORS USING BIPLOT AND CLUSTERING",
+      "year": 2024,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "THE IMPACT OF THE PRESIDENTIAL ELECTION ON IDX COMPOSITE PREDICTIONS USING LONG SHORT TERM MEMORY",
+      "year": 2024,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Stochastic Temperature Modeling Using the Ornstein-Uhlenbeck Process for Fractional Dimensional Weather Derivative Pricing in Climate Risk Management",
+      "year": 2026,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "FORECASTING OIL PRODUCTION USING SSA AND TREND REGRESSION IN THE WORLD’S TOP THREE OIL PRODUCERS",
+      "year": 2026,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Calendar-and Weather-Sensitive Short-Term Forecasting of Urban Bus Ridership: Evidence from the Transjakarta Bus Rapid Transit System",
+      "year": 2026,
+      "topicId": "mobility",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "IMPROVING EXCHANGE RATE PREDICTION ACCURACY WITH 1D-CNN-BiGRU AND WALK FORWARD ANALYSIS",
+      "year": 2025,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Forecasting Arrival Delay at HartsfieldâJackson Atlanta International Airport âUsing Autoregressive Fractionally Integrated Moving Average (ARFIMA)",
+      "year": 2026,
+      "topicId": "mobility",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Peramalan Kedatangan Wisatawan Macanegara ke Provinsi Bali âMenggunakan Metode Singular Spectrum Analysis (SSA)â",
+      "year": 2026,
+      "topicId": "mobility",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Mathematical Modeling and Regime Dynamics of Ammonium Chloride Imports in Indonesia Using Threshold Vector Autoregressive Integrated (TVARI) Approach",
+      "year": 2026,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "FORECASTING OIL PRODUCTION USING SSA AND TREND REGRESSION IN THE WORLDâS TOP THREE OIL PRODUCERS",
+      "year": 2026,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "ENHANCING ãPMã_(2.5) PREDICTION IN KEMAYORAN DISTRICT, DKI JAKARTA USING DEEP BILSTM METHOD",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Forecasting Ferry Passenger Traffic in New York City Using the Seasonal Arima (SARIMA) Model",
+      "year": 2025,
+      "topicId": "mobility",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Enhancing Rainfall Forecasting Performance in Bandung City Using Bi-LSTM with Grid Search Optimization on Gregorian and Lunar Calendar Data",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Prediksi Harga Saham Syariah menggunakan Bidirectional Long Short Term Memory (BiLSTM) dan Algoritma Grid Search",
+      "year": 2024,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Regional Patterns of Digital Skills Mismatch in Indonesia’s Digital Economy: Insights from the Indonesia Digital Society Index",
+      "year": 2026,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Bayesian modelling of dengue incidence with climatic drivers: comparing fixed-effects, nonlinear and dynamic approaches",
+      "year": 2026,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "SPATIAL INTERPOLATION OF RAINFALL INTENSITY IN JAVA ISLAND USING ORDINARY KRIGING",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Bayesian spatiotemporal stochastic partial differential equation for high-resolution earthquake magnitude mapping: Application to Sumatra Island, Indonesia",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Spatiotemporal forecasting models with and without a confounded covariate",
+      "year": 2025,
+      "topicId": "methods",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Spatiotemporal Dengue Forecasting for Sustainable Public Health in Bandung, Indonesia: A Comparative Study of Classical, Machine Learning, and Bayesian Models",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Sensitivity Analysis on Hyperprior Distribution of the Variance Components of Hierarchical Bayesian Spatiotemporal Disease Mapping",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Framework for Monitoring the Spatiotemporal Distribution and Clustering of the Digital Society Index of Indonesia",
+      "year": 2024,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "High-Resolution Spatiotemporal Forecasting with Missing Observations Including an Application to Daily Particulate Matter 2.5 Concentrations in Jakarta Province, Indonesia",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Multivariate Bayesian Semiparametric Regression Model for Forecasting and Mapping HIV and TB Risks in West Java, Indonesia",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Modeling the Cigarette Consumption of Poor Households Using Penalized Zero-Inflated Negative Binomial Regression with Minimax Concave Penalty",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Community Participation and Mosquito Breeding Sites in Cimahi City: Current Conditions and Challenges in Dengue Fever Control",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "MODEL KOEFISIEN REGRESI VARIASI SPASIAL UNTUK PREDIKSI HOTSPOT STUNTING DI INDONESIA",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Calculation of the Risk Index for Diarrhea, ISPA, and Pneumonia in Toddlers in the City of Bandung Using Geographically Weighted Principal Component Analysis",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Spatial Analysis of Dengue Disease in Jakarta Province",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Modeling Air Quality Determinants in Indonesia Using Generalized Linear Models for Sustainable Development",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "RECATEGORIZATION METHOD BASED ON DEPENDENCE BETWEEN QUALITATIVE VARIABLES USING JOINT CORRESPONDENCE ANALYSIS WITH ELLIPTICAL CONFIDENCE REGIONS",
+      "year": 2024,
+      "topicId": "methods",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Unraveling educational networks: Data-driven exploration through multivariate regression, geographical clustering, and multidimensional scaling",
+      "year": 2024,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "A Hybrid Singly Ordered Correspondence with Correlation Approach to Analyzing the Relationship between Age Groups and Happiness Level in Indonesia",
+      "year": 2023,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Application of an Empirical Best Linear Unbiased Prediction Fay-Herriot (EBLUP-FH) Multivariate Method with Cluster Information to Estimate Average Household Expenditure",
+      "year": 2023,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Predicting future inflation in Indonesia using Dynamic Model Averaging (DMA)",
+      "year": 2024,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Pemodelan Kasus Gizi Buruk Balita di Indonesia Menggunakan Panel Quantile Regression Model",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "NET PREMIUM ESTIMATION ON TERM-HEALTH INSURANCE BASED ON MARKOV CHAIN",
+      "year": 2024,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Jump Diffusion Model for Stock Market price of Small and Medium-Size Enterprises",
+      "year": 2024,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Perbandingan Estimasi Cadangan Klaim dengan Metode Classical Chain Ladder dan Bornhuetter-Double Chain Ladder",
+      "year": 2023,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "RETURN PORTOFOLIO OPTIMAL DENGAN PENDEKATAN SINGLE INDEX MODEL, TREYNOR BLACK MODEL, DAN BLACK-LITTERMAN MODEL",
+      "year": 2023,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "PREMI ASURANSI PENDIDIKAN DENGAN MEMPERHITUNGKAN PENGARUH WAIVER OF PREMIUM DAN RETURN OF CASH VALUE",
+      "year": 2023,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Generalized linear mixed models in epidemiological data analysis: A systematic review of methodological developments",
+      "year": 2026,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Modeling the Dynamic Relationship Between Energy Exports, Oil Prices, and CO2 Emission for Sustainable Policy Reforms in Indonesia",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Harnessing Ocean Wave Energy to Assess Oscillating Water Column Efficiency in Indonesian Waters",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "A Symmetric–Asymmetric Copula-Based GLMM for Energy Export and CO2 Emission Dynamics in Indonesia",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "STATISTICAL MODELING OF METEOROLOGICAL FACTORS AND PM2.5 LEVELS: IMPLICATIONS FOR CLIMATE CHANGE IN INDONESIA",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "ANALYTICAL APPROACH OF GENERALIZED LINEAR MODELS FOR HANDLING OVERDISPERSION IN POVERTY DATA OF INDONESIA",
+      "year": 2025,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Neuroinformatics approach: Hierarchical cluster analysis of Indonesian provinces based on people's welfare indicators in the realm of data science and network studies",
+      "year": 2024,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "PREDICTIVE ANALYSIS USING GAUSSIAN PROCESSES REGRESSION AND MAHALANOBIS DISTANCE APPROACH: ANTICIPATION OF COVID-19 SPIKE IN BANDUNG CITY",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Image Feature Extraction Using Symbolic Data of Cumulative Distribution Functions",
+      "year": 2024,
+      "topicId": "technology",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Identification and Modelling Tuberculosis Incidence Risk Factors in West Java with Negative Binomial Mixed Model Random Forest",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "APPLICATION OF YATES METHOD FOR MISSING DATA ESTIMATION IN YOUDEN SQUARE DESIGN AND ANALYSIS",
+      "year": 2024,
+      "topicId": "methods",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Extreme Gradent Boosting Method Forecasting Rainfall in Lembang District, West Java Province",
+      "year": 2023,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Adaptive threshold multiple correspondence analysis of data-driven handwriting features for dysgraphia pattern analysis",
+      "year": 2026,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "RAINFALL FORECASTING USING EXTREME GRADIENT BOOSTING",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "NEUROCOGNITIVE PREDICTION OF DYSLEXIC HANDWRITING PATTERN USING AN EXPLAINABLE AI-DRIVEN CUSTOM LITEBINARYNET-CNN",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "NEGATIVE BINOMIAL REGRESSION ANALYSIS OF STUNTING DETERMINANTS IN TODDLERS: ACHIEVING OPTIMAL NUTRITION IN WEST JAVA, INDONESIA",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "INTEGRATING GENERALIZED LINEAR MIXED MODELS WITH EXTREME NEURAL NETWORK: ENHANCING PULMONARY TUBERCULOSIS RISK MODELING IN WEST JAVA, INDONESIA",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Assessing Sustainable Development in Community Welfare and Economic Resilience to Extreme Weather in Indonesia",
+      "year": 2024,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "A NARX-NN OPTIMIZATION ALGORITHM FOR FORECASTING INFLATION DURING A POTENTIAL RECESSION PERIOD USING LONGITUDINAL DATA",
+      "year": 2023,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Assessing service availability and accessibility of healthcare facilities in Indonesia: A spatially-informed correspondence analysis with visual approach",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "PERAMALAN TUNGGAKAN TAGIHAN PELANGGAN MENGGUNAKAN MODEL AUTOREGRESSIVE FRACTIONALLY INTEGRATED MOVING AVERAGE (ARFIMA)",
+      "year": 2023,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "ENHANCING PM5.5 PREDICTION IN KEMAYORAN DISTRICT, DKI JAKARTA USING DEEP BILSTM METHOD",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "ENHANCING INFANT PAIN DETECTION WITH HYBRID ATTENTION MECHANISMS IN LIGHTWEIGHT MOBILENETV3 ARCHITECTURES",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "The ensemble distance on model-based clustering for regions clustering based on rainfall: The case of rainfall in West Java Indonesia",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Enhancing 3D Lung Infection Segmentation with 2D U-Shaped Deep Learning Variants",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "The Combination of Contextualized Topic Model and MPNet for User Feedback Topic Modeling",
+      "year": 2023,
+      "topicId": "technology",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Lung and Infection CT-Scan-Based Segmentation with 3D UNet Architecture and Its Modification",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Multidimensional Scaling Analysis Based on Factors Affecting Under-Five Malnutrition Cases in West Java",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "PEMETAAN AREA DI PROVINSI JAWA BARAT INDONESIA BERDASARKAN FAKTOR-FAKTOR YANG BERKONTRIBUSI PADA KEJADIAN DEMAM BERDARAH DENGUE",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "FORMATION OF AN OPTIMAL PORTFOLIO OF LQ45 SHARES USING MARKOWITZ METHOD",
+      "year": 2024,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "POLA PENYEBARAN PENYAKIT MENULAR BERDASARKAN KABUPATEN/KOTA DI JAWA TIMUR MENGGUNAKAN ANALISIS KORESPONDENSI",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Toxicokinetic and risk assessment of methylmercury in Indonesian pregnant population using physiologically-based toxicokinetic and reverse dosimetry modelling",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Community Perceptions of Ecosystem Services from Homegarden-Based Urban Agriculture in Bandung City, Indonesia",
+      "year": 2025,
+      "topicId": "food",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Stress and stress reactivity in posttraumatic stress disorder (PTSD) following eye movement desensitization (EMD): A randomized controlled trial",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "The effect of eye movement desensitization on neurocognitive functioning compared to retrieval-only in PTSD patients: a randomized controlled trial",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Community Participation in Urban Agriculture in the Greater Bandung Area, Indonesia: A Political Ecology Perspective",
+      "year": 2024,
+      "topicId": "food",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Food Security of Urban Agricultural Households in the Area of North Bandung, West Java, Indonesia",
+      "year": 2023,
+      "topicId": "food",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Between food fulfillment and income: Can urban agriculture contribute to both?",
+      "year": 2023,
+      "topicId": "food",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Exploring the Role of Urban Agriculture in Indonesiaâs Socio-Economic and Environmental Landscape: A Systematic Literature Review",
+      "year": 2025,
+      "topicId": "food",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "MULTINOMIAL LOGISTIC REGRESSION TO DETERMINE FACTORS INFLUENCING THE SELECTION OF HEALTH CARE FACILITIES IN INDONESIA",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "MITIGASI PERUBAHAN IKLIM: PENGUATAN PENGETAHUAN DAN KAPASITAS MASYARAKAT DALAM PENGELOLAAN SAMPAH ORGANIK",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Implementation of the Autoregressive Integrated (VARI) Vector Model for Stress-Testing Analysis of Indonesian Banking",
+      "year": 2023,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "PENINGKATAN PEMAHAMAN MASYARAKAT TERHADAP MANFAAT KEGIATAN URBAN FARMING",
+      "year": 2023,
+      "topicId": "food",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "The Implementation of Latent Gaussian Model in the Forecasting Process",
+      "year": 2023,
+      "topicId": "methods",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Sampling Design for Car Survey Using Stratified Random Sampling",
+      "year": 2023,
+      "topicId": "mobility",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "GSTARI-X-Casetti: A Hybrid Model for Climate Forecasting",
+      "year": 2026,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Cultural Tourism Marketing Model Based on Multivariate Analysis in Geographic Information System: A Systematic Review of the Literature",
+      "year": 2026,
+      "topicId": "mobility",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "APPLICATION OF THE PRINCIPAL COMPONENT ANALYSIS-VECTOR AUTOREGRESSIVE INTEGRATED (PCA-VARI) MODEL TO FORECASTING ECONOMIC GROWTH IN INDONESIA",
+      "year": 2025,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "SARIMA Modeling with a State Space Approach for Tax Revenue Forecasting",
+      "year": 2025,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Review of Integrating of the GSTARIMA-X Model, Casetti Approach, and Kriging for Climate Data Prediction",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Ensuring unbiasedness: foundational insights into integrating GSTARIMA and DNN models for rainfall prediction",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Development of GSTARIMA-ARCH Model for Rainfall Forecasting in Java Island using Big Data Analytics",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Spatial Durbin Model with Expansion Using Casetti's Approach: A Case Study for Rainfall Prediction in Java Island, Indonesia",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "An Expanded Spatial Durbin Model with Ordinary Kriging of Unobserved Big Climate Data",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "The Hybrid Modeling of Spatial Autoregressive Exogenous Using Casetti's Model Approach for the Prediction of Rainfall",
+      "year": 2023,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Quantile Regression in Space-Time Varying Coefficient Model of Upper Respiratory Tract Infections Data",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Literature Review on Integrating Generalized Space-Time Autoregressive Integrated Moving Average (GSTARIMA) and Deep Neural Networks in Machine Learning for Climate Forecasting",
+      "year": 2023,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Query Model Framework Design for Conservation History and Endowments Database: A Case Study on the Digitization of the Sumedang Larang Kingdom's History and Endowments in Indonesia",
+      "year": 2023,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Application of Spatial Weight Matrix based on Semivariogram in Space-Time Autoregressive Integrative (STARI) Model for Financial System Forecasting in the Greater Bandung Region",
+      "year": 2026,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Integrating Spatial Autoregressive Exogenous with Ordinary Kriging for Improved Rainfall Prediction in Java: Enhancing Accuracy with Climate Variables and Spatial Autocorrelation",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Penerapan Model Seasonal Autoregressive Integrated Moving Average (SARIMA) dalam Peramalan Curah Hujan di Kabupaten Bandung Barat",
+      "year": 2025,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Volatility Spillover between the IDR-USD Exchange Rate and Sectoral Stock Indices using EGARCH Model",
+      "year": 2025,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Peramalan Return Saham Subsektor Perbankan Menggunakan Model ARIMA-GARCH",
+      "year": 2024,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Spatial Weight Matrix Comparison of SAR-X Model using Casetti Approach",
+      "year": 2024,
+      "topicId": "methods",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "DECADAL RAINFALL FORECASTING USING CNN–BiLSTM: A CASE STUDY IN INDRAMAYU, INDONESIA",
+      "year": 2026,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Price model of multiple-trigger flood bond with trigger indices of aggregate losses and maximum number of submerged houses",
+      "year": 2025,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Numerical Analysis of Shoreline Changes along the Coast Batu Hiu-Bojong Salawe, Pangandaran Regency, West Java Province, Indonesia",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Community-Based Disaster Insurance for Sustainable Economic Loss Risk Mitigation: A Systematic Literature Review",
+      "year": 2024,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Development of the Black-Scholes Model for Determining Insurance Premiums to Mitigate the Risk of Disaster Losses Using the Principles of Mutual Cooperation and Regional Economic Growth",
+      "year": 2024,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Thousands of years of Malay and Chinese population history in Indonesia and its implication on Paternity Index in DNA paternity testing",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Selecting and Weighting Mechanisms in Stock Portfolio Design Based on Clustering Algorithm and Price Movement Analysis",
+      "year": 2023,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Integration of factor analysis and Tsukamoto?s fuzzy logic method for quality control of credit provisions in rural banks",
+      "year": 2023,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Mean-Value-at-Risk Portfolio Optimization Based on Risk Tolerance Preferences and Asymmetric Volatility",
+      "year": 2023,
+      "topicId": "economy",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Trend Analysis of Stunting Prevalence in West Java (2019-2024) Using WHO Thresholds",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Comparison of Dengue Hemorrhagic Fever (DHF) Cases Between Male and Female in Bandung City",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "The Effect of Fast Food Consumption on Obesity in Teenagers : A Literature Review and Secondary Data Analysis",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Penyuluhan Asal Usul Prasejarah Bahasa Indonesia Bagi Generasi Z Di Minggu Raya(Bagian 1)",
+      "year": 2024,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Penyuluhan Asal Usul Sejarah Bahasa Indonesia Bagi Generasi Z Di Minggu Raya (Bagian 2)",
+      "year": 2024,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Penyuluhan Asal Usul Vaksin Moderna dan Pfiser Bagi Millinneal Pasca Covid-19 Di Minggu Raya (Bagian 2)",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Comparative Analysis of the Effectiveness Between Malwarebytes and BitDefender to Prevent Malware Attacks",
+      "year": 2024,
+      "topicId": "technology",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Penyuluhan Asal Mula Teknologi Polymerase Chain Reaction Bagi Komunitas Minggu Raya (Bagian 2)",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Perakitan Mandiri PCR Sederhana Untuk Pembelajaran Amplifikasi DNA In Vitro",
+      "year": 2024,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Analisis Relasi Data Support dan Demand Bahasa Pemrograman di Indonesia",
+      "year": 2024,
+      "topicId": "technology",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Development of the GSTARIMA(1,1,1) model order for climate data forecasting",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Web-based information system framework for the digitization of historical databases and endowments",
+      "year": 2024,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Systematic Literature Review for Optimization System with Advection-Diffusion-Reaction Non-Linear Equation in Water Quality",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "The implementation of GSTARI-X model for forecasting climate change with data mining approach",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Integration GSTARIMA with deep neural network to enhance prediction accuracy on rainfall data",
+      "year": 2024,
+      "topicId": "environment",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "A Deep Learning Review of ResNet Architecture for Lung Disease Identification in CXR Image",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "SISTEM INFORMASI GEOGRAFIS UNTUK PERNIKAHAN USIA DINI MENGGUNAKAN SPATIAL ERROR MODEL (SEM)",
+      "year": 2024,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Comparison of Spatial Weight Matrices in Spatial Autoregressive Model: Case Study of Intangible Cultural Heritage in Indonesia",
+      "year": 2023,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "MENGUKUR KERAGAMAN WARISAN BUDAYA TAKBENDA INDONESIA DENGAN INDEKS GINI",
+      "year": 2023,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "THE IMPLEMENTATION OF FINITE-STATES CONTINUOUS TIME MARKOV CHAIN ON DAILY CASES OF COVID-19 IN BANDUNG",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "Identifikasi Autokorelasi Spasial Warisan Budaya Tak Benda di Indonesia Menggunakan Indeks Moran",
+      "year": 2023,
+      "topicId": "social",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "INTEGRATED OF WEB APPLICATION RSHINY FOR MARKOV CHAIN AND ITS APPLICATION TO THE DAILY CASES OF COVID-19 IN WEST SUMATERA",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
+      "reviewStatus": "title-reviewed"
+    }
+  ]
+}
