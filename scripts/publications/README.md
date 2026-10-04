@@ -30,3 +30,6 @@ node scripts/validate-obe-monev-2026.mjs
 ```
 
 Respons mentah tidak dipublikasikan sebagai halaman website. Jejak sumber dan hasil normalisasi tersedia dalam `data/faculty_publications.json`.
+
+
+Koreksi DTPS, 4 Oktober 2026: atas arahan pengelola, tahun 2022 dan Aceng Komarudin Mutaqin (bukan DTPS) dikeluarkan dari katalog aktif. Build kini memakai 16 dosen, periode 2023–2026, serta 64 halaman sumber. Publikasi bersama tetap dapat muncul hanya jika tercatat pada sumber dosen DTPS yang dipertahankan. Angka pada uraian sebelumnya merupakan riwayat perubahan, bukan angka katalog saat ini.

@@ -6,9 +6,9 @@ import json,re,sys,unicodedata,hashlib
 from pathlib import Path
 from collections import Counter
 root=Path(__file__).resolve().parents[2];source=Path(sys.argv[1]);old=json.loads(Path(sys.argv[2]).read_text());date='2026-10-03'
-roster=[('6089789','Budhi Handoko'),('5977377','Aceng Komarudin Mutaqin'),('6021099','Anindya Apriliyanti Pravitasari'),('6021005','Bertho Tantular'),('6014997','Defi Yusti Faidah'),('6083056','Gumgum Darmawan'),('6026564','I Gede Nyoman Mindra Jaya'),('65044','Irlandia Ginanjar'),('6084145','Lienda Noviyanti'),('6084328','Restu Arisanti'),('6089665','Sri Winarni'),('6084299','Triyani Hendrawati'),('6089608','Yusep Suparman'),('5999022','Budi Nurani Ruchjana'),('6014614','Yuyun Hidayat'),('6742829','Hasna Afifah Rusyda'),('5999023','Atje Setiawan Abdullah')]
-newids={'5977377':'38961618500','5999022':'25229331100','5999023':'55872557900'}
-identities={'5977377':['https://orcid.org/0000-0002-8217-0817'],'5999022':['https://jurnal.unpad.ac.id/jmi/about/editorialTeamBio/87102'],'5999023':['https://fmipa.unpad.ac.id/staff-dosen-departemen-ilmu-komputer-fmipa-unpad/']}
+roster=[('6089789','Budhi Handoko'),('6021099','Anindya Apriliyanti Pravitasari'),('6021005','Bertho Tantular'),('6014997','Defi Yusti Faidah'),('6083056','Gumgum Darmawan'),('6026564','I Gede Nyoman Mindra Jaya'),('65044','Irlandia Ginanjar'),('6084145','Lienda Noviyanti'),('6084328','Restu Arisanti'),('6089665','Sri Winarni'),('6084299','Triyani Hendrawati'),('6089608','Yusep Suparman'),('5999022','Budi Nurani Ruchjana'),('6014614','Yuyun Hidayat'),('6742829','Hasna Afifah Rusyda'),('5999023','Atje Setiawan Abdullah')]
+newids={'5999022':'25229331100','5999023':'55872557900'}
+identities={'5999022':['https://jurnal.unpad.ac.id/jmi/about/editorialTeamBio/87102'],'5999023':['https://fmipa.unpad.ac.id/staff-dosen-departemen-ilmu-komputer-fmipa-unpad/']}
 labels={'scopus':'Scopus','wos':'Web of Science','googlescholar':'Google Scholar','garuda':'Garuda'}
 links=re.compile(r'\[([^\]\n]+)\]\((https?://[^\s]+?)\)')
 def clean(s):
@@ -52,7 +52,7 @@ for i,(sid,name) in enumerate(roster):
    ym=re.search(r'\[(?:[A-Z]+\s+)?(20\d{2})\]\(',block)
    if not ym:continue
    year=int(ym[1])
-   if not 2022<=year<=2026:continue
+   if not 2023<=year<=2026:continue
    ls=list(links.finditer(block));venue='';category=label
    if view=='scopus':
     venue=next((x[1] for x in ls if '/sourceid/' in x[2]),'');q=re.search(r'\[(Q[1-4]) as ',block);category='Scopus '+q[1] if q else 'Scopus'
@@ -99,8 +99,8 @@ pubs=[g for g in groups if g]
 for i,g in enumerate(pubs):
  g['id']=i+1;g['lecturer']='; '.join(g['lecturers']);g['indexSource']=' · '.join(g['indexSources']);g['lastVerifiedAt']=max(e['checkedAt'] for e in g['evidence']);g['historicalOnly']=g['lastVerifiedAt']!=date
 for f in faculty:
- subset=[r for r in pubs if f['sintaId'] in r['facultyIds']];f['publicationsCaptured']=len(subset);f['byYear']={str(y):sum(r['year']==y for r in subset) for y in range(2022,2027)}
-years=[dict(year=y,count=sum(r['year']==y for r in pubs)) for y in range(2022,2027)]
+ subset=[r for r in pubs if f['sintaId'] in r['facultyIds']];f['publicationsCaptured']=len(subset);f['byYear']={str(y):sum(r['year']==y for r in subset) for y in range(2023,2027)}
+years=[dict(year=y,count=sum(r['year']==y for r in pubs)) for y in range(2023,2027)]
 indices=[dict(name=s,count=sum(s in r['indexSources'] for r in pubs)) for s in labels.values() if s!='Google Scholar']
-result=dict(source='SINTA public Scopus, Web of Science and Garuda tabs only',generatedAt=date,period=[2022,2026],partialPublicData=True,catalogRevisedAt='2026-10-04',inclusionPolicy='Current SINTA Scopus/WoS/Garuda records only; Google Scholar and historical-only records excluded',totals=dict(publications=len(pubs),lecturers=len(faculty),facultyPublicationLinks=sum(f['publicationsCaptured'] for f in faculty)),years=years,indexSources=indices,categories=[dict(name=k,count=v) for k,v in Counter(r['category'] for r in pubs).items()],publications=pubs,faculty=faculty,sourceAudit=audit,notes=['Public profiles expose a limited selection; this is not an exhaustive bibliography.','Source totals overlap; one article can appear in multiple indexes.','Profile metrics are all-time snapshots reported by SINTA and are not totals for 2022–2026.','Quartiles reflect the source snapshot, not a verified historical quartile for the publication year.','Google Scholar and historical-only records are excluded from the catalog and all publication counts.'])
+result=dict(source='SINTA public Scopus, Web of Science and Garuda tabs only',generatedAt=date,period=[2023,2026],partialPublicData=True,catalogRevisedAt='2026-10-04',inclusionPolicy='Current SINTA Scopus/WoS/Garuda records only; Google Scholar and historical-only records excluded',totals=dict(publications=len(pubs),lecturers=len(faculty),facultyPublicationLinks=sum(f['publicationsCaptured'] for f in faculty)),years=years,indexSources=indices,categories=[dict(name=k,count=v) for k,v in Counter(r['category'] for r in pubs).items()],publications=pubs,faculty=faculty,sourceAudit=audit,notes=['Public profiles expose a limited selection; this is not an exhaustive bibliography.','Source totals overlap; one article can appear in multiple indexes.','Profile metrics are all-time snapshots reported by SINTA and are not totals for 2023–2026.','Quartiles reflect the source snapshot, not a verified historical quartile for the publication year.','Google Scholar and historical-only records are excluded from the catalog and all publication counts.'])
 (root/'data/faculty_publications.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n');print(json.dumps(dict(unique=len(pubs),faculty=len(faculty),sources=indices,pages=len(audit),legacyOnly=sum(r['historicalOnly'] for r in pubs)),indent=2))

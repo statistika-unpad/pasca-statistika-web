@@ -2,57 +2,53 @@
   "source": "SINTA public Scopus, Web of Science and Garuda tabs only",
   "generatedAt": "2026-10-03",
   "period": [
-    2022,
+    2023,
     2026
   ],
   "partialPublicData": true,
   "catalogRevisedAt": "2026-10-04",
   "inclusionPolicy": "Current SINTA Scopus/WoS/Garuda records only; Google Scholar and historical-only records excluded",
   "totals": {
-    "publications": 221,
-    "lecturers": 17,
-    "facultyPublicationLinks": 292
+    "publications": 188,
+    "lecturers": 16,
+    "facultyPublicationLinks": 258
   },
   "years": [
     {
-      "year": 2022,
-      "count": 21
-    },
-    {
       "year": 2023,
-      "count": 45
+      "count": 44
     },
     {
       "year": 2024,
-      "count": 63
+      "count": 58
     },
     {
       "year": 2025,
-      "count": 63
+      "count": 58
     },
     {
       "year": 2026,
-      "count": 29
+      "count": 28
     }
   ],
   "indexSources": [
     {
       "name": "Scopus",
-      "count": 95
+      "count": 89
     },
     {
       "name": "Web of Science",
-      "count": 43
+      "count": 36
     },
     {
       "name": "Garuda",
-      "count": 100
+      "count": 79
     }
   ],
   "categories": [
     {
       "name": "Scopus Q1",
-      "count": 47
+      "count": 45
     },
     {
       "name": "Scopus Q2",
@@ -60,31 +56,31 @@
     },
     {
       "name": "Scopus Q4",
-      "count": 7
+      "count": 5
     },
     {
       "name": "Scopus Q3",
-      "count": 22
-    },
-    {
-      "name": "Sinta 3",
-      "count": 22
-    },
-    {
-      "name": "Garuda",
-      "count": 14
-    },
-    {
-      "name": "Sinta 5",
       "count": 20
     },
     {
-      "name": "Sinta 4",
-      "count": 15
+      "name": "Sinta 3",
+      "count": 20
+    },
+    {
+      "name": "Garuda",
+      "count": 9
     },
     {
       "name": "Sinta 2",
-      "count": 22
+      "count": 19
+    },
+    {
+      "name": "Sinta 4",
+      "count": 7
+    },
+    {
+      "name": "Sinta 5",
+      "count": 17
     },
     {
       "name": "Scopus",
@@ -92,7 +88,7 @@
     },
     {
       "name": "Web of Science",
-      "count": 32
+      "count": 26
     },
     {
       "name": "Sinta 6",
@@ -563,390 +559,6 @@
       "historicalOnly": false
     },
     {
-      "title": "Bootstrap Initialization of MLE for Infinite Mixture Distributions with Applications in Insurance Data",
-      "year": 2025,
-      "venue": "Risks",
-      "lecturers": [
-        "Aceng Komarudin Mutaqin"
-      ],
-      "facultyIds": [
-        "5977377"
-      ],
-      "category": "Scopus Q1",
-      "indexSources": [
-        "Scopus"
-      ],
-      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105020088623&origin=resultslist",
-      "doi": null,
-      "evidence": [
-        {
-          "source": "Scopus",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=scopus",
-          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105020088623&origin=resultslist",
-          "checkedAt": "2026-10-03",
-          "citations": 0
-        }
-      ],
-      "id": 13,
-      "lecturer": "Aceng Komarudin Mutaqin",
-      "indexSource": "Scopus",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "The implementation of multivariate process control using R-chart",
-      "year": 2023,
-      "venue": "Aip Conference Proceedings",
-      "lecturers": [
-        "Aceng Komarudin Mutaqin"
-      ],
-      "facultyIds": [
-        "5977377"
-      ],
-      "category": "Scopus Q4",
-      "indexSources": [
-        "Scopus"
-      ],
-      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85177556824&origin=resultslist",
-      "doi": null,
-      "evidence": [
-        {
-          "source": "Scopus",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=scopus",
-          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85177556824&origin=resultslist",
-          "checkedAt": "2026-10-03",
-          "citations": 0
-        }
-      ],
-      "id": 14,
-      "lecturer": "Aceng Komarudin Mutaqin",
-      "indexSource": "Scopus",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "IMPLEMENTASI DISTRIBUSI POISSON-INVERSE GAUSSIAN DAN PARETO II UNTUK DESAIN SISTEM BONUS-MALUS PADA ASURANSI THIRD PARTY LIABILITY DI INDONESIA",
-      "year": 2026,
-      "venue": "Premium Insurance Business Journal Vol. 13 No. 1 (2026): PREMIUM INSURANCE BUSINESS JOURNAL, JULI 20267-14",
-      "lecturers": [
-        "Aceng Komarudin Mutaqin"
-      ],
-      "facultyIds": [
-        "5977377"
-      ],
-      "category": "Sinta 5",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/6381173",
-      "doi": "10.35904/p2k3wk26",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/6381173",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 15,
-      "lecturer": "Aceng Komarudin Mutaqin",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "MIXING DISTRIBUTION ANALYSIS OF MIXTURE POISSON DISTRIBUTION FOR THIRD PARTY LIABILITY INSURANCE CLAIM FREQUENCY DATA IN INDONESIA",
-      "year": 2025,
-      "venue": "Jurnal Statistika dan Aplikasinya Vol. 9 No. 1 (2025): Jurnal Statistika dan Aplikasinya1 - 12",
-      "lecturers": [
-        "Aceng Komarudin Mutaqin"
-      ],
-      "facultyIds": [
-        "5977377"
-      ],
-      "category": "Sinta 4",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/5266557",
-      "doi": "10.21009/JSA.09101",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5266557",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 16,
-      "lecturer": "Aceng Komarudin Mutaqin",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Modeling third-party liability insurance claims: An exponential mixture distribution and parametric bootstrap-based solution",
-      "year": 2025,
-      "venue": "Desimal: Jurnal Matematika Vol. 8 No. 2 (2025): Desimal: Jurnal Matematika163-172",
-      "lecturers": [
-        "Aceng Komarudin Mutaqin"
-      ],
-      "facultyIds": [
-        "5977377"
-      ],
-      "category": "Sinta 2",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/5274523",
-      "doi": "10.24042/qwpt6206",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5274523",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 17,
-      "lecturer": "Aceng Komarudin Mutaqin",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "PEMODELAN KREDIBILITAS BÜHLMANN-STRAUB UNTUK DATA FREKUENSI KLAIM BERDISTRIBUSI POISSON-SUJATHA",
-      "year": 2025,
-      "venue": "RAGAM: Journal of Statistics & Its Application Vol 4, No 1 (2025): RAGAM: Journal of Statistics & Its Application25-38",
-      "lecturers": [
-        "Aceng Komarudin Mutaqin"
-      ],
-      "facultyIds": [
-        "5977377"
-      ],
-      "category": "Garuda",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/5828247",
-      "doi": "10.20527/ragam.v4i1.14679",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5828247",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 18,
-      "lecturer": "Aceng Komarudin Mutaqin",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Penerapan Model Kredibilitas Bühlmann Pada Data Frekuensi Klaim Asuransi Kendaraan Bermotor Di Indonesia Yang Berdistribusi Poisson-Amarendra",
-      "year": 2025,
-      "venue": "RAGAM: Journal of Statistics & Its Application Vol 4, No 2 (2025): RAGAM: Journal of Statistics & Its Application89-103",
-      "lecturers": [
-        "Aceng Komarudin Mutaqin"
-      ],
-      "facultyIds": [
-        "5977377"
-      ],
-      "category": "Garuda",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/5828251",
-      "doi": "10.20527/ragam.v4i2.16591",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5828251",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 19,
-      "lecturer": "Aceng Komarudin Mutaqin",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Deskripsi Data Korban Kecelakaan Berdasarkan Usia Korban di Provinsi Jawa Barat Tahun 2022-2023",
-      "year": 2024,
-      "venue": "Bandung Conference Series: Statistics Vol. 4 No. 2 (2024): Bandung Conference Series: Statistics417-424",
-      "lecturers": [
-        "Aceng Komarudin Mutaqin"
-      ],
-      "facultyIds": [
-        "5977377"
-      ],
-      "category": "Garuda",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/4283007",
-      "doi": "10.29313/bcss.v4i2.15107",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4283007",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 20,
-      "lecturer": "Aceng Komarudin Mutaqin",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Deskripsi Data Korban Kecelakaan Berdasarkan Kedudukan Korban di Provinsi Jawa Barat Tahun 2022-2023",
-      "year": 2024,
-      "venue": "Bandung Conference Series: Statistics Vol. 4 No. 2 (2024): Bandung Conference Series: Statistics478-485",
-      "lecturers": [
-        "Aceng Komarudin Mutaqin"
-      ],
-      "facultyIds": [
-        "5977377"
-      ],
-      "category": "Garuda",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/4283014",
-      "doi": "10.29313/bcss.v4i2.15372",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4283014",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 21,
-      "lecturer": "Aceng Komarudin Mutaqin",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Uji Dua Rata-Rata Waktu Belajar Mandiri Antara Mahasiswa Laki-Laki dan Perempuan",
-      "year": 2024,
-      "venue": "Jurnal Riset Statistika Volume 4, No. 2, Desember 2024, Jurnal Riset Statistika (JRS)103-110",
-      "lecturers": [
-        "Aceng Komarudin Mutaqin"
-      ],
-      "facultyIds": [
-        "5977377"
-      ],
-      "category": "Sinta 4",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/4725726",
-      "doi": "10.29313/jrs.v4i2.5002",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4725726",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 22,
-      "lecturer": "Aceng Komarudin Mutaqin",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Penerapan Distribusi Zero Inflated Lognormal Pada Data Besar Klaim Asuransi Gempa Bumi PT X",
-      "year": 2024,
-      "venue": "Premium Insurance Business Journal Vol. 11 No. 2 (2024): PREMIUM INSURANCE BUSINESS JOURNAL30 - 37",
-      "lecturers": [
-        "Aceng Komarudin Mutaqin"
-      ],
-      "facultyIds": [
-        "5977377"
-      ],
-      "category": "Sinta 5",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/4750940",
-      "doi": "10.35904/premium.v11i2.61",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4750940",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 23,
-      "lecturer": "Aceng Komarudin Mutaqin",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Ukuran-Ukuran Aktuaria untuk Data Besar Klaim Berdistribusi Inverse Gaussian",
-      "year": 2024,
-      "venue": "Jurnal Matematika, Statistika dan Komputasi Vol. 20 No. 2 (2024): JANUARY 2024301-310",
-      "lecturers": [
-        "Aceng Komarudin Mutaqin"
-      ],
-      "facultyIds": [
-        "5977377"
-      ],
-      "category": "Sinta 3",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/4045537",
-      "doi": "10.20956/j.v20i2.30067",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4045537",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 24,
-      "lecturer": "Aceng Komarudin Mutaqin",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
       "title": "Sentiment Analysis of X Users Regarding Bandung Regency Using Support Vector Machine",
       "year": 2026,
       "venue": "Applied Sciences Switzerland",
@@ -992,7 +604,7 @@
           "citations": 0
         }
       ],
-      "id": 25,
+      "id": 13,
       "lecturer": "Anindya Apriliyanti Pravitasari; Gumgum Darmawan; Irlandia Ginanjar",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -1054,7 +666,7 @@
           "citations": 0
         }
       ],
-      "id": 26,
+      "id": 14,
       "lecturer": "Anindya Apriliyanti Pravitasari; I Gede Nyoman Mindra Jaya; Triyani Hendrawati; Yusep Suparman",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -1105,7 +717,7 @@
           "citations": null
         }
       ],
-      "id": 27,
+      "id": 15,
       "lecturer": "Anindya Apriliyanti Pravitasari; Triyani Hendrawati",
       "indexSource": "Scopus · Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -1147,7 +759,7 @@
           "citations": 1
         }
       ],
-      "id": 28,
+      "id": 16,
       "lecturer": "Anindya Apriliyanti Pravitasari; Sri Winarni",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -1209,7 +821,7 @@
           "citations": 0
         }
       ],
-      "id": 29,
+      "id": 17,
       "lecturer": "Anindya Apriliyanti Pravitasari; Irlandia Ginanjar; Sri Winarni; Triyani Hendrawati",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -1271,7 +883,7 @@
           "citations": 0
         }
       ],
-      "id": 30,
+      "id": 18,
       "lecturer": "Anindya Apriliyanti Pravitasari; Irlandia Ginanjar; Restu Arisanti; Triyani Hendrawati",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -1324,7 +936,7 @@
           "citations": 4
         }
       ],
-      "id": 31,
+      "id": 19,
       "lecturer": "Anindya Apriliyanti Pravitasari; Sri Winarni; Yuyun Hidayat",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -1383,7 +995,7 @@
           "citations": null
         }
       ],
-      "id": 32,
+      "id": 20,
       "lecturer": "Anindya Apriliyanti Pravitasari; Triyani Hendrawati",
       "indexSource": "Scopus · Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -1435,7 +1047,7 @@
           "citations": 0
         }
       ],
-      "id": 33,
+      "id": 21,
       "lecturer": "Anindya Apriliyanti Pravitasari; Gumgum Darmawan; Irlandia Ginanjar",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -1477,7 +1089,7 @@
           "citations": 2
         }
       ],
-      "id": 34,
+      "id": 22,
       "lecturer": "Anindya Apriliyanti Pravitasari; Gumgum Darmawan",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -1519,7 +1131,7 @@
           "citations": null
         }
       ],
-      "id": 35,
+      "id": 23,
       "lecturer": "Anindya Apriliyanti Pravitasari; Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -1551,7 +1163,7 @@
           "citations": null
         }
       ],
-      "id": 36,
+      "id": 24,
       "lecturer": "Anindya Apriliyanti Pravitasari",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -1583,7 +1195,7 @@
           "citations": null
         }
       ],
-      "id": 37,
+      "id": 25,
       "lecturer": "Anindya Apriliyanti Pravitasari",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -1615,7 +1227,7 @@
           "citations": null
         }
       ],
-      "id": 38,
+      "id": 26,
       "lecturer": "Anindya Apriliyanti Pravitasari",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -1657,7 +1269,7 @@
           "citations": null
         }
       ],
-      "id": 39,
+      "id": 27,
       "lecturer": "Anindya Apriliyanti Pravitasari; Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -1689,71 +1301,7 @@
           "citations": null
         }
       ],
-      "id": 40,
-      "lecturer": "Anindya Apriliyanti Pravitasari",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Ergonomics Analysis of Computer Use in Distance Learning during the Pandemic of COVID-19",
-      "year": 2022,
-      "venue": "REKA ELKOMIKA: Jurnal Pengabdian kepada Masyarakat Vol 3, No 1 (2022): REKA ELKOMIKA9-19",
-      "lecturers": [
-        "Anindya Apriliyanti Pravitasari"
-      ],
-      "facultyIds": [
-        "6021099"
-      ],
-      "category": "Sinta 4",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/2524842",
-      "doi": "10.26760/rekaelkomika.v3i1.9-19",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/2524842",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 41,
-      "lecturer": "Anindya Apriliyanti Pravitasari",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Message from the Chair of the Committee",
-      "year": 2022,
-      "venue": "Inferensi Special Issue: Seminar Nasional Statistika XI 2022",
-      "lecturers": [
-        "Anindya Apriliyanti Pravitasari"
-      ],
-      "facultyIds": [
-        "6021099"
-      ],
-      "category": "Sinta 4",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/3780216",
-      "doi": "10.12962/j27213862.v1i1.19116",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3780216",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 42,
+      "id": 28,
       "lecturer": "Anindya Apriliyanti Pravitasari",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -1805,7 +1353,7 @@
           "citations": 0
         }
       ],
-      "id": 43,
+      "id": 29,
       "lecturer": "Bertho Tantular; Defi Yusti Faidah; Gumgum Darmawan",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -1857,7 +1405,7 @@
           "citations": 0
         }
       ],
-      "id": 44,
+      "id": 30,
       "lecturer": "Bertho Tantular; Gumgum Darmawan; Sri Winarni",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -1909,7 +1457,7 @@
           "citations": 0
         }
       ],
-      "id": 45,
+      "id": 31,
       "lecturer": "Bertho Tantular; Defi Yusti Faidah; Gumgum Darmawan",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -1951,7 +1499,7 @@
           "citations": 0
         }
       ],
-      "id": 46,
+      "id": 32,
       "lecturer": "Bertho Tantular; I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -1993,7 +1541,7 @@
           "citations": 0
         }
       ],
-      "id": 47,
+      "id": 33,
       "lecturer": "Bertho Tantular; Defi Yusti Faidah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2035,7 +1583,7 @@
           "citations": 0
         }
       ],
-      "id": 48,
+      "id": 34,
       "lecturer": "Bertho Tantular; Yuyun Hidayat",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2077,7 +1625,7 @@
           "citations": 0
         }
       ],
-      "id": 49,
+      "id": 35,
       "lecturer": "Bertho Tantular; I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2119,7 +1667,7 @@
           "citations": 0
         }
       ],
-      "id": 50,
+      "id": 36,
       "lecturer": "Bertho Tantular; Budi Nurani Ruchjana",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2161,7 +1709,7 @@
           "citations": 0
         }
       ],
-      "id": 51,
+      "id": 37,
       "lecturer": "Bertho Tantular; I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2193,7 +1741,7 @@
           "citations": 4
         }
       ],
-      "id": 52,
+      "id": 38,
       "lecturer": "Bertho Tantular",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2235,7 +1783,7 @@
           "citations": null
         }
       ],
-      "id": 53,
+      "id": 39,
       "lecturer": "Bertho Tantular; Irlandia Ginanjar",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2277,7 +1825,7 @@
           "citations": null
         }
       ],
-      "id": 54,
+      "id": 40,
       "lecturer": "Bertho Tantular; Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2309,39 +1857,7 @@
           "citations": null
         }
       ],
-      "id": 55,
-      "lecturer": "Bertho Tantular",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Analisis Sentimen Ulasan Pengguna Aplikasi E-Samsat Provinsi Jawa Barat Menggunakan Metode BiGRU",
-      "year": 2022,
-      "venue": "Inferensi Special Issue: Seminar Nasional Statistika XI 20221-8",
-      "lecturers": [
-        "Bertho Tantular"
-      ],
-      "facultyIds": [
-        "6021005"
-      ],
-      "category": "Sinta 4",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/3780232",
-      "doi": "10.12962/j27213862.v1i1.19113",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021005/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3780232",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 56,
+      "id": 41,
       "lecturer": "Bertho Tantular",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2383,7 +1899,7 @@
           "citations": 0
         }
       ],
-      "id": 57,
+      "id": 42,
       "lecturer": "Defi Yusti Faidah; Irlandia Ginanjar",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2415,7 +1931,7 @@
           "citations": 1
         }
       ],
-      "id": 58,
+      "id": 43,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2447,7 +1963,7 @@
           "citations": 42
         }
       ],
-      "id": 59,
+      "id": 44,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2479,7 +1995,7 @@
           "citations": 3
         }
       ],
-      "id": 60,
+      "id": 45,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2521,7 +2037,7 @@
           "citations": 1
         }
       ],
-      "id": 61,
+      "id": 46,
       "lecturer": "Defi Yusti Faidah; Triyani Hendrawati",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2563,7 +2079,7 @@
           "citations": null
         }
       ],
-      "id": 62,
+      "id": 47,
       "lecturer": "Defi Yusti Faidah; Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2595,7 +2111,7 @@
           "citations": null
         }
       ],
-      "id": 63,
+      "id": 48,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2635,7 +2151,7 @@
           "citations": null
         }
       ],
-      "id": 64,
+      "id": 49,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2675,7 +2191,7 @@
           "citations": null
         }
       ],
-      "id": 65,
+      "id": 50,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2707,7 +2223,7 @@
           "citations": null
         }
       ],
-      "id": 66,
+      "id": 51,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2739,7 +2255,7 @@
           "citations": null
         }
       ],
-      "id": 67,
+      "id": 52,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2781,7 +2297,7 @@
           "citations": null
         }
       ],
-      "id": 68,
+      "id": 53,
       "lecturer": "Defi Yusti Faidah; Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2813,7 +2329,7 @@
           "citations": null
         }
       ],
-      "id": 69,
+      "id": 54,
       "lecturer": "Defi Yusti Faidah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -2845,7 +2361,7 @@
           "citations": 0
         }
       ],
-      "id": 70,
+      "id": 55,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2887,7 +2403,7 @@
           "citations": 0
         }
       ],
-      "id": 71,
+      "id": 56,
       "lecturer": "Gumgum Darmawan; Budi Nurani Ruchjana",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2919,7 +2435,7 @@
           "citations": 0
         }
       ],
-      "id": 72,
+      "id": 57,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2961,7 +2477,7 @@
           "citations": 0
         }
       ],
-      "id": 73,
+      "id": 58,
       "lecturer": "Gumgum Darmawan; Yuyun Hidayat",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -2993,7 +2509,7 @@
           "citations": null
         }
       ],
-      "id": 74,
+      "id": 59,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3025,7 +2541,7 @@
           "citations": null
         }
       ],
-      "id": 75,
+      "id": 60,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3067,7 +2583,7 @@
           "citations": null
         }
       ],
-      "id": 76,
+      "id": 61,
       "lecturer": "Gumgum Darmawan; Restu Arisanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3099,7 +2615,7 @@
           "citations": null
         }
       ],
-      "id": 77,
+      "id": 62,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3141,7 +2657,7 @@
           "citations": null
         }
       ],
-      "id": 78,
+      "id": 63,
       "lecturer": "Gumgum Darmawan; Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3173,7 +2689,7 @@
           "citations": null
         }
       ],
-      "id": 79,
+      "id": 64,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3205,7 +2721,7 @@
           "citations": null
         }
       ],
-      "id": 80,
+      "id": 65,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3237,7 +2753,7 @@
           "citations": null
         }
       ],
-      "id": 81,
+      "id": 66,
       "lecturer": "Gumgum Darmawan",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3269,7 +2785,7 @@
           "citations": 3
         }
       ],
-      "id": 82,
+      "id": 67,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3301,7 +2817,7 @@
           "citations": 2
         }
       ],
-      "id": 83,
+      "id": 68,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3360,7 +2876,7 @@
           "citations": null
         }
       ],
-      "id": 84,
+      "id": 69,
       "lecturer": "I Gede Nyoman Mindra Jaya; Budi Nurani Ruchjana",
       "indexSource": "Scopus · Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3392,7 +2908,7 @@
           "citations": 2
         }
       ],
-      "id": 85,
+      "id": 70,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3424,7 +2940,7 @@
           "citations": 2
         }
       ],
-      "id": 86,
+      "id": 71,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3456,7 +2972,7 @@
           "citations": 14
         }
       ],
-      "id": 87,
+      "id": 72,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3488,7 +3004,7 @@
           "citations": 2
         }
       ],
-      "id": 88,
+      "id": 73,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3520,7 +3036,7 @@
           "citations": 0
         }
       ],
-      "id": 89,
+      "id": 74,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3552,7 +3068,7 @@
           "citations": 0
         }
       ],
-      "id": 90,
+      "id": 75,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3584,7 +3100,7 @@
           "citations": 1
         }
       ],
-      "id": 91,
+      "id": 76,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3616,7 +3132,7 @@
           "citations": 1
         }
       ],
-      "id": 92,
+      "id": 77,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3656,7 +3172,7 @@
           "citations": null
         }
       ],
-      "id": 93,
+      "id": 78,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3698,7 +3214,7 @@
           "citations": null
         }
       ],
-      "id": 94,
+      "id": 79,
       "lecturer": "I Gede Nyoman Mindra Jaya; Restu Arisanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3730,7 +3246,7 @@
           "citations": null
         }
       ],
-      "id": 95,
+      "id": 80,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3762,71 +3278,7 @@
           "citations": null
         }
       ],
-      "id": 96,
-      "lecturer": "I Gede Nyoman Mindra Jaya",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Spatial Autoregressive Model of Tuberculosis Cases in Central Java Province 2019",
-      "year": 2022,
-      "venue": "CAUCHY Vol 7, No 2 (2022): CAUCHY: Jurnal Matematika Murni dan Aplikasi (May 2022) (Issue in Progress)240-248",
-      "lecturers": [
-        "I Gede Nyoman Mindra Jaya"
-      ],
-      "facultyIds": [
-        "6026564"
-      ],
-      "category": "Sinta 2",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/2538569",
-      "doi": "10.18860/ca.v7i2.13451",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/2538569",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 97,
-      "lecturer": "I Gede Nyoman Mindra Jaya",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Modeling Rice Production in West Java by Means Geographically Weighted Regression",
-      "year": 2022,
-      "venue": "Jurnal Ekonomi Dan Statistik Indonesia Vol 2 No 3 (2022): Berdikari: Jurnal Ekonomi dan Statistik Indonesia (JESI)316-326",
-      "lecturers": [
-        "I Gede Nyoman Mindra Jaya"
-      ],
-      "facultyIds": [
-        "6026564"
-      ],
-      "category": "Sinta 5",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/3242771",
-      "doi": "10.11594/jesi.02.03.08",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3242771",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 98,
+      "id": 81,
       "lecturer": "I Gede Nyoman Mindra Jaya",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -3885,7 +3337,7 @@
           "citations": 1
         }
       ],
-      "id": 99,
+      "id": 82,
       "lecturer": "Irlandia Ginanjar; Yuyun Hidayat",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3926,7 +3378,7 @@
           "citations": 0
         }
       ],
-      "id": 100,
+      "id": 83,
       "lecturer": "Irlandia Ginanjar",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -3958,7 +3410,7 @@
           "citations": 0
         }
       ],
-      "id": 101,
+      "id": 84,
       "lecturer": "Irlandia Ginanjar",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -3990,7 +3442,7 @@
           "citations": 4
         }
       ],
-      "id": 102,
+      "id": 85,
       "lecturer": "Irlandia Ginanjar",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4022,7 +3474,7 @@
           "citations": 1
         }
       ],
-      "id": 103,
+      "id": 86,
       "lecturer": "Irlandia Ginanjar",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4064,7 +3516,7 @@
           "citations": null
         }
       ],
-      "id": 104,
+      "id": 87,
       "lecturer": "Irlandia Ginanjar; Lienda Noviyanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4096,103 +3548,7 @@
           "citations": null
         }
       ],
-      "id": 105,
-      "lecturer": "Irlandia Ginanjar",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "ANALISIS KORESPONDENSI BERGANDA UNTUK MENGETAHUI INDIKATOR-INDIKATOR YANG MEMPENGARUHI KEJADIAN LOW BACK PAIN PADA KUSIR KUDA/DELMAN DI KOTA CIMAHI TAHUN 2019",
-      "year": 2022,
-      "venue": "Pattimura Proceeding 2021: Prosiding KNM XX351-358",
-      "lecturers": [
-        "Irlandia Ginanjar"
-      ],
-      "facultyIds": [
-        "65044"
-      ],
-      "category": "Garuda",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/2918657",
-      "doi": "10.30598/PattimuraSci.2021.KNMXX.351-358",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/2918657",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 106,
-      "lecturer": "Irlandia Ginanjar",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "KLASTERISASI KABUPATEN/KOTA TERDAMPAK COVID-19 DI SEKTOR KETENAGAKERJAAN DENGAN PENDEKATAN K-MEANS NONHIERARCHICAL CLUSTERING",
-      "year": 2022,
-      "venue": "Jurnal Aplikasi Statistika & Komputasi Statistik Vol 14 No 2 (2022): Journal of Statistical Application and Computational Statistics1-16",
-      "lecturers": [
-        "Irlandia Ginanjar"
-      ],
-      "facultyIds": [
-        "65044"
-      ],
-      "category": "Sinta 4",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/3216653",
-      "doi": "10.34123/jurnalasks.v14i2.367",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3216653",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 107,
-      "lecturer": "Irlandia Ginanjar",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Analisis Biplot Pada Pengelompokan Kecamatan Di Kabupaten Tasikmalaya Berdasarkan Indikator Kemiskinan",
-      "year": 2022,
-      "venue": "Inferensi Special Issue: Seminar Nasional Statistika XI 202253-63",
-      "lecturers": [
-        "Irlandia Ginanjar"
-      ],
-      "facultyIds": [
-        "65044"
-      ],
-      "category": "Sinta 4",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/3780222",
-      "doi": "10.12962/j27213862.v1i1.19128",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3780222",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 108,
+      "id": 88,
       "lecturer": "Irlandia Ginanjar",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4224,7 +3580,7 @@
           "citations": 0
         }
       ],
-      "id": 109,
+      "id": 89,
       "lecturer": "Lienda Noviyanti",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4266,82 +3622,8 @@
           "citations": 0
         }
       ],
-      "id": 110,
+      "id": 90,
       "lecturer": "Lienda Noviyanti; Hasna Afifah Rusyda",
-      "indexSource": "Scopus",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Price prediction of Asian option contracts in stocks using the Monte Carlo and volatility models",
-      "year": 2022,
-      "venue": "Aip Conference Proceedings",
-      "lecturers": [
-        "Lienda Noviyanti",
-        "Hasna Afifah Rusyda"
-      ],
-      "facultyIds": [
-        "6084145",
-        "6742829"
-      ],
-      "category": "Scopus Q4",
-      "indexSources": [
-        "Scopus"
-      ],
-      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85145474443&origin=resultslist",
-      "doi": null,
-      "evidence": [
-        {
-          "source": "Scopus",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084145/?view=scopus",
-          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85145474443&origin=resultslist",
-          "checkedAt": "2026-10-03",
-          "citations": 0
-        },
-        {
-          "source": "Scopus",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6742829/?view=scopus",
-          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85145474443&origin=resultslist",
-          "checkedAt": "2026-10-03",
-          "citations": 0
-        }
-      ],
-      "id": 111,
-      "lecturer": "Lienda Noviyanti; Hasna Afifah Rusyda",
-      "indexSource": "Scopus",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "MODELLING THE PREVALENCE OF STUNTING TODDLERS USING SPATIAL AUTOREGRESSIVE WITH INSTRUMENT VARIABLE AND S-ESTIMATOR",
-      "year": 2022,
-      "venue": "Communications in Mathematical Biology and Neuroscience",
-      "lecturers": [
-        "Lienda Noviyanti"
-      ],
-      "facultyIds": [
-        "6084145"
-      ],
-      "category": "Scopus Q3",
-      "indexSources": [
-        "Scopus"
-      ],
-      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85134153295&origin=resultslist",
-      "doi": null,
-      "evidence": [
-        {
-          "source": "Scopus",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084145/?view=scopus",
-          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85134153295&origin=resultslist",
-          "checkedAt": "2026-10-03",
-          "citations": 1
-        }
-      ],
-      "id": 112,
-      "lecturer": "Lienda Noviyanti",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
       "historicalOnly": false
@@ -4372,7 +3654,7 @@
           "citations": null
         }
       ],
-      "id": 113,
+      "id": 91,
       "lecturer": "Lienda Noviyanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4404,7 +3686,7 @@
           "citations": null
         }
       ],
-      "id": 114,
+      "id": 92,
       "lecturer": "Lienda Noviyanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4444,7 +3726,7 @@
           "citations": null
         }
       ],
-      "id": 115,
+      "id": 93,
       "lecturer": "Lienda Noviyanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4486,7 +3768,7 @@
           "citations": 0
         }
       ],
-      "id": 116,
+      "id": 94,
       "lecturer": "Restu Arisanti; Sri Winarni",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4518,7 +3800,7 @@
           "citations": 3
         }
       ],
-      "id": 117,
+      "id": 95,
       "lecturer": "Restu Arisanti",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4560,7 +3842,7 @@
           "citations": 1
         }
       ],
-      "id": 118,
+      "id": 96,
       "lecturer": "Restu Arisanti; Sri Winarni",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4592,7 +3874,7 @@
           "citations": 0
         }
       ],
-      "id": 119,
+      "id": 97,
       "lecturer": "Restu Arisanti",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4643,7 +3925,7 @@
           "citations": 0
         }
       ],
-      "id": 120,
+      "id": 98,
       "lecturer": "Restu Arisanti; Sri Winarni",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4694,7 +3976,7 @@
           "citations": 0
         }
       ],
-      "id": 121,
+      "id": 99,
       "lecturer": "Restu Arisanti; Sri Winarni",
       "indexSource": "Scopus · Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4726,7 +4008,7 @@
           "citations": 0
         }
       ],
-      "id": 122,
+      "id": 100,
       "lecturer": "Restu Arisanti",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -4769,7 +4051,7 @@
           "citations": 0
         }
       ],
-      "id": 123,
+      "id": 101,
       "lecturer": "Restu Arisanti; Sri Winarni",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4812,7 +4094,7 @@
           "citations": 0
         }
       ],
-      "id": 124,
+      "id": 102,
       "lecturer": "Restu Arisanti; Sri Winarni",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -4844,7 +4126,7 @@
           "citations": null
         }
       ],
-      "id": 125,
+      "id": 103,
       "lecturer": "Restu Arisanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4876,7 +4158,7 @@
           "citations": null
         }
       ],
-      "id": 126,
+      "id": 104,
       "lecturer": "Restu Arisanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4916,39 +4198,7 @@
           "citations": null
         }
       ],
-      "id": 127,
-      "lecturer": "Restu Arisanti",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Peramalan Curah Hujan di Kota Bandung dengan Metode SARIMA (Seasonal Autoregressive Integrated Moving Average)",
-      "year": 2022,
-      "venue": "Inferensi Special Issue: Seminar Nasional Statistika XI 202223-29",
-      "lecturers": [
-        "Restu Arisanti"
-      ],
-      "facultyIds": [
-        "6084328"
-      ],
-      "category": "Sinta 4",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/3780229",
-      "doi": "10.12962/j27213862.v1i1.19119",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084328/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3780229",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 128,
+      "id": 105,
       "lecturer": "Restu Arisanti",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -4980,7 +4230,7 @@
           "citations": 0
         }
       ],
-      "id": 129,
+      "id": 106,
       "lecturer": "Sri Winarni",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5022,7 +4272,7 @@
           "citations": 0
         }
       ],
-      "id": 130,
+      "id": 107,
       "lecturer": "Sri Winarni; Yuyun Hidayat",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5054,7 +4304,7 @@
           "citations": 1
         }
       ],
-      "id": 131,
+      "id": 108,
       "lecturer": "Sri Winarni",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5086,7 +4336,7 @@
           "citations": 0
         }
       ],
-      "id": 132,
+      "id": 109,
       "lecturer": "Sri Winarni",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5118,7 +4368,7 @@
           "citations": 0
         }
       ],
-      "id": 133,
+      "id": 110,
       "lecturer": "Sri Winarni",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5150,7 +4400,7 @@
           "citations": 0
         }
       ],
-      "id": 134,
+      "id": 111,
       "lecturer": "Sri Winarni",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5182,7 +4432,7 @@
           "citations": 0
         }
       ],
-      "id": 135,
+      "id": 112,
       "lecturer": "Sri Winarni",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5214,7 +4464,7 @@
           "citations": 0
         }
       ],
-      "id": 136,
+      "id": 113,
       "lecturer": "Sri Winarni",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5246,7 +4496,7 @@
           "citations": null
         }
       ],
-      "id": 137,
+      "id": 114,
       "lecturer": "Sri Winarni",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5278,7 +4528,7 @@
           "citations": 1
         }
       ],
-      "id": 138,
+      "id": 115,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5310,7 +4560,7 @@
           "citations": 0
         }
       ],
-      "id": 139,
+      "id": 116,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5342,7 +4592,7 @@
           "citations": 0
         }
       ],
-      "id": 140,
+      "id": 117,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5374,7 +4624,7 @@
           "citations": 0
         }
       ],
-      "id": 141,
+      "id": 118,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5406,7 +4656,7 @@
           "citations": 3
         }
       ],
-      "id": 142,
+      "id": 119,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5438,7 +4688,7 @@
           "citations": 7
         }
       ],
-      "id": 143,
+      "id": 120,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5470,7 +4720,7 @@
           "citations": null
         }
       ],
-      "id": 144,
+      "id": 121,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5502,7 +4752,7 @@
           "citations": null
         }
       ],
-      "id": 145,
+      "id": 122,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5534,7 +4784,7 @@
           "citations": null
         }
       ],
-      "id": 146,
+      "id": 123,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5566,7 +4816,7 @@
           "citations": null
         }
       ],
-      "id": 147,
+      "id": 124,
       "lecturer": "Triyani Hendrawati",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5598,7 +4848,7 @@
           "citations": 1
         }
       ],
-      "id": 148,
+      "id": 125,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5630,7 +4880,7 @@
           "citations": 0
         }
       ],
-      "id": 149,
+      "id": 126,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5662,7 +4912,7 @@
           "citations": 1
         }
       ],
-      "id": 150,
+      "id": 127,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5694,7 +4944,7 @@
           "citations": 4
         }
       ],
-      "id": 151,
+      "id": 128,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5726,7 +4976,7 @@
           "citations": 0
         }
       ],
-      "id": 152,
+      "id": 129,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -5767,7 +5017,7 @@
           "citations": 2
         }
       ],
-      "id": 153,
+      "id": 130,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -5808,114 +5058,9 @@
           "citations": 12
         }
       ],
-      "id": 154,
+      "id": 131,
       "lecturer": "Yusep Suparman",
       "indexSource": "Scopus · Web of Science",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "ON THE USE OF GENERALIZED ADDITIVE MODELS IN THE IMPACT OF COVID-19 ON HUMAN MOBILITY USING MOBILE POSITIONING DATA IN DKI JAKARTA, INDONESIA",
-      "year": 2022,
-      "venue": "Communications in Mathematical Biology and Neuroscience",
-      "lecturers": [
-        "Yusep Suparman"
-      ],
-      "facultyIds": [
-        "6089608"
-      ],
-      "category": "Scopus Q3",
-      "indexSources": [
-        "Scopus"
-      ],
-      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85134188610&origin=resultslist",
-      "doi": null,
-      "evidence": [
-        {
-          "source": "Scopus",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=scopus",
-          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85134188610&origin=resultslist",
-          "checkedAt": "2026-10-03",
-          "citations": 0
-        }
-      ],
-      "id": 155,
-      "lecturer": "Yusep Suparman",
-      "indexSource": "Scopus",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Market Pressure Based on International Food Standards in Export-Scale Urban Farming: Political Ecology Perspective",
-      "year": 2022,
-      "venue": "Qualitative Report",
-      "lecturers": [
-        "Yusep Suparman"
-      ],
-      "facultyIds": [
-        "6089608"
-      ],
-      "category": "Scopus Q1",
-      "indexSources": [
-        "Scopus",
-        "Web of Science"
-      ],
-      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85131327778&origin=resultslist",
-      "doi": "10.46743/2160-3715/2022.5138",
-      "evidence": [
-        {
-          "source": "Scopus",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=scopus",
-          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85131327778&origin=resultslist",
-          "checkedAt": "2026-10-03",
-          "citations": 9
-        },
-        {
-          "source": "Web of Science",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=wos",
-          "recordUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000800279300008",
-          "checkedAt": "2026-10-03",
-          "citations": 9
-        }
-      ],
-      "id": 156,
-      "lecturer": "Yusep Suparman",
-      "indexSource": "Scopus · Web of Science",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "The Adaptation of Export-Scale Urban Farmers Amid the COVID-19 Pandemic in Bandung Metropolitan",
-      "year": 2022,
-      "venue": "QUALITATIVE REPORT",
-      "lecturers": [
-        "Yusep Suparman"
-      ],
-      "facultyIds": [
-        "6089608"
-      ],
-      "category": "Web of Science",
-      "indexSources": [
-        "Web of Science"
-      ],
-      "href": "https://www.webofscience.com/wos/woscc/full-record/WOS:000822922000001",
-      "doi": "10.46743/2160-3715/2022.5139",
-      "evidence": [
-        {
-          "source": "Web of Science",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=wos",
-          "recordUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000822922000001",
-          "checkedAt": "2026-10-03",
-          "citations": 3
-        }
-      ],
-      "id": 157,
-      "lecturer": "Yusep Suparman",
-      "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
       "historicalOnly": false
     },
@@ -5945,7 +5090,7 @@
           "citations": null
         }
       ],
-      "id": 158,
+      "id": 132,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -5977,7 +5122,7 @@
           "citations": null
         }
       ],
-      "id": 159,
+      "id": 133,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6009,7 +5154,7 @@
           "citations": null
         }
       ],
-      "id": 160,
+      "id": 134,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6041,7 +5186,7 @@
           "citations": null
         }
       ],
-      "id": 161,
+      "id": 135,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6073,7 +5218,7 @@
           "citations": null
         }
       ],
-      "id": 162,
+      "id": 136,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6105,7 +5250,7 @@
           "citations": null
         }
       ],
-      "id": 163,
+      "id": 137,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6137,7 +5282,7 @@
           "citations": null
         }
       ],
-      "id": 164,
+      "id": 138,
       "lecturer": "Yusep Suparman",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6179,7 +5324,7 @@
           "citations": 0
         }
       ],
-      "id": 165,
+      "id": 139,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6221,7 +5366,7 @@
           "citations": 0
         }
       ],
-      "id": 166,
+      "id": 140,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6262,7 +5407,7 @@
           "citations": null
         }
       ],
-      "id": 167,
+      "id": 141,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Scopus · Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6294,7 +5439,7 @@
           "citations": 0
         }
       ],
-      "id": 168,
+      "id": 142,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6336,7 +5481,7 @@
           "citations": 1
         }
       ],
-      "id": 169,
+      "id": 143,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6378,7 +5523,7 @@
           "citations": 0
         }
       ],
-      "id": 170,
+      "id": 144,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6420,7 +5565,7 @@
           "citations": 1
         }
       ],
-      "id": 171,
+      "id": 145,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6452,7 +5597,7 @@
           "citations": 2
         }
       ],
-      "id": 172,
+      "id": 146,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -6484,7 +5629,7 @@
           "citations": 1
         }
       ],
-      "id": 173,
+      "id": 147,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -6526,7 +5671,7 @@
           "citations": 3
         }
       ],
-      "id": 174,
+      "id": 148,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -6558,7 +5703,7 @@
           "citations": 0
         }
       ],
-      "id": 175,
+      "id": 149,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -6600,7 +5745,7 @@
           "citations": 3
         }
       ],
-      "id": 176,
+      "id": 150,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -6642,72 +5787,8 @@
           "citations": 0
         }
       ],
-      "id": 177,
+      "id": 151,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
-      "indexSource": "Web of Science",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Bandung Rainfall Forecast and Its Relationship with Nino 3.4 Using Nonlinear Autoregressive Exogenous Neural Network",
-      "year": 2022,
-      "venue": "ATMOSPHERE",
-      "lecturers": [
-        "Budi Nurani Ruchjana"
-      ],
-      "facultyIds": [
-        "5999022"
-      ],
-      "category": "Web of Science",
-      "indexSources": [
-        "Web of Science"
-      ],
-      "href": "https://www.webofscience.com/wos/woscc/full-record/WOS:000761454700001",
-      "doi": "10.3390/atmos13020302",
-      "evidence": [
-        {
-          "source": "Web of Science",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=wos",
-          "recordUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000761454700001",
-          "checkedAt": "2026-10-03",
-          "citations": 7
-        }
-      ],
-      "id": 178,
-      "lecturer": "Budi Nurani Ruchjana",
-      "indexSource": "Web of Science",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Information Diffusion Model in Twitter: A Systematic Literature Review",
-      "year": 2022,
-      "venue": "INFORMATION",
-      "lecturers": [
-        "Budi Nurani Ruchjana"
-      ],
-      "facultyIds": [
-        "5999022"
-      ],
-      "category": "Web of Science",
-      "indexSources": [
-        "Web of Science"
-      ],
-      "href": "https://www.webofscience.com/wos/woscc/full-record/WOS:000934185500001",
-      "doi": "10.3390/info13010013",
-      "evidence": [
-        {
-          "source": "Web of Science",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=wos",
-          "recordUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000934185500001",
-          "checkedAt": "2026-10-03",
-          "citations": 12
-        }
-      ],
-      "id": 179,
-      "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
       "historicalOnly": false
@@ -6748,7 +5829,7 @@
           "citations": null
         }
       ],
-      "id": 180,
+      "id": 152,
       "lecturer": "Budi Nurani Ruchjana; Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6788,7 +5869,7 @@
           "citations": null
         }
       ],
-      "id": 181,
+      "id": 153,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6828,7 +5909,7 @@
           "citations": null
         }
       ],
-      "id": 182,
+      "id": 154,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6860,7 +5941,7 @@
           "citations": null
         }
       ],
-      "id": 183,
+      "id": 155,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6892,7 +5973,7 @@
           "citations": null
         }
       ],
-      "id": 184,
+      "id": 156,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6924,7 +6005,7 @@
           "citations": null
         }
       ],
-      "id": 185,
+      "id": 157,
       "lecturer": "Budi Nurani Ruchjana",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -6956,7 +6037,7 @@
           "citations": 0
         }
       ],
-      "id": 186,
+      "id": 158,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -6988,7 +6069,7 @@
           "citations": 3
         }
       ],
-      "id": 187,
+      "id": 159,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -7020,7 +6101,7 @@
           "citations": 3
         }
       ],
-      "id": 188,
+      "id": 160,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -7061,7 +6142,7 @@
           "citations": 1
         }
       ],
-      "id": 189,
+      "id": 161,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Scopus · Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -7093,7 +6174,7 @@
           "citations": 1
         }
       ],
-      "id": 190,
+      "id": 162,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -7125,7 +6206,7 @@
           "citations": 0
         }
       ],
-      "id": 191,
+      "id": 163,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -7157,7 +6238,7 @@
           "citations": 4
         }
       ],
-      "id": 192,
+      "id": 164,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -7189,7 +6270,7 @@
           "citations": 0
         }
       ],
-      "id": 193,
+      "id": 165,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -7221,71 +6302,7 @@
           "citations": 4
         }
       ],
-      "id": 194,
-      "lecturer": "Yuyun Hidayat",
-      "indexSource": "Web of Science",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Developing New Method in Measuring City Economic Resilience by Imposing Disturbances Factors and Unwanted Condition",
-      "year": 2022,
-      "venue": "COMPUTATION",
-      "lecturers": [
-        "Yuyun Hidayat"
-      ],
-      "facultyIds": [
-        "6014614"
-      ],
-      "category": "Web of Science",
-      "indexSources": [
-        "Web of Science"
-      ],
-      "href": "https://www.webofscience.com/wos/woscc/full-record/WOS:000846201100001",
-      "doi": "10.3390/computation10080135",
-      "evidence": [
-        {
-          "source": "Web of Science",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014614/?view=wos",
-          "recordUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000846201100001",
-          "checkedAt": "2026-10-03",
-          "citations": 3
-        }
-      ],
-      "id": 195,
-      "lecturer": "Yuyun Hidayat",
-      "indexSource": "Web of Science",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "An Estimated Analysis of Willingness to Wait Time to Pay Rice Agricultural Insurance Premiums Using Cox's Proportional Hazards Model",
-      "year": 2022,
-      "venue": "MATHEMATICS",
-      "lecturers": [
-        "Yuyun Hidayat"
-      ],
-      "facultyIds": [
-        "6014614"
-      ],
-      "category": "Web of Science",
-      "indexSources": [
-        "Web of Science"
-      ],
-      "href": "https://www.webofscience.com/wos/woscc/full-record/WOS:000881345600001",
-      "doi": "10.3390/math10213935",
-      "evidence": [
-        {
-          "source": "Web of Science",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014614/?view=wos",
-          "recordUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000881345600001",
-          "checkedAt": "2026-10-03",
-          "citations": 2
-        }
-      ],
-      "id": 196,
+      "id": 166,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -7317,7 +6334,7 @@
           "citations": null
         }
       ],
-      "id": 197,
+      "id": 167,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7349,7 +6366,7 @@
           "citations": null
         }
       ],
-      "id": 198,
+      "id": 168,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7381,7 +6398,7 @@
           "citations": null
         }
       ],
-      "id": 199,
+      "id": 169,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7413,7 +6430,7 @@
           "citations": null
         }
       ],
-      "id": 200,
+      "id": 170,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7445,7 +6462,7 @@
           "citations": null
         }
       ],
-      "id": 201,
+      "id": 171,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7477,7 +6494,7 @@
           "citations": null
         }
       ],
-      "id": 202,
+      "id": 172,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7509,7 +6526,7 @@
           "citations": null
         }
       ],
-      "id": 203,
+      "id": 173,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7541,7 +6558,7 @@
           "citations": null
         }
       ],
-      "id": 204,
+      "id": 174,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7573,7 +6590,7 @@
           "citations": null
         }
       ],
-      "id": 205,
+      "id": 175,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7605,7 +6622,7 @@
           "citations": null
         }
       ],
-      "id": 206,
+      "id": 176,
       "lecturer": "Yuyun Hidayat",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7637,7 +6654,7 @@
           "citations": 9
         }
       ],
-      "id": 207,
+      "id": 177,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -7669,7 +6686,7 @@
           "citations": 6
         }
       ],
-      "id": 208,
+      "id": 178,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -7701,7 +6718,7 @@
           "citations": 2
         }
       ],
-      "id": 209,
+      "id": 179,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -7733,7 +6750,7 @@
           "citations": 1
         }
       ],
-      "id": 210,
+      "id": 180,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -7765,7 +6782,7 @@
           "citations": 4
         }
       ],
-      "id": 211,
+      "id": 181,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Scopus",
       "lastVerifiedAt": "2026-10-03",
@@ -7797,39 +6814,7 @@
           "citations": 16
         }
       ],
-      "id": 212,
-      "lecturer": "Atje Setiawan Abdullah",
-      "indexSource": "Web of Science",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "GSTARI-X-ARCH Model with Data Mining Approach for Forecasting Climate in West Java",
-      "year": 2022,
-      "venue": "COMPUTATION",
-      "lecturers": [
-        "Atje Setiawan Abdullah"
-      ],
-      "facultyIds": [
-        "5999023"
-      ],
-      "category": "Web of Science",
-      "indexSources": [
-        "Web of Science"
-      ],
-      "href": "https://www.webofscience.com/wos/woscc/full-record/WOS:000902322500001",
-      "doi": "10.3390/computation10120204",
-      "evidence": [
-        {
-          "source": "Web of Science",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=wos",
-          "recordUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000902322500001",
-          "checkedAt": "2026-10-03",
-          "citations": 2
-        }
-      ],
-      "id": 213,
+      "id": 182,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Web of Science",
       "lastVerifiedAt": "2026-10-03",
@@ -7861,7 +6846,7 @@
           "citations": null
         }
       ],
-      "id": 214,
+      "id": 183,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7893,7 +6878,7 @@
           "citations": null
         }
       ],
-      "id": 215,
+      "id": 184,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7925,7 +6910,7 @@
           "citations": null
         }
       ],
-      "id": 216,
+      "id": 185,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7957,7 +6942,7 @@
           "citations": null
         }
       ],
-      "id": 217,
+      "id": 186,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -7989,7 +6974,7 @@
           "citations": null
         }
       ],
-      "id": 218,
+      "id": 187,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -8021,71 +7006,7 @@
           "citations": null
         }
       ],
-      "id": 219,
-      "lecturer": "Atje Setiawan Abdullah",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "PRINCIPAL COMPONENT ANALYSIS-VECTOR AUTOREGRESSIVE INTEGRATED (PCA-VARI) MODEL USING DATA MINING APPROACH TO CLIMATE DATA IN THE WEST JAVA REGION",
-      "year": 2022,
-      "venue": "BAREKENG: Jurnal Ilmu Matematika dan Terapan Vol 16 No 1 (2022): BAREKENG: Jurnal Ilmu Matematika dan Terapan099-112",
-      "lecturers": [
-        "Atje Setiawan Abdullah"
-      ],
-      "facultyIds": [
-        "5999023"
-      ],
-      "category": "Sinta 2",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/2899455",
-      "doi": "10.30598/barekengvol16iss1pp099-112",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/2899455",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 220,
-      "lecturer": "Atje Setiawan Abdullah",
-      "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
-      "historicalOnly": false
-    },
-    {
-      "title": "Sistem Informasi Geografis Pemetaan Permainan Tradisional di Indonesia dengan Rapid Application Development Berbasis Website",
-      "year": 2022,
-      "venue": "Jurnal Telematika Vol. 17 No. 2 (2022)55-64",
-      "lecturers": [
-        "Atje Setiawan Abdullah"
-      ],
-      "facultyIds": [
-        "5999023"
-      ],
-      "category": "Sinta 3",
-      "indexSources": [
-        "Garuda"
-      ],
-      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/3324390",
-      "doi": "10.61769/telematika.v17i2.524",
-      "evidence": [
-        {
-          "source": "Garuda",
-          "via": "SINTA",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=garuda",
-          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3324390",
-          "checkedAt": "2026-10-03",
-          "citations": null
-        }
-      ],
-      "id": 221,
+      "id": 188,
       "lecturer": "Atje Setiawan Abdullah",
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
@@ -8110,7 +7031,6 @@
         "https://statistics.unpad.ac.id/id/dosen-budhi-handoko/"
       ],
       "byYear": {
-        "2022": 0,
         "2023": 3,
         "2024": 2,
         "2025": 6,
@@ -8177,93 +7097,13 @@
     },
     {
       "id": 2,
-      "name": "Aceng Komarudin Mutaqin",
-      "sintaId": "5977377",
-      "education": "S-3",
-      "sintaProfile": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377",
-      "scopusId": "38961618500",
-      "identitySources": [
-        "https://orcid.org/0000-0002-8217-0817"
-      ],
-      "sourceChecks": [
-        {
-          "source": "Scopus",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=scopus",
-          "checkedAt": "2026-10-03",
-          "status": "partial",
-          "recordsInPeriod": 2,
-          "via": "SINTA"
-        },
-        {
-          "source": "Web of Science",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=wos",
-          "checkedAt": "2026-10-03",
-          "status": "partial",
-          "recordsInPeriod": 0,
-          "via": "SINTA"
-        },
-        {
-          "source": "Google Scholar",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=googlescholar",
-          "checkedAt": "2026-10-03",
-          "status": "partial",
-          "recordsInPeriod": 10,
-          "via": "SINTA"
-        },
-        {
-          "source": "Garuda",
-          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=garuda",
-          "checkedAt": "2026-10-03",
-          "status": "partial",
-          "recordsInPeriod": 10,
-          "via": "SINTA"
-        }
-      ],
-      "googleScholarId": "luvYovYAAAAJ",
-      "affiliation": "Universitas Islam Bandung",
-      "sintaScoreOverall": 818,
-      "sintaScore3Yr": 268,
-      "profileMetrics": {
-        "Article": [
-          6,
-          119,
-          5
-        ],
-        "Citation": [
-          0,
-          260,
-          1
-        ],
-        "H-Index": [
-          0,
-          8,
-          1
-        ]
-      },
-      "metricsSource": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=scopus",
-      "metricsCheckedAt": "2026-10-03",
-      "hIndexScopus": 0,
-      "googleScholarProfile": "https://scholar.google.com/citations?user=luvYovYAAAAJ",
-      "scopusProfile": "https://www.scopus.com/authid/detail.uri?authorId=38961618500",
-      "wosProfile": null,
-      "publicationsCaptured": 12,
-      "byYear": {
-        "2022": 0,
-        "2023": 1,
-        "2024": 5,
-        "2025": 5,
-        "2026": 1
-      }
-    },
-    {
-      "id": 3,
       "name": "Anindya Apriliyanti Pravitasari",
       "education": "S-3",
       "sintaId": "6021099",
       "scopusId": "57204105479",
       "googleScholarId": "cJKymqwAAAAJ",
       "wosId": "Tidak tersedia di sumber publik",
-      "publicationsCaptured": 19,
+      "publicationsCaptured": 17,
       "sintaScore3Yr": 570,
       "sintaScoreOverall": 1477,
       "hIndexScopus": 9,
@@ -8272,7 +7112,6 @@
         "https://statistics.unpad.ac.id/id/dosen-anindya-apriliyanti-pravitasari/"
       ],
       "byYear": {
-        "2022": 2,
         "2023": 2,
         "2024": 2,
         "2025": 7,
@@ -8309,7 +7148,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=garuda",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 10,
+          "recordsInPeriod": 8,
           "via": "SINTA"
         }
       ],
@@ -8338,14 +7177,14 @@
       "wosProfile": null
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "Bertho Tantular",
       "education": "S-3",
       "sintaId": "6021005",
       "scopusId": "57193956899",
       "googleScholarId": "nSMi36UAAAAJ",
       "wosId": "ACP-2178-2022",
-      "publicationsCaptured": 14,
+      "publicationsCaptured": 13,
       "sintaScore3Yr": 317,
       "sintaScoreOverall": 846,
       "hIndexScopus": 6,
@@ -8354,7 +7193,6 @@
         "https://statistics.unpad.ac.id/id/dosen-bertho-tantular/"
       ],
       "byYear": {
-        "2022": 1,
         "2023": 1,
         "2024": 0,
         "2025": 7,
@@ -8391,7 +7229,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021005/?view=garuda",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 4,
+          "recordsInPeriod": 3,
           "via": "SINTA"
         }
       ],
@@ -8420,7 +7258,7 @@
       "wosProfile": "https://www.webofscience.com/wos/author/record/ACP-2178-2022"
     },
     {
-      "id": 5,
+      "id": 4,
       "name": "Defi Yusti Faidah",
       "education": "S-3",
       "sintaId": "6014997",
@@ -8436,7 +7274,6 @@
         "https://statistics.unpad.ac.id/id/dosen-defi-yusti-faidah/"
       ],
       "byYear": {
-        "2022": 0,
         "2023": 0,
         "2024": 10,
         "2025": 5,
@@ -8502,7 +7339,7 @@
       "wosProfile": null
     },
     {
-      "id": 6,
+      "id": 5,
       "name": "Gumgum Darmawan",
       "education": "S-3",
       "sintaId": "6083056",
@@ -8519,7 +7356,6 @@
         "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056"
       ],
       "byYear": {
-        "2022": 0,
         "2023": 0,
         "2024": 1,
         "2025": 7,
@@ -8585,14 +7421,14 @@
       "wosProfile": null
     },
     {
-      "id": 7,
+      "id": 6,
       "name": "I Gede Nyoman Mindra Jaya",
       "education": "S-3",
       "sintaId": "6026564",
       "scopusId": "57218102814",
       "googleScholarId": "6I4tsAwAAAAJ",
       "wosId": "ABH-2005-2021",
-      "publicationsCaptured": 21,
+      "publicationsCaptured": 19,
       "sintaScore3Yr": 601,
       "sintaScoreOverall": 2699,
       "hIndexScopus": 13,
@@ -8601,7 +7437,6 @@
         "https://statistics.unpad.ac.id/id/dosen-ign-mindra-jaya/"
       ],
       "byYear": {
-        "2022": 2,
         "2023": 4,
         "2024": 4,
         "2025": 7,
@@ -8638,7 +7473,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=garuda",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 8,
+          "recordsInPeriod": 6,
           "via": "SINTA"
         }
       ],
@@ -8667,14 +7502,14 @@
       "wosProfile": "https://www.webofscience.com/wos/author/record/ABH-2005-2021"
     },
     {
-      "id": 8,
+      "id": 7,
       "name": "Irlandia Ginanjar",
       "education": "S-3",
       "sintaId": "65044",
       "scopusId": "56516912700",
       "googleScholarId": "rO8fY8IAAAAJ",
       "wosId": "Tidak tersedia di sumber publik",
-      "publicationsCaptured": 17,
+      "publicationsCaptured": 14,
       "sintaScore3Yr": 206,
       "sintaScoreOverall": 747,
       "hIndexScopus": 5,
@@ -8683,7 +7518,6 @@
         "https://statistics.unpad.ac.id/id/dosen-irlandia-ginanjar/"
       ],
       "byYear": {
-        "2022": 3,
         "2023": 3,
         "2024": 4,
         "2025": 3,
@@ -8720,7 +7554,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=garuda",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 6,
+          "recordsInPeriod": 3,
           "via": "SINTA"
         }
       ],
@@ -8749,14 +7583,14 @@
       "wosProfile": null
     },
     {
-      "id": 9,
+      "id": 8,
       "name": "Lienda Noviyanti",
       "education": "S-3",
       "sintaId": "6084145",
       "scopusId": "57190936087",
       "googleScholarId": "kHOuTKYAAAAJ",
       "wosId": "Tidak tersedia di sumber publik",
-      "publicationsCaptured": 8,
+      "publicationsCaptured": 6,
       "sintaScore3Yr": 123,
       "sintaScoreOverall": 518,
       "hIndexScopus": 3,
@@ -8765,7 +7599,6 @@
         "https://statistics.unpad.ac.id/id/dosen-lienda-noviyanti/"
       ],
       "byYear": {
-        "2022": 2,
         "2023": 3,
         "2024": 3,
         "2025": 0,
@@ -8778,7 +7611,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084145/?view=scopus",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 4,
+          "recordsInPeriod": 2,
           "via": "SINTA"
         },
         {
@@ -8831,14 +7664,14 @@
       "wosProfile": null
     },
     {
-      "id": 10,
+      "id": 9,
       "name": "Restu Arisanti",
       "education": "S-3",
       "sintaId": "6084328",
       "scopusId": "57194095673",
       "googleScholarId": "_s21-doAAAAJ",
       "wosId": "Tidak tersedia di sumber publik",
-      "publicationsCaptured": 16,
+      "publicationsCaptured": 15,
       "sintaScore3Yr": 392,
       "sintaScoreOverall": 738,
       "hIndexScopus": 3,
@@ -8847,7 +7680,6 @@
         "https://statistics.unpad.ac.id/id/dosen-restu-arisanti/"
       ],
       "byYear": {
-        "2022": 1,
         "2023": 1,
         "2024": 5,
         "2025": 7,
@@ -8884,7 +7716,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084328/?view=garuda",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 8,
+          "recordsInPeriod": 7,
           "via": "SINTA"
         }
       ],
@@ -8913,7 +7745,7 @@
       "wosProfile": null
     },
     {
-      "id": 11,
+      "id": 10,
       "name": "Sri Winarni",
       "education": "S-3",
       "sintaId": "6089665",
@@ -8929,7 +7761,6 @@
         "https://statistics.unpad.ac.id/id/dosen-sri-winarni/"
       ],
       "byYear": {
-        "2022": 0,
         "2023": 3,
         "2024": 5,
         "2025": 6,
@@ -8995,7 +7826,7 @@
       "wosProfile": null
     },
     {
-      "id": 12,
+      "id": 11,
       "name": "Triyani Hendrawati",
       "education": "S-3",
       "sintaId": "6084299",
@@ -9008,11 +7839,10 @@
       "hIndexScopus": 4,
       "sintaProfile": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084299",
       "identitySources": [
-        "https://statistics.unpad.ac.id/dosen-triyani-hendrawati/",
-        "https://statistics.unpad.ac.id/id/dosen-triyani-hendrawati/"
+        "https://statistics.unpad.ac.id/id/dosen-triyani-hendrawati/",
+        "https://statistics.unpad.ac.id/dosen-triyani-hendrawati/"
       ],
       "byYear": {
-        "2022": 0,
         "2023": 5,
         "2024": 6,
         "2025": 6,
@@ -9078,14 +7908,14 @@
       "wosProfile": null
     },
     {
-      "id": 13,
+      "id": 12,
       "name": "Yusep Suparman",
       "education": "S-3",
       "sintaId": "6089608",
       "scopusId": "57209676948",
       "googleScholarId": "L4Lzt08AAAAJ",
       "wosId": "Tidak tersedia di sumber publik",
-      "publicationsCaptured": 18,
+      "publicationsCaptured": 15,
       "sintaScore3Yr": 227,
       "sintaScoreOverall": 667,
       "hIndexScopus": 7,
@@ -9094,7 +7924,6 @@
         "https://statistics.unpad.ac.id/id/dosen-yusep-suparman/"
       ],
       "byYear": {
-        "2022": 3,
         "2023": 6,
         "2024": 4,
         "2025": 4,
@@ -9107,7 +7936,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=scopus",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 10,
+          "recordsInPeriod": 8,
           "via": "SINTA"
         },
         {
@@ -9115,7 +7944,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=wos",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 4,
+          "recordsInPeriod": 2,
           "via": "SINTA"
         },
         {
@@ -9160,7 +7989,7 @@
       "wosProfile": null
     },
     {
-      "id": 14,
+      "id": 13,
       "name": "Budi Nurani Ruchjana",
       "sintaId": "5999022",
       "education": "S-3",
@@ -9183,7 +8012,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=wos",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 8,
+          "recordsInPeriod": 6,
           "via": "SINTA"
         },
         {
@@ -9230,9 +8059,8 @@
       "googleScholarProfile": "https://scholar.google.com/citations?user=KuVIWZsAAAAJ",
       "scopusProfile": "https://www.scopus.com/authid/detail.uri?authorId=25229331100",
       "wosProfile": null,
-      "publicationsCaptured": 24,
+      "publicationsCaptured": 22,
       "byYear": {
-        "2022": 2,
         "2023": 4,
         "2024": 4,
         "2025": 10,
@@ -9240,14 +8068,14 @@
       }
     },
     {
-      "id": 15,
+      "id": 14,
       "name": "Yuyun Hidayat",
       "education": "S-3",
       "sintaId": "6014614",
       "scopusId": "55953834100",
       "googleScholarId": "4XKZaFsAAAAJ",
       "wosId": "Tidak tersedia di sumber publik",
-      "publicationsCaptured": 27,
+      "publicationsCaptured": 25,
       "sintaScore3Yr": 507,
       "sintaScoreOverall": 2462,
       "hIndexScopus": 11,
@@ -9256,7 +8084,6 @@
         "https://statistics.unpad.ac.id/dosen-yuyun-hidayat/"
       ],
       "byYear": {
-        "2022": 2,
         "2023": 4,
         "2024": 11,
         "2025": 9,
@@ -9277,7 +8104,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014614/?view=wos",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 9,
+          "recordsInPeriod": 7,
           "via": "SINTA"
         },
         {
@@ -9322,14 +8149,14 @@
       "wosProfile": null
     },
     {
-      "id": 16,
+      "id": 15,
       "name": "Hasna Afifah Rusyda",
       "education": "S-3",
       "sintaId": "6742829",
       "scopusId": "57222314356",
       "googleScholarId": "dIgTl2AAAAAJ",
       "wosId": "Tidak tersedia di sumber publik",
-      "publicationsCaptured": 2,
+      "publicationsCaptured": 1,
       "sintaScore3Yr": 20,
       "sintaScoreOverall": 160,
       "hIndexScopus": 2,
@@ -9340,7 +8167,6 @@
         "https://scholar.google.com/citations?user=dIgTl2AAAAAJ"
       ],
       "byYear": {
-        "2022": 1,
         "2023": 0,
         "2024": 1,
         "2025": 0,
@@ -9353,7 +8179,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6742829/?view=scopus",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 2,
+          "recordsInPeriod": 1,
           "via": "SINTA"
         },
         {
@@ -9369,7 +8195,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6742829/?view=googlescholar",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 8,
+          "recordsInPeriod": 3,
           "via": "SINTA"
         },
         {
@@ -9406,7 +8232,7 @@
       "wosProfile": null
     },
     {
-      "id": 17,
+      "id": 16,
       "name": "Atje Setiawan Abdullah",
       "sintaId": "5999023",
       "education": "S-3",
@@ -9429,7 +8255,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=wos",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 5,
+          "recordsInPeriod": 4,
           "via": "SINTA"
         },
         {
@@ -9445,7 +8271,7 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=garuda",
           "checkedAt": "2026-10-03",
           "status": "partial",
-          "recordsInPeriod": 9,
+          "recordsInPeriod": 7,
           "via": "SINTA"
         }
       ],
@@ -9476,9 +8302,8 @@
       "googleScholarProfile": "https://scholar.google.com/citations?user=-kYoZfAAAAAJ",
       "scopusProfile": "https://www.scopus.com/authid/detail.uri?authorId=55872557900",
       "wosProfile": null,
-      "publicationsCaptured": 24,
+      "publicationsCaptured": 21,
       "byYear": {
-        "2022": 3,
         "2023": 9,
         "2024": 6,
         "2025": 3,
@@ -9532,50 +8357,6 @@
       "via": "SINTA"
     },
     {
-      "facultyId": "5977377",
-      "name": "Aceng Komarudin Mutaqin",
-      "contentSha256": "3604e4ede1d84a6dc80f9c5d9f3ca96f3048da7e191676935a76bb65f4574e81",
-      "source": "Scopus",
-      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=scopus",
-      "checkedAt": "2026-10-03",
-      "status": "partial",
-      "recordsInPeriod": 2,
-      "via": "SINTA"
-    },
-    {
-      "facultyId": "5977377",
-      "name": "Aceng Komarudin Mutaqin",
-      "contentSha256": "b91c4f11d4f5a624ff7b98b287218164ca295280da49c6791c85d0cd9dffd562",
-      "source": "Web of Science",
-      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=wos",
-      "checkedAt": "2026-10-03",
-      "status": "partial",
-      "recordsInPeriod": 0,
-      "via": "SINTA"
-    },
-    {
-      "facultyId": "5977377",
-      "name": "Aceng Komarudin Mutaqin",
-      "contentSha256": "27567a8a72bc0b23878ea9f99e38bf8f223c0a4fe07da07f21aa602ecaa97ea6",
-      "source": "Google Scholar",
-      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=googlescholar",
-      "checkedAt": "2026-10-03",
-      "status": "partial",
-      "recordsInPeriod": 10,
-      "via": "SINTA"
-    },
-    {
-      "facultyId": "5977377",
-      "name": "Aceng Komarudin Mutaqin",
-      "contentSha256": "049fc75ede1bfc31e5c74ada0d39603b50c69021ae01591daf4e1e5b493b397f",
-      "source": "Garuda",
-      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5977377/?view=garuda",
-      "checkedAt": "2026-10-03",
-      "status": "partial",
-      "recordsInPeriod": 10,
-      "via": "SINTA"
-    },
-    {
       "facultyId": "6021099",
       "name": "Anindya Apriliyanti Pravitasari",
       "contentSha256": "05a59d6323c8004eaae95f0027a2781bd9b6c56d81ef255fc31a24325f74d4e6",
@@ -9616,7 +8397,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=garuda",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 10,
+      "recordsInPeriod": 8,
       "via": "SINTA"
     },
     {
@@ -9660,7 +8441,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021005/?view=garuda",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 4,
+      "recordsInPeriod": 3,
       "via": "SINTA"
     },
     {
@@ -9792,7 +8573,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=garuda",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 8,
+      "recordsInPeriod": 6,
       "via": "SINTA"
     },
     {
@@ -9836,7 +8617,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=garuda",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 6,
+      "recordsInPeriod": 3,
       "via": "SINTA"
     },
     {
@@ -9847,7 +8628,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084145/?view=scopus",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 4,
+      "recordsInPeriod": 2,
       "via": "SINTA"
     },
     {
@@ -9924,7 +8705,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084328/?view=garuda",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 8,
+      "recordsInPeriod": 7,
       "via": "SINTA"
     },
     {
@@ -10023,7 +8804,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=scopus",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 10,
+      "recordsInPeriod": 8,
       "via": "SINTA"
     },
     {
@@ -10034,7 +8815,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=wos",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 4,
+      "recordsInPeriod": 2,
       "via": "SINTA"
     },
     {
@@ -10078,7 +8859,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=wos",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 8,
+      "recordsInPeriod": 6,
       "via": "SINTA"
     },
     {
@@ -10122,7 +8903,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014614/?view=wos",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 9,
+      "recordsInPeriod": 7,
       "via": "SINTA"
     },
     {
@@ -10155,7 +8936,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6742829/?view=scopus",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 2,
+      "recordsInPeriod": 1,
       "via": "SINTA"
     },
     {
@@ -10177,7 +8958,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6742829/?view=googlescholar",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 8,
+      "recordsInPeriod": 3,
       "via": "SINTA"
     },
     {
@@ -10210,7 +8991,7 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=wos",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 5,
+      "recordsInPeriod": 4,
       "via": "SINTA"
     },
     {
@@ -10232,14 +9013,14 @@
       "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=garuda",
       "checkedAt": "2026-10-03",
       "status": "partial",
-      "recordsInPeriod": 9,
+      "recordsInPeriod": 7,
       "via": "SINTA"
     }
   ],
   "notes": [
     "Public profiles expose a limited selection; this is not an exhaustive bibliography.",
     "Source totals overlap; one article can appear in multiple indexes.",
-    "Profile metrics are all-time snapshots reported by SINTA and are not totals for 2022–2026.",
+    "Profile metrics are all-time snapshots reported by SINTA and are not totals for 2023–2026.",
     "Quartiles reflect the source snapshot, not a verified historical quartile for the publication year.",
     "Google Scholar and historical-only records are excluded from the catalog and all publication counts."
   ]
