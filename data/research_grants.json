@@ -1,25 +1,25 @@
 {
   "source": "Kontrak PDF @SK-SK dan empat ZIP tahun 2023–2026 dari pengguna; 10 PDF tambahan @SK-SK/New; 2 kontrak Atje Setiawan dari pengguna",
-  "reviewedAt": "2026-10-01",
+  "reviewedAt": "2026-10-07",
   "period": [
     2023,
     2026
   ],
-  "total": 44,
-  "totalAmount": 2132255000,
-  "linkedDocuments": 44,
+  "total": 48,
+  "totalAmount": 2360275000,
+  "linkedDocuments": 48,
   "years": {
     "2023": {
       "count": 11,
       "amount": 644975000
     },
     "2024": {
-      "count": 10,
-      "amount": 515500000
+      "count": 11,
+      "amount": 530500000
     },
     "2025": {
-      "count": 16,
-      "amount": 686000000
+      "count": 19,
+      "amount": 899020000
     },
     "2026": {
       "count": 7,
@@ -28,10 +28,9 @@
   },
   "metricDefinition": "Jumlah nominal pendanaan yang dinyatakan dalam kontrak, termasuk komponen luaran jika nominalnya ditetapkan; bukan realisasi pencairan. Satu kontrak per ketua, skema, judul, dan tahun dihitung sekali.",
   "lecturerAttribution": "Nilai diatribusikan kepada ketua/pihak kedua dalam kontrak; tidak dibagi atau digandakan ke anggota tim.",
-  "coverageNote": "Berdasarkan berkas yang tersedia hingga 1 Oktober 2026; tahun 2026 belum satu tahun penuh. Tidak ditemukannya berkas bukan berarti dosen tidak menerima hibah. Arsip 2021–2022 disajikan terpisah dan tidak masuk statistik.",
+  "coverageNote": "Berdasarkan berkas yang tersedia hingga 7 Oktober 2026; tahun 2026 belum satu tahun penuh. Tidak ditemukannya berkas bukan berarti dosen tidak menerima hibah. Arsip 2021–2022 disajikan terpisah dan tidak masuk statistik.",
   "lecturers": [
     "Budhi Handoko",
-    "Aceng Kamarudin Mutaqin",
     "Anindya Apriliyanti Pravitasari",
     "Bertho Tantular",
     "Defi Yusti Faidah",
@@ -46,7 +45,8 @@
     "Budi Nurani Ruchjana",
     "Yuyun Hidayat",
     "Hasna Afifah Rusyda",
-    "Atje Setiawan Abdullah"
+    "Atje Setiawan Abdullah",
+    "Yudhie Andriyana"
   ],
   "grants": [
     {
@@ -966,6 +966,90 @@
       "sha256": "3313a6facb928973a27137168ac0d0d4662e047183c81ed99aec16aa9731eda3",
       "sourceFile": "YUYUN HIDAYAT HRU RDPD 2023.pdf",
       "notes": [],
+      "attachments": []
+    },
+    {
+      "id": "6498e2d9f865",
+      "year": 2024,
+      "researcher": "Yudhie Andriyana",
+      "title": "Pengembangan Model Regresi Kuantil dalam Mengatasi Permasalahan Sosial di Masyarakat",
+      "scheme": "Riset Data Pustaka dan Daring",
+      "schemeCode": "RDPD",
+      "group": "Penelitian dan publikasi",
+      "contractNumber": "2096/UN6.3.1/PT.00/2024",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 15000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2024-6498e2d9f865.pdf",
+      "amountPage": 2,
+      "amountEvidence": "Pasal 3: nilai pendanaan Rp15,000,000. Diverifikasi pada halaman 2 PDF kontrak.",
+      "sha256": "6498e2d9f865aea15a98e75ff73d8582d8155ae7ba9b4933080fcdcc22ad8d04",
+      "sourceFile": "Tahun 2024/03-YUDHIE ANDRIYANA HRU RDPD 2024.pdf",
+      "notes": [],
+      "attachments": []
+    },
+    {
+      "id": "ae8077a9ee58",
+      "year": 2025,
+      "researcher": "Yudhie Andriyana",
+      "title": "Model Regresi Quantile Spatial Autoregressive Exogenous dengan Pendekatan Casetti untuk Prediksi Fenomena Iklim di Indonesia",
+      "scheme": "Penelitian Fundamental Reguler",
+      "schemeCode": "PFR",
+      "group": "Penelitian dan publikasi",
+      "contractNumber": "1709/UN6.3.1/PT.00/2025",
+      "fundingSource": "Kemdiktisaintek",
+      "amount": 93020000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2025-ae8077a9ee58.pdf",
+      "amountPage": 2,
+      "amountEvidence": "Pasal 3: nilai pendanaan Rp93,020,000. Diverifikasi pada halaman 2 PDF kontrak.",
+      "sha256": "ae8077a9ee586837838e6493d58142d3696e4b8a06e91c0280ff356e179ad248",
+      "sourceFile": "Tahun 2025/2025 DIKTI MIPA PFR a.n Yudhie Andriyana.pdf",
+      "notes": [],
+      "attachments": []
+    },
+    {
+      "id": "8f6ea756147f",
+      "year": 2025,
+      "researcher": "Yudhie Andriyana",
+      "title": "Penelitian Post-Doctoral 2025: supervisi Dr. Annisa Nur Falah, M.Mat.",
+      "scheme": "Penelitian Post-Doctoral",
+      "schemeCode": "POSTDOC",
+      "group": "Penelitian dan publikasi",
+      "contractNumber": "1210/UN6.3.1/PT.00/2025",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 60000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2025-8f6ea756147f.pdf",
+      "amountPage": 2,
+      "amountEvidence": "Pasal 3: nilai pendanaan Rp60,000,000. Diverifikasi pada halaman 2 PDF kontrak.",
+      "sha256": "8f6ea756147f47ebdd16d1da7d50681c9f324347f22ba1c1a1c1998ea023a1a1",
+      "sourceFile": "Tahun 2025/2025 MIPA HRU POST DOCTORAL a.n Yudhie Andriyana.pdf",
+      "notes": [
+        "Yudhie Andriyana adalah pihak kedua/supervisor. Pendanaan Rp5.000.000 per bulan selama 12 bulan (April 2025–Maret 2026), dihitung sekali pada tahun kontrak 2025. Fasilitas nonmoneter tidak ditambahkan."
+      ],
+      "attachments": []
+    },
+    {
+      "id": "24ca4ecb7230",
+      "year": 2025,
+      "researcher": "Yudhie Andriyana",
+      "title": "Non-Crossing Conditional Quantile Curves Dalam Space Time Varying Coefficient Model Pada Kasus Penyakit Menular Di Jawa Barat",
+      "scheme": "Riset Disertasi Doktor Unpad",
+      "schemeCode": "RDDU",
+      "group": "Penelitian dan publikasi",
+      "contractNumber": "1000/UN6.3.1/PT.00/2025",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 60000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2025-24ca4ecb7230.pdf",
+      "amountPage": 2,
+      "amountEvidence": "Pasal 3: nilai pendanaan Rp60,000,000. Diverifikasi pada halaman 2 PDF kontrak.",
+      "sha256": "24ca4ecb72305e5da2a7326f3cfaee54e0abdc19d896341764f31e482cda4c4c",
+      "sourceFile": "Tahun 2025/2025 MIPA HRU RDDU a.n Yudhie Andriyana.pdf",
+      "notes": [
+        "Promotor Sinta Septi Pangastuti, tahun studi ke-1. Biaya pendidikan tanpa nominal dalam kontrak tidak ditambahkan ke nilai riset."
+      ],
       "attachments": []
     }
   ],

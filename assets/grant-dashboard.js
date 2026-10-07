@@ -8,7 +8,7 @@ async function start() {
   const juta = v => new Intl.NumberFormat('id-ID', { maximumFractionDigits:3 }).format(v/1e6);
   const colors = {2023:'#174d6d',2024:'#138579',2025:'#b48021',2026:'#8061a8'};
   try {
-    const response = await fetch('data/research_grants.json?v=20261001-dashboard');
+    const response = await fetch('data/research_grants.json?v=20261007-dashboard');
     if (!response.ok) throw new Error('Data belum tersedia');
     const data = await response.json();
     const all = data.grants;
@@ -17,7 +17,7 @@ async function start() {
     $('gdScheme').innerHTML += [...schemeNames].sort().map(([v,n]) => `<option value="${esc(v)}">${esc(n)}</option>`).join('');
     $('gdPerson').innerHTML += data.lecturers.slice().sort().map(n => `<option>${esc(n)}</option>`).join('');
     $('gdLegend').innerHTML = Object.entries(colors).map(([y,c]) => `<span><i style="background:${c}"></i>${y}${y==='2026'?' (berjalan)':''}</span>`).join('');
-    $('gdNotes').innerHTML = `<p>${esc(data.metricDefinition)}</p><p>${esc(data.coverageNote)}</p><p>${esc(data.lecturerAttribution)}</p><p>Hibah pengabdian Rp7.000.000 ditampilkan terpisah dari penelitian dan publikasi pada kartu ringkasan. Pilihan Semua kelompok mencakup keduanya. Salinan PDF dan laporan akhir tidak menambah jumlah atau nilai kontrak.</p><ul>${all.flatMap(r => r.notes.map(n => `<li><strong>${esc(r.researcher)} · ${r.year} · ${esc(r.schemeCode)}:</strong> ${esc(n)} <a href="${esc(r.documentHref)}#page=${r.amountPage}" target="_blank" rel="noopener">Lihat sumber ↗</a></li>`)).join('')}</ul><p><a href="data/research-grant-import-audit.json">Audit 46 PDF awal</a> · <a href="data/research-grant-update-20261001.json">Audit 12 PDF tambahan</a> · <a href="data/research_grants.json">Data & sumber perhitungan</a></p>`;
+    $('gdNotes').innerHTML = `<p>${esc(data.metricDefinition)}</p><p>${esc(data.coverageNote)}</p><p>${esc(data.lecturerAttribution)}</p><p>Hibah pengabdian Rp7.000.000 ditampilkan terpisah dari penelitian dan publikasi pada kartu ringkasan. Pilihan Semua kelompok mencakup keduanya. Salinan PDF dan laporan akhir tidak menambah jumlah atau nilai kontrak.</p><ul>${all.flatMap(r => r.notes.map(n => `<li><strong>${esc(r.researcher)} · ${r.year} · ${esc(r.schemeCode)}:</strong> ${esc(n)} <a href="${esc(r.documentHref)}#page=${r.amountPage}" target="_blank" rel="noopener">Lihat sumber ↗</a></li>`)).join('')}</ul><p><a href="data/research-grant-import-audit.json">Audit 46 PDF awal</a> · <a href="data/research-grant-update-20261001.json">Audit 12 PDF tambahan</a> · <a href="data/research-grant-update-20261007.json">Audit 4 kontrak Yudhie</a> · <a href="data/research_grants.json">Data & sumber perhitungan</a></p>`;
     $('gdPending').innerHTML = data.pending.map(r => `<p><strong>${esc(r.researcher)} · ${r.year}</strong><br>${esc(r.title)}<br>Nilai catatan lama: ${rupiah(r.reportedAmount)} · kontrak belum ditemukan.</p>`).join('');
     const history = document.createElement('details');
     history.className='gd-method';

@@ -1,22 +1,22 @@
 {
   "source": "SINTA public Scopus, Web of Science and Garuda tabs only",
-  "generatedAt": "2026-10-03",
+  "generatedAt": "2026-10-07",
   "period": [
     2023,
     2026
   ],
   "partialPublicData": true,
-  "catalogRevisedAt": "2026-10-04",
+  "catalogRevisedAt": "2026-10-07",
   "inclusionPolicy": "Current SINTA Scopus/WoS/Garuda records only; Google Scholar and historical-only records excluded",
   "totals": {
-    "publications": 186,
-    "lecturers": 16,
-    "facultyPublicationLinks": 255
+    "publications": 193,
+    "lecturers": 17,
+    "facultyPublicationLinks": 268
   },
   "years": [
     {
       "year": 2023,
-      "count": 44
+      "count": 45
     },
     {
       "year": 2024,
@@ -24,17 +24,17 @@
     },
     {
       "year": 2025,
-      "count": 58
+      "count": 62
     },
     {
       "year": 2026,
-      "count": 27
+      "count": 29
     }
   ],
   "indexSources": [
     {
       "name": "Scopus",
-      "count": 89
+      "count": 96
     },
     {
       "name": "Web of Science",
@@ -42,21 +42,21 @@
     },
     {
       "name": "Garuda",
-      "count": 79
+      "count": 80
     }
   ],
   "categories": [
     {
       "name": "Scopus Q1",
-      "count": 45
+      "count": 49
     },
     {
       "name": "Scopus Q2",
-      "count": 16
+      "count": 18
     },
     {
       "name": "Scopus Q4",
-      "count": 5
+      "count": 6
     },
     {
       "name": "Scopus Q3",
@@ -76,7 +76,7 @@
     },
     {
       "name": "Sinta 4",
-      "count": 7
+      "count": 8
     },
     {
       "name": "Sinta 5",
@@ -88,7 +88,7 @@
     },
     {
       "name": "Web of Science",
-      "count": 26
+      "count": 25
     },
     {
       "name": "Sinta 6",
@@ -539,10 +539,12 @@
       "year": 2023,
       "venue": "EKSAKTA: Berkala Ilmiah Bidang MIPA Vol. 24 No. 02 (2023): Eksakta : Berkala Ilmiah Bidang MIPA (E-ISSN : 2549-7464)122-132",
       "lecturers": [
-        "Budhi Handoko"
+        "Budhi Handoko",
+        "Yudhie Andriyana"
       ],
       "facultyIds": [
-        "6089789"
+        "6089789",
+        "6028086"
       ],
       "category": "Sinta 3",
       "indexSources": [
@@ -558,6 +560,14 @@
           "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3406833",
           "checkedAt": "2026-10-03",
           "citations": null
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3406833",
+          "checkedAt": "2026-10-07",
+          "citations": null
         }
       ],
       "identityVerifications": [],
@@ -565,9 +575,9 @@
       "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
       "topicReviewStatus": "title-reviewed",
       "id": 11,
-      "lecturer": "Budhi Handoko",
+      "lecturer": "Budhi Handoko; Yudhie Andriyana",
       "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
+      "lastVerifiedAt": "2026-10-07",
       "historicalOnly": false
     },
     {
@@ -1315,10 +1325,12 @@
       "year": 2024,
       "venue": "Inferensi Vol 7, No 2 (2024)111-122",
       "lecturers": [
-        "Anindya Apriliyanti Pravitasari"
+        "Anindya Apriliyanti Pravitasari",
+        "Yudhie Andriyana"
       ],
       "facultyIds": [
-        "6021099"
+        "6021099",
+        "6028086"
       ],
       "category": "Sinta 2",
       "indexSources": [
@@ -1334,6 +1346,14 @@
           "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4143299",
           "checkedAt": "2026-10-03",
           "citations": null
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4143299",
+          "checkedAt": "2026-10-07",
+          "citations": null
         }
       ],
       "identityVerifications": [],
@@ -1341,9 +1361,9 @@
       "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
       "topicReviewStatus": "title-reviewed",
       "id": 26,
-      "lecturer": "Anindya Apriliyanti Pravitasari",
+      "lecturer": "Anindya Apriliyanti Pravitasari; Yudhie Andriyana",
       "indexSource": "Garuda",
-      "lastVerifiedAt": "2026-10-03",
+      "lastVerifiedAt": "2026-10-07",
       "historicalOnly": false
     },
     {
@@ -1809,11 +1829,13 @@
       "venue": "Mathematics",
       "lecturers": [
         "Bertho Tantular",
-        "Budi Nurani Ruchjana"
+        "Budi Nurani Ruchjana",
+        "Yudhie Andriyana"
       ],
       "facultyIds": [
         "6021005",
-        "5999022"
+        "5999022",
+        "6028086"
       ],
       "category": "Scopus Q1",
       "indexSources": [
@@ -1837,6 +1859,14 @@
           "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105009050713&origin=resultslist",
           "checkedAt": "2026-10-03",
           "citations": 0
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105009050713&origin=resultslist",
+          "checkedAt": "2026-10-07",
+          "citations": 0
         }
       ],
       "identityVerifications": [],
@@ -1844,9 +1874,9 @@
       "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
       "topicReviewStatus": "title-reviewed",
       "id": 36,
-      "lecturer": "Bertho Tantular; Budi Nurani Ruchjana",
+      "lecturer": "Bertho Tantular; Budi Nurani Ruchjana; Yudhie Andriyana",
       "indexSource": "Scopus",
-      "lastVerifiedAt": "2026-10-03",
+      "lastVerifiedAt": "2026-10-07",
       "historicalOnly": false
     },
     {
@@ -1855,11 +1885,13 @@
       "venue": "International Journal of Data and Network Science",
       "lecturers": [
         "Bertho Tantular",
-        "I Gede Nyoman Mindra Jaya"
+        "I Gede Nyoman Mindra Jaya",
+        "Yudhie Andriyana"
       ],
       "facultyIds": [
         "6021005",
-        "6026564"
+        "6026564",
+        "6028086"
       ],
       "category": "Scopus Q1",
       "indexSources": [
@@ -1883,6 +1915,14 @@
           "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105012612852&origin=resultslist",
           "checkedAt": "2026-10-03",
           "citations": 0
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105012612852&origin=resultslist",
+          "checkedAt": "2026-10-07",
+          "citations": 0
         }
       ],
       "identityVerifications": [
@@ -1899,9 +1939,9 @@
       "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
       "topicReviewStatus": "title-reviewed",
       "id": 37,
-      "lecturer": "Bertho Tantular; I Gede Nyoman Mindra Jaya",
+      "lecturer": "Bertho Tantular; I Gede Nyoman Mindra Jaya; Yudhie Andriyana",
       "indexSource": "Scopus",
-      "lastVerifiedAt": "2026-10-03",
+      "lastVerifiedAt": "2026-10-07",
       "historicalOnly": false
     },
     {
@@ -3273,10 +3313,12 @@
       "year": 2025,
       "venue": "Sustainability Switzerland",
       "lecturers": [
-        "I Gede Nyoman Mindra Jaya"
+        "I Gede Nyoman Mindra Jaya",
+        "Yudhie Andriyana"
       ],
       "facultyIds": [
-        "6026564"
+        "6026564",
+        "6028086"
       ],
       "category": "Scopus Q1",
       "indexSources": [
@@ -3291,6 +3333,14 @@
           "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=scopus",
           "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105013164532&origin=resultslist",
           "checkedAt": "2026-10-03",
+          "citations": 14
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105013164532&origin=resultslist",
+          "checkedAt": "2026-10-07",
           "citations": 14
         }
       ],
@@ -3313,9 +3363,9 @@
       "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
       "topicReviewStatus": "title-reviewed",
       "id": 70,
-      "lecturer": "I Gede Nyoman Mindra Jaya",
+      "lecturer": "I Gede Nyoman Mindra Jaya; Yudhie Andriyana",
       "indexSource": "Scopus",
-      "lastVerifiedAt": "2026-10-03",
+      "lastVerifiedAt": "2026-10-07",
       "historicalOnly": false
     },
     {
@@ -6351,18 +6401,21 @@
     {
       "title": "An Expanded Spatial Durbin Model with Ordinary Kriging of Unobserved Big Climate Data",
       "year": 2024,
-      "venue": "MATHEMATICS",
+      "venue": "Mathematics",
       "lecturers": [
-        "Budi Nurani Ruchjana"
+        "Budi Nurani Ruchjana",
+        "Yudhie Andriyana"
       ],
       "facultyIds": [
-        "5999022"
+        "5999022",
+        "6028086"
       ],
-      "category": "Web of Science",
+      "category": "Scopus Q1",
       "indexSources": [
-        "Web of Science"
+        "Web of Science",
+        "Scopus"
       ],
-      "href": "https://www.webofscience.com/wos/woscc/full-record/WOS:001305805900001",
+      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85202566935&origin=resultslist",
       "doi": "10.3390/math12162447",
       "evidence": [
         {
@@ -6372,6 +6425,14 @@
           "recordUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:001305805900001",
           "checkedAt": "2026-10-03",
           "citations": 1
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85202566935&origin=resultslist",
+          "checkedAt": "2026-10-07",
+          "citations": 8
         }
       ],
       "identityVerifications": [],
@@ -6379,9 +6440,9 @@
       "topicBasis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
       "topicReviewStatus": "title-reviewed",
       "id": 145,
-      "lecturer": "Budi Nurani Ruchjana",
-      "indexSource": "Web of Science",
-      "lastVerifiedAt": "2026-10-03",
+      "lecturer": "Budi Nurani Ruchjana; Yudhie Andriyana",
+      "indexSource": "Web of Science · Scopus",
+      "lastVerifiedAt": "2026-10-07",
       "historicalOnly": false
     },
     {
@@ -7924,6 +7985,258 @@
       "indexSource": "Garuda",
       "lastVerifiedAt": "2026-10-03",
       "historicalOnly": false
+    },
+    {
+      "title": "The expanded spatial lag of exogenous model and RShiny-based web application for rainfall prediction",
+      "year": 2026,
+      "venue": "Environmental Modelling and Software",
+      "lecturers": [
+        "Yudhie Andriyana"
+      ],
+      "facultyIds": [
+        "6028086"
+      ],
+      "category": "Scopus Q1",
+      "indexSources": [
+        "Scopus"
+      ],
+      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105037041862&origin=resultslist",
+      "doi": null,
+      "evidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105037041862&origin=resultslist",
+          "checkedAt": "2026-10-07",
+          "citations": 0
+        }
+      ],
+      "identityVerifications": [],
+      "topicId": "environment",
+      "topicBasis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: prediksi curah hujan.",
+      "topicReviewStatus": "reviewed",
+      "id": 187,
+      "lecturer": "Yudhie Andriyana",
+      "indexSource": "Scopus",
+      "lastVerifiedAt": "2026-10-07",
+      "historicalOnly": false
+    },
+    {
+      "title": "Cost-effectiveness of community-based interventions for type 2 diabetes management in Indonesia: a time-horizon sensitivity analysis",
+      "year": 2026,
+      "venue": "Cost Effectiveness and Resource Allocation",
+      "lecturers": [
+        "Yudhie Andriyana"
+      ],
+      "facultyIds": [
+        "6028086"
+      ],
+      "category": "Scopus Q2",
+      "indexSources": [
+        "Scopus"
+      ],
+      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105046701378&origin=resultslist",
+      "doi": null,
+      "evidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105046701378&origin=resultslist",
+          "checkedAt": "2026-10-07",
+          "citations": 0
+        }
+      ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: kesehatan, penyakit, atau layanan kesehatan.",
+      "topicReviewStatus": "reviewed",
+      "id": 188,
+      "lecturer": "Yudhie Andriyana",
+      "indexSource": "Scopus",
+      "lastVerifiedAt": "2026-10-07",
+      "historicalOnly": false
+    },
+    {
+      "title": "EXPANDED SPATIAL DURBIN MODEL FOR ANALYZING STUNTING PREVALENCE IN JAVA ISLAND",
+      "year": 2025,
+      "venue": "Communications in Mathematical Biology and Neuroscience",
+      "lecturers": [
+        "Yudhie Andriyana"
+      ],
+      "facultyIds": [
+        "6028086"
+      ],
+      "category": "Scopus Q2",
+      "indexSources": [
+        "Scopus"
+      ],
+      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105005963174&origin=resultslist",
+      "doi": null,
+      "evidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105005963174&origin=resultslist",
+          "checkedAt": "2026-10-07",
+          "citations": 0
+        }
+      ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: kesehatan, penyakit, atau layanan kesehatan.",
+      "topicReviewStatus": "reviewed",
+      "id": 189,
+      "lecturer": "Yudhie Andriyana",
+      "indexSource": "Scopus",
+      "lastVerifiedAt": "2026-10-07",
+      "historicalOnly": false
+    },
+    {
+      "title": "National Fetal Biometry Reference Charts for the Indonesian Population: A Multicenter Prospective Cohort Study",
+      "year": 2025,
+      "venue": "Donald School Journal of Ultrasound in Obstetrics and Gynecology",
+      "lecturers": [
+        "Yudhie Andriyana"
+      ],
+      "facultyIds": [
+        "6028086"
+      ],
+      "category": "Scopus Q4",
+      "indexSources": [
+        "Scopus"
+      ],
+      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105027733378&origin=resultslist",
+      "doi": null,
+      "evidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105027733378&origin=resultslist",
+          "checkedAt": "2026-10-07",
+          "citations": 0
+        }
+      ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: kesehatan, penyakit, atau layanan kesehatan.",
+      "topicReviewStatus": "reviewed",
+      "id": 190,
+      "lecturer": "Yudhie Andriyana",
+      "indexSource": "Scopus",
+      "lastVerifiedAt": "2026-10-07",
+      "historicalOnly": false
+    },
+    {
+      "title": "Mathematical Modelling for Community Based Intervention for Managing Diabetes: A Systematic Literature Review",
+      "year": 2025,
+      "venue": "Journal of Multidisciplinary Healthcare",
+      "lecturers": [
+        "Yudhie Andriyana"
+      ],
+      "facultyIds": [
+        "6028086"
+      ],
+      "category": "Scopus Q1",
+      "indexSources": [
+        "Scopus"
+      ],
+      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105005158324&origin=resultslist",
+      "doi": null,
+      "evidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105005158324&origin=resultslist",
+          "checkedAt": "2026-10-07",
+          "citations": 4
+        }
+      ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: kesehatan, penyakit, atau layanan kesehatan.",
+      "topicReviewStatus": "reviewed",
+      "id": 191,
+      "lecturer": "Yudhie Andriyana",
+      "indexSource": "Scopus",
+      "lastVerifiedAt": "2026-10-07",
+      "historicalOnly": false
+    },
+    {
+      "title": "Challenges in implementing Indonesia’s community-based chronic disease management program (Prolanis): A scoping review",
+      "year": 2025,
+      "venue": "Aims Public Health",
+      "lecturers": [
+        "Yudhie Andriyana"
+      ],
+      "facultyIds": [
+        "6028086"
+      ],
+      "category": "Scopus Q1",
+      "indexSources": [
+        "Scopus"
+      ],
+      "href": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105016709081&origin=resultslist",
+      "doi": null,
+      "evidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105016709081&origin=resultslist",
+          "checkedAt": "2026-10-07",
+          "citations": 5
+        }
+      ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: kesehatan, penyakit, atau layanan kesehatan.",
+      "topicReviewStatus": "reviewed",
+      "id": 192,
+      "lecturer": "Yudhie Andriyana",
+      "indexSource": "Scopus",
+      "lastVerifiedAt": "2026-10-07",
+      "historicalOnly": false
+    },
+    {
+      "title": "Unveiling Spatial Disparities: Exploring High-Risk Diarrhea Among Children Under Five Using Geographically Weighted Quantile Regression",
+      "year": 2023,
+      "venue": "Jurnal Aplikasi Statistika & Komputasi Statistik Vol 15 No 2 (2023): Journal of Statistical Application and Computational Statistics31-42",
+      "lecturers": [
+        "Yudhie Andriyana"
+      ],
+      "facultyIds": [
+        "6028086"
+      ],
+      "category": "Sinta 4",
+      "indexSources": [
+        "Garuda"
+      ],
+      "href": "https://garuda.kemdiktisaintek.go.id/documents/detail/4268112",
+      "doi": "10.34123/jurnalasks.v15i2.536",
+      "evidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4268112",
+          "checkedAt": "2026-10-07",
+          "citations": null
+        }
+      ],
+      "identityVerifications": [],
+      "topicId": "health",
+      "topicBasis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: kesehatan, penyakit, atau layanan kesehatan.",
+      "topicReviewStatus": "reviewed",
+      "id": 193,
+      "lecturer": "Yudhie Andriyana",
+      "indexSource": "Garuda",
+      "lastVerifiedAt": "2026-10-07",
+      "historicalOnly": false
     }
   ],
   "faculty": [
@@ -9222,6 +9535,88 @@
         "2025": 3,
         "2026": 3
       }
+    },
+    {
+      "id": 17,
+      "name": "Yudhie Andriyana",
+      "education": "S-3",
+      "sintaId": "6028086",
+      "scopusId": "55985798500",
+      "googleScholarId": "lOPqJVAAAAAJ",
+      "wosId": "Tidak tersedia di sumber publik",
+      "publicationsCaptured": 13,
+      "sintaScore3Yr": 422,
+      "sintaScoreOverall": 1342,
+      "hIndexScopus": 9,
+      "sintaProfile": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086",
+      "identitySources": [
+        "https://statistics.unpad.ac.id/id/dosen-yudhie-andriyana/",
+        "https://scholar.google.com/citations?user=lOPqJVAAAAAJ"
+      ],
+      "byYear": {
+        "2023": 2,
+        "2024": 2,
+        "2025": 7,
+        "2026": 2
+      },
+      "auditStatus": "Parsial: terambil dari halaman publik SINTA. Untuk semua publikasi penuh perlu SINTA login/Insight/API atau export dari masing-masing akun dosen.",
+      "sourceChecks": [
+        {
+          "source": "Scopus",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+          "checkedAt": "2026-10-07",
+          "status": "partial",
+          "recordsInPeriod": 10,
+          "via": "SINTA"
+        },
+        {
+          "source": "Web of Science",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=wos",
+          "checkedAt": "2026-10-07",
+          "status": "empty",
+          "recordsInPeriod": 0,
+          "via": "SINTA"
+        },
+        {
+          "source": "Google Scholar",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=googlescholar",
+          "checkedAt": "2026-10-07",
+          "status": "partial",
+          "recordsInPeriod": 10,
+          "via": "SINTA"
+        },
+        {
+          "source": "Garuda",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=garuda",
+          "checkedAt": "2026-10-07",
+          "status": "partial",
+          "recordsInPeriod": 3,
+          "via": "SINTA"
+        }
+      ],
+      "affiliation": "Universitas Padjadjaran",
+      "profileMetrics": {
+        "Article": [
+          52,
+          78,
+          0
+        ],
+        "Citation": [
+          271,
+          400,
+          0
+        ],
+        "H-Index": [
+          9,
+          10,
+          0
+        ]
+      },
+      "metricsSource": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+      "metricsCheckedAt": "2026-10-07",
+      "googleScholarProfile": "https://scholar.google.com/citations?user=lOPqJVAAAAAJ",
+      "scopusProfile": "https://www.scopus.com/authid/detail.uri?authorId=55985798500",
+      "wosProfile": null
     }
   ],
   "topicClassification": {
@@ -9986,6 +10381,50 @@
       "checkedAt": "2026-10-03",
       "status": "partial",
       "recordsInPeriod": 7,
+      "via": "SINTA"
+    },
+    {
+      "facultyId": "6028086",
+      "name": "Yudhie Andriyana",
+      "contentSha256": "2b9590365b5828a84859d2adb3fa4c6e09ba48ff5fe89179eb90ff26643eeccd",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+      "checkedAt": "2026-10-07",
+      "status": "partial",
+      "recordsInPeriod": 10,
+      "via": "SINTA"
+    },
+    {
+      "facultyId": "6028086",
+      "name": "Yudhie Andriyana",
+      "contentSha256": "28e3f552e91580496d6ff6b9d299d9b5d149ea86ca000c5b4b853beb0649388e",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=wos",
+      "checkedAt": "2026-10-07",
+      "status": "empty",
+      "recordsInPeriod": 0,
+      "via": "SINTA"
+    },
+    {
+      "facultyId": "6028086",
+      "name": "Yudhie Andriyana",
+      "contentSha256": "460352a56c93e32b307809c11dfc10657253e531fec906160920a4aa63295efe",
+      "source": "Google Scholar",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=googlescholar",
+      "checkedAt": "2026-10-07",
+      "status": "partial",
+      "recordsInPeriod": 10,
+      "via": "SINTA"
+    },
+    {
+      "facultyId": "6028086",
+      "name": "Yudhie Andriyana",
+      "contentSha256": "193cf1e6bb9a7641b73259cd25705fc2357c25f078a4a12b7d25a25b2e5e06a6",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=garuda",
+      "checkedAt": "2026-10-07",
+      "status": "partial",
+      "recordsInPeriod": 3,
       "via": "SINTA"
     }
   ],

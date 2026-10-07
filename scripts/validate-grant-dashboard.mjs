@@ -4,8 +4,8 @@ import crypto from 'node:crypto';
 import { sum, groupGrants, filterGrants } from '../assets/grant-dashboard-math.mjs';
 const data = JSON.parse(fs.readFileSync('data/research_grants.json'));
 const rows=data.grants;
-const expected={2023:644975000,2024:515500000,2025:686000000,2026:285780000};
-assert.equal(rows.length,44);assert.equal(sum(rows),2132255000);assert.equal(data.totalAmount,sum(rows));
+const expected={2023:644975000,2024:530500000,2025:899020000,2026:285780000};
+assert.equal(rows.length,48);assert.equal(sum(rows),2360275000);assert.equal(data.totalAmount,sum(rows));
 const keys=new Set();let links=0;
 for(const r of rows){
  assert(data.lecturers.includes(r.researcher)); assert(r.year>=2023 && r.year<=2026);assert(Number.isSafeInteger(r.amount)&&r.amount>0);
@@ -35,3 +35,7 @@ console.log('PASS: eight new contracts + two duplicates + two historical records
 
 assert.equal(sum(filterGrants(rows,{person:'Atje Setiawan Abdullah'})),10000000);
 assert.equal(data.historical.reduce((s,r)=>s+r.amount,0),40000000);
+
+assert.equal(sum(filterGrants(rows,{person:'Yudhie Andriyana'})),228020000);
+assert.equal(filterGrants(rows,{person:'Yudhie Andriyana'}).length,4);
+assert(!data.lecturers.some(n=>n.startsWith('Aceng ')));

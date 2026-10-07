@@ -6399,7 +6399,7 @@ async function loadResearchGrants() {
 
 async function loadFacultyPublications() {
   try {
-    const response = await fetch("data/faculty_publications.json?v=20261004-topics", { cache: "no-cache" });
+    const response = await fetch("data/faculty_publications.json?v=20261007-yudhie", { cache: "no-cache" });
     if (!response.ok) throw new Error("Data Publikasi Dosen tidak dapat dimuat.");
     const data = await response.json();
     if (!data?.publications?.length || !data?.faculty?.length) throw new Error("Data Publikasi Dosen kosong.");

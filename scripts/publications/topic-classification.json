@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-04",
+  "version": "2026-10-07",
   "method": "Satu topik utama per publikasi, ditinjau dari judul. Bukan klasifikasi resmi SINTA atau hasil telaah abstrak; bidang lintas topik ditempatkan menurut fokus aplikasi. Judul baru tanpa pemetaan ditandai Perlu tinjauan.",
   "categories": [
     {
@@ -1367,6 +1367,55 @@
       "topicId": "health",
       "basis": "Interpretasi topik utama berdasarkan judul publikasi; fokus aplikasi didahulukan daripada metode.",
       "reviewStatus": "title-reviewed"
+    },
+    {
+      "title": "The expanded spatial lag of exogenous model and RShiny-based web application for rainfall prediction",
+      "year": 2026,
+      "topicId": "environment",
+      "basis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: prediksi curah hujan.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "title": "Cost-effectiveness of community-based interventions for type 2 diabetes management in Indonesia: a time-horizon sensitivity analysis",
+      "year": 2026,
+      "topicId": "health",
+      "basis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: kesehatan, penyakit, atau layanan kesehatan.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "title": "EXPANDED SPATIAL DURBIN MODEL FOR ANALYZING STUNTING PREVALENCE IN JAVA ISLAND",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: kesehatan, penyakit, atau layanan kesehatan.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "title": "National Fetal Biometry Reference Charts for the Indonesian Population: A Multicenter Prospective Cohort Study",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: kesehatan, penyakit, atau layanan kesehatan.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "title": "Mathematical Modelling for Community Based Intervention for Managing Diabetes: A Systematic Literature Review",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: kesehatan, penyakit, atau layanan kesehatan.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "title": "Challenges in implementing Indonesia’s community-based chronic disease management program (Prolanis): A scoping review",
+      "year": 2025,
+      "topicId": "health",
+      "basis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: kesehatan, penyakit, atau layanan kesehatan.",
+      "reviewStatus": "reviewed"
+    },
+    {
+      "title": "Unveiling Spatial Disparities: Exploring High-Risk Diarrhea Among Children Under Five Using Geographically Weighted Quantile Regression",
+      "year": 2023,
+      "topicId": "health",
+      "basis": "Ditinjau dari fokus aplikasi yang disebutkan pada judul: kesehatan, penyakit, atau layanan kesehatan.",
+      "reviewStatus": "reviewed"
     }
   ]
 }

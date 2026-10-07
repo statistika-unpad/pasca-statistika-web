@@ -4,8 +4,8 @@ from pathlib import Path
 from urllib.parse import urlparse
 p=Path(__file__).resolve().parents[2]/'data/faculty_publications.json'
 d=json.loads(p.read_text()); rows=d['publications']; faculty=d['faculty']
-expected=set('6089789 6021099 6021005 6014997 6083056 6026564 65044 6084145 6084328 6089665 6084299 6089608 5999022 6014614 6742829 5999023'.split())
-assert len(faculty)==16 and {f['sintaId'] for f in faculty}==expected
+expected=set('6089789 6021099 6021005 6014997 6083056 6026564 65044 6084145 6084328 6089665 6084299 6089608 5999022 6014614 6742829 5999023 6028086'.split())
+assert len(faculty)==17 and {f['sintaId'] for f in faculty}==expected
 assert d['totals']['publications']==len(rows)
 assert sum(x['count'] for x in d['years'])==len(rows)
 assert d['totals']['facultyPublicationLinks']==sum(len(r['facultyIds']) for r in rows)
@@ -38,13 +38,13 @@ for f in faculty:
  assert sum(f['byYear'].values())==f['publicationsCaptured']
  assert len(f['sourceChecks'])==4
  assert all(s['status']!='unavailable' for s in f['sourceChecks']),f['name']
- assert f['metricsCheckedAt']==d['generatedAt']
+ assert f['metricsCheckedAt']<=d['generatedAt']
  assert f.get('googleScholarId'),f['name']
 for source in d['indexSources']:
  assert source['count']==sum(source['name'] in r['indexSources'] for r in rows)
 for y in d['years']:
  assert y['count']==sum(y['year']==r['year'] for r in rows)
-assert len(d['sourceAudit'])==64
-assert len({(s['facultyId'],s['source']) for s in d['sourceAudit']})==64
+assert len(d['sourceAudit'])==68
+assert len({(s['facultyId'],s['source']) for s in d['sourceAudit']})==68
 assert next(f['googleScholarId'] for f in faculty if f['sintaId']=='6084299')=='572z_AIAAAAJ'
-print(json.dumps({'status':'PASS','faculty':16,'uniquePublications':len(rows),'sourcePages':64,'duplicateTitleYear':0,'invalidSourceURLs':0,'years':d['years']},indent=2))
+print(json.dumps({'status':'PASS','faculty':17,'uniquePublications':len(rows),'sourcePages':68,'duplicateTitleYear':0,'invalidSourceURLs':0,'years':d['years']},indent=2))

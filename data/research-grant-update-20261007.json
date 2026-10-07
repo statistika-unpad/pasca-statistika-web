@@ -1,0 +1,46 @@
+[
+  {
+    "sha256": "6498e2d9f865aea15a98e75ff73d8582d8155ae7ba9b4933080fcdcc22ad8d04",
+    "sourceZip": "Tahun 2024-20260930T051733Z-1-001.zip",
+    "sourceFile": "Tahun 2024/03-YUDHIE ANDRIYANA HRU RDPD 2024.pdf",
+    "status": "added",
+    "year": 2024,
+    "amount": 15000000,
+    "contractNumber": "2096/UN6.3.1/PT.00/2024",
+    "verifiedAt": "2026-10-07",
+    "documentHref": "dokumen-sk/arsip-2023-2026/contract-2024-6498e2d9f865.pdf"
+  },
+  {
+    "sha256": "ae8077a9ee586837838e6493d58142d3696e4b8a06e91c0280ff356e179ad248",
+    "sourceZip": "Tahun 2025-20260930T051729Z-1-001.zip",
+    "sourceFile": "Tahun 2025/2025 DIKTI MIPA PFR a.n Yudhie Andriyana.pdf",
+    "status": "added",
+    "year": 2025,
+    "amount": 93020000,
+    "contractNumber": "1709/UN6.3.1/PT.00/2025",
+    "verifiedAt": "2026-10-07",
+    "documentHref": "dokumen-sk/arsip-2023-2026/contract-2025-ae8077a9ee58.pdf"
+  },
+  {
+    "sha256": "8f6ea756147f47ebdd16d1da7d50681c9f324347f22ba1c1a1c1998ea023a1a1",
+    "sourceZip": "Tahun 2025-20260930T051729Z-1-001.zip",
+    "sourceFile": "Tahun 2025/2025 MIPA HRU POST DOCTORAL a.n Yudhie Andriyana.pdf",
+    "status": "added",
+    "year": 2025,
+    "amount": 60000000,
+    "contractNumber": "1210/UN6.3.1/PT.00/2025",
+    "verifiedAt": "2026-10-07",
+    "documentHref": "dokumen-sk/arsip-2023-2026/contract-2025-8f6ea756147f.pdf"
+  },
+  {
+    "sha256": "24ca4ecb72305e5da2a7326f3cfaee54e0abdc19d896341764f31e482cda4c4c",
+    "sourceZip": "Tahun 2025-20260930T051729Z-1-001.zip",
+    "sourceFile": "Tahun 2025/2025 MIPA HRU RDDU a.n Yudhie Andriyana.pdf",
+    "status": "added",
+    "year": 2025,
+    "amount": 60000000,
+    "contractNumber": "1000/UN6.3.1/PT.00/2025",
+    "verifiedAt": "2026-10-07",
+    "documentHref": "dokumen-sk/arsip-2023-2026/contract-2025-24ca4ecb7230.pdf"
+  }
+]
