@@ -3054,5 +3054,67 @@
     "href": "dokumen-sk/arsip-2023-2026/contract-2023-445f5f999731.pdf",
     "sha256": "445f5f99973136ed95d4a8ffc96caa5faf1a26975430b440e8102a40e5be22c2",
     "source": "ATJE SETIAWAN HRU BUKU 2023.pdf"
+  },
+  {
+    "id": "0f3247ef6d9e",
+    "kind": "sk",
+    "year": 2023,
+    "number": "049.a/UN6.D/Kep/FMIPA/2023",
+    "title": "Tim Ad Hoc Penyusun Visi, Misi, Tujuan dan Strategi S-2 Statistika",
+    "people": [
+      {
+        "name": "I Gede Nyoman Mindra Jaya",
+        "page": 3
+      },
+      {
+        "name": "Gumgum Darmawan",
+        "page": 3
+      },
+      {
+        "name": "Yusep Suparman",
+        "page": 3
+      },
+      {
+        "name": "Budhi Handoko",
+        "page": 3
+      },
+      {
+        "name": "Bertho Tantular",
+        "page": 3
+      },
+      {
+        "name": "Anindya Apriliyanti Pravitasari",
+        "page": 3
+      },
+      {
+        "name": "Irlandia Ginanjar",
+        "page": 3
+      }
+    ],
+    "href": "dokumen-sk/arsip-2023-2026/sk-2023-0f3247ef6d9e.pdf",
+    "sha256": "0f3247ef6d9e6e2542aabe3995c88f02e8431cafa0153af42e952803ae8ceb7a",
+    "source": "049.a.UN6.D.Kep.FMIPA.2023 Pengangkatan Tim AdHoc Penyusun Visi, Misi, Tujuan dan Strategi Program Studi S-2 Statistika FMIPA Unpad.pdf"
+  },
+  {
+    "id": "b60a25ed13ad",
+    "kind": "sk",
+    "year": 2024,
+    "number": "007.a/UN6.D/Kep/FMIPA/2024",
+    "title": "Penetapan Visi, Misi, Tujuan dan Strategi S-2 Statistika Terapan",
+    "people": [],
+    "href": "dokumen-sk/arsip-2023-2026/sk-2024-b60a25ed13ad.pdf",
+    "sha256": "b60a25ed13ad2f1def34705f92748963552870a2db350f9a222ec7bb623cb2c8",
+    "source": "007.a.UN6.D.Kep.FMIPA.2024 Penetapan Visi,Misi Tujuan dan Strategi Pada Program Studi S-2 Statistika FMIPA Unpad.pdf"
+  },
+  {
+    "id": "d9ff5fa2c2b9",
+    "kind": "sk",
+    "year": 2025,
+    "number": "321.a/UN6.D/Kep/FMIPA/2025",
+    "title": "Penetapan Kurikulum OBE Revisi S-2 Statistika Terapan",
+    "people": [],
+    "href": "dokumen-sk/arsip-2023-2026/sk-2025-d9ff5fa2c2b9.pdf",
+    "sha256": "d9ff5fa2c2b9922f8095e424c4f8eab7c0a1ac2cd909d3a603d8c3cf50fbbbcb",
+    "source": "321.a.UN6.DKep.FMIPA.2025 Penetapan Kurikulum OBE Revisi Pada Program Studi S-2 Statistika Terapan FMIPA Unpad.pdf"
   }
 ]

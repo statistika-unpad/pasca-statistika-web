@@ -4,8 +4,8 @@ import crypto from 'node:crypto';
 import { sum, groupGrants, filterGrants } from '../assets/grant-dashboard-math.mjs';
 const data = JSON.parse(fs.readFileSync('data/research_grants.json'));
 const rows=data.grants;
-const expected={2023:644975000,2024:530500000,2025:899020000,2026:285780000};
-assert.equal(rows.length,48);assert.equal(sum(rows),2360275000);assert.equal(data.totalAmount,sum(rows));
+const expected={2023:644975000,2024:530500000,2025:1024020000,2026:285780000};
+assert.equal(rows.length,50);assert.equal(sum(rows),2485275000);assert.equal(data.totalAmount,sum(rows));
 const keys=new Set();let links=0;
 for(const r of rows){
  assert(data.lecturers.includes(r.researcher)); assert(r.year>=2023 && r.year<=2026);assert(Number.isSafeInteger(r.amount)&&r.amount>0);
@@ -39,3 +39,13 @@ assert.equal(data.historical.reduce((s,r)=>s+r.amount,0),40000000);
 assert.equal(sum(filterGrants(rows,{person:'Yudhie Andriyana'})),228020000);
 assert.equal(filterGrants(rows,{person:'Yudhie Andriyana'}).length,4);
 assert(!data.lecturers.some(n=>n.startsWith('Aceng ')));
+
+assert.equal(sum(filterGrants(rows,{funding:'unpad'})),1762180000);
+assert.equal(sum(filterGrants(rows,{funding:'dikti'})),372095000);
+assert.equal(sum(filterGrants(rows,{funding:'equity'})),351000000);
+assert.equal(filterGrants(rows,{funding:'other'}).length,0);
+assert.equal(sum(filterGrants(rows,{funding:'equity',person:'I Gede Nyoman Mindra Jaya',year:'2025'})),150000000);
+assert.equal(rows.filter(r=>r.contractNumber==='5637/UN6.3.1/PT.00/2025').length,1);
+assert.equal(data.linkedDocuments,new Set(rows.flatMap(r=>[r.documentHref,...r.attachments.map(a=>a.href)])).size);
+assert(rows.every(r=>data.fundingCategories.some(c=>c.id===r.fundingCategory)));
+console.log('PASS: funding categories reconcile; combined filters; duplicate contract 5637 counted once.');

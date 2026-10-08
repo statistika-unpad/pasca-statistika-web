@@ -1,13 +1,13 @@
 {
   "source": "Kontrak PDF @SK-SK dan empat ZIP tahun 2023–2026 dari pengguna; 10 PDF tambahan @SK-SK/New; 2 kontrak Atje Setiawan dari pengguna",
-  "reviewedAt": "2026-10-07",
+  "reviewedAt": "2026-10-08",
   "period": [
     2023,
     2026
   ],
-  "total": 48,
-  "totalAmount": 2360275000,
-  "linkedDocuments": 48,
+  "total": 50,
+  "totalAmount": 2485275000,
+  "linkedDocuments": 54,
   "years": {
     "2023": {
       "count": 11,
@@ -18,8 +18,8 @@
       "amount": 530500000
     },
     "2025": {
-      "count": 19,
-      "amount": 899020000
+      "count": 21,
+      "amount": 1024020000
     },
     "2026": {
       "count": 7,
@@ -28,7 +28,7 @@
   },
   "metricDefinition": "Jumlah nominal pendanaan yang dinyatakan dalam kontrak, termasuk komponen luaran jika nominalnya ditetapkan; bukan realisasi pencairan. Satu kontrak per ketua, skema, judul, dan tahun dihitung sekali.",
   "lecturerAttribution": "Nilai diatribusikan kepada ketua/pihak kedua dalam kontrak; tidak dibagi atau digandakan ke anggota tim.",
-  "coverageNote": "Berdasarkan berkas yang tersedia hingga 7 Oktober 2026; tahun 2026 belum satu tahun penuh. Tidak ditemukannya berkas bukan berarti dosen tidak menerima hibah. Arsip 2021–2022 disajikan terpisah dan tidak masuk statistik.",
+  "coverageNote": "Berdasarkan berkas yang tersedia hingga 8 Oktober 2026; tahun 2026 belum satu tahun penuh. Tidak ditemukannya berkas bukan berarti dosen tidak menerima hibah. Arsip 2021–2022 disajikan terpisah dan tidak masuk statistik.",
   "lecturers": [
     "Budhi Handoko",
     "Anindya Apriliyanti Pravitasari",
@@ -67,7 +67,8 @@
       "sha256": "5ab994c0b4ee51915c978ff02bd7559e04a9e17795654ab3e6a2897db10c2c23",
       "sourceFile": "2026 PPM FMIPA Unpad a.n Bertho Tantular.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "80b35ff31006",
@@ -89,7 +90,8 @@
       "notes": [
         "Hanya nominal dana riset yang ditetapkan dihitung; biaya pendidikan mahasiswa tanpa nominal dalam kontrak tidak ditambahkan."
       ],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "e9f38054f09f",
@@ -109,7 +111,8 @@
       "sha256": "e9f38054f09fe21e3d8245ac69cca4d823eaf482f81222a9153b04f33c8986d2",
       "sourceFile": "2026 MIPA HRU RKDU a.n Gumgum Darmawan.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "2b9685748eb1",
@@ -129,7 +132,8 @@
       "sha256": "2b9685748eb109c4876bb60bd3f773583bc45d835bd74e5bd65a397307bc1ad5",
       "sourceFile": "2026 DIKTI MIPA PTM a.n I Gede Nyoman M J (1).pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "dikti"
     },
     {
       "id": "8f835d7f7b3a",
@@ -155,7 +159,8 @@
           "href": "dokumen-sk/arsip-2023-2026/lampiran-8f0cbf0bce4b.pdf",
           "sha256": "8f0cbf0bce4bec0e82b300079ec1759390210bf17100367950dff2657f7191aa"
         }
-      ]
+      ],
+      "fundingCategory": "unpad"
     },
     {
       "id": "6187853f5c75",
@@ -177,7 +182,8 @@
       "notes": [
         "Nama berkas menyebut PMDSU; skema pada isi kontrak adalah Penelitian Tesis Magister."
       ],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "dikti"
     },
     {
       "id": "042012843b50",
@@ -197,7 +203,8 @@
       "sha256": "042012843b50382e954bf6ab57aa249300c911a85a6548464869321b86e23d28",
       "sourceFile": "2026 MIPA HRU RKDU  a.n Yuyun Hidayat.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "332a7711eafb",
@@ -219,7 +226,8 @@
       "notes": [
         "Angka kontrak Rp70.000.000 sesuai rincian Rp50.000.000 + Rp20.000.000. Terbilang tertulis tujuh puluh lima juta; perbedaan ini perlu klarifikasi penerbit."
       ],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "f52370a4700b",
@@ -239,7 +247,8 @@
       "sha256": "f52370a4700b8babf76c3dc0d698f60fa7d67dc2d34474e5ce569af085045ead",
       "sourceFile": "Hibah Unpad Artikel Review 2025 a.n  Budi Handoko.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "525df5902594",
@@ -259,7 +268,8 @@
       "sha256": "525df59025941940124d28d5f151f3743e518a1845dd5e0287d231d358ac3fa2",
       "sourceFile": "2025 MIPA HR EQUITY WCU Skema ARTIKEL a.n Budi Nurani R.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "equity"
     },
     {
       "id": "e2310de5437e",
@@ -281,7 +291,8 @@
       "notes": [
         "Hanya nominal dana riset yang ditetapkan dihitung; biaya pendidikan mahasiswa tanpa nominal dalam kontrak tidak ditambahkan."
       ],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "162a06faac05",
@@ -301,7 +312,8 @@
       "sha256": "162a06faac05cc9abb4f82a2a68596f32be248f04f8bc90ded08b67aae52f2fe",
       "sourceFile": "Hibah Unpad RKDU 2025  a.n Gumgum Darmawan.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "f4b5465cae38",
@@ -321,7 +333,14 @@
       "sha256": "f4b5465cae38ebd1f206553257d22a067f82fb5cb218c20a95eb3e624eb2cd2b",
       "sourceFile": "2025 MIPA HR EQUITY WCU Skema ARTIKEL - Batch 2 a.n I Gede Nyoman Mindra J.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [
+        {
+          "label": "Salinan kontrak 5637 (berkas tambahan)",
+          "href": "dokumen-sk/arsip-2023-2026/contract-copy-2025-4ad032cd0f4e.pdf",
+          "sha256": "4ad032cd0f4e37e5de00bcbe209e66c675331b4404e0fc7c7f7f629ef02ddfdf"
+        }
+      ],
+      "fundingCategory": "equity"
     },
     {
       "id": "bf0de89ca907",
@@ -341,7 +360,8 @@
       "sha256": "bf0de89ca907ca0117970e090cadf6698b3c40f23dccdf91f45628ad15301bfe",
       "sourceFile": "Hibah Unpad RKDU 2025 a.n I Gede Nyoman Mindra Jaya.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "c0ab0b1b11ff",
@@ -361,7 +381,8 @@
       "sha256": "c0ab0b1b11ff24c9a647d560b3708c0749d4057f55df958d2c34e1539a31ad72",
       "sourceFile": "2025 MIPA HR EQUITY WCU Skema ARTIKEL - Batch 2 a.n Irlandia Ginanjar (1).pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "equity"
     },
     {
       "id": "8f40db1aa9e3",
@@ -381,7 +402,8 @@
       "sha256": "8f40db1aa9e35fa7c91319d41d3a2607dc8e42c345b0a105f06b0ff00cbd1596",
       "sourceFile": "Hibah Unpad Artikel Review 2025 a.n Lienda Noviyanti.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "2918ed3d144d",
@@ -401,7 +423,8 @@
       "sha256": "2918ed3d144d98db85869da61acf17dcfe8481eecf022e6482bc1770ad5b8efa",
       "sourceFile": "2025 MIPA HR Equity WCU Artikel Review Batch 2_Dr. Restu Arisanti.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "equity"
     },
     {
       "id": "4a06714c49f4",
@@ -421,7 +444,8 @@
       "sha256": "4a06714c49f400045d63a33fbf1871083eaa1bbea2bf1766f88a78b79638420c",
       "sourceFile": "Hibah Unpad Penulisan Buku Ajar Unpad 2025  a.n Restu Arisanti.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "50bf9479abce",
@@ -441,7 +465,8 @@
       "sha256": "50bf9479abce8d60606e6d5c4da73e50445ab8a1e8edd6fa302cfc2fb5714b31",
       "sourceFile": "Hibah Unpad IMF 2025 a.n  Sri Winarni.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "2d5a5bd782c9",
@@ -461,7 +486,8 @@
       "sha256": "2d5a5bd782c9049a54408571743cf3bb26e27c7a9aa1cdebc406413eb2d68836",
       "sourceFile": "2025 MIPA HR EQUITY WCU Skema RMMP - Batch 2 a.n Sri Winarni - Rana A.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "equity"
     },
     {
       "id": "e39fa289fca8",
@@ -481,7 +507,8 @@
       "sha256": "e39fa289fca87b504e9dab62648105bb5adf78653bfa0dfbce650be62764ce35",
       "sourceFile": "2025 MIPA HR EQUITY WCU Skema ARTIKEL - Batch 2 a.n Triyani Hendrawati.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "equity"
     },
     {
       "id": "eff573b60d6e",
@@ -501,7 +528,8 @@
       "sha256": "eff573b60d6e7d34710c4e7fb114ac01616abe211763f76c87e383c735bb2b75",
       "sourceFile": "Hibah Unpad Penulisan Buku Ajar 2025 a.n Yusep Suparman.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "f112309f653d",
@@ -521,7 +549,8 @@
       "sha256": "f112309f653d18a30cd6de42b2ab5f9094da0a56b382ed5489dcecb9fa374601",
       "sourceFile": "Hibah Unpad RKDU 2025 a.n  Yuyun Hidayat.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "60cac3ce8239",
@@ -541,7 +570,8 @@
       "sha256": "60cac3ce82395d3684275297f5f3fe54b7adc5caaa73549cae011f1be5753fc6",
       "sourceFile": "ANINDYA APRILIYANTI P HRU RKDU 2024(1).pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "4b5f78c68804",
@@ -561,7 +591,8 @@
       "sha256": "4b5f78c68804b03e3ce0c606d503181a70a6a343c6e3027aa59cffce1ea9a45f",
       "sourceFile": "Kontrak Penelitian-Bertho Tantular Hibah RDPD 2024(1).pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "b377c7094e5a",
@@ -581,7 +612,8 @@
       "sha256": "b377c7094e5ad83e62782f424d7913b51bda673a7ff80ddc586b41d22c2811f5",
       "sourceFile": "Kontrak Penelitian-BUDHI HANDOKO HRU RPLK 2024  (1)(1).pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "db72c6f86caf",
@@ -601,7 +633,8 @@
       "sha256": "db72c6f86caf1f31ef6874e225a6d967d39074a1a1f207e41ba875f5643d23f3",
       "sourceFile": "BUDI NURANI RUCHJANA HRU RDDU 2024.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "a23554100eab",
@@ -627,7 +660,8 @@
           "href": "dokumen-sk/arsip-2023-2026/lampiran-2dbfb0911482.pdf",
           "sha256": "2dbfb0911482b11333a6dd7baf3e22601996dacde1ac364fe3f01f33df1b78c0"
         }
-      ]
+      ],
+      "fundingCategory": "unpad"
     },
     {
       "id": "d5b66f96e017",
@@ -647,7 +681,8 @@
       "sha256": "d5b66f96e01712060998fb457d4614656071d6df89c7955dd12cc6fb7bac8079",
       "sourceFile": "2024 MIPA DIKTI PFR a.n Irlandia Ginanjar.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "dikti"
     },
     {
       "id": "901090f6aa0e",
@@ -667,7 +702,8 @@
       "sha256": "901090f6aa0e183537ea4155e68c6426274c40405b86376439734dfc1b89f4d9",
       "sourceFile": "IRLANDIA GINANJAR HRU RKDU 2024(1).pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "beac293a0ba2",
@@ -687,7 +723,8 @@
       "sha256": "beac293a0ba22bdc6874cd64cad9ec8e320acbe6db322be1650b9c1aa1239442",
       "sourceFile": "SRI WINARNI HRU RDPD 2024.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "b7ec5da2ec68",
@@ -709,7 +746,8 @@
       "notes": [
         "Rp100.000.000 adalah dana riset yang dinyatakan nominalnya. Dana pembimbingan output tidak dirinci nominalnya dan belum ditambahkan."
       ],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "ce8b90ff9d0f",
@@ -729,7 +767,8 @@
       "sha256": "ce8b90ff9d0f0ef004a805cdba96ac0e2f11b524b1205a832f784877f04e1233",
       "sourceFile": "YUYUN HIDAYAT HRU RDPD 2024(1).pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "f38c10eef913",
@@ -749,7 +788,8 @@
       "sha256": "f38c10eef9139d8034b4f56cf5e8fd08b41676b2077868bf5aa6168422d8afb1",
       "sourceFile": "ANINDYA APRILIYANTI FMIPA DIKTI PDKN 2023.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "dikti"
     },
     {
       "id": "445f5f999731",
@@ -769,7 +809,8 @@
       "sha256": "445f5f99973136ed95d4a8ffc96caa5faf1a26975430b440e8102a40e5be22c2",
       "sourceFile": "ATJE SETIAWAN HRU BUKU 2023.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "81217b6d0ec2",
@@ -792,7 +833,8 @@
         "Nomor 1549/UN6.3.1/PT.00/2023 digunakan pada beberapa kontrak. Berkas ini dibedakan menurut skema dan judul penelitian, bukan nomor saja.",
         "Rp100.000.000 dana riset + Rp25.000.000 pembimbingan output/kolaborasi pada Pasal 3 ayat (1). Rp25.000.000 pada tabel kolaborasi tidak ditambahkan lagi."
       ],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "4b4b349ab9ca",
@@ -814,7 +856,8 @@
       "notes": [
         "Nomor 1549/UN6.3.1/PT.00/2023 digunakan pada beberapa kontrak. Berkas ini dibedakan menurut skema dan judul penelitian, bukan nomor saja."
       ],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "4610ec37b770",
@@ -836,7 +879,8 @@
       "notes": [
         "Nomor 1549/UN6.3.1/PT.00/2023 digunakan pada beberapa kontrak. Berkas ini dibedakan menurut skema dan judul penelitian, bukan nomor saja."
       ],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "660bfe441488",
@@ -864,7 +908,8 @@
           "href": "dokumen-sk/arsip-2023-2026/lampiran-20d37a909431.pdf",
           "sha256": "20d37a9094319ce381ce7206eb5dfb8405d60262266548ea9a912bf79e379daf"
         }
-      ]
+      ],
+      "fundingCategory": "unpad"
     },
     {
       "id": "60d0c591fb7c",
@@ -884,7 +929,8 @@
       "sha256": "60d0c591fb7c80af1509f36c5cb1bbde8daa065052d9520382ff9732596cb640",
       "sourceFile": "I GEDE NYOMAN MIDRA JAYA FMIPA DIKTI PD 2023.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "dikti"
     },
     {
       "id": "61eb14e144ec",
@@ -906,7 +952,8 @@
       "notes": [
         "Salinan berkas berlabel RPLK; isi kontrak menetapkan skema RKDU."
       ],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "81651b6124d5",
@@ -926,7 +973,8 @@
       "sha256": "81651b6124d5e6330b478313625ac4a114b5507afcd5eb351a3661bb53556694",
       "sourceFile": "TRIYANI HENDRAWATI HRU RPLK 2023.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "23c8a1913129",
@@ -946,7 +994,8 @@
       "sha256": "23c8a19131294a6693c230c28f3944dc9510e1df83d67e3722291489726b8965",
       "sourceFile": "YUYUN HIDAYAT HRU ALG 2023.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "3313a6facb92",
@@ -966,7 +1015,8 @@
       "sha256": "3313a6facb928973a27137168ac0d0d4662e047183c81ed99aec16aa9731eda3",
       "sourceFile": "YUYUN HIDAYAT HRU RDPD 2023.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "6498e2d9f865",
@@ -986,7 +1036,8 @@
       "sha256": "6498e2d9f865aea15a98e75ff73d8582d8155ae7ba9b4933080fcdcc22ad8d04",
       "sourceFile": "Tahun 2024/03-YUDHIE ANDRIYANA HRU RDPD 2024.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "ae8077a9ee58",
@@ -1006,7 +1057,8 @@
       "sha256": "ae8077a9ee586837838e6493d58142d3696e4b8a06e91c0280ff356e179ad248",
       "sourceFile": "Tahun 2025/2025 DIKTI MIPA PFR a.n Yudhie Andriyana.pdf",
       "notes": [],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "dikti"
     },
     {
       "id": "8f6ea756147f",
@@ -1028,7 +1080,8 @@
       "notes": [
         "Yudhie Andriyana adalah pihak kedua/supervisor. Pendanaan Rp5.000.000 per bulan selama 12 bulan (April 2025–Maret 2026), dihitung sekali pada tahun kontrak 2025. Fasilitas nonmoneter tidak ditambahkan."
       ],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
     },
     {
       "id": "24ca4ecb7230",
@@ -1050,7 +1103,54 @@
       "notes": [
         "Promotor Sinta Septi Pangastuti, tahun studi ke-1. Biaya pendidikan tanpa nominal dalam kontrak tidak ditambahkan ke nilai riset."
       ],
-      "attachments": []
+      "attachments": [],
+      "fundingCategory": "unpad"
+    },
+    {
+      "id": "f0c5cfee03d3",
+      "year": 2025,
+      "researcher": "I Gede Nyoman Mindra Jaya",
+      "title": "Improving Inference in the Dynamic Spatial Durbin Panel Model Using Bayesian Analysis: A Review Comparison of Maximum Likelihood and the General Method of Moments",
+      "scheme": "Artikel Review Equity–WCU",
+      "schemeCode": "AR Equity",
+      "group": "Penelitian dan publikasi",
+      "contractNumber": "5636/UN6.3.1/PT.00/2025",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 25000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2025-f0c5cfee03d3.pdf",
+      "amountPage": 2,
+      "amountEvidence": "Pasal 3 ayat (1), halaman 2: Rp25,000,000. Pasal 2 ayat (3): Anggaran Universitas Padjadjaran PTN-BH.",
+      "sha256": "f0c5cfee03d3eacfb8e29a316385207be136c0e5234cb918c906b8fb946a169d",
+      "sourceFile": "2025 MIPA HR EQUITY WCU Skema ARTIKEL - Batch 2 a.n I Gede Nyoman Mindra J (2) (3).pdf",
+      "notes": [
+        "Kontrak berbeda dari 5637 meskipun nama berkas serupa; keduanya dihitung masing-masing sekali."
+      ],
+      "attachments": [],
+      "fundingCategory": "equity"
+    },
+    {
+      "id": "1c69ac5ea6e3",
+      "year": 2025,
+      "researcher": "I Gede Nyoman Mindra Jaya",
+      "title": "Peramalan dan Pemetaan Prevalensi Stunting di Indonesia Menggunakan Stochastic Partial Differential Equation Untuk Data Besar",
+      "scheme": "Riset Melibatkan Mahasiswa Pascasarjana Equity–WCU",
+      "schemeCode": "RMMP Equity",
+      "group": "Penelitian dan publikasi",
+      "contractNumber": "4058/UN6.3.1/PT.00/2025",
+      "fundingSource": "Universitas Padjadjaran",
+      "amount": 100000000,
+      "documentAvailable": true,
+      "documentHref": "dokumen-sk/arsip-2023-2026/contract-2025-1c69ac5ea6e3.pdf",
+      "amountPage": 2,
+      "amountEvidence": "Pasal 3 ayat (1), halaman 2: Rp100,000,000. Pasal 2 ayat (3): Anggaran Universitas Padjadjaran PTN-BH.",
+      "sha256": "1c69ac5ea6e3c28dcca6f97a4f3e8cb64225aa7a616ef4ba276e99b9914ab558",
+      "sourceFile": "2025 MIPA HR EQUITY WCU Skema RMMP a.n I Gede Nyoman M.J - Kiki A (1).pdf",
+      "notes": [
+        "Melibatkan mahasiswa S2 Kiki Amelia; tahun ke-1, tahun anggaran 2025. Jadwal pencairan 2026 tidak menambah kontrak tahun 2026."
+      ],
+      "attachments": [],
+      "fundingCategory": "equity"
     }
   ],
   "pending": [
@@ -1104,5 +1204,24 @@
       "sha256": "a6563a6e1981565dfdd295c94091180330c63ac78682eadc230e011ec83ac74a",
       "note": "Arsip di luar periode 2023–2026; tidak masuk KPI, grafik, dan ekspor statistik."
     }
-  ]
+  ],
+  "fundingCategories": [
+    {
+      "id": "unpad",
+      "label": "Internal Unpad"
+    },
+    {
+      "id": "dikti",
+      "label": "DIKTI / Kemdiktisaintek"
+    },
+    {
+      "id": "equity",
+      "label": "EQUITY–WCU (Unpad)"
+    },
+    {
+      "id": "other",
+      "label": "Sumber lainnya"
+    }
+  ],
+  "fundingCategoryDefinition": "Jalur pendanaan dikelompokkan menurut sumber dan skema kontrak. EQUITY–WCU dipisahkan dari hibah reguler Unpad; sumber anggaran pada kontrak tetap ditampilkan, bukan inferensi pemberi dana akhir seperti LPDP."
 }

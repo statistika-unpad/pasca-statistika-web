@@ -1,7 +1,7 @@
 export const sum = rows => rows.reduce((total, row) => total + row.amount, 0);
-export const filterGrants = (rows, { year = '', scheme = '', person = '', query = '' } = {}) => {
+export const filterGrants = (rows, { year = '', scheme = '', person = '', funding = '', query = '' } = {}) => {
   const words = query.toLocaleLowerCase('id').trim().split(/\s+/).filter(Boolean);
-  return rows.filter(r => (!year || String(r.year) === year) && (!scheme || r.schemeCode === scheme) && (!person || r.researcher === person) && words.every(w => `${r.title} ${r.contractNumber} ${r.researcher} ${r.scheme}`.toLocaleLowerCase('id').includes(w)));
+  return rows.filter(r => (!funding || r.fundingCategory === funding) && (!year || String(r.year) === year) && (!scheme || r.schemeCode === scheme) && (!person || r.researcher === person) && words.every(w => `${r.title} ${r.contractNumber} ${r.researcher} ${r.scheme}`.toLocaleLowerCase('id').includes(w)));
 };
 export function groupGrants(rows, key) {
   const groups = new Map();

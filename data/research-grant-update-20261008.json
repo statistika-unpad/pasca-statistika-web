@@ -1,0 +1,27 @@
+[
+  {
+    "sourceFile": "2025 MIPA HR EQUITY WCU Skema ARTIKEL - Batch 2 a.n I Gede Nyoman Mindra J (2) (3).pdf",
+    "sha256": "f0c5cfee03d3eacfb8e29a316385207be136c0e5234cb918c906b8fb946a169d",
+    "status": "added",
+    "contractId": "f0c5cfee03d3",
+    "amount": 25000000,
+    "documentHref": "dokumen-sk/arsip-2023-2026/contract-2025-f0c5cfee03d3.pdf"
+  },
+  {
+    "sourceFile": "2025 MIPA HR EQUITY WCU Skema RMMP a.n I Gede Nyoman M.J - Kiki A (1).pdf",
+    "sha256": "1c69ac5ea6e3c28dcca6f97a4f3e8cb64225aa7a616ef4ba276e99b9914ab558",
+    "status": "added",
+    "contractId": "1c69ac5ea6e3",
+    "amount": 100000000,
+    "documentHref": "dokumen-sk/arsip-2023-2026/contract-2025-1c69ac5ea6e3.pdf"
+  },
+  {
+    "sourceFile": "2025 MIPA HR EQUITY WCU Skema ARTIKEL - Batch 2 a.n I Gede Nyoman Mindra J (1).pdf",
+    "sha256": "4ad032cd0f4e37e5de00bcbe209e66c675331b4404e0fc7c7f7f629ef02ddfdf",
+    "status": "duplicate-contract",
+    "contractId": "f4b5465cae38",
+    "amountAdded": 0,
+    "documentHref": "dokumen-sk/arsip-2023-2026/contract-copy-2025-4ad032cd0f4e.pdf",
+    "reason": "Nomor 5637, judul, tahun dan nilai sama dengan kontrak yang sudah tercatat; disimpan sebagai salinan tanpa menambah total."
+  }
+]
