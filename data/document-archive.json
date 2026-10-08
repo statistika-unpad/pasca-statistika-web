@@ -3116,5 +3116,209 @@
     "href": "dokumen-sk/arsip-2023-2026/sk-2025-d9ff5fa2c2b9.pdf",
     "sha256": "d9ff5fa2c2b9922f8095e424c4f8eab7c0a1ac2cd909d3a603d8c3cf50fbbbcb",
     "source": "321.a.UN6.DKep.FMIPA.2025 Penetapan Kurikulum OBE Revisi Pada Program Studi S-2 Statistika Terapan FMIPA Unpad.pdf"
+  },
+  {
+    "id": "0b045b7a74b0",
+    "kind": "sk",
+    "year": 2026,
+    "number": "856/UN6.D/Kep/FMIPA/2026",
+    "title": "Tim Pembimbing dan Penguji SUR — Ega Saherti, Andrew Hosea Talakua",
+    "people": [
+      {
+        "name": "Bertho Tantular",
+        "page": 3,
+        "role": "Pembimbing",
+        "student": "Ega Saherti"
+      },
+      {
+        "name": "Triyani Hendrawati",
+        "page": 3,
+        "role": "Co. Pembimbing",
+        "student": "Ega Saherti"
+      },
+      {
+        "name": "Defi Yusti Faidah",
+        "page": 3,
+        "role": "Penguji",
+        "student": "Ega Saherti"
+      },
+      {
+        "name": "Yusep Suparman",
+        "page": 3,
+        "role": "Penguji",
+        "student": "Ega Saherti"
+      },
+      {
+        "name": "Budhi Handoko",
+        "page": 3,
+        "role": "Pembimbing",
+        "student": "Andrew Hosea Talakua"
+      },
+      {
+        "name": "I Gede Nyoman Mindra Jaya",
+        "page": 3,
+        "role": "Co. Pembimbing",
+        "student": "Andrew Hosea Talakua"
+      },
+      {
+        "name": "Gumgum Darmawan",
+        "page": 3,
+        "role": "Penguji",
+        "student": "Andrew Hosea Talakua"
+      },
+      {
+        "name": "Hasna Afifah Rusyda",
+        "page": 3,
+        "role": "Penguji",
+        "student": "Andrew Hosea Talakua"
+      }
+    ],
+    "href": "dokumen-sk/arsip-2023-2026/sk-sur-856-2026.pdf",
+    "sha256": "0b045b7a74b0c98133f36dc480f6034fde55e09b1abb6f6818ad8e8c2b04f930",
+    "source": "SK No 856 SUR S2 Statistika an. Ega Saherti dkk (21 September 2026).pdf"
+  },
+  {
+    "id": "55e857f0a197",
+    "kind": "sk",
+    "year": 2026,
+    "number": "879/UN6.D/Kep/FMIPA/2026",
+    "title": "Tim Pembimbing dan Penguji SUR — Hanifah Khairunnisa",
+    "people": [
+      {
+        "name": "Gumgum Darmawan",
+        "page": 3,
+        "role": "Pembimbing",
+        "student": "Hanifah Khairunnisa"
+      },
+      {
+        "name": "Lienda Noviyanti",
+        "page": 3,
+        "role": "Co. Pembimbing",
+        "student": "Hanifah Khairunnisa"
+      },
+      {
+        "name": "Restu Arisanti",
+        "page": 3,
+        "role": "Penguji",
+        "student": "Hanifah Khairunnisa"
+      },
+      {
+        "name": "Hasna Afifah Rusyda",
+        "page": 3,
+        "role": "Penguji",
+        "student": "Hanifah Khairunnisa"
+      }
+    ],
+    "href": "dokumen-sk/arsip-2023-2026/sk-sur-879-2026.pdf",
+    "sha256": "55e857f0a197f91b4a57422dc43dc2c98c1f09514536bd9aaaa0015d7a778795",
+    "source": "SK No 879 SUR S2 Statistika an. Hanifah Khairunnisa (23 September 2026).pdf"
+  },
+  {
+    "id": "0a331a2c640a",
+    "kind": "sk",
+    "year": 2026,
+    "number": "880/UN6.D/Kep/FMIPA/2026",
+    "title": "Tim Pembimbing dan Penguji SUR — Fellita Odelia Wibowo",
+    "people": [
+      {
+        "name": "Gumgum Darmawan",
+        "page": 3,
+        "role": "Pembimbing",
+        "student": "Fellita Odelia Wibowo"
+      },
+      {
+        "name": "Bertho Tantular",
+        "page": 3,
+        "role": "Co. Pembimbing",
+        "student": "Fellita Odelia Wibowo"
+      },
+      {
+        "name": "Yuyun Hidayat",
+        "page": 3,
+        "role": "Penguji",
+        "student": "Fellita Odelia Wibowo"
+      },
+      {
+        "name": "Triyani Hendrawati",
+        "page": 3,
+        "role": "Penguji",
+        "student": "Fellita Odelia Wibowo"
+      }
+    ],
+    "href": "dokumen-sk/arsip-2023-2026/sk-sur-880-2026.pdf",
+    "sha256": "0a331a2c640afdb2b3e94ec1fe92b2f3c15c6ace631afc4f0496bd07dcb693f7",
+    "source": "SK No 880 SUR S2 Statistika an. Fellita Odelia Wibowo (23 September 2026).pdf"
+  },
+  {
+    "id": "dfc7e7cef1f4",
+    "kind": "sk",
+    "year": 2026,
+    "number": "963/UN6.D/Kep/FMIPA/2026",
+    "title": "Tim Pembimbing dan Penguji SUR — Rana Aribah",
+    "people": [
+      {
+        "name": "Sri Winarni",
+        "page": 3,
+        "role": "Pembimbing",
+        "student": "Rana Aribah"
+      },
+      {
+        "name": "Yusep Suparman",
+        "page": 3,
+        "role": "Co. Pembimbing",
+        "student": "Rana Aribah"
+      },
+      {
+        "name": "Irlandia Ginanjar",
+        "page": 3,
+        "role": "Penguji",
+        "student": "Rana Aribah"
+      },
+      {
+        "name": "Anindya Apriliyanti Pravitasari",
+        "page": 3,
+        "role": "Penguji",
+        "student": "Rana Aribah"
+      }
+    ],
+    "href": "dokumen-sk/arsip-2023-2026/sk-sur-963-2026.pdf",
+    "sha256": "dfc7e7cef1f45a3cb87e68e2d53d445d05387c78b5e2e0c0a8aad638565443d7",
+    "source": "SK No 963 SUR S2 Statatistika an. Rana Aribah (tgl ajuan 1 Oktober 2026).pdf"
+  },
+  {
+    "id": "d92fadd60a7e",
+    "kind": "sk",
+    "year": 2026,
+    "number": "964/UN6.D/Kep/FMIPA/2026",
+    "title": "Tim Pembimbing dan Penguji SUR — Linda Apriliana",
+    "people": [
+      {
+        "name": "Anindya Apriliyanti Pravitasari",
+        "page": 3,
+        "role": "Pembimbing",
+        "student": "Linda Apriliana"
+      },
+      {
+        "name": "Restu Arisanti",
+        "page": 3,
+        "role": "Co. Pembimbing",
+        "student": "Linda Apriliana"
+      },
+      {
+        "name": "Lienda Noviyanti",
+        "page": 3,
+        "role": "Penguji",
+        "student": "Linda Apriliana"
+      },
+      {
+        "name": "Defi Yusti Faidah",
+        "page": 3,
+        "role": "Penguji",
+        "student": "Linda Apriliana"
+      }
+    ],
+    "href": "dokumen-sk/arsip-2023-2026/sk-sur-964-2026.pdf",
+    "sha256": "d92fadd60a7ecf4d82877f049435b6a69b88ed05b2d7317f3eb49db9abc2e71d",
+    "source": "SK No 964 SUR S2 Statatistika an. Linda Apriliana (tgl ajuan 1 Oktober 2026).pdf"
   }
 ]

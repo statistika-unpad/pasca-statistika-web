@@ -11,6 +11,11 @@
   const cards = [...root.querySelectorAll('.document-card')];
   const categories = [...root.querySelectorAll('[data-filter]')];
   let category = '';
+  categories.forEach(button => {
+    const kind=button.dataset.filter;
+    const total=cards.filter(c=>!kind||(kind==='akademik'?c.dataset.category!=='pengelola':c.dataset.category===kind)).length;
+    const count=button.querySelector('span');if(count)count.textContent=total;
+  });
   const normalize = value => value.normalize('NFKD').toLocaleLowerCase('id').replace(/\s+/g, ' ').trim();
   function filter() {
     const words = normalize(search.value).split(' ').filter(Boolean);
@@ -31,13 +36,11 @@
   }
   categories.forEach(button => button.addEventListener('click', () => {
     category = button.dataset.filter;
-    if (category === "pengelola") { year.value = ""; semester.value = ""; }
-    if (!['undangan', 'pengujian'].includes(category)) stage.value = '';
     filter();
   }));
   lecturer.addEventListener('change', filter);
   search.addEventListener('input', filter);
-  stage.addEventListener('change', () => { if (stage.value && !['undangan','pengujian'].includes(category)) category = ''; filter(); });
+  stage.addEventListener('change', filter);
   year.addEventListener('change', filter);
   documentYear.addEventListener('change', filter);
   semester.addEventListener('change', filter);
