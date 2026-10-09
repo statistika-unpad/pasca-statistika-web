@@ -896,6 +896,13 @@
     .compact-table .year { width: 76px; text-align: center; font-weight: 800; color: var(--success); }
     .compact-table .title-cell { color: var(--navy-900); font-weight: 700; }
 
+    .presentation-table { table-layout: fixed; }
+    .presentation-table td { line-height: 1.65; overflow-wrap: break-word; }
+    @media print {
+      .presentation-table { min-width: 0; }
+      .presentation-table tr { break-inside: avoid; }
+    }
+
     .award-list { display: grid; grid-template-columns: repeat(2, 1fr); gap: 12px; }
     .award {
       position: relative;
@@ -1330,7 +1337,7 @@
           <h2>Presentasi Ilmiah &amp; Kontribusi Kebijakan</h2>
           <p>Keterlibatan sebagai pemakalah serta penerapan keahlian untuk kebijakan publik.</p>
         </div>
-        <div class="compact-table-wrap"><table class="compact-table"><thead><tr><th>No.</th><th>Pertemuan Ilmiah</th><th>Topik Presentasi</th><th>Waktu &amp; Tempat</th></tr></thead><tbody id="presentationRows"></tbody></table></div>
+        <div class="compact-table-wrap"><table class="compact-table presentation-table"><colgroup><col style="width:6%"><col style="width:28%"><col style="width:42%"><col style="width:24%"></colgroup><thead><tr><th scope="col">No.</th><th scope="col">Pertemuan Ilmiah</th><th>Topik Presentasi</th><th>Waktu &amp; Tempat</th></tr></thead><tbody id="presentationRows"></tbody></table></div>
         <div class="lead-card mt-22">
           <p><strong>Kontribusi kebijakan publik.</strong> Pengukuran kinerja pengelolaan informasi dan komunikasi publik (PIKP), diterapkan pada 2022–2023 di seluruh Indonesia dengan respons masyarakat yang positif.</p>
         </div>
@@ -1641,8 +1648,8 @@
         </article>`).join('');
     }
 
-    function renderTableRows(targetId, rows) {
-      document.getElementById(targetId).innerHTML = rows.map((row, index) => `<tr><td class="num">${index + 1}</td>${row.map((cell, i) => `<td class="${i === 0 ? 'title-cell' : i === 1 ? 'year' : ''}">${escapeHtml(cell)}</td>`).join('')}</tr>`).join('');
+    function renderTableRows(targetId, rows, yearColumn = 1) {
+      document.getElementById(targetId).innerHTML = rows.map((row, index) => `<tr><td class="num">${index + 1}</td>${row.map((cell, i) => `<td class="${i === 0 ? 'title-cell' : i === yearColumn ? 'year' : ''}">${escapeHtml(cell)}</td>`).join('')}</tr>`).join('');
     }
 
     function renderAwards() {
@@ -1683,7 +1690,7 @@
     renderPublications();
     renderTableRows('bookRows', books);
     renderTableRows('ipRows', intellectualProperties);
-    renderTableRows('presentationRows', presentations);
+    renderTableRows('presentationRows', presentations, -1);
     renderAwards();
     setupPublicationFilters();
 
