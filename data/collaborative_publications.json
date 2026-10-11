@@ -1,0 +1,1071 @@
+{
+  "metadata": {
+    "source": "Tabel publikasi pada laporan kolaborasi dosen–mahasiswa yang telah diterbitkan program studi",
+    "sourceCommit": "75bb8b664245704604f3e3203d08f3d0930be4a9",
+    "sourceFile": "publikasi-mahasiswa-dosen/laporan-kolaborasi-dosen-mahasiswa.html",
+    "updated": "2026-10-11",
+    "sourceRows": 64,
+    "excludedBefore2023": 12,
+    "verification": "Status dan indeksasi mengikuti laporan sumber; bukan verifikasi ulang penerbit. Nama dosen merupakan penulis yang tercatat, bukan penetapan DTPS."
+  },
+  "publications": [
+    {
+      "id": "collab-1",
+      "sourceRow": 1,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si"
+      ],
+      "students": [
+        "EGA SAHERTI"
+      ],
+      "title": "Pola dan Peramalan Curah Hujan Berdasarkan Faktor Iklim di Kabupaten Lampung Selatan Tahun 2025",
+      "year": 2026,
+      "type": "Prosiding Nasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "Prosiding Seminar Nasional Statistika",
+      "doi": null,
+      "url": "https://prosiding.statistics.unpad.ac.id/?journal=prosidingsns&page=article&op=view&path[]=346",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-2",
+      "sourceRow": 2,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si"
+      ],
+      "students": [
+        "Salwa Azzah Imtiyaz"
+      ],
+      "title": "Penerapan Robust Regression dalam Memprediksi Produksi Padi Berdasarkan Faktor Lingkungan di Indonesia",
+      "year": 2026,
+      "type": "Jurnal Nasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "BIAStatistics Special Issue",
+      "doi": null,
+      "url": "https://biastatistics.statistics.unpad.ac.id/?journal=biastatistics-special-issue&page=article&op=view&path[]=348",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-3",
+      "sourceRow": 3,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "Sri Yuliana",
+        "Raihanah Rafidah"
+      ],
+      "title": "Peramalan Kedatangan Wisatawan Macanegara ke Provinsi Bali Menggunakan Metode Singular Spectrum Analysis (SSA)",
+      "year": 2026,
+      "type": "Jurnal Nasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "Future Academia: The Journal of Multidisciplinary Research on Scientific and Advanced",
+      "doi": "10.61579/future.v4i1.698",
+      "url": "https://doi.org/10.61579/future.v4i1.698",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-5",
+      "sourceRow": 5,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si"
+      ],
+      "students": [
+        "MAHDAYANI PUTRI YUNIZAR"
+      ],
+      "title": "Pemodelan Statistik Faktor-Faktor yang Mempengaruhi Emisi Karbon di Indonesia Menggunakan Regresi LASSO dan Random Forest",
+      "year": 2026,
+      "type": "Prosiding Nasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "Prosiding Seminar Nasional Statistika",
+      "doi": null,
+      "url": "https://prosiding.statistics.unpad.ac.id/?journal=prosidingsns&page=article&op=view&path[]=343",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-7",
+      "sourceRow": 7,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "ANGGA PRATAMA",
+        "Kiki Amelia"
+      ],
+      "title": "Forecasting Arrival Delay at Hartsfield–Jackson Atlanta International Airport Using Autoregressive Fractionally Integrated Moving Average (ARFIMA)",
+      "year": 2026,
+      "type": "Jurnal Nasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "Future Academia: The Journal of Multidisciplinary Research on Scientific and Advanced",
+      "doi": "10.61579/future.v4i1.697",
+      "url": "https://doi.org/10.61579/future.v4i1.697",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-8",
+      "sourceRow": 8,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si",
+        "Dr. Bertho Tantular, S.Si., M.Si"
+      ],
+      "students": [
+        "Kiki Amelia"
+      ],
+      "title": "Mapping and Forecasting District-Level Stunting Dynamics in Indonesia Toward SDG Target 2.2: A Hybrid Bayesian-Machine Learning Spatiotemporal Analysis",
+      "year": 2026,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q1",
+      "venue": "Sustainability",
+      "doi": "10.3390/su18125959",
+      "url": "https://doi.org/10.3390/su18125959",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-10",
+      "sourceRow": 10,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "Hanifah Khairunnisa",
+        "Fellita Odelia Wibowo"
+      ],
+      "title": "Calendar- and Weather-Sensitive Short-Term Forecasting of Urban Bus Ridership: Evidence from the Transjakarta Bus Rapid Transit System",
+      "year": 2026,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "Mechatronics and Intelligent Transportation Systems",
+      "doi": "10.56578/mits050103",
+      "url": "https://doi.org/10.56578/mits050103",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-11",
+      "sourceRow": 11,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si",
+        "Dr. Bertho Tantular, S.Si., M.Si",
+        "Dr. Sri Winarni, S.Si., M.Si"
+      ],
+      "students": [
+        "Fellita Odelia Wibowo"
+      ],
+      "title": "Evaluating the Impact of the Government Floor Price Policy (HPP) on Farm-Gate-Level Harvested Dry Paddy (GKP) Price Trends Through Machine Learning-Based Forecasting",
+      "year": 2026,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q1",
+      "venue": "Mathematics",
+      "doi": "10.3390/math14122095",
+      "url": "https://doi.org/10.3390/math14122095",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-19",
+      "sourceRow": 19,
+      "faculty": [
+        "Dr. Irlandia Ginanjar, M.Si",
+        "Budhi Handoko, M.Si., Ph.D"
+      ],
+      "students": [
+        "Leivina Saliaputri"
+      ],
+      "title": "Why Do Stunting Interventions Remain Unequal in Urban Areas? A Multivariate Analysis of Subdistrict Risk Profiles in Cirebon City, Indonesia",
+      "year": 2026,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q1",
+      "venue": "Risk Management and Healthcare Policy",
+      "doi": "10.2147/RMHP.S594491",
+      "url": "https://doi.org/10.2147/RMHP.S594491",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-25",
+      "sourceRow": 25,
+      "faculty": [
+        "Dr. Anindya Apriliyanti Pravitasari, M.Si",
+        "Dr. Triyani Hendrawati, S.Si., M.Si.",
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si",
+        "Dr. Yusep Suparman, S.Si., M.Sc."
+      ],
+      "students": [
+        "Muhammad Restu Agam"
+      ],
+      "title": "Hybrid MobileNetV3-LSTM model for detecting phasic and tonic receptor responses in facial images",
+      "year": 2026,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q3",
+      "venue": "Communications in Mathematical Biology and Neuroscience",
+      "doi": "10.28919/cmbn/9648",
+      "url": "https://doi.org/10.28919/cmbn/9648",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-33",
+      "sourceRow": 33,
+      "faculty": [
+        "Dr. Anindya Apriliyanti Pravitasari, M.Si",
+        "Dr. Sri Winarni, S.Si., M.Si"
+      ],
+      "students": [
+        "Nisa Akbarilah Putri"
+      ],
+      "title": "Topic-based sentiment analysis of Jamsostek mobile application reviews using the BERTopic method",
+      "year": 2026,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q3",
+      "venue": "Communications in Mathematical Biology and Neuroscience",
+      "doi": "10.28919/cmbn/9682",
+      "url": "https://doi.org/10.28919/cmbn/9682",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-60",
+      "sourceRow": 60,
+      "faculty": [
+        "Dr. Irlandia Ginanjar, M.Si",
+        "Dr. Bertho Tantular, S.Si., M.Si"
+      ],
+      "students": [
+        "Disa Rahma Kirana"
+      ],
+      "title": "Stacking-Correspondence Analysis for Fuzzy Data: Computational Framework for Analyzing Complex Qualitative Survey Data",
+      "year": 2026,
+      "type": "Jurnal Nasional",
+      "sinta": "3",
+      "scopus": null,
+      "venue": "Building of Informatics, Technology and Science (BITS)",
+      "doi": "10.47065/bits.v7i4.9054",
+      "url": "https://doi.org/10.47065/bits.v7i4.9054",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-4",
+      "sourceRow": 4,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "MAHDAYANI PUTRI YUNIZAR",
+        "Andrew Hosea Talakua"
+      ],
+      "title": "Enhancing Rainfall Forecasting Performance in Bandung City Using Bi-LSTM with Grid Search Optimization on Gregorian and Lunar Calendar Data",
+      "year": 2025,
+      "type": "Jurnal Nasional",
+      "sinta": "3",
+      "scopus": null,
+      "venue": "PARAMETER: Jurnal Matematika, Statistika dan Terapannya",
+      "doi": "10.30598/parameterv4i3pp595-601",
+      "url": "https://doi.org/10.30598/parameterv4i3pp595-601",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-6",
+      "sourceRow": 6,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "RANA ARIBAH",
+        "LINDA APRILIANA"
+      ],
+      "title": "Forecasting Ferry Passenger Traffic in New York City Using the Seasonal ARIMA (SARIMA) Model",
+      "year": 2025,
+      "type": "Jurnal Nasional",
+      "sinta": "5",
+      "scopus": null,
+      "venue": "STATMAT: Jurnal Statistika dan Matematika",
+      "doi": "10.32493/sm.v7i3.54879",
+      "url": "https://doi.org/10.32493/sm.v7i3.54879",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-9",
+      "sourceRow": 9,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "MELLY MUSTIKASARI",
+        "Auro Aurellia Simbolon"
+      ],
+      "title": "Detection of Structural Break in Indonesia Composite Index Volatility Using HAR Model and CUSUM Test",
+      "year": 2025,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "Journal of Corporate Governance, Insurance, and Risk Management",
+      "doi": "10.56578/jcgirm120301",
+      "url": "https://doi.org/10.56578/jcgirm120301",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-16",
+      "sourceRow": 16,
+      "faculty": [
+        "Dr. Sri Winarni, S.Si., M.Si",
+        "Dr. Anindya Apriliyanti Pravitasari, M.Si",
+        "Prof. Yuyun Hidayat, Drs., MS., Ph.D."
+      ],
+      "students": [
+        "Sandrina Najwa"
+      ],
+      "title": "Emotion classification in social media posts related to telecommunication services using bidirectional LSTM",
+      "year": 2025,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q3",
+      "venue": "Communications in Mathematical Biology and Neuroscience",
+      "doi": "10.28919/cmbn/9006",
+      "url": "https://doi.org/10.28919/cmbn/9006",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-17",
+      "sourceRow": 17,
+      "faculty": [
+        "Dr. Irlandia Ginanjar, M.Si",
+        "Dr. Titi Purwandari, Dra., MS.",
+        "Dr. Anindya Apriliyanti Pravitasari, M.Si",
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "Dhanti Aurilia Pratiwi"
+      ],
+      "title": "Characterization method for more than three dimensions based on dependence and correlation using hybrid multiple correspondence analysis",
+      "year": 2025,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q3",
+      "venue": "Communications in Mathematical Biology and Neuroscience",
+      "doi": "10.28919/cmbn/9034",
+      "url": "https://doi.org/10.28919/cmbn/9034",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-20",
+      "sourceRow": 20,
+      "faculty": [
+        "Dr. Irlandia Ginanjar, M.Si",
+        "Dr. Defi Yusti Faidah, S.Si., M.Si"
+      ],
+      "students": [
+        "Theresia Samaria Nauli"
+      ],
+      "title": "Dependency-based clustering using correspondence and Ward's hierarchical analysis: a case study on clean water and sanitation indicators in West Java's cities and regencies",
+      "year": 2025,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q3",
+      "venue": "Communications in Mathematical Biology and Neuroscience",
+      "doi": null,
+      "url": "https://scik.org/index.php/cmbn/article/view/9235",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-21",
+      "sourceRow": 21,
+      "faculty": [
+        "Dr. Irlandia Ginanjar, M.Si",
+        "Dr. Restu Arisanti, S.Si., M.Si"
+      ],
+      "students": [
+        "Nabila Dhia Alifa Rahmah",
+        "Shania Puspita Sari"
+      ],
+      "title": "Negative Binomial Regression Analysis Of Welfare's Impact On Crime Involving Fraud, Embezzlement, And Corruption In Indonesia",
+      "year": 2025,
+      "type": "Prosiding Internasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "Proceedings International Conference on Applied Statistics (ICAS)",
+      "doi": null,
+      "url": "https://proceedingicas.statistics.unpad.ac.id/?journal=prosidinginternasional&page=index",
+      "linkKind": "venue"
+    },
+    {
+      "id": "collab-22",
+      "sourceRow": 22,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si",
+        "Dr. Bertho Tantular, S.Si., M.Si"
+      ],
+      "students": [
+        "Fariza Alamanda Putri"
+      ],
+      "title": "Spatiotemporal Cokriging for Modeling and Prediction of PM2.5 Concentrations in Jakarta",
+      "year": 2025,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q3",
+      "venue": "IAENG International Journal of Applied Mathematics",
+      "doi": null,
+      "url": "https://www.iaeng.org/IJAM/issues_v55/issue_1/IJAM_55_1_18.pdf",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-23",
+      "sourceRow": 23,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si"
+      ],
+      "students": [
+        "Dila Fitriani Azuri"
+      ],
+      "title": "Bayesian spatiotemporal stochastic partial differential equation for high-resolution earthquake magnitude mapping: Application to Sumatra Island, Indonesia",
+      "year": 2025,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q1",
+      "venue": "MethodsX",
+      "doi": "10.1016/j.mex.2025.103487",
+      "url": "https://doi.org/10.1016/j.mex.2025.103487",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-24",
+      "sourceRow": 24,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si"
+      ],
+      "students": [
+        "SHABIRA ALIYA AULIYAZHAFIRA",
+        "Fariza Alamanda Putri",
+        "Theresia Samaria Nauli",
+        "AULIA RAHMAN AL MADANI"
+      ],
+      "title": "Spatial Interpolation of Rainfall Intensity in Java Island Using Ordinary Kriging",
+      "year": 2025,
+      "type": "Jurnal Nasional",
+      "sinta": "3",
+      "scopus": "Q4",
+      "venue": "BAREKENG: Jurnal Ilmu Matematika dan Terapan",
+      "doi": "10.30598/barekengvol19iss3pp1791-1804",
+      "url": "https://doi.org/10.30598/barekengvol19iss3pp1791-1804",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-26",
+      "sourceRow": 26,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si",
+        "Budhi Handoko, M.Si., Ph.D"
+      ],
+      "students": [
+        "Aisha Kusuma Putri"
+      ],
+      "title": "Attentive Item2Vec Machine Learning Method for Recommending Tourist Destinations in Indonesia",
+      "year": 2025,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q1",
+      "venue": "GeoJournal of Tourism and Geosites",
+      "doi": "10.30892/gtg.602spl15-1491",
+      "url": "https://doi.org/10.30892/gtg.602spl15-1491",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-27",
+      "sourceRow": 27,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "Gracia Joanne Crissan BR Hutabarat",
+        "Disa Rahma Kirana"
+      ],
+      "title": "Forecasting the Number of ASEAN Tourists to Indonesia with the Hybrid Singular Spectrum Analysis-Support Vector Machine Method",
+      "year": 2025,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q1",
+      "venue": "GeoJournal of Tourism and Geosites",
+      "doi": "10.30892/gtg.59223-1455",
+      "url": "https://doi.org/10.30892/gtg.59223-1455",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-28",
+      "sourceRow": 28,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si",
+        "Dr. Bertho Tantular, S.Si., M.Si"
+      ],
+      "students": [
+        "WIDI WILDANI ALFARISi"
+      ],
+      "title": "Improving the Accuracy of Room Occupancy Forecasts with Hybrid Models",
+      "year": 2025,
+      "type": "Jurnal Nasional",
+      "sinta": "2",
+      "scopus": null,
+      "venue": "Jurnal Ilmiah Pendidikan dan Pembelajaran",
+      "doi": "10.23887/jipp.v9i1.89464",
+      "url": "https://doi.org/10.23887/jipp.v9i1.89464",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-29",
+      "sourceRow": 29,
+      "faculty": [
+        "Budhi Handoko, M.Si., Ph.D",
+        "Dr. Defi Yusti Faidah, S.Si., M.Si"
+      ],
+      "students": [
+        "Ayu Sangrila"
+      ],
+      "title": "Model-based clustering approach for clustering of heart disease patients based on risk factors",
+      "year": 2025,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q3",
+      "venue": "Communications in Mathematical Biology and Neuroscience",
+      "doi": null,
+      "url": "https://scik.org/index.php/cmbn/article/view/9079/0",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-32",
+      "sourceRow": 32,
+      "faculty": [
+        "Dr. Anindya Apriliyanti Pravitasari, M.Si"
+      ],
+      "students": [
+        "Najma Rafifah Putri Syallya"
+      ],
+      "title": "NLP-Based Intent Classification Model for Academic Curriculum Chatbots in Universities Study Programs",
+      "year": 2025,
+      "type": "Jurnal Nasional",
+      "sinta": "2",
+      "scopus": "Q3",
+      "venue": "Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi)",
+      "doi": "10.29207/resti.v9i1.6276",
+      "url": "https://doi.org/10.29207/resti.v9i1.6276",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-36",
+      "sourceRow": 36,
+      "faculty": [
+        "Dr. Sri Winarni, S.Si., M.Si",
+        "Dr. Restu Arisanti, S.Si., M.Si"
+      ],
+      "students": [
+        "Fellita Odelia Wibowo",
+        "Hanifah Khairunnisa"
+      ],
+      "title": "Analytical Approach of Generalized Linear Models for Handling Overdispersion in Poverty Data of Indonesia",
+      "year": 2025,
+      "type": "Jurnal Nasional",
+      "sinta": "3",
+      "scopus": "Q4",
+      "venue": "BAREKENG: Jurnal Ilmu Matematika dan Terapan",
+      "doi": "10.30598/barekengvol19iss3pp1575-1586",
+      "url": "https://doi.org/10.30598/barekengvol19iss3pp1575-1586",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-50",
+      "sourceRow": 50,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si"
+      ],
+      "students": [
+        "Sandrina Najwa",
+        "Dhanti Aurilia Pratiwi",
+        "MUHAMMAD RHAFI AHDIAN",
+        "Ayu Indriani"
+      ],
+      "title": "Integrating Spatial Autoregressive Exogenous with Ordinary Kriging for Improved Rainfall Prediction in Java: Enhancing Accuracy with Climate Variables and Spatial Autocorrelation",
+      "year": 2025,
+      "type": "Jurnal Nasional",
+      "sinta": "3",
+      "scopus": null,
+      "venue": "InPrime: Indonesian Journal of Pure and Applied Mathematics",
+      "doi": "10.15408/inprime.v7i1.42070",
+      "url": "https://doi.org/10.15408/inprime.v7i1.42070",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-14",
+      "sourceRow": 14,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si",
+        "Prof. Dr. Toni Toharudin, M.Sc"
+      ],
+      "students": [
+        "Tafia Hasna Putri"
+      ],
+      "title": "Sensitivity analysis of the PC hyperprior for range and standard deviation components in Bayesian Spatiotemporal high-resolution prediction: An application to PM2.5 prediction in Jakarta, Indonesia",
+      "year": 2024,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q1",
+      "venue": "International Journal of Data and Network Science",
+      "doi": "10.5267/j.ijdns.2023.12.018",
+      "url": "https://doi.org/10.5267/j.ijdns.2023.12.018",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-15",
+      "sourceRow": 15,
+      "faculty": [
+        "Prof. Dr. Toni Toharudin, M.Sc",
+        "Dr. Gumgum Darmawan, S.Si., M.Si",
+        "Dr. Defi Yusti Faidah, S.Si., M.Si"
+      ],
+      "students": [
+        "Tafia Hasna Putri"
+      ],
+      "title": "Fine-Tuning of Predictive Models CNN-LSTM and CONV-LSTM for Nowcasting PM2.5 Level",
+      "year": 2024,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q1",
+      "venue": "IEEE Access",
+      "doi": "10.1109/ACCESS.2024.3368034",
+      "url": "https://doi.org/10.1109/ACCESS.2024.3368034",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-18",
+      "sourceRow": 18,
+      "faculty": [
+        "Dr. Irlandia Ginanjar, M.Si",
+        "Dr. Titi Purwandari, Dra., MS."
+      ],
+      "students": [
+        "Renata Syifa Kristanto"
+      ],
+      "title": "Recategorization method based on dependence between qualitative variables using joint correspondence analysis with elliptical confidence regions",
+      "year": 2024,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q3",
+      "venue": "Communications in Mathematical Biology and Neuroscience",
+      "doi": "10.28919/cmbn/8444",
+      "url": "https://doi.org/10.28919/cmbn/8444",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-30",
+      "sourceRow": 30,
+      "faculty": [
+        "Budhi Handoko, M.Si., Ph.D",
+        "Dr. Anindya Apriliyanti Pravitasari, M.Si"
+      ],
+      "students": [
+        "Nabila Dhia Alifa Rahmah"
+      ],
+      "title": "Machine Learning Methods for Forecasting Intermittent Tin Ore Production",
+      "year": 2024,
+      "type": "Jurnal Nasional",
+      "sinta": "2",
+      "scopus": "Q3",
+      "venue": "Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi)",
+      "doi": "10.29207/resti.v8i5.5990",
+      "url": "https://doi.org/10.29207/resti.v8i5.5990",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-31",
+      "sourceRow": 31,
+      "faculty": [
+        "Dr. Anindya Apriliyanti Pravitasari, M.Si",
+        "Yudhie Andriyana, M.Sc., Ph.D."
+      ],
+      "students": [
+        "Ibnu Try Rosadi"
+      ],
+      "title": "Data tweet clustering using bidirectional gated recurrent unit and k-prototype for the Indonesian political year",
+      "year": 2024,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q1",
+      "venue": "International Journal of Data and Network Science",
+      "doi": "10.5267/j.ijdns.2023.12.015",
+      "url": "https://doi.org/10.5267/j.ijdns.2023.12.015",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-38",
+      "sourceRow": 38,
+      "faculty": [
+        "Prof. Dr. Toni Toharudin, M.Sc",
+        "Dr. Triyani Hendrawati, S.Si., M.Si."
+      ],
+      "students": [
+        "Abdurrahman Al Ghifari"
+      ],
+      "title": "Formation of an Optimal Portfolio of LQ45 Shares Using Markowitz Method",
+      "year": 2024,
+      "type": "Jurnal Nasional",
+      "sinta": "2",
+      "scopus": null,
+      "venue": "Jurnal Riset Akuntansi Kontemporer",
+      "doi": "10.23969/jrak.v16i1.8445",
+      "url": "https://doi.org/10.23969/jrak.v16i1.8445",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-40",
+      "sourceRow": 40,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "MUHAMMAD RHAFI AHDIAN",
+        "Ayu Sangrila",
+        "AULIA RAHMAN AL MADANI",
+        "Nuzila Ismatilah",
+        "SHABIRA ALIYA AULIYAZHAFIRA"
+      ],
+      "title": "Peramalan Deret Waktu Curah Hujan di Kota Cirebon Menggunakan ARFIMA",
+      "year": 2024,
+      "type": "Jurnal Nasional",
+      "sinta": "5",
+      "scopus": null,
+      "venue": "Innovative: Journal of Social Science Research",
+      "doi": null,
+      "url": "https://journal.universitaspahlawan.ac.id/index.php/Innovative/article/view/23686",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-42",
+      "sourceRow": 42,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "WIDI WILDANI ALFARISi",
+        "Zhafira Haura",
+        "Dhanti Aurilia Pratiwi",
+        "Fariza Alamanda Putri",
+        "ERY SADEWO"
+      ],
+      "title": "Comparative Analysis of Fourier Series Analysis and Holtwinters Methods on Forecasting Additive Seasonal Data",
+      "year": 2024,
+      "type": "Jurnal Nasional",
+      "sinta": "5",
+      "scopus": null,
+      "venue": "Innovative: Journal of Social Science Research",
+      "doi": null,
+      "url": "https://journal.universitaspahlawan.ac.id/index.php/Innovative/article/view/27118",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-43",
+      "sourceRow": 43,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "Laila Budianti",
+        "Janatin",
+        "MUHAMMAD YASYFI AVICENNA",
+        "Aisha Kusuma Putri"
+      ],
+      "title": "Pemodelan SARIMA dengan Pendekatan ARCH/GARCH untuk Meramalkan Penjualan Ritel Barang Elektronik",
+      "year": 2024,
+      "type": "Jurnal Nasional",
+      "sinta": "5",
+      "scopus": null,
+      "venue": "Innovative: Journal of Social Science Research",
+      "doi": null,
+      "url": "https://journal.universitaspahlawan.ac.id/index.php/Innovative/article/view/29372",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-44",
+      "sourceRow": 44,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "DIAN ISLAMIATY PUTERI"
+      ],
+      "title": "Prediksi Harga Saham Syariah menggunakan Bidirectional Long Short Term Memory (BiLSTM) dan Algoritma Grid Search",
+      "year": 2024,
+      "type": "Jurnal Nasional",
+      "sinta": "3",
+      "scopus": null,
+      "venue": "Jambura Journal of Mathematics",
+      "doi": "10.37905/jjom.v6i1.23297",
+      "url": "https://doi.org/10.37905/jjom.v6i1.23297",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-48",
+      "sourceRow": 48,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si",
+        "Dr. Bertho Tantular, S.Si., M.Si"
+      ],
+      "students": [
+        "Fariza Alamanda Putri"
+      ],
+      "title": "Hierarchical Bayesian Modeling untuk Pemodelan Spatiotemporal Indeks Standar Pencemar Udara (ISPU) Studi Kasus Provinsi Daerah Khusus Jakarta",
+      "year": 2024,
+      "type": "Jurnal Nasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "BIAStatistics Special Issue",
+      "doi": null,
+      "url": "https://biastatistics.statistics.unpad.ac.id/?journal=biastatistics-special-issue",
+      "linkKind": "venue"
+    },
+    {
+      "id": "collab-49",
+      "sourceRow": 49,
+      "faculty": [
+        "Dr. Titi Purwandari, Dra., MS."
+      ],
+      "students": [
+        "Hanifah Khairunnisa",
+        "Fellita Odelia Wibowo"
+      ],
+      "title": "Pengelompokan Provinsi di Indonesia berdasarkan Indeks Kebahagiaan Tahun 2021 Menggunakan Analisis Klaster Hierarki dan Multidimensional Scaling Beserta Perbandingannya",
+      "year": 2024,
+      "type": "Jurnal Nasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "BIAStatistics Special Issue",
+      "doi": null,
+      "url": "https://biastatistics.statistics.unpad.ac.id/?journal=biastatistics-special-issue",
+      "linkKind": "venue"
+    },
+    {
+      "id": "collab-51",
+      "sourceRow": 51,
+      "faculty": [
+        "Dr. Yusep Suparman, S.Si., M.Sc."
+      ],
+      "students": [
+        "MUHAMAD SOBARI",
+        "DIAN ISLAMIATY PUTERI",
+        "DELVI RUTANIA PRAMA"
+      ],
+      "title": "Multinomial Logistic Regression to Determine Factors Influencing the Selection of Health Care Facilities in Indonesia",
+      "year": 2024,
+      "type": "Jurnal Nasional",
+      "sinta": "3",
+      "scopus": null,
+      "venue": "Journal of Fundamental Mathematics and Applications",
+      "doi": "10.14710/jfma.v7i2.16499",
+      "url": "https://doi.org/10.14710/jfma.v7i2.16499",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-57",
+      "sourceRow": 57,
+      "faculty": [
+        "Yudhie Andriyana, M.Sc., Ph.D."
+      ],
+      "students": [
+        "Yuhana Notonegoro"
+      ],
+      "title": "Comparison of distance-based spatial weight matrix in modeling Internet signal strengths in Tasikmalaya regency using logistic spatial autoregressive model",
+      "year": 2024,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q1",
+      "venue": "International Journal of Data and Network Science",
+      "doi": "10.5267/j.ijdns.2023.12.016",
+      "url": "https://doi.org/10.5267/j.ijdns.2023.12.016",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-61",
+      "sourceRow": 61,
+      "faculty": [
+        "Dr. Irlandia Ginanjar, M.Si",
+        "Dr. Lienda Noviyanti, M.Si"
+      ],
+      "students": [
+        "Shania Puspita Sari"
+      ],
+      "title": "Predicting future inflation in Indonesia using Dynamic Model Averaging (DMA)",
+      "year": 2024,
+      "type": "Jurnal Nasional",
+      "sinta": "2",
+      "scopus": null,
+      "venue": "Jurnal Perspektif Pembiayaan dan Pembangunan Daerah",
+      "doi": "10.22437/ppd.v12i2.31817",
+      "url": "https://doi.org/10.22437/ppd.v12i2.31817",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-13",
+      "sourceRow": 13,
+      "faculty": [
+        "Dr. Bertho Tantular, S.Si., M.Si",
+        "Prof. Dr. Toni Toharudin, M.Sc"
+      ],
+      "students": [
+        "Leivina Saliaputri"
+      ],
+      "title": "Air Quality Mapping in Bandung City",
+      "year": 2023,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q2",
+      "venue": "Atmosphere",
+      "doi": "10.3390/atmos14091444",
+      "url": "https://doi.org/10.3390/atmos14091444",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-35",
+      "sourceRow": 35,
+      "faculty": [
+        "Dr. Irlandia Ginanjar, M.Si",
+        "Prof. Dr. Toni Toharudin, M.Sc"
+      ],
+      "students": [
+        "ARMALIA DESIYANTI"
+      ],
+      "title": "Application of an Empirical Best Linear Unbiased Prediction Fay–Herriot (EBLUP-FH) Multivariate Method with Cluster Information to Estimate Average Household Expenditure",
+      "year": 2023,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": "Q1",
+      "venue": "Mathematics",
+      "doi": "10.3390/math11010135",
+      "url": "https://doi.org/10.3390/math11010135",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-39",
+      "sourceRow": 39,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "QURNIA AMANAH DWIADI",
+        "Ayu Indriani",
+        "Theresia Samaria Nauli",
+        "Hani Nurhapilah"
+      ],
+      "title": "Peramalan Konsumsi Gas Alam Amerika Serikat dengan Double Seasonality menggunakan Singular Spectrum Analysis (SSA)",
+      "year": 2023,
+      "type": "Jurnal Nasional",
+      "sinta": "5",
+      "scopus": null,
+      "venue": "Innovative: Journal of Social Science Research",
+      "doi": "10.31004/innovative.v3i5.5007",
+      "url": "https://doi.org/10.31004/innovative.v3i5.5007",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-41",
+      "sourceRow": 41,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "Dila Fitriani Azuri",
+        "Najma Rafifah Putri Syallya",
+        "Sandrina Najwa",
+        "WANDA ALIFIA"
+      ],
+      "title": "Model Peramalan Double Seasonal Pada Data Konsumsi Gas Alam Amerika Serikat Dengan Pendekatan Analisis Spektral",
+      "year": 2023,
+      "type": "Jurnal Nasional",
+      "sinta": "5",
+      "scopus": null,
+      "venue": "Innovative: Journal of Social Science Research",
+      "doi": null,
+      "url": "https://journal.universitaspahlawan.ac.id/index.php/Innovative/article/view/17442",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-47",
+      "sourceRow": 47,
+      "faculty": [
+        "Dr. Yusep Suparman, S.Si., M.Sc.",
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "Elyn Prina"
+      ],
+      "title": "The Implementation of Latent Gaussian Model in the Forecasting Process",
+      "year": 2023,
+      "type": "Jurnal Nasional",
+      "sinta": "2",
+      "scopus": null,
+      "venue": "Jurnal Penelitian Pendidikan IPA",
+      "doi": "10.29303/jppipa.v9i12.5835",
+      "url": "https://doi.org/10.29303/jppipa.v9i12.5835",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-53",
+      "sourceRow": 53,
+      "faculty": [
+        "Dr. Yusep Suparman, S.Si., M.Sc.",
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si"
+      ],
+      "students": [
+        "LUCY FITRIA DEWI"
+      ],
+      "title": "Implementation of the Autoregressive Integrated (VARI) Vector Model for Stress-Testing Analysis of Indonesian Banking",
+      "year": 2023,
+      "type": "Jurnal Nasional",
+      "sinta": "4",
+      "scopus": null,
+      "venue": "Journal of Social Research",
+      "doi": "10.55324/josr.v2i6.982",
+      "url": "https://doi.org/10.55324/josr.v2i6.982",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-58",
+      "sourceRow": 58,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si",
+        "Dr. Irlandia Ginanjar, M.Si"
+      ],
+      "students": [
+        "Harifa Hananti"
+      ],
+      "title": "Pemodelan Kasus Gizi Buruk Balita di Indonesia Menggunakan Panel Quantile Regression Model",
+      "year": 2023,
+      "type": "Jurnal Nasional",
+      "sinta": "3",
+      "scopus": null,
+      "venue": "Statistika (Universitas Islam Bandung)",
+      "doi": "10.29313/statistika.v23i2.2025",
+      "url": "https://doi.org/10.29313/statistika.v23i2.2025",
+      "linkKind": "publication"
+    },
+    {
+      "id": "collab-64",
+      "sourceRow": 64,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si"
+      ],
+      "students": [
+        "MUHAMMAD YASYFI AVICENNA"
+      ],
+      "title": "Efisiensi Operasional dengan Promodel: Panduan Teori Antrian",
+      "year": 2023,
+      "type": "Buku",
+      "sinta": null,
+      "scopus": null,
+      "venue": "Kaizen Media Publishing",
+      "doi": null,
+      "url": "https://books.google.com/books/about/Efisiensi_Operasional_dengan_Promodel.html?id=h0XqEAAAQBAJ",
+      "linkKind": "publication"
+    }
+  ]
+}
