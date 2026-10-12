@@ -1,12 +1,20 @@
 {
   "metadata": {
-    "source": "Tabel publikasi pada laporan kolaborasi dosen–mahasiswa yang telah diterbitkan program studi",
+    "source": "Laporan kolaborasi prodi, rekaman Scopus/WoS/Garuda melalui SINTA, dan metadata penulis penerbit",
     "sourceCommit": "75bb8b664245704604f3e3203d08f3d0930be4a9",
     "sourceFile": "publikasi-mahasiswa-dosen/laporan-kolaborasi-dosen-mahasiswa.html",
-    "updated": "2026-10-11",
+    "updated": "2026-10-12",
     "sourceRows": 64,
     "excludedBefore2023": 12,
-    "verification": "Status dan indeksasi mengikuti laporan sumber; bukan verifikasi ulang penerbit. Nama dosen merupakan penulis yang tercatat, bukan penetapan DTPS."
+    "verification": "Entri tambahan memerlukan bukti indeks melalui SINTA dan nama lengkap penulis yang cocok dengan roster mahasiswa/alumni prodi. Data lama ditandai sesuai bukti yang tersedia. Cakupan publik bersifat parsial; bukan ekspor penuh Scopus/WoS.",
+    "addedFromResearch": 11,
+    "baselinePublications": 52,
+    "studentRosterSize": 96,
+    "studentRosterSources": [
+      "data/alumni.json",
+      "Tabel laporan kolaborasi prodi sebelum konversi katalog"
+    ],
+    "exclusions": "Tahun sebelum 2023, kecocokan nama parsial saja, dan Google Scholar tidak digunakan untuk tambahan. Status DTPS tidak ditetapkan dari daftar penulis."
   },
   "publications": [
     {
@@ -26,7 +34,11 @@
       "venue": "Prosiding Seminar Nasional Statistika",
       "doi": null,
       "url": "https://prosiding.statistics.unpad.ac.id/?journal=prosidingsns&page=article&op=view&path[]=346",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-2",
@@ -45,7 +57,11 @@
       "venue": "BIAStatistics Special Issue",
       "doi": null,
       "url": "https://biastatistics.statistics.unpad.ac.id/?journal=biastatistics-special-issue&page=article&op=view&path[]=348",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-3",
@@ -65,7 +81,33 @@
       "venue": "Future Academia: The Journal of Multidisciplinary Research on Scientific and Advanced",
       "doi": "10.61579/future.v4i1.698",
       "url": "https://doi.org/10.61579/future.v4i1.698",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5912862",
+          "checkedAt": "2026-10-11",
+          "faculty": "Gumgum Darmawan"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Sri Yuliana",
+        "Raihanah Rafidah",
+        "Gumgum Darmawan"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.61579/future.v4i1.698",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-5",
@@ -84,7 +126,11 @@
       "venue": "Prosiding Seminar Nasional Statistika",
       "doi": null,
       "url": "https://prosiding.statistics.unpad.ac.id/?journal=prosidingsns&page=article&op=view&path[]=343",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-7",
@@ -104,7 +150,33 @@
       "venue": "Future Academia: The Journal of Multidisciplinary Research on Scientific and Advanced",
       "doi": "10.61579/future.v4i1.697",
       "url": "https://doi.org/10.61579/future.v4i1.697",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5912861",
+          "checkedAt": "2026-10-11",
+          "faculty": "Gumgum Darmawan"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Angga Pratama",
+        "Kiki Amelia",
+        "Gumgum Darmawan"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.61579/future.v4i1.697",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-8",
@@ -124,7 +196,44 @@
       "venue": "Sustainability",
       "doi": "10.3390/su18125959",
       "url": "https://doi.org/10.3390/su18125959",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021005/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105043029732&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Bertho Tantular"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105043029732&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "I Gede Nyoman Mindra Jaya"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "I Gede Nyoman Mindra Jaya",
+        "Bertho Tantular",
+        "Sinta Septi Pangastuti",
+        "Kiki Amelia",
+        "Cece Mulyadi",
+        "Farah Kristiani"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.3390/su18125959",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-10",
@@ -144,7 +253,33 @@
       "venue": "Mechatronics and Intelligent Transportation Systems",
       "doi": "10.56578/mits050103",
       "url": "https://doi.org/10.56578/mits050103",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105048189129&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Gumgum Darmawan"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Hanifah Khairunnisa",
+        "Fellita Odelia Wibowo",
+        "Gumgum Darmawan"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.56578/mits050103",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-11",
@@ -165,7 +300,51 @@
       "venue": "Mathematics",
       "doi": "10.3390/math14122095",
       "url": "https://doi.org/10.3390/math14122095",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021005/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105042709020&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Bertho Tantular"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105042709020&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Gumgum Darmawan"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089665/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105042709020&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Sri Winarni"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Gumgum Darmawan",
+        "Bertho Tantular",
+        "Sri Winarni",
+        "Norizan Mohamed",
+        "Fellita Odelia Wibowo"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.3390/math14122095",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-19",
@@ -185,7 +364,41 @@
       "venue": "Risk Management and Healthcare Policy",
       "doi": "10.2147/RMHP.S594491",
       "url": "https://doi.org/10.2147/RMHP.S594491",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089789/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105039820264&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Budhi Handoko"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105039820264&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Irlandia Ginanjar"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Leivina Saliaputri",
+        "Irlandia Ginanjar",
+        "Budhi Handoko"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.2147/rmhp.s594491",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-25",
@@ -207,7 +420,46 @@
       "venue": "Communications in Mathematical Biology and Neuroscience",
       "doi": "10.28919/cmbn/9648",
       "url": "https://doi.org/10.28919/cmbn/9648",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105028869318&origin=resultslist",
+          "checkedAt": "2026-10-03",
+          "faculty": "Anindya Apriliyanti Pravitasari"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105028869318&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "I Gede Nyoman Mindra Jaya"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084299/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105028869318&origin=resultslist",
+          "checkedAt": "2026-10-03",
+          "faculty": "Triyani Hendrawati"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105028869318&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Yusep Suparman"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-33",
@@ -227,7 +479,41 @@
       "venue": "Communications in Mathematical Biology and Neuroscience",
       "doi": "10.28919/cmbn/9682",
       "url": "https://doi.org/10.28919/cmbn/9682",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105028136553&origin=resultslist",
+          "checkedAt": "2026-10-03",
+          "faculty": "Anindya Apriliyanti Pravitasari"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089665/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105028136553&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Sri Winarni"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Nisa Akbarilah Putri",
+        "Anindya Apriliyanti Pravitasari",
+        "Sri Winarni"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.28919/cmbn/9682",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-60",
@@ -247,7 +533,30 @@
       "venue": "Building of Informatics, Technology and Science (BITS)",
       "doi": "10.47065/bits.v7i4.9054",
       "url": "https://doi.org/10.47065/bits.v7i4.9054",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021005/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/6053413",
+          "checkedAt": "2026-10-03",
+          "faculty": "Bertho Tantular"
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/6053413",
+          "checkedAt": "2026-10-11",
+          "faculty": "Irlandia Ginanjar"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-4",
@@ -267,7 +576,22 @@
       "venue": "PARAMETER: Jurnal Matematika, Statistika dan Terapannya",
       "doi": "10.30598/parameterv4i3pp595-601",
       "url": "https://doi.org/10.30598/parameterv4i3pp595-601",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5942376",
+          "checkedAt": "2026-10-11",
+          "faculty": "Gumgum Darmawan"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-6",
@@ -287,7 +611,33 @@
       "venue": "STATMAT: Jurnal Statistika dan Matematika",
       "doi": "10.32493/sm.v7i3.54879",
       "url": "https://doi.org/10.32493/sm.v7i3.54879",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5912254",
+          "checkedAt": "2026-10-11",
+          "faculty": "Gumgum Darmawan"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Rana Aribah",
+        "Linda Apriliana",
+        "Gumgum Darmawan"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.32493/sm.v7i3.54879",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-9",
@@ -307,7 +657,11 @@
       "venue": "Journal of Corporate Governance, Insurance, and Risk Management",
       "doi": "10.56578/jcgirm120301",
       "url": "https://doi.org/10.56578/jcgirm120301",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-16",
@@ -328,7 +682,39 @@
       "venue": "Communications in Mathematical Biology and Neuroscience",
       "doi": "10.28919/cmbn/9006",
       "url": "https://doi.org/10.28919/cmbn/9006",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85217203748&origin=resultslist",
+          "checkedAt": "2026-10-03",
+          "faculty": "Anindya Apriliyanti Pravitasari"
+        },
+        {
+          "source": "Web of Science",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089665/?view=wos",
+          "recordUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:001421988000011",
+          "checkedAt": "2026-10-11",
+          "faculty": "Sri Winarni"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014614/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85217203748&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Yuyun Hidayat"
+        }
+      ],
+      "indexSources": [
+        "Scopus",
+        "Web of Science"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-17",
@@ -350,7 +736,38 @@
       "venue": "Communications in Mathematical Biology and Neuroscience",
       "doi": "10.28919/cmbn/9034",
       "url": "https://doi.org/10.28919/cmbn/9034",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85217222194&origin=resultslist",
+          "checkedAt": "2026-10-03",
+          "faculty": "Anindya Apriliyanti Pravitasari"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85217222194&origin=resultslist",
+          "checkedAt": "2026-10-03",
+          "faculty": "Gumgum Darmawan"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85217222194&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Irlandia Ginanjar"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-20",
@@ -370,7 +787,30 @@
       "venue": "Communications in Mathematical Biology and Neuroscience",
       "doi": null,
       "url": "https://scik.org/index.php/cmbn/article/view/9235",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014997/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105007309723&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Defi Yusti Faidah"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105007309723&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Irlandia Ginanjar"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-21",
@@ -391,7 +831,11 @@
       "venue": "Proceedings International Conference on Applied Statistics (ICAS)",
       "doi": null,
       "url": "https://proceedingicas.statistics.unpad.ac.id/?journal=prosidinginternasional&page=index",
-      "linkKind": "venue"
+      "linkKind": "venue",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-22",
@@ -411,7 +855,30 @@
       "venue": "IAENG International Journal of Applied Mathematics",
       "doi": null,
       "url": "https://www.iaeng.org/IJAM/issues_v55/issue_1/IJAM_55_1_18.pdf",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021005/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105015468249&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Bertho Tantular"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105015468249&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "I Gede Nyoman Mindra Jaya"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-23",
@@ -430,7 +897,22 @@
       "venue": "MethodsX",
       "doi": "10.1016/j.mex.2025.103487",
       "url": "https://doi.org/10.1016/j.mex.2025.103487",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105010201455&origin=resultslist",
+          "checkedAt": "2026-10-03",
+          "faculty": "I Gede Nyoman Mindra Jaya"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-24",
@@ -452,7 +934,47 @@
       "venue": "BAREKENG: Jurnal Ilmu Matematika dan Terapan",
       "doi": "10.30598/barekengvol19iss3pp1791-1804",
       "url": "https://doi.org/10.30598/barekengvol19iss3pp1791-1804",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105010332474&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "I Gede Nyoman Mindra Jaya"
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5145545",
+          "checkedAt": "2026-10-11",
+          "faculty": "I Gede Nyoman Mindra Jaya"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105010332474&origin=resultslist",
+          "checkedAt": "2026-10-03",
+          "faculty": "Budi Nurani Ruchjana"
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5145545",
+          "checkedAt": "2026-10-11",
+          "faculty": "Budi Nurani Ruchjana"
+        }
+      ],
+      "indexSources": [
+        "Garuda",
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-26",
@@ -472,7 +994,30 @@
       "venue": "GeoJournal of Tourism and Geosites",
       "doi": "10.30892/gtg.602spl15-1491",
       "url": "https://doi.org/10.30892/gtg.602spl15-1491",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089789/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105010421428&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Budhi Handoko"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105010421428&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Gumgum Darmawan"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-27",
@@ -492,7 +1037,11 @@
       "venue": "GeoJournal of Tourism and Geosites",
       "doi": "10.30892/gtg.59223-1455",
       "url": "https://doi.org/10.30892/gtg.59223-1455",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-28",
@@ -512,7 +1061,41 @@
       "venue": "Jurnal Ilmiah Pendidikan dan Pembelajaran",
       "doi": "10.23887/jipp.v9i1.89464",
       "url": "https://doi.org/10.23887/jipp.v9i1.89464",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021005/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5358213",
+          "checkedAt": "2026-10-03",
+          "faculty": "Bertho Tantular"
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5358213",
+          "checkedAt": "2026-10-11",
+          "faculty": "Gumgum Darmawan"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Widi Wildani Alfarisi",
+        "Gumgum Darmawan",
+        "Bertho Tantular"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.23887/jipp.v9i1.89464",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-29",
@@ -532,7 +1115,30 @@
       "venue": "Communications in Mathematical Biology and Neuroscience",
       "doi": null,
       "url": "https://scik.org/index.php/cmbn/article/view/9079/0",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089789/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-86000071072&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Budhi Handoko"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014997/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-86000071072&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Defi Yusti Faidah"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-32",
@@ -551,7 +1157,33 @@
       "venue": "Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi)",
       "doi": "10.29207/resti.v9i1.6276",
       "url": "https://doi.org/10.29207/resti.v9i1.6276",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4872148",
+          "checkedAt": "2026-10-11",
+          "faculty": "Anindya Apriliyanti Pravitasari"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Najma Rafifah Putri Syallya",
+        "Anindya Apriliyanti Pravitasari",
+        "Afrida Helen"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.29207/resti.v9i1.6276",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-36",
@@ -572,7 +1204,39 @@
       "venue": "BAREKENG: Jurnal Ilmu Matematika dan Terapan",
       "doi": "10.30598/barekengvol19iss3pp1575-1586",
       "url": "https://doi.org/10.30598/barekengvol19iss3pp1575-1586",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084328/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105010330470&origin=resultslist",
+          "checkedAt": "2026-10-03",
+          "faculty": "Restu Arisanti"
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084328/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5145542",
+          "checkedAt": "2026-10-11",
+          "faculty": "Restu Arisanti"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089665/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105010330470&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Sri Winarni"
+        }
+      ],
+      "indexSources": [
+        "Garuda",
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-50",
@@ -594,7 +1258,45 @@
       "venue": "InPrime: Indonesian Journal of Pure and Applied Mathematics",
       "doi": "10.15408/inprime.v7i1.42070",
       "url": "https://doi.org/10.15408/inprime.v7i1.42070",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4964523",
+          "checkedAt": "2026-10-11",
+          "faculty": "Budi Nurani Ruchjana"
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5420987",
+          "checkedAt": "2026-10-11",
+          "faculty": "Budi Nurani Ruchjana"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Sandrina Najwa",
+        "Dhanti Aurilia Pratiwi",
+        "Muhammad Rhafi Ahdian",
+        "Ayu Indriani",
+        "I Gede Nyoman Mindra",
+        "Annisa Nur Falah",
+        "Budi Nurani Ruchjana"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.15408/inprime.v7i1.42070",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-14",
@@ -614,7 +1316,11 @@
       "venue": "International Journal of Data and Network Science",
       "doi": "10.5267/j.ijdns.2023.12.018",
       "url": "https://doi.org/10.5267/j.ijdns.2023.12.018",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-15",
@@ -635,7 +1341,45 @@
       "venue": "IEEE Access",
       "doi": "10.1109/ACCESS.2024.3368034",
       "url": "https://doi.org/10.1109/ACCESS.2024.3368034",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014997/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85186106946&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Defi Yusti Faidah"
+        }
+      ],
+      "indexSources": [
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Tafia Hasna Putri",
+        "Rezzy Eko Caraka",
+        "Toni Toharudin",
+        "Yunho Kim",
+        "Rung-Ching Chen",
+        "Prana Ugiana Gio",
+        "Anjar Dimara Sakti",
+        "Resa Septiani Pontoh",
+        "Indah Reski Pratiwi",
+        "Farid Azhar Lutfi Nugraha",
+        "Thalita Safa Azzahra",
+        "Jessica Jesslyn Cerelia",
+        "Gumgum Darmawan",
+        "Defi Yusti Faidah",
+        "Bens Pardamean"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.1109/access.2024.3368034",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-18",
@@ -655,7 +1399,31 @@
       "venue": "Communications in Mathematical Biology and Neuroscience",
       "doi": "10.28919/cmbn/8444",
       "url": "https://doi.org/10.28919/cmbn/8444",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-85188287236&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Irlandia Ginanjar"
+        },
+        {
+          "source": "Web of Science",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=wos",
+          "recordUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:001342811900028",
+          "checkedAt": "2026-10-11",
+          "faculty": "Irlandia Ginanjar"
+        }
+      ],
+      "indexSources": [
+        "Scopus",
+        "Web of Science"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-30",
@@ -675,7 +1443,50 @@
       "venue": "Jurnal RESTI (Rekayasa Sistem dan Teknologi Informasi)",
       "doi": "10.29207/resti.v8i5.5990",
       "url": "https://doi.org/10.29207/resti.v8i5.5990",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089789/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105003059476&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Budhi Handoko"
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089789/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4667920",
+          "checkedAt": "2026-10-11",
+          "faculty": "Budhi Handoko"
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4667920",
+          "checkedAt": "2026-10-11",
+          "faculty": "Anindya Apriliyanti Pravitasari"
+        }
+      ],
+      "indexSources": [
+        "Garuda",
+        "Scopus"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Nabila Dhia Alifa Rahmah",
+        "Budhi Handoko",
+        "Anindya Apriliyanti Pravitasari"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.29207/resti.v8i5.5990",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-31",
@@ -695,7 +1506,11 @@
       "venue": "International Journal of Data and Network Science",
       "doi": "10.5267/j.ijdns.2023.12.015",
       "url": "https://doi.org/10.5267/j.ijdns.2023.12.015",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-38",
@@ -715,7 +1530,22 @@
       "venue": "Jurnal Riset Akuntansi Kontemporer",
       "doi": "10.23969/jrak.v16i1.8445",
       "url": "https://doi.org/10.23969/jrak.v16i1.8445",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084299/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3982418",
+          "checkedAt": "2026-10-11",
+          "faculty": "Triyani Hendrawati"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence"
     },
     {
       "id": "collab-40",
@@ -738,7 +1568,11 @@
       "venue": "Innovative: Journal of Social Science Research",
       "doi": null,
       "url": "https://journal.universitaspahlawan.ac.id/index.php/Innovative/article/view/23686",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-42",
@@ -761,7 +1595,11 @@
       "venue": "Innovative: Journal of Social Science Research",
       "doi": null,
       "url": "https://journal.universitaspahlawan.ac.id/index.php/Innovative/article/view/27118",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-43",
@@ -783,7 +1621,11 @@
       "venue": "Innovative: Journal of Social Science Research",
       "doi": null,
       "url": "https://journal.universitaspahlawan.ac.id/index.php/Innovative/article/view/29372",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-44",
@@ -802,7 +1644,33 @@
       "venue": "Jambura Journal of Mathematics",
       "doi": "10.37905/jjom.v6i1.23297",
       "url": "https://doi.org/10.37905/jjom.v6i1.23297",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4821663",
+          "checkedAt": "2026-10-11",
+          "faculty": "Gumgum Darmawan"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Dian Islamiaty Puteri",
+        "Gumgum Darmawan",
+        "Budi Nurani Ruchjana"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.37905/jjom.v6i1.23297",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-48",
@@ -822,7 +1690,11 @@
       "venue": "BIAStatistics Special Issue",
       "doi": null,
       "url": "https://biastatistics.statistics.unpad.ac.id/?journal=biastatistics-special-issue",
-      "linkKind": "venue"
+      "linkKind": "venue",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-49",
@@ -842,7 +1714,11 @@
       "venue": "BIAStatistics Special Issue",
       "doi": null,
       "url": "https://biastatistics.statistics.unpad.ac.id/?journal=biastatistics-special-issue",
-      "linkKind": "venue"
+      "linkKind": "venue",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-51",
@@ -863,7 +1739,34 @@
       "venue": "Journal of Fundamental Mathematics and Applications",
       "doi": "10.14710/jfma.v7i2.16499",
       "url": "https://doi.org/10.14710/jfma.v7i2.16499",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4781561",
+          "checkedAt": "2026-10-11",
+          "faculty": "Yusep Suparman"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Muhamad Sobari",
+        "Dian Islamiaty Putri",
+        "Delvi Rutania Prama",
+        "Yusep Suparman"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.14710/jfma.v7i2.16499",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-57",
@@ -882,7 +1785,11 @@
       "venue": "International Journal of Data and Network Science",
       "doi": "10.5267/j.ijdns.2023.12.016",
       "url": "https://doi.org/10.5267/j.ijdns.2023.12.016",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-61",
@@ -902,7 +1809,41 @@
       "venue": "Jurnal Perspektif Pembiayaan dan Pembangunan Daerah",
       "doi": "10.22437/ppd.v12i2.31817",
       "url": "https://doi.org/10.22437/ppd.v12i2.31817",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4049963",
+          "checkedAt": "2026-10-11",
+          "faculty": "Irlandia Ginanjar"
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084145/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4049963",
+          "checkedAt": "2026-10-11",
+          "faculty": "Lienda Noviyanti"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Shania Puspita Sari",
+        "Irlandia Ginanjar",
+        "Lienda Noviyanti"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.22437/ppd.v12i2.31817",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-13",
@@ -922,7 +1863,11 @@
       "venue": "Atmosphere",
       "doi": "10.3390/atmos14091444",
       "url": "https://doi.org/10.3390/atmos14091444",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-35",
@@ -942,7 +1887,33 @@
       "venue": "Mathematics",
       "doi": "10.3390/math11010135",
       "url": "https://doi.org/10.3390/math11010135",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Web of Science",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=wos",
+          "recordUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:000909651200001",
+          "checkedAt": "2026-10-11",
+          "faculty": "Irlandia Ginanjar"
+        }
+      ],
+      "indexSources": [
+        "Web of Science"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Armalia Desiyanti",
+        "Irlandia Ginanjar",
+        "Toni Toharudin"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.3390/math11010135",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-39",
@@ -964,7 +1935,11 @@
       "venue": "Innovative: Journal of Social Science Research",
       "doi": "10.31004/innovative.v3i5.5007",
       "url": "https://doi.org/10.31004/innovative.v3i5.5007",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-41",
@@ -986,7 +1961,11 @@
       "venue": "Innovative: Journal of Social Science Research",
       "doi": null,
       "url": "https://journal.universitaspahlawan.ac.id/index.php/Innovative/article/view/17442",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
     },
     {
       "id": "collab-47",
@@ -1006,7 +1985,33 @@
       "venue": "Jurnal Penelitian Pendidikan IPA",
       "doi": "10.29303/jppipa.v9i12.5835",
       "url": "https://doi.org/10.29303/jppipa.v9i12.5835",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3932622",
+          "checkedAt": "2026-10-11",
+          "faculty": "Yusep Suparman"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Elyn Prina",
+        "Yusep Suparman",
+        "Gumgum Prina"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.29303/jppipa.v9i12.5835",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-53",
@@ -1026,7 +2031,33 @@
       "venue": "Journal of Social Research",
       "doi": "10.55324/josr.v2i6.982",
       "url": "https://doi.org/10.55324/josr.v2i6.982",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3495546",
+          "checkedAt": "2026-10-11",
+          "faculty": "Yusep Suparman"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Lucy Fitria Dewi",
+        "Yusep Suparman",
+        "I Gede Nyoman Mindra Jaya"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.55324/josr.v2i6.982",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-58",
@@ -1046,7 +2077,33 @@
       "venue": "Statistika (Universitas Islam Bandung)",
       "doi": "10.29313/statistika.v23i2.2025",
       "url": "https://doi.org/10.29313/statistika.v23i2.2025",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3907627",
+          "checkedAt": "2026-10-11",
+          "faculty": "Irlandia Ginanjar"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ],
+      "origin": "program-report",
+      "verificationStatus": "report-with-index-evidence",
+      "authors": [
+        "Harifa Hananti",
+        "I Gede Nyoman Mindra Jaya",
+        "Irlandia Ginanjar"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.29313/statistika.v23i2.2025",
+        "checkedAt": "2026-10-12",
+        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+      }
     },
     {
       "id": "collab-64",
@@ -1065,7 +2122,568 @@
       "venue": "Kaizen Media Publishing",
       "doi": null,
       "url": "https://books.google.com/books/about/Efisiensi_Operasional_dengan_Promodel.html?id=h0XqEAAAQBAJ",
-      "linkKind": "publication"
+      "linkKind": "publication",
+      "indexEvidence": [],
+      "indexSources": [],
+      "origin": "program-report",
+      "verificationStatus": "program-report"
+    },
+    {
+      "id": "collab-7d6af8e587e1",
+      "sourceRow": null,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si",
+        "Prof. Dr. Budi Nurani Ruchjana, M.S."
+      ],
+      "students": [
+        "MUHAMAD SOBARI"
+      ],
+      "title": "Spatial Analysis of Dengue Disease in Jakarta Province",
+      "year": 2023,
+      "type": "Jurnal Nasional",
+      "sinta": "2",
+      "scopus": null,
+      "venue": "CAUCHY: Jurnal Matematika Murni dan Aplikasi",
+      "doi": "10.18860/ca.v7i4.17423",
+      "url": "https://doi.org/10.18860/ca.v7i4.17423",
+      "linkKind": "publication",
+      "origin": "source-research",
+      "authors": [
+        "Muhamad Sobari",
+        "I Gede Nyoman Mindra Jaya",
+        "Budi Nurani Ruchjana"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.18860/ca.v7i4.17423",
+        "checkedAt": "2026-10-12",
+        "basis": "Nama lengkap dosen dan mahasiswa cocok dengan metadata DOI; afiliasi program mahasiswa mengacu pada laporan kolaborasi dan daftar alumni prodi."
+      },
+      "verificationStatus": "author-and-index-evidence",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4406109",
+          "checkedAt": "2026-10-11",
+          "faculty": "I Gede Nyoman Mindra Jaya"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ]
+    },
+    {
+      "id": "collab-dd9cbc789bb4",
+      "sourceRow": null,
+      "faculty": [
+        "Dr. Restu Arisanti, S.Si., M.Si",
+        "Dr. Sri Winarni, S.Si., M.Si"
+      ],
+      "students": [
+        "Nisa Akbarilah Putri"
+      ],
+      "title": "Identification and Modelling Tuberculosis Incidence Risk Factors in West Java with Negative Binomial Mixed Model Random Forest",
+      "year": 2025,
+      "type": "Jurnal Nasional",
+      "sinta": "2",
+      "scopus": null,
+      "venue": "CAUCHY: Jurnal Matematika Murni dan Aplikasi",
+      "doi": "10.18860/cauchy.v10i2.29750",
+      "url": "https://doi.org/10.18860/cauchy.v10i2.29750",
+      "linkKind": "publication",
+      "origin": "source-research",
+      "authors": [
+        "Restu Arisanti",
+        "Resa Septiani Pontoh",
+        "Sri Winarni",
+        "Nisa Akbarilah Putri",
+        "Stefany Maurin"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.18860/cauchy.v10i2.29750",
+        "checkedAt": "2026-10-12",
+        "basis": "Nama lengkap dosen dan mahasiswa cocok dengan metadata DOI; afiliasi program mahasiswa mengacu pada laporan kolaborasi dan daftar alumni prodi."
+      },
+      "verificationStatus": "author-and-index-evidence",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084328/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5093577",
+          "checkedAt": "2026-10-11",
+          "faculty": "Restu Arisanti"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ]
+    },
+    {
+      "id": "collab-b63a4b2b8a2b",
+      "sourceRow": null,
+      "faculty": [
+        "Dr. Anindya Apriliyanti Pravitasari, M.Si",
+        "Prof. Dr. Atje Setiawan Abdullah, M.Si."
+      ],
+      "students": [
+        "SYIFA AULIYAH HASANAH"
+      ],
+      "title": "A Deep Learning Review of ResNet Architecture for Lung Disease Identification in CXR Image",
+      "year": 2023,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "Applied Sciences",
+      "doi": "10.3390/app132413111",
+      "url": "https://doi.org/10.3390/app132413111",
+      "linkKind": "publication",
+      "origin": "source-research",
+      "authors": [
+        "Syifa Auliyah Hasanah",
+        "Anindya Apriliyanti Pravitasari",
+        "Atje Setiawan Abdullah",
+        "Intan Nurma Yulita",
+        "Mohammad Hamid Asnawi"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.3390/app132413111",
+        "checkedAt": "2026-10-12",
+        "basis": "Nama lengkap dosen dan mahasiswa cocok dengan metadata DOI; afiliasi program mahasiswa mengacu pada laporan kolaborasi dan daftar alumni prodi."
+      },
+      "verificationStatus": "author-and-index-evidence",
+      "indexEvidence": [
+        {
+          "source": "Web of Science",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=wos",
+          "recordUrl": "https://www.webofscience.com/wos/woscc/full-record/WOS:001130979400001",
+          "checkedAt": "2026-10-11",
+          "faculty": "Atje Setiawan Abdullah"
+        }
+      ],
+      "indexSources": [
+        "Web of Science"
+      ]
+    },
+    {
+      "id": "collab-9cb7dc882592",
+      "sourceRow": null,
+      "faculty": [
+        "Dr. Triyani Hendrawati, S.Si., M.Si."
+      ],
+      "students": [
+        "Nisa Akbarilah Putri"
+      ],
+      "title": "MULTIDIMENSIONAL SCALING ANALYSIS BASED ON FACTORS AFFECTING UNDER-FIVE MALNUTRITION CASES IN WEST JAVA",
+      "year": 2025,
+      "type": "Jurnal Nasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "STATMAT : JURNAL STATISTIKA DAN MATEMATIKA",
+      "doi": "10.32493/sm.v7i1.46533",
+      "url": "https://doi.org/10.32493/sm.v7i1.46533",
+      "linkKind": "publication",
+      "origin": "source-research",
+      "authors": [
+        "Hallen Naafi Aliya Rachman",
+        "Nisa Akbarilah Putri",
+        "Triyani Hendrawati"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.32493/sm.v7i1.46533",
+        "checkedAt": "2026-10-12",
+        "basis": "Nama lengkap dosen dan mahasiswa cocok dengan metadata DOI; afiliasi program mahasiswa mengacu pada laporan kolaborasi dan daftar alumni prodi."
+      },
+      "verificationStatus": "author-and-index-evidence",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084299/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5416688",
+          "checkedAt": "2026-10-11",
+          "faculty": "Triyani Hendrawati"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ]
+    },
+    {
+      "id": "collab-6006c777a3a2",
+      "sourceRow": null,
+      "faculty": [
+        "Prof. Dr. Atje Setiawan Abdullah, M.Si.",
+        "Prof. Dr. Budi Nurani Ruchjana, M.S."
+      ],
+      "students": [
+        "MUHAMAD SOBARI",
+        "ARMALIA DESIYANTI",
+        "Devi Yanti"
+      ],
+      "title": "Comparison of Spatial Weight Matrices in Spatial Autoregressive Model: Case Study of Intangible Cultural Heritage in Indonesia",
+      "year": 2023,
+      "type": "Jurnal Nasional",
+      "sinta": "2",
+      "scopus": null,
+      "venue": "JTAM (Jurnal Teori dan Aplikasi Matematika)",
+      "doi": "10.31764/jtam.v7i1.10757",
+      "url": "https://doi.org/10.31764/jtam.v7i1.10757",
+      "linkKind": "publication",
+      "origin": "source-research",
+      "authors": [
+        "Muhamad Sobari",
+        "Armalia Desiyanti",
+        "Devi Yanti",
+        "Putri Monika",
+        "Atje Setiawan Abdullah",
+        "Budi Nurani Ruchjana"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.31764/jtam.v7i1.10757",
+        "checkedAt": "2026-10-12",
+        "basis": "Nama lengkap dosen dan mahasiswa cocok dengan metadata DOI; afiliasi program mahasiswa mengacu pada laporan kolaborasi dan daftar alumni prodi."
+      },
+      "verificationStatus": "author-and-index-evidence",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3251969",
+          "checkedAt": "2026-10-11",
+          "faculty": "Atje Setiawan Abdullah"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ]
+    },
+    {
+      "id": "collab-1c5b4ecbf868",
+      "sourceRow": null,
+      "faculty": [
+        "Prof. Dr. Atje Setiawan Abdullah, M.Si."
+      ],
+      "students": [
+        "DHITA DIANA DEWI",
+        "NURUL QISTHI"
+      ],
+      "title": "SISTEM INFORMASI GEOGRAFIS UNTUK PERNIKAHAN USIA DINI MENGGUNAKAN SPATIAL ERROR MODEL (SEM)",
+      "year": 2024,
+      "type": "Jurnal Nasional",
+      "sinta": "5",
+      "scopus": null,
+      "venue": "Jurnal RESTIKOM : Riset Teknik Informatika dan Komputer",
+      "doi": "10.52005/restikom.v6i1.316",
+      "url": "https://doi.org/10.52005/restikom.v6i1.316",
+      "linkKind": "publication",
+      "origin": "source-research",
+      "authors": [
+        "Mutia Karimah",
+        "Dhita Diana Dewi",
+        "Atje Setiawan Abdullah",
+        "Aditya Pradana",
+        "Nurul Qisthi"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.52005/restikom.v6i1.316",
+        "checkedAt": "2026-10-12",
+        "basis": "Nama lengkap dosen dan mahasiswa cocok dengan metadata DOI; afiliasi program mahasiswa mengacu pada laporan kolaborasi dan daftar alumni prodi."
+      },
+      "verificationStatus": "author-and-index-evidence",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4895633",
+          "checkedAt": "2026-10-11",
+          "faculty": "Atje Setiawan Abdullah"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ]
+    },
+    {
+      "id": "collab-4bd9dae5041f",
+      "sourceRow": null,
+      "faculty": [
+        "Prof. Dr. Budi Nurani Ruchjana, M.S."
+      ],
+      "students": [
+        "AULIA RAHMAN AL MADANI",
+        "Sandrina Najwa"
+      ],
+      "title": "APPLICATION OF THE PRINCIPAL COMPONENT ANALYSIS-VECTOR AUTOREGRESSIVE INTEGRATED (PCA-VARI) MODEL TO FORECASTING ECONOMIC GROWTH IN INDONESIA",
+      "year": 2025,
+      "type": "Jurnal Nasional",
+      "sinta": "3",
+      "scopus": "Q3",
+      "venue": "BAREKENG: Jurnal Ilmu Matematika dan Terapan",
+      "doi": "10.30598/barekengvol19iss4pp2301-2316",
+      "url": "https://doi.org/10.30598/barekengvol19iss4pp2301-2316",
+      "linkKind": "publication",
+      "origin": "source-research",
+      "authors": [
+        "Aulia Rahman Al Madani",
+        "Sandrina Najwa",
+        "Budi Nurani Ruchjana"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.30598/barekengvol19iss4pp2301-2316",
+        "checkedAt": "2026-10-12",
+        "basis": "Nama lengkap dosen dan mahasiswa cocok dengan metadata DOI; afiliasi program mahasiswa mengacu pada laporan kolaborasi dan daftar alumni prodi."
+      },
+      "verificationStatus": "author-and-index-evidence",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105015579918&origin=resultslist",
+          "checkedAt": "2026-10-03",
+          "faculty": "Budi Nurani Ruchjana"
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5413570",
+          "checkedAt": "2026-10-11",
+          "faculty": "Budi Nurani Ruchjana"
+        }
+      ],
+      "indexSources": [
+        "Garuda",
+        "Scopus"
+      ]
+    },
+    {
+      "id": "collab-c983146eb04e",
+      "sourceRow": null,
+      "faculty": [
+        "Prof. Dr. Atje Setiawan Abdullah, M.Si.",
+        "Prof. Dr. Budi Nurani Ruchjana, M.S."
+      ],
+      "students": [
+        "Hamim Tsalis Soblia"
+      ],
+      "title": "Identifikasi Autokorelasi Spasial Warisan Budaya Tak Benda di Indonesia Menggunakan Indeks Moran",
+      "year": 2023,
+      "type": "Jurnal Nasional",
+      "sinta": "3",
+      "scopus": null,
+      "venue": "Statistika",
+      "doi": "10.29313/statistika.v23i2.2675",
+      "url": "https://doi.org/10.29313/statistika.v23i2.2675",
+      "linkKind": "publication",
+      "origin": "source-research",
+      "authors": [
+        "Maryanto Rompon",
+        "Hamim Tsalis Soblia",
+        "Putri Monika",
+        "Atje Setiawan Abdullah",
+        "Budi Nurani Ruchjana"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.29313/statistika.v23i2.2675",
+        "checkedAt": "2026-10-12",
+        "basis": "Nama lengkap dosen dan mahasiswa cocok dengan metadata DOI; afiliasi program mahasiswa mengacu pada laporan kolaborasi dan daftar alumni prodi."
+      },
+      "verificationStatus": "author-and-index-evidence",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3907631",
+          "checkedAt": "2026-10-11",
+          "faculty": "Atje Setiawan Abdullah"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ]
+    },
+    {
+      "id": "collab-eb50e654b04e",
+      "sourceRow": null,
+      "faculty": [
+        "Dr. Defi Yusti Faidah, S.Si., M.Si"
+      ],
+      "students": [
+        "Hanifah Khairunnisa"
+      ],
+      "title": "Pengaruh Gender pada Pengembangan Diri Mahasiswa dalam Konteks Perguruan Tinggi Menggunakan Statistika Nonparametrik",
+      "year": 2024,
+      "type": "Jurnal Nasional",
+      "sinta": "5",
+      "scopus": null,
+      "venue": "Indo-MathEdu Intellectuals Journal",
+      "doi": "10.54373/imeij.v5i1.781",
+      "url": "https://doi.org/10.54373/imeij.v5i1.781",
+      "linkKind": "publication",
+      "origin": "source-research",
+      "authors": [
+        "Valerie Vincent Yang",
+        "Rahmah Nadia Safitri",
+        "Hanifah Khairunnisa",
+        "Defi Yusti Faidah"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.54373/imeij.v5i1.781",
+        "checkedAt": "2026-10-12",
+        "basis": "Nama lengkap dosen dan mahasiswa cocok dengan metadata DOI; afiliasi program mahasiswa mengacu pada laporan kolaborasi dan daftar alumni prodi."
+      },
+      "verificationStatus": "author-and-index-evidence",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014997/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/4303400",
+          "checkedAt": "2026-10-11",
+          "faculty": "Defi Yusti Faidah"
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014997/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/5675088",
+          "checkedAt": "2026-10-11",
+          "faculty": "Defi Yusti Faidah"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ]
+    },
+    {
+      "id": "collab-a91fd69b01de",
+      "sourceRow": null,
+      "faculty": [
+        "Prof. Dr. Atje Setiawan Abdullah, M.Si.",
+        "Prof. Dr. Budi Nurani Ruchjana, M.S."
+      ],
+      "students": [
+        "RIZKA PRADITA PRASETYA",
+        "DIAN ISLAMIATY PUTERI"
+      ],
+      "title": "MENGUKUR KERAGAMAN WARISAN BUDAYA TAKBENDA INDONESIA DENGAN INDEKS GINI",
+      "year": 2023,
+      "type": "Jurnal Nasional",
+      "sinta": "2",
+      "scopus": null,
+      "venue": "Jurnal Matematika UNAND",
+      "doi": "10.25077/jmua.12.1.95-107.2023",
+      "url": "https://doi.org/10.25077/jmua.12.1.95-107.2023",
+      "linkKind": "publication",
+      "origin": "source-research",
+      "authors": [
+        "Rizka Pradita Prasetya",
+        "Dian Islamiaty Puteri",
+        "Putri Monika",
+        "Atje Setiawan Abdullah",
+        "Budi Nurani Ruchjana"
+      ],
+      "authorEvidence": {
+        "source": "Crossref · metadata penerbit",
+        "url": "https://api.crossref.org/works/10.25077/jmua.12.1.95-107.2023",
+        "checkedAt": "2026-10-12",
+        "basis": "Nama lengkap dosen dan mahasiswa cocok dengan metadata DOI; afiliasi program mahasiswa mengacu pada laporan kolaborasi dan daftar alumni prodi."
+      },
+      "verificationStatus": "author-and-index-evidence",
+      "indexEvidence": [
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/3477078",
+          "checkedAt": "2026-10-11",
+          "faculty": "Atje Setiawan Abdullah"
+        }
+      ],
+      "indexSources": [
+        "Garuda"
+      ]
+    },
+    {
+      "id": "collab-oil-2026",
+      "sourceRow": null,
+      "faculty": [
+        "Dr. Gumgum Darmawan, S.Si., M.Si",
+        "Prof. Dr. Budi Nurani Ruchjana, M.S."
+      ],
+      "students": [
+        "EGA SAHERTI",
+        "Salwa Azzah Imtiyaz"
+      ],
+      "title": "FORECASTING OIL PRODUCTION USING SSA AND TREND REGRESSION IN THE WORLD’S TOP THREE OIL PRODUCERS",
+      "year": 2026,
+      "type": "Jurnal Nasional",
+      "sinta": "3",
+      "scopus": "Q3",
+      "venue": "BAREKENG: Jurnal Ilmu Matematika dan Terapan",
+      "doi": "10.30598/barekengvol20iss4pp3575-3588",
+      "url": "https://ojs3.unpatti.ac.id/index.php/barekeng/article/view/23375",
+      "linkKind": "publication",
+      "origin": "source-research",
+      "authors": [
+        "Ega Saherti",
+        "Salwa Azzah Imtiyaz",
+        "Gumgum Darmawan",
+        "Budi Nurani Ruchjana"
+      ],
+      "authorEvidence": {
+        "source": "Laman penerbit BAREKENG",
+        "url": "https://ojs3.unpatti.ac.id/index.php/barekeng/article/view/23375",
+        "checkedAt": "2026-10-12",
+        "basis": "Nama lengkap keempat penulis dan afiliasi Unpad tercantum pada laman penerbit; mahasiswa cocok dengan laporan kolaborasi."
+      },
+      "verificationStatus": "author-and-index-evidence",
+      "indexEvidence": [
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105048410278&origin=resultslist",
+          "checkedAt": "2026-10-11",
+          "faculty": "Gumgum Darmawan"
+        },
+        {
+          "source": "Garuda",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=garuda",
+          "recordUrl": "https://garuda.kemdiktisaintek.go.id/documents/detail/6667371",
+          "checkedAt": "2026-10-11",
+          "faculty": "Gumgum Darmawan"
+        },
+        {
+          "source": "Scopus",
+          "via": "SINTA",
+          "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=scopus",
+          "recordUrl": "https://www.scopus.com/record/display.uri?eid=2-s2.0-105048410278&origin=resultslist",
+          "checkedAt": "2026-10-03",
+          "faculty": "Budi Nurani Ruchjana"
+        }
+      ],
+      "indexSources": [
+        "Garuda",
+        "Scopus"
+      ]
     }
   ]
 }

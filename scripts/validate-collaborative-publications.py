@@ -8,8 +8,9 @@ ROOT = Path(__file__).resolve().parents[1]
 PAGE = ROOT / 'publikasi-mahasiswa-dosen/laporan-kolaborasi-dosen-mahasiswa.html'
 data = json.loads((ROOT / 'data/collaborative_publications.json').read_text())
 rows = data['publications']
-assert len(rows) + data['metadata']['excludedBefore2023'] == data['metadata']['sourceRows']
-for key in ('id', 'sourceRow', 'title'):
+assert len(rows) == data['metadata']['baselinePublications'] + data['metadata']['addedFromResearch']
+assert data['metadata']['baselinePublications'] + data['metadata']['excludedBefore2023'] == data['metadata']['sourceRows']
+for key in ('id', 'title'):
     assert len({str(r[key]).lower() for r in rows}) == len(rows), f'Duplicate {key}'
 for row in rows:
     assert row['year'] >= 2023
@@ -19,6 +20,18 @@ for row in rows:
     url = urlparse(row['url'])
     assert url.scheme == 'https' and url.netloc and not url.username
     assert row['linkKind'] in ('publication', 'venue')
+
+dois = [r['doi'].lower() for r in rows if r.get('doi')]
+assert len(dois) == len(set(dois)), 'Duplicate DOI'
+for row in rows:
+    if row.get('origin') == 'source-research':
+        assert row['indexEvidence'] and row['authorEvidence'] and row['authors']
+        assert row['verificationStatus'] == 'author-and-index-evidence'
+    for evidence in row.get('indexEvidence', []):
+        assert evidence['source'] in ('Scopus', 'Web of Science', 'Garuda')
+        assert evidence['via'] == 'SINTA'
+        assert urlparse(evidence['url']).hostname == 'sinta.kemdiktisaintek.go.id'
+        assert evidence['checkedAt']
 
 class Links(HTMLParser):
     def handle_starttag(self, tag, attrs):

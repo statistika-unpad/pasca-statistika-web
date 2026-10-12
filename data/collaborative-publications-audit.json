@@ -1,0 +1,545 @@
+{
+  "reviewedAt": "2026-10-12",
+  "scope": "Public SINTA Scopus, Web of Science and Garuda tabs for 17 faculty; exact full-name matches against 96 existing student/alumni name variants. Public tabs expose only selected records.",
+  "baseline": 52,
+  "added": 11,
+  "total": 63,
+  "newIds": [
+    "collab-7d6af8e587e1",
+    "collab-dd9cbc789bb4",
+    "collab-b63a4b2b8a2b",
+    "collab-9cb7dc882592",
+    "collab-6006c777a3a2",
+    "collab-1c5b4ecbf868",
+    "collab-4bd9dae5041f",
+    "collab-c983146eb04e",
+    "collab-eb50e654b04e",
+    "collab-a91fd69b01de",
+    "collab-oil-2026"
+  ],
+  "sourceChecks": [
+    {
+      "faculty": "Sri Winarni",
+      "sintaId": "6089665",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089665/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "052195feca48532c3428b11c7e6ccc3f007a648c9f00766e577123146d67df8a",
+      "recordsInPeriod": 9
+    },
+    {
+      "faculty": "Lienda Noviyanti",
+      "sintaId": "6084145",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084145/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "9f03c9ac7039c0ea19f8fbd9e99fa370d03b156c64ad07847b38c07f1bf35ee5",
+      "recordsInPeriod": 5
+    },
+    {
+      "faculty": "Yusep Suparman",
+      "sintaId": "6089608",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "04ea551d00498e02265d6028a4f69e098eb04021f70537f005b21f7884d2f06b",
+      "recordsInPeriod": 7
+    },
+    {
+      "faculty": "Budhi Handoko",
+      "sintaId": "6089789",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089789/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "unavailable",
+      "sha256": "ba91d2de2e5b9233afef70d0dc6b519e5811c07a2b1a75fcc173d3c4a78e2e87",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Bertho Tantular",
+      "sintaId": "6021005",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021005/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "empty",
+      "sha256": "eb3abd1606c55f2a49a570bc7d94d39c32fa1139435d6282447f48c67a42d7c7",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Sri Winarni",
+      "sintaId": "6089665",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089665/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "bb0b3b7d8b38c2d1aeadfdd147332e6337967bc423c27f339d4ece1f018d60f7",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Irlandia Ginanjar",
+      "sintaId": "65044",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "754f361efe300a08f6d8070ce9c891c4c63513d260360cb7233723144c72703c",
+      "recordsInPeriod": 3
+    },
+    {
+      "faculty": "Yuyun Hidayat",
+      "sintaId": "6014614",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014614/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "b8c3720e47292609bda7c46359970303ffc712c8a40fc4b74316bfd6eac2c52d",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Irlandia Ginanjar",
+      "sintaId": "65044",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "33a5b8860d60818b27e52d8ff49ece9396814be9ccc6371feb8817e0fb1b00e7",
+      "recordsInPeriod": 3
+    },
+    {
+      "faculty": "Hasna Afifah Rusyda",
+      "sintaId": "6742829",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6742829/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "37c061dc760bf6022aa4a7951fcccd2b1486d1fd663c2a034a643fac81fe6cac",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Budi Nurani Ruchjana",
+      "sintaId": "5999022",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "fae76605c8a4f8f97ed6134c714ce50633f39e770f41fcd4fd549ce0538d9dc3",
+      "recordsInPeriod": 6
+    },
+    {
+      "faculty": "Atje Setiawan Abdullah",
+      "sintaId": "5999023",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "715148699957ae62fdbe336ae0cb8f3f7da36a56d3ebe204ec1e5068875a765c",
+      "recordsInPeriod": 4
+    },
+    {
+      "faculty": "Bertho Tantular",
+      "sintaId": "6021005",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021005/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "d826d8882ec5736e9ae4ea2853c5aa5f029c6a55c195096049814324f84b854e",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Gumgum Darmawan",
+      "sintaId": "6083056",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "22f162b54f9a19f4ab609320b43e2594583debc1d2a67605eb529bedbd1cf05b",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Anindya Apriliyanti Pravitasari",
+      "sintaId": "6021099",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "a4ebdc46e54fae424fd57e5bc9c7a1591c22857cfc1f3576d6a7fdd1d5c1f2c2",
+      "recordsInPeriod": 8
+    },
+    {
+      "faculty": "Budi Nurani Ruchjana",
+      "sintaId": "5999022",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "unavailable",
+      "sha256": "ba91d2de2e5b9233afef70d0dc6b519e5811c07a2b1a75fcc173d3c4a78e2e87",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Yuyun Hidayat",
+      "sintaId": "6014614",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014614/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "unavailable",
+      "sha256": "ba91d2de2e5b9233afef70d0dc6b519e5811c07a2b1a75fcc173d3c4a78e2e87",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "I Gede Nyoman Mindra Jaya",
+      "sintaId": "6026564",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "0eb03dcb2d4f5556d6bc43711ea6fb8dd571fa16907e907d8912b154f8fb1ecc",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Defi Yusti Faidah",
+      "sintaId": "6014997",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014997/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "6b388e34595cf0dc2e3711c4bbce667075a5cbb5968e125eb53b6af4a9fd5bf7",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Budhi Handoko",
+      "sintaId": "6089789",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089789/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "dc26852686da12d1d092b690e686d6bca286f44432f83f08934243c40980e4a3",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Defi Yusti Faidah",
+      "sintaId": "6014997",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014997/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "empty",
+      "sha256": "73aae35a7607449cc99f53ad4a3f35df1b9e8c61f3ba714fd8cce3036a50128d",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Yusep Suparman",
+      "sintaId": "6089608",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "unavailable",
+      "sha256": "ba91d2de2e5b9233afef70d0dc6b519e5811c07a2b1a75fcc173d3c4a78e2e87",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Lienda Noviyanti",
+      "sintaId": "6084145",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084145/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "empty",
+      "sha256": "469cb526a9fee27edc079b5ce6e4fdaed921ae41a7a5374927fb02d460eec164",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Triyani Hendrawati",
+      "sintaId": "6084299",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084299/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "4bad62471bc550f92688d657366900f5569e95295a175cd11ab4f5e507fd690d",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Restu Arisanti",
+      "sintaId": "6084328",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084328/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "288f92051f115b9e4028413c57a4f851895bf237d5b42d387d6ecda69062c344",
+      "recordsInPeriod": 7
+    },
+    {
+      "faculty": "Atje Setiawan Abdullah",
+      "sintaId": "5999023",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "430e0e4b4d46b5016c352bfffb9de11c997731b19c800a7766d7b5266470298e",
+      "recordsInPeriod": 7
+    },
+    {
+      "faculty": "Yudhie Andriyana",
+      "sintaId": "6028086",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "empty",
+      "sha256": "28e3f552e91580496d6ff6b9d299d9b5d149ea86ca000c5b4b853beb0649388e",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Yudhie Andriyana",
+      "sintaId": "6028086",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "193cf1e6bb9a7641b73259cd25705fc2357c25f078a4a12b7d25a25b2e5e06a6",
+      "recordsInPeriod": 3
+    },
+    {
+      "faculty": "Restu Arisanti",
+      "sintaId": "6084328",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084328/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "empty",
+      "sha256": "bda5220ce29130357e5fc2d43e0d8d121bb4cd0b9f048161730cf3d1d2cfe306",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Hasna Afifah Rusyda",
+      "sintaId": "6742829",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6742829/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "unavailable",
+      "sha256": "ba91d2de2e5b9233afef70d0dc6b519e5811c07a2b1a75fcc173d3c4a78e2e87",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Lienda Noviyanti",
+      "sintaId": "6084145",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084145/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "unavailable",
+      "sha256": "ba91d2de2e5b9233afef70d0dc6b519e5811c07a2b1a75fcc173d3c4a78e2e87",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Yusep Suparman",
+      "sintaId": "6089608",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089608/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "d30f6ef5ca6d1138963961bd001590ad3955bfdc4bb870f5ab8047691c4fb6e4",
+      "recordsInPeriod": 8
+    },
+    {
+      "faculty": "Hasna Afifah Rusyda",
+      "sintaId": "6742829",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6742829/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "unavailable",
+      "sha256": "ba91d2de2e5b9233afef70d0dc6b519e5811c07a2b1a75fcc173d3c4a78e2e87",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Irlandia Ginanjar",
+      "sintaId": "65044",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/65044/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "ac734b2fba434d2c8b30225d5468d41e5ec0c3b3ca02e77f302d07c7befae153",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Bertho Tantular",
+      "sintaId": "6021005",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021005/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "unavailable",
+      "sha256": "ba91d2de2e5b9233afef70d0dc6b519e5811c07a2b1a75fcc173d3c4a78e2e87",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Gumgum Darmawan",
+      "sintaId": "6083056",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "40f8cc0d934311c3285a8881a061a5ac8604263e75930355fc0007efa72bf483",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Anindya Apriliyanti Pravitasari",
+      "sintaId": "6021099",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "unavailable",
+      "sha256": "ba91d2de2e5b9233afef70d0dc6b519e5811c07a2b1a75fcc173d3c4a78e2e87",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Sri Winarni",
+      "sintaId": "6089665",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089665/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "94e41748ac779a0537a7af5cd29f39dabcc8dd515aacf7d2cf42f5dc3f038e0c",
+      "recordsInPeriod": 1
+    },
+    {
+      "faculty": "Yuyun Hidayat",
+      "sintaId": "6014614",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014614/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "0f024d482db806940ec95ef74e6a356e045a42c510c63bc585e955263fc6e498",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "I Gede Nyoman Mindra Jaya",
+      "sintaId": "6026564",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "2f7ce98fc5aedbaf90f8eb9c341e8fdd8d08efac4e29eb3c2b0327d9d31d8845",
+      "recordsInPeriod": 6
+    },
+    {
+      "faculty": "Gumgum Darmawan",
+      "sintaId": "6083056",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6083056/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "unavailable",
+      "sha256": "ba91d2de2e5b9233afef70d0dc6b519e5811c07a2b1a75fcc173d3c4a78e2e87",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Defi Yusti Faidah",
+      "sintaId": "6014997",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6014997/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "38321aa3615854fe7907299f27f81464f65ed3234cb727fa035a34588fb922f2",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "I Gede Nyoman Mindra Jaya",
+      "sintaId": "6026564",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6026564/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "d63e4df5808404f4cbdd8cebbd0edb883d0e255328d755b675a50e17e060c076",
+      "recordsInPeriod": 5
+    },
+    {
+      "faculty": "Budhi Handoko",
+      "sintaId": "6089789",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6089789/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "878e61653baa53dc33f650988b3bb005d6ca537e4b5051f966b7efb8ab1fc17a",
+      "recordsInPeriod": 3
+    },
+    {
+      "faculty": "Budi Nurani Ruchjana",
+      "sintaId": "5999022",
+      "source": "Garuda",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999022/?view=garuda",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "d9683bfbb46a9a714e8d326187f8852160c5678c057bdbff477fab266a150b02",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Triyani Hendrawati",
+      "sintaId": "6084299",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084299/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "2d8d18a6a71080497993fc42ffd48bbf849679491394a1cded8963b6ff8d7137",
+      "recordsInPeriod": 4
+    },
+    {
+      "faculty": "Anindya Apriliyanti Pravitasari",
+      "sintaId": "6021099",
+      "source": "Web of Science",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6021099/?view=wos",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "98a1e8ad0dee435ebebfcd05c7c5f41da941dcef646ff05998c99426c829ac49",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Yudhie Andriyana",
+      "sintaId": "6028086",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6028086/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "a78bbd6d0ee64914e25e2a21c6002fc33698e8a1423bd44272dea370b247d944",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Triyani Hendrawati",
+      "sintaId": "6084299",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084299/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "unavailable",
+      "sha256": "ba91d2de2e5b9233afef70d0dc6b519e5811c07a2b1a75fcc173d3c4a78e2e87",
+      "recordsInPeriod": 0
+    },
+    {
+      "faculty": "Atje Setiawan Abdullah",
+      "sintaId": "5999023",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/5999023/?view=scopus",
+      "checkedAt": "2026-10-11",
+      "status": "partial",
+      "sha256": "85a1f4a640dc195ff77cc3a1aff21f3ec3a5342a45cfbfca6d638d689acb55b5",
+      "recordsInPeriod": 10
+    },
+    {
+      "faculty": "Restu Arisanti",
+      "sintaId": "6084328",
+      "source": "Scopus",
+      "url": "https://sinta.kemdiktisaintek.go.id/authors/profile/6084328/?view=scopus",
+      "checkedAt": "2026-10-12",
+      "status": "unavailable",
+      "recordsInPeriod": 0
+    }
+  ],
+  "metadataCoverage": {
+    "requestsSaved": 196,
+    "note": "Some metadata requests returned HTTP 429/404; no entry was added solely from failed requests. The oil-production article uses its publisher author list and working publisher URL."
+  },
+  "withheldExamples": [
+    {
+      "title": "Time Series Modeling of Dengue Outbreaks Through Singular Spectrum Analysis Incorporating Lunar and Solar Calendars for Improved Forecasting",
+      "reason": "No full-name match with the known student roster."
+    },
+    {
+      "title": "Spatial Durbin Model with Expansion Using Casetti’s Approach: A Case Study for Rainfall Prediction in Java Island, Indonesia",
+      "reason": "Student status/name not established from the selected roster."
+    }
+  ]
+}
