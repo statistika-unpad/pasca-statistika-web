@@ -38,7 +38,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "environment"
     },
     {
       "id": "collab-2",
@@ -61,7 +62,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "economy"
     },
     {
       "id": "collab-3",
@@ -107,7 +109,8 @@
         "url": "https://api.crossref.org/works/10.61579/future.v4i1.698",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "mobility"
     },
     {
       "id": "collab-5",
@@ -130,7 +133,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "environment"
     },
     {
       "id": "collab-7",
@@ -176,7 +180,8 @@
         "url": "https://api.crossref.org/works/10.61579/future.v4i1.697",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "mobility"
     },
     {
       "id": "collab-8",
@@ -233,7 +238,8 @@
         "url": "https://api.crossref.org/works/10.3390/su18125959",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "health"
     },
     {
       "id": "collab-10",
@@ -279,7 +285,8 @@
         "url": "https://api.crossref.org/works/10.56578/mits050103",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "mobility"
     },
     {
       "id": "collab-11",
@@ -344,7 +351,8 @@
         "url": "https://api.crossref.org/works/10.3390/math14122095",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "economy"
     },
     {
       "id": "collab-19",
@@ -398,7 +406,8 @@
         "url": "https://api.crossref.org/works/10.2147/rmhp.s594491",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "health"
     },
     {
       "id": "collab-25",
@@ -459,7 +468,8 @@
         "Scopus"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "digital"
     },
     {
       "id": "collab-33",
@@ -513,7 +523,8 @@
         "url": "https://api.crossref.org/works/10.28919/cmbn/9682",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "digital"
     },
     {
       "id": "collab-60",
@@ -556,7 +567,8 @@
         "Garuda"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "methods"
     },
     {
       "id": "collab-4",
@@ -591,7 +603,8 @@
         "Garuda"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "environment"
     },
     {
       "id": "collab-6",
@@ -637,7 +650,8 @@
         "url": "https://api.crossref.org/works/10.32493/sm.v7i3.54879",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "mobility"
     },
     {
       "id": "collab-9",
@@ -661,7 +675,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "economy"
     },
     {
       "id": "collab-16",
@@ -714,7 +729,8 @@
         "Web of Science"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "digital"
     },
     {
       "id": "collab-17",
@@ -767,7 +783,8 @@
         "Scopus"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "methods"
     },
     {
       "id": "collab-20",
@@ -810,7 +827,8 @@
         "Scopus"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "environment"
     },
     {
       "id": "collab-21",
@@ -835,7 +853,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "social"
     },
     {
       "id": "collab-22",
@@ -878,7 +897,8 @@
         "Scopus"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "environment"
     },
     {
       "id": "collab-23",
@@ -912,7 +932,8 @@
         "Scopus"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "environment"
     },
     {
       "id": "collab-24",
@@ -974,7 +995,8 @@
         "Scopus"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "environment"
     },
     {
       "id": "collab-26",
@@ -1017,7 +1039,8 @@
         "Scopus"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "mobility"
     },
     {
       "id": "collab-27",
@@ -1041,7 +1064,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "mobility"
     },
     {
       "id": "collab-28",
@@ -1095,7 +1119,8 @@
         "url": "https://api.crossref.org/works/10.23887/jipp.v9i1.89464",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "mobility"
     },
     {
       "id": "collab-29",
@@ -1138,7 +1163,8 @@
         "Scopus"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "health"
     },
     {
       "id": "collab-32",
@@ -1183,7 +1209,8 @@
         "url": "https://api.crossref.org/works/10.29207/resti.v9i1.6276",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "digital"
     },
     {
       "id": "collab-36",
@@ -1236,7 +1263,8 @@
         "Scopus"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "economy"
     },
     {
       "id": "collab-50",
@@ -1296,7 +1324,8 @@
         "url": "https://api.crossref.org/works/10.15408/inprime.v7i1.42070",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "environment"
     },
     {
       "id": "collab-14",
@@ -1320,7 +1349,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "environment"
     },
     {
       "id": "collab-15",
@@ -1379,7 +1409,8 @@
         "url": "https://api.crossref.org/works/10.1109/access.2024.3368034",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "environment"
     },
     {
       "id": "collab-18",
@@ -1423,7 +1454,8 @@
         "Web of Science"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "methods"
     },
     {
       "id": "collab-30",
@@ -1486,7 +1518,8 @@
         "url": "https://api.crossref.org/works/10.29207/resti.v8i5.5990",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "environment"
     },
     {
       "id": "collab-31",
@@ -1510,7 +1543,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "social"
     },
     {
       "id": "collab-38",
@@ -1545,7 +1579,8 @@
         "Garuda"
       ],
       "origin": "program-report",
-      "verificationStatus": "report-with-index-evidence"
+      "verificationStatus": "report-with-index-evidence",
+      "topicId": "economy"
     },
     {
       "id": "collab-40",
@@ -1572,7 +1607,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "environment"
     },
     {
       "id": "collab-42",
@@ -1599,7 +1635,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "methods"
     },
     {
       "id": "collab-43",
@@ -1625,7 +1662,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "economy"
     },
     {
       "id": "collab-44",
@@ -1670,7 +1708,8 @@
         "url": "https://api.crossref.org/works/10.37905/jjom.v6i1.23297",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "economy"
     },
     {
       "id": "collab-48",
@@ -1694,7 +1733,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "environment"
     },
     {
       "id": "collab-49",
@@ -1718,7 +1758,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "social"
     },
     {
       "id": "collab-51",
@@ -1766,7 +1807,8 @@
         "url": "https://api.crossref.org/works/10.14710/jfma.v7i2.16499",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "health"
     },
     {
       "id": "collab-57",
@@ -1789,7 +1831,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "digital"
     },
     {
       "id": "collab-61",
@@ -1843,7 +1886,8 @@
         "url": "https://api.crossref.org/works/10.22437/ppd.v12i2.31817",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "economy"
     },
     {
       "id": "collab-13",
@@ -1867,7 +1911,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "environment"
     },
     {
       "id": "collab-35",
@@ -1913,7 +1958,8 @@
         "url": "https://api.crossref.org/works/10.3390/math11010135",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "economy"
     },
     {
       "id": "collab-39",
@@ -1939,7 +1985,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "environment"
     },
     {
       "id": "collab-41",
@@ -1965,7 +2012,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "environment"
     },
     {
       "id": "collab-47",
@@ -2011,7 +2059,8 @@
         "url": "https://api.crossref.org/works/10.29303/jppipa.v9i12.5835",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "methods"
     },
     {
       "id": "collab-53",
@@ -2057,7 +2106,8 @@
         "url": "https://api.crossref.org/works/10.55324/josr.v2i6.982",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "economy"
     },
     {
       "id": "collab-58",
@@ -2103,7 +2153,8 @@
         "url": "https://api.crossref.org/works/10.29313/statistika.v23i2.2025",
         "checkedAt": "2026-10-12",
         "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
-      }
+      },
+      "topicId": "health"
     },
     {
       "id": "collab-64",
@@ -2126,7 +2177,8 @@
       "indexEvidence": [],
       "indexSources": [],
       "origin": "program-report",
-      "verificationStatus": "program-report"
+      "verificationStatus": "program-report",
+      "topicId": "methods"
     },
     {
       "id": "collab-7d6af8e587e1",
@@ -2172,7 +2224,8 @@
       ],
       "indexSources": [
         "Garuda"
-      ]
+      ],
+      "topicId": "health"
     },
     {
       "id": "collab-dd9cbc789bb4",
@@ -2220,7 +2273,8 @@
       ],
       "indexSources": [
         "Garuda"
-      ]
+      ],
+      "topicId": "health"
     },
     {
       "id": "collab-b63a4b2b8a2b",
@@ -2268,7 +2322,8 @@
       ],
       "indexSources": [
         "Web of Science"
-      ]
+      ],
+      "topicId": "health"
     },
     {
       "id": "collab-9cb7dc882592",
@@ -2313,7 +2368,8 @@
       ],
       "indexSources": [
         "Garuda"
-      ]
+      ],
+      "topicId": "health"
     },
     {
       "id": "collab-6006c777a3a2",
@@ -2364,7 +2420,8 @@
       ],
       "indexSources": [
         "Garuda"
-      ]
+      ],
+      "topicId": "social"
     },
     {
       "id": "collab-1c5b4ecbf868",
@@ -2412,7 +2469,8 @@
       ],
       "indexSources": [
         "Garuda"
-      ]
+      ],
+      "topicId": "social"
     },
     {
       "id": "collab-4bd9dae5041f",
@@ -2467,7 +2525,8 @@
       "indexSources": [
         "Garuda",
         "Scopus"
-      ]
+      ],
+      "topicId": "economy"
     },
     {
       "id": "collab-c983146eb04e",
@@ -2515,7 +2574,8 @@
       ],
       "indexSources": [
         "Garuda"
-      ]
+      ],
+      "topicId": "social"
     },
     {
       "id": "collab-eb50e654b04e",
@@ -2569,7 +2629,8 @@
       ],
       "indexSources": [
         "Garuda"
-      ]
+      ],
+      "topicId": "social"
     },
     {
       "id": "collab-a91fd69b01de",
@@ -2618,7 +2679,8 @@
       ],
       "indexSources": [
         "Garuda"
-      ]
+      ],
+      "topicId": "social"
     },
     {
       "id": "collab-oil-2026",
@@ -2683,7 +2745,49 @@
       "indexSources": [
         "Garuda",
         "Scopus"
-      ]
+      ],
+      "topicId": "environment"
     }
-  ]
+  ],
+  "topicClassification": {
+    "reviewedAt": "2026-10-12",
+    "method": "Satu topik utama per publikasi, ditelaah dari judul. Bidang penerapan didahulukan daripada metode; karya metodologis tanpa domain eksplisit masuk Metode statistika & optimasi. Bukan klasifikasi resmi SINTA, Scopus, atau WoS dan bukan telaah isi lengkap.",
+    "categories": [
+      {
+        "id": "environment",
+        "label": "Lingkungan, iklim & energi",
+        "color": "#137d92"
+      },
+      {
+        "id": "health",
+        "label": "Kesehatan & biomedis",
+        "color": "#c15e70"
+      },
+      {
+        "id": "economy",
+        "label": "Ekonomi, keuangan & produksi",
+        "color": "#bf8a31"
+      },
+      {
+        "id": "social",
+        "label": "Sosial, pendidikan & budaya",
+        "color": "#7060aa"
+      },
+      {
+        "id": "digital",
+        "label": "Teknologi & layanan digital",
+        "color": "#3d71b5"
+      },
+      {
+        "id": "mobility",
+        "label": "Transportasi & pariwisata",
+        "color": "#31937b"
+      },
+      {
+        "id": "methods",
+        "label": "Metode statistika & optimasi",
+        "color": "#758596"
+      }
+    ]
+  }
 }

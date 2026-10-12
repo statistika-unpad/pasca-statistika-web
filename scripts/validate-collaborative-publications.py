@@ -21,6 +21,13 @@ for row in rows:
     assert url.scheme == 'https' and url.netloc and not url.username
     assert row['linkKind'] in ('publication', 'venue')
 
+topics = data['topicClassification']['categories']
+topic_ids = {t['id'] for t in topics}
+assert len(topic_ids) == len(topics), 'Duplicate topic'
+assert all(r.get('topicId') in topic_ids for r in rows), 'Missing or invalid topic'
+assert sum(sum(r['topicId'] == t for r in rows) for t in topic_ids) == len(rows)
+assert data['topicClassification']['reviewedAt']
+
 dois = [r['doi'].lower() for r in rows if r.get('doi')]
 assert len(dois) == len(set(dois)), 'Duplicate DOI'
 for row in rows:
