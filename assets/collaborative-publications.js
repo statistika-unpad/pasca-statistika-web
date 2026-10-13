@@ -35,6 +35,9 @@
     $('total').textContent=counted.length;$('facultyTotal').textContent=unique(counted,'faculty').length;$('studentTotal').textContent=unique(counted,'students').length;
     const years=visible.map(r=>r.year);$('yearSpan').textContent=years.length?(Math.min(...years)===Math.max(...years)?years[0]:`${Math.min(...years)}–${Math.max(...years)}`):'—';
     $('pairTotal').textContent=new Set(counted.flatMap(r=>r.faculty.flatMap(f=>r.students.map(s=>JSON.stringify([f,s]))))).size;
+    const pendingOnly=visible.length>0&&counted.length===0;
+    $('collaborationAnalytics').hidden=pendingOnly;
+    if(pendingOnly)$('verificationSummary').textContent=`${visible.length} artikel ditemukan dan ditampilkan di bawah. Artikel sudah tersedia dalam katalog, tetapi tanggal terbit masih perlu verifikasi sehingga belum masuk statistik.`;
     window.renderCollaborationAnalytics?.({rows:counted,topics:topicDefs,years:[...new Set(rows.map(r=>r.year))].filter(y=>!state.year.size||state.year.has(String(y))).sort((a,b)=>a-b),onTopic:v=>selectChartFilter('topicId',v),onYear:v=>selectChartFilter('year',v),onFaculty:v=>selectChartFilter('faculty',v)});
     $('resultCount').textContent=`${visible.length} dari ${rows.length} publikasi · sesuai filter aktif`;
     for(const [key,container] of [['faculty','facultyChoices'],['students','studentChoices']])$(container).querySelectorAll('input').forEach(i=>i.checked=state[key].has(i.value));
@@ -62,6 +65,7 @@
     $('cards').addEventListener('click',e=>{const b=e.target.closest('button[data-person]');if(!b)return;state[b.dataset.key].clear();state[b.dataset.key].add(b.dataset.person);render();$('catalog').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});$('query').focus({preventScroll:true});});
     $('query').value=new URLSearchParams(location.search).get('q')||'';
     $('loadState').hidden=true;$('dashboard').hidden=false;render();
+    if($('query').value&&visible.length)$('publicationCatalog').scrollIntoView({block:'start'});
   }catch(e){$('loadState').className='load-error';$('loadState').textContent='Data publikasi belum dapat dimuat. Silakan muat ulang halaman atau buka arsip PDF.';const a=document.createElement('a');a.href='laporan-kolaborasi-dosen-mahasiswa.pdf';a.textContent=' Buka arsip PDF';$('loadState').append(a);console.error(e);}}
   window.addEventListener('collaboration-charts-ready',()=>{if(rows.length)render();});
   init();

@@ -7,3 +7,6 @@ body{background:#edf3f6}.topbar{font-size:12px;padding-top:23px;padding-bottom:2
 
 .verification-summary {color:#405d70;line-height:1.65;margin:16px 0 24px;padding:16px 20px;background:#fff;border:1px solid #d9e5ec;border-radius:12px;}
 .review-note {padding:12px 16px;border-left:3px solid #bf8a31;background:#fff7e7;line-height:1.6;color:#684d20;}
+
+#collaborationAnalytics[hidden] { display: none; }
+#publicationCatalog { scroll-margin-top: 24px; }
