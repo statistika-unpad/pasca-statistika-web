@@ -3,10 +3,10 @@
     "source": "Laporan kolaborasi prodi, rekaman Scopus/WoS/Garuda melalui SINTA, dan metadata penulis penerbit",
     "sourceCommit": "75bb8b664245704604f3e3203d08f3d0930be4a9",
     "sourceFile": "publikasi-mahasiswa-dosen/laporan-kolaborasi-dosen-mahasiswa.html",
-    "updated": "2026-10-12",
+    "updated": "2026-10-13",
     "sourceRows": 64,
     "excludedBefore2023": 12,
-    "verification": "Entri tambahan memerlukan bukti indeks melalui SINTA dan nama lengkap penulis yang cocok dengan roster mahasiswa/alumni prodi. Data lama ditandai sesuai bukti yang tersedia. Cakupan publik bersifat parsial; bukan ekspor penuh Scopus/WoS.",
+    "verification": "Entri tambahan memerlukan bukti indeks melalui SINTA dan nama lengkap penulis yang cocok dengan roster mahasiswa/alumni prodi. Data lama ditandai sesuai bukti yang tersedia. Cakupan publik bersifat parsial; bukan ekspor penuh Scopus/WoS. Entri yang diajukan pengguna diperiksa melalui metadata DOI penerbit; status mahasiswa/dosen mengikuti konfirmasi pengguna dan tidak dianggap sebagai bukti indeks.",
     "addedFromResearch": 11,
     "baselinePublications": 52,
     "studentRosterSize": 96,
@@ -14,7 +14,8 @@
       "data/alumni.json",
       "Tabel laporan kolaborasi prodi sebelum konversi katalog"
     ],
-    "exclusions": "Tahun sebelum 2023, kecocokan nama parsial saja, dan Google Scholar tidak digunakan untuk tambahan. Status DTPS tidak ditetapkan dari daftar penulis."
+    "exclusions": "Tahun sebelum 2023, kecocokan nama parsial saja, dan Google Scholar tidak digunakan untuk tambahan. Status DTPS tidak ditetapkan dari daftar penulis.",
+    "addedFromUserConfirmedPublisher": 1
   },
   "publications": [
     {
@@ -2747,6 +2748,49 @@
         "Scopus"
       ],
       "topicId": "environment"
+    },
+    {
+      "id": "collab-lembang-2026",
+      "sourceRow": null,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si",
+        "Budhi Handoko, M.Si., Ph.D"
+      ],
+      "students": [
+        "Salwa Azzah Imtiyaz",
+        "Gusti Ayu Anisa Eldina"
+      ],
+      "title": "Probabilistic Seismic Forecasting for Sustainable Urban Preparedness Around the Lembang Fault, Indonesia: Catalog Audit, Bayesian Spatio-Temporal ETAS, and Forecast-Informed Prioritization for Bandung City",
+      "year": 2026,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "Sustainability 18(20), 10366",
+      "doi": "10.3390/su182010366",
+      "url": "https://www.mdpi.com/2071-1050/18/20/10366",
+      "linkKind": "publication",
+      "origin": "user-confirmed-publisher",
+      "authors": [
+        "I Gede Nyoman Mindra Jaya",
+        "Salwa Azzah Imtiyaz",
+        "Budhi Handoko",
+        "Sinta Septi Pangastuti",
+        "Gusti Ayu Anisa Eldina",
+        "Fara Dhiyaa Ramadhani",
+        "Andini Dwi Kurnia Putri",
+        "Farah Kristiani"
+      ],
+      "authorEvidence": {
+        "source": "Metadata DOI penerbit melalui Crossref",
+        "url": "https://api.crossref.org/works/10.3390/su182010366",
+        "checkedAt": "2026-10-13",
+        "basis": "Nama lengkap penulis dan afiliasi diperiksa melalui metadata DOI Crossref. Salwa Azzah Imtiyaz dan Gusti Ayu Anisa Eldina dikonfirmasi pengguna sebagai mahasiswa S2; Mindra Jaya dan Budhi Handoko dipetakan sebagai dosen. Peran penulis lain tidak diasumsikan."
+      },
+      "verificationStatus": "publisher-authors-user-confirmed-roles",
+      "indexEvidence": [],
+      "indexSources": [],
+      "topicId": "environment",
+      "publishedDate": "2026-10-12"
     }
   ],
   "topicClassification": {

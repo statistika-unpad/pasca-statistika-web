@@ -49,7 +49,7 @@
     const url=URL.createObjectURL(new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='publikasi-bersama-hasil-filter.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
   }
   async function init(){try{
-    const response=await fetch('../data/collaborative_publications.json');if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();topicDefs=data.topicClassification.categories;rows=data.publications;rows.forEach(r=>r.source=r.indexSources?.length?r.indexSources:['Laporan prodi']);
+    const response=await fetch('../data/collaborative_publications.json');if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();topicDefs=data.topicClassification.categories;rows=data.publications;rows.forEach(r=>r.source=r.indexSources?.length?r.indexSources:[r.origin==='user-confirmed-publisher'?'Metadata penerbit':'Laporan prodi']);
     if(!Array.isArray(rows)||!rows.length)throw Error('Data tidak tersedia');
     rows.forEach(r=>{const u=new URL(r.url);if(!['https:','http:'].includes(u.protocol))throw Error('Tautan tidak valid');});
     setupPeople('faculty','facultyChoices');setupPeople('students','studentChoices');setupPills('year','yearChoices');setupPills('type','typeChoices');setupPills('source','sourceChoices');setupPills('topicId','topicChoices');

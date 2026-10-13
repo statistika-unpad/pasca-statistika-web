@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PAGE = ROOT / 'publikasi-mahasiswa-dosen/laporan-kolaborasi-dosen-mahasiswa.html'
 data = json.loads((ROOT / 'data/collaborative_publications.json').read_text())
 rows = data['publications']
-assert len(rows) == data['metadata']['baselinePublications'] + data['metadata']['addedFromResearch']
+assert len(rows) == data['metadata']['baselinePublications'] + data['metadata']['addedFromResearch'] + data['metadata'].get('addedFromUserConfirmedPublisher', 0)
 assert data['metadata']['baselinePublications'] + data['metadata']['excludedBefore2023'] == data['metadata']['sourceRows']
 for key in ('id', 'title'):
     assert len({str(r[key]).lower() for r in rows}) == len(rows), f'Duplicate {key}'
