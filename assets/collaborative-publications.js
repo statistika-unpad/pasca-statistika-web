@@ -51,7 +51,7 @@
     const url=URL.createObjectURL(new Blob(['\uFEFF'+csv],{type:'text/csv;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='publikasi-bersama-hasil-filter.csv';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
   }
   async function init(){try{
-    const response=await fetch('../data/collaborative_publications.json');if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();topicDefs=data.topicClassification.categories;rows=data.publications;
+    const response=await fetch('../data/collaborative_publications.json', {cache:'no-store'});if(!response.ok)throw Error('HTTP '+response.status);const data=await response.json();topicDefs=data.topicClassification.categories;rows=data.publications;
     $('pendingCandidates').innerHTML=(data.candidates||[]).map(c=>`<p><strong>${escape(c.student)}</strong> · ${escape(c.title)}<br>${escape(c.reason)} <a href="${escape(c.url)}" target="_blank" rel="noopener">Laman penerbit ↗</a></p>`).join('');rows.forEach(r=>r.source=r.indexSources?.length?r.indexSources:[r.origin==='user-confirmed-publisher'?'Metadata penerbit':'Laporan prodi']);
     if(!Array.isArray(rows)||!rows.length)throw Error('Data tidak tersedia');
     rows.forEach(r=>{const u=new URL(r.url);if(!['https:','http:'].includes(u.protocol))throw Error('Tautan tidak valid');});
@@ -60,6 +60,7 @@
     $('query').addEventListener('input',render);$('sort').addEventListener('change',render);$('reset').addEventListener('click',reset);$('emptyReset').addEventListener('click',reset);$('export').addEventListener('click',exportCSV);
     $('activeFilters').addEventListener('click',e=>{const b=e.target.closest('button');if(b){state[b.dataset.key].delete(b.dataset.value);render();}});
     $('cards').addEventListener('click',e=>{const b=e.target.closest('button[data-person]');if(!b)return;state[b.dataset.key].clear();state[b.dataset.key].add(b.dataset.person);render();$('catalog').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});$('query').focus({preventScroll:true});});
+    $('query').value=new URLSearchParams(location.search).get('q')||'';
     $('loadState').hidden=true;$('dashboard').hidden=false;render();
   }catch(e){$('loadState').className='load-error';$('loadState').textContent='Data publikasi belum dapat dimuat. Silakan muat ulang halaman atau buka arsip PDF.';const a=document.createElement('a');a.href='laporan-kolaborasi-dosen-mahasiswa.pdf';a.textContent=' Buka arsip PDF';$('loadState').append(a);console.error(e);}}
   window.addEventListener('collaboration-charts-ready',()=>{if(rows.length)render();});
