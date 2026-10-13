@@ -15,7 +15,7 @@
       "Tabel laporan kolaborasi prodi sebelum konversi katalog"
     ],
     "exclusions": "Tahun sebelum 2023, kecocokan nama parsial saja, dan Google Scholar tidak digunakan untuk tambahan. Status DTPS tidak ditetapkan dari daftar penulis.",
-    "addedFromUserConfirmedPublisher": 1
+    "addedFromUserConfirmedPublisher": 3
   },
   "publications": [
     {
@@ -40,7 +40,20 @@
       "indexSources": [],
       "origin": "program-report",
       "verificationStatus": "program-report",
-      "topicId": "environment"
+      "topicId": "environment",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-13",
+      "roleEvidence": "Status mahasiswa S2 dan dosen dikonfirmasi dalam daftar pengguna; nama penulis dicocokkan dengan metadata penerbit.",
+      "authors": [
+        "Ega Saherti",
+        "I Gede Nyoman Mindra Jaya"
+      ],
+      "authorEvidence": {
+        "source": "Laman artikel Prosiding Seminar Nasional Statistika",
+        "url": "https://prosiding.statistics.unpad.ac.id/?journal=prosidingsns&page=article&op=view&path[]=346",
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, kedua penulis, dan terbit Januari 2026 dikonfirmasi pada hasil terindeks laman penerbit; akses langsung sesekali memberi HTTP 500."
+      }
     },
     {
       "id": "collab-2",
@@ -64,7 +77,20 @@
       "indexSources": [],
       "origin": "program-report",
       "verificationStatus": "program-report",
-      "topicId": "economy"
+      "topicId": "economy",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-13",
+      "roleEvidence": "Status mahasiswa S2 dan dosen dikonfirmasi dalam daftar pengguna; nama penulis dicocokkan dengan metadata penerbit.",
+      "authors": [
+        "Salwa Azzah Imtiyaz",
+        "I Gede Nyoman Mindra Jaya"
+      ],
+      "authorEvidence": {
+        "source": "Laman artikel penerbit",
+        "url": "https://biastatistics.statistics.unpad.ac.id/?journal=biastatistics-special-issue&page=article&op=view&path[]=348",
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, nama penulis, dan tahun dibaca pada metadata halaman artikel penerbit. Peran S2 dikonfirmasi pengguna."
+      }
     },
     {
       "id": "collab-3",
@@ -106,12 +132,16 @@
         "Gumgum Darmawan"
       ],
       "authorEvidence": {
-        "source": "Crossref · metadata penerbit",
+        "source": "Metadata DOI penerbit melalui Crossref",
         "url": "https://api.crossref.org/works/10.61579/future.v4i1.698",
-        "checkedAt": "2026-10-12",
-        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, tahun, jurnal, DOI, dan nama penulis sesuai metadata penerbit yang didepositkan ke Crossref. Peran S2 mengikuti konfirmasi pengguna."
       },
-      "topicId": "mobility"
+      "topicId": "mobility",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-13",
+      "roleEvidence": "Status mahasiswa S2 dan dosen dikonfirmasi dalam daftar pengguna; nama penulis dicocokkan dengan metadata penerbit.",
+      "publishedDate": "2026-01-12"
     },
     {
       "id": "collab-5",
@@ -135,7 +165,20 @@
       "indexSources": [],
       "origin": "program-report",
       "verificationStatus": "program-report",
-      "topicId": "environment"
+      "topicId": "environment",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-13",
+      "roleEvidence": "Status mahasiswa S2 dan dosen dikonfirmasi dalam daftar pengguna; nama penulis dicocokkan dengan metadata penerbit.",
+      "authors": [
+        "Mahdayani Putri Yunizar",
+        "I Gede Nyoman Mindra Jaya"
+      ],
+      "authorEvidence": {
+        "source": "Laman artikel Prosiding Seminar Nasional Statistika",
+        "url": "https://prosiding.statistics.unpad.ac.id/?journal=prosidingsns&page=article&op=view&path[]=343",
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, kedua penulis, dan terbit Januari 2026 dikonfirmasi pada hasil terindeks laman penerbit; akses langsung sesekali memberi HTTP 500."
+      }
     },
     {
       "id": "collab-7",
@@ -177,12 +220,16 @@
         "Gumgum Darmawan"
       ],
       "authorEvidence": {
-        "source": "Crossref · metadata penerbit",
+        "source": "Metadata DOI penerbit melalui Crossref",
         "url": "https://api.crossref.org/works/10.61579/future.v4i1.697",
-        "checkedAt": "2026-10-12",
-        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, tahun, jurnal, DOI, dan nama penulis sesuai metadata penerbit yang didepositkan ke Crossref. Peran S2 mengikuti konfirmasi pengguna."
       },
-      "topicId": "mobility"
+      "topicId": "mobility",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-13",
+      "roleEvidence": "Status mahasiswa S2 dan dosen dikonfirmasi dalam daftar pengguna; nama penulis dicocokkan dengan metadata penerbit.",
+      "publishedDate": "2026-01-08"
     },
     {
       "id": "collab-8",
@@ -235,12 +282,16 @@
         "Farah Kristiani"
       ],
       "authorEvidence": {
-        "source": "Crossref · metadata penerbit",
+        "source": "Metadata DOI penerbit melalui Crossref",
         "url": "https://api.crossref.org/works/10.3390/su18125959",
-        "checkedAt": "2026-10-12",
-        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, tahun, jurnal, DOI, dan nama penulis sesuai metadata penerbit yang didepositkan ke Crossref. Peran S2 mengikuti konfirmasi pengguna."
       },
-      "topicId": "health"
+      "topicId": "health",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-13",
+      "roleEvidence": "Status mahasiswa S2 dan dosen dikonfirmasi dalam daftar pengguna; nama penulis dicocokkan dengan metadata penerbit.",
+      "publishedDate": "2026-06-10"
     },
     {
       "id": "collab-10",
@@ -282,12 +333,16 @@
         "Gumgum Darmawan"
       ],
       "authorEvidence": {
-        "source": "Crossref · metadata penerbit",
+        "source": "Metadata DOI penerbit melalui Crossref",
         "url": "https://api.crossref.org/works/10.56578/mits050103",
-        "checkedAt": "2026-10-12",
-        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, tahun, jurnal, DOI, dan nama penulis sesuai metadata penerbit yang didepositkan ke Crossref. Peran S2 mengikuti konfirmasi pengguna."
       },
-      "topicId": "mobility"
+      "topicId": "mobility",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-13",
+      "roleEvidence": "Status mahasiswa S2 dan dosen dikonfirmasi dalam daftar pengguna; nama penulis dicocokkan dengan metadata penerbit.",
+      "publishedDate": "2026-03-12"
     },
     {
       "id": "collab-11",
@@ -348,12 +403,16 @@
         "Fellita Odelia Wibowo"
       ],
       "authorEvidence": {
-        "source": "Crossref · metadata penerbit",
+        "source": "Metadata DOI penerbit melalui Crossref",
         "url": "https://api.crossref.org/works/10.3390/math14122095",
-        "checkedAt": "2026-10-12",
-        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, tahun, jurnal, DOI, dan nama penulis sesuai metadata penerbit yang didepositkan ke Crossref. Peran S2 mengikuti konfirmasi pengguna."
       },
-      "topicId": "economy"
+      "topicId": "economy",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-13",
+      "roleEvidence": "Status mahasiswa S2 dan dosen dikonfirmasi dalam daftar pengguna; nama penulis dicocokkan dengan metadata penerbit.",
+      "publishedDate": "2026-06-11"
     },
     {
       "id": "collab-19",
@@ -403,12 +462,16 @@
         "Budhi Handoko"
       ],
       "authorEvidence": {
-        "source": "Crossref · metadata penerbit",
-        "url": "https://api.crossref.org/works/10.2147/rmhp.s594491",
-        "checkedAt": "2026-10-12",
-        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+        "source": "Laman artikel penerbit",
+        "url": "https://doi.org/10.2147/RMHP.S594491",
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, nama penulis, dan tahun dibaca pada metadata halaman artikel penerbit. Peran S2 dikonfirmasi pengguna."
       },
-      "topicId": "health"
+      "topicId": "health",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-13",
+      "roleEvidence": "Status mahasiswa S2 dan dosen dikonfirmasi dalam daftar pengguna; nama penulis dicocokkan dengan metadata penerbit.",
+      "publishedDate": "2026-05"
     },
     {
       "id": "collab-25",
@@ -470,7 +533,24 @@
       ],
       "origin": "program-report",
       "verificationStatus": "report-with-index-evidence",
-      "topicId": "digital"
+      "topicId": "digital",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-13",
+      "roleEvidence": "Status mahasiswa S2 dan dosen dikonfirmasi dalam daftar pengguna; nama penulis dicocokkan dengan metadata penerbit.",
+      "authors": [
+        "Muhammad Restu Agam",
+        "Anindya Apriliyanti Pravitasari",
+        "Triyani Hendrawati",
+        "I Gede Nyoman Mindra Jaya",
+        "Yusep Suparman"
+      ],
+      "authorEvidence": {
+        "source": "Metadata DOI penerbit melalui Crossref",
+        "url": "https://api.crossref.org/works/10.28919/cmbn/9648",
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, tahun, jurnal, DOI, dan nama penulis sesuai metadata penerbit yang didepositkan ke Crossref. Peran S2 mengikuti konfirmasi pengguna."
+      },
+      "publishedDate": "2026-01-05"
     },
     {
       "id": "collab-33",
@@ -520,12 +600,16 @@
         "Sri Winarni"
       ],
       "authorEvidence": {
-        "source": "Crossref · metadata penerbit",
+        "source": "Metadata DOI penerbit melalui Crossref",
         "url": "https://api.crossref.org/works/10.28919/cmbn/9682",
-        "checkedAt": "2026-10-12",
-        "basis": "Metadata penulis tambahan; daftar dosen/mahasiswa pada entri lama dipertahankan dari laporan prodi."
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, tahun, jurnal, DOI, dan nama penulis sesuai metadata penerbit yang didepositkan ke Crossref. Peran S2 mengikuti konfirmasi pengguna."
       },
-      "topicId": "digital"
+      "topicId": "digital",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-13",
+      "roleEvidence": "Status mahasiswa S2 dan dosen dikonfirmasi dalam daftar pengguna; nama penulis dicocokkan dengan metadata penerbit.",
+      "publishedDate": "2026-01-05"
     },
     {
       "id": "collab-60",
@@ -544,7 +628,7 @@
       "scopus": null,
       "venue": "Building of Informatics, Technology and Science (BITS)",
       "doi": "10.47065/bits.v7i4.9054",
-      "url": "https://doi.org/10.47065/bits.v7i4.9054",
+      "url": "https://ejurnal.seminar-id.com/index.php/bits/article/download/9054/4494/",
       "linkKind": "publication",
       "indexEvidence": [
         {
@@ -569,7 +653,22 @@
       ],
       "origin": "program-report",
       "verificationStatus": "report-with-index-evidence",
-      "topicId": "methods"
+      "topicId": "methods",
+      "reviewStatus": "verified",
+      "reviewedAt": "2026-10-13",
+      "roleEvidence": "Status mahasiswa S2 dan dosen dikonfirmasi dalam daftar pengguna; nama penulis dicocokkan dengan metadata penerbit.",
+      "authors": [
+        "Disa Rahma Kirana",
+        "Irlandia Ginanjar",
+        "Bertho Tantular"
+      ],
+      "publishedDate": "2026-03-05",
+      "authorEvidence": {
+        "source": "PDF artikel BITS, halaman 1",
+        "url": "https://ejurnal.seminar-id.com/index.php/bits/article/download/9054/4494/",
+        "checkedAt": "2026-10-13",
+        "basis": "PDF penerbit mengonfirmasi judul, tiga penulis, DOI 10.47065/bits.v7i4.9054, dan tanggal 5 Maret 2026. Resolver DOI sedang mengembalikan 404; tombol memakai PDF penerbit."
+      }
     },
     {
       "id": "collab-4",
@@ -2747,7 +2846,8 @@
         "Garuda",
         "Scopus"
       ],
-      "topicId": "environment"
+      "topicId": "environment",
+      "reviewStatus": "verified"
     },
     {
       "id": "collab-lembang-2026",
@@ -2790,7 +2890,84 @@
       "indexEvidence": [],
       "indexSources": [],
       "topicId": "environment",
-      "publishedDate": "2026-10-12"
+      "publishedDate": "2026-10-12",
+      "reviewStatus": "verified"
+    },
+    {
+      "id": "collab-sahid-2026",
+      "sourceRow": null,
+      "faculty": [
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si",
+        "Dr. Restu Arisanti, S.Si., M.Si"
+      ],
+      "students": [
+        "Muhammad Sahid"
+      ],
+      "title": "Consensus Bayesian Network Learning for Market Basket Analysis in Indonesian Retail Transactions",
+      "year": 2026,
+      "type": "Jurnal Nasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "CAUCHY: Jurnal Matematika Murni dan Aplikasi",
+      "doi": "10.18860/cauchy.v11i2.41879",
+      "url": "https://ejournal.uin-malang.ac.id/index.php/Math/article/view/41879",
+      "linkKind": "publication",
+      "origin": "user-confirmed-publisher",
+      "authors": [
+        "Muhammad Sahid",
+        "I Gede Mindra Jaya",
+        "Restu Arisanti"
+      ],
+      "authorEvidence": {
+        "source": "Laman artikel penerbit CAUCHY",
+        "url": "https://ejournal.uin-malang.ac.id/index.php/Math/article/view/41879",
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, tiga penulis, DOI, dan tahun cocok. Metadata mencantumkan 30 November 2026, setelah tanggal pemeriksaan; tanggal terbit perlu dikonfirmasi. Nama penerbit “I Gede Mindra Jaya” dipetakan ke Mindra Jaya berdasarkan konfirmasi pengguna."
+      },
+      "verificationStatus": "perlu_verifikasi",
+      "reviewStatus": "perlu_verifikasi",
+      "reviewNote": "Metadata penerbit bertanggal 30 November 2026. Belum dihitung dalam statistik sampai tanggal terbit dikonfirmasi.",
+      "publishedDate": "2026-11-30",
+      "indexEvidence": [],
+      "indexSources": [],
+      "topicId": "economy"
+    },
+    {
+      "id": "collab-wanda-2026",
+      "sourceRow": null,
+      "faculty": [
+        "Dr. Anindya Apriliyanti Pravitasari, M.Si",
+        "Dr. I Gede Nyoman Mindra Jaya, S.Si., M.Si"
+      ],
+      "students": [
+        "Wanda Alifia"
+      ],
+      "title": "Hate Speech Detection on Social Media X Using Stochastic Weight Averaging Gaussian (SWAG) - IndoBERT",
+      "year": 2026,
+      "type": "Jurnal Internasional",
+      "sinta": null,
+      "scopus": null,
+      "venue": "IAENG International Journal of Computer Science",
+      "doi": null,
+      "url": "https://www.iaeng.org/IJCS/issues_v53/issue_8/IJCS_53_8_22.pdf",
+      "linkKind": "publication",
+      "origin": "user-confirmed-publisher",
+      "authors": [
+        "Wanda Alifia",
+        "Anindya Apriliyanti Pravitasari",
+        "I Gede Nyoman Mindra Jaya"
+      ],
+      "authorEvidence": {
+        "source": "PDF artikel IAENG, halaman 1",
+        "url": "https://www.iaeng.org/IJCS/issues_v53/issue_8/IJCS_53_8_22.pdf",
+        "checkedAt": "2026-10-13",
+        "basis": "Judul, tiga penulis, volume 53 nomor 8 tahun 2026, halaman 3144–3153 terkonfirmasi. PDF secara eksplisit menyatakan Wanda sebagai mahasiswa Magister Statistika Terapan Unpad."
+      },
+      "verificationStatus": "publisher-authors-user-confirmed-roles",
+      "reviewStatus": "verified",
+      "indexEvidence": [],
+      "indexSources": [],
+      "topicId": "digital"
     }
   ],
   "topicClassification": {
@@ -2833,5 +3010,50 @@
         "color": "#758596"
       }
     ]
+  },
+  "candidates": [
+    {
+      "id": "candidate-dimas-2026",
+      "student": "Dimas Naufaldy Ardian",
+      "faculty": [
+        "Yuyun Hidayat"
+      ],
+      "title": "Decadal rainfall forecasting using CNN–BiLSTM: a case study in Indramayu, Indonesia",
+      "year": 2026,
+      "doi": "10.28919/cmbn/9612",
+      "url": "https://scik.org/index.php/cmbn/article/view/9612",
+      "status": "perlu_verifikasi",
+      "reason": "Status mahasiswa S2 Statistika Terapan belum dikonfirmasi; tidak masuk katalog maupun statistik publikasi.",
+      "metadataSource": "https://api.crossref.org/works/10.28919/cmbn/9612"
+    }
+  ],
+  "batchReview": {
+    "checkedAt": "2026-10-13",
+    "proposed": 14,
+    "existingUpdated": [
+      "collab-1",
+      "collab-2",
+      "collab-3",
+      "collab-5",
+      "collab-7",
+      "collab-8",
+      "collab-10",
+      "collab-11",
+      "collab-19",
+      "collab-25",
+      "collab-33",
+      "collab-60"
+    ],
+    "newAdded": [
+      "collab-sahid-2026",
+      "collab-wanda-2026"
+    ],
+    "duplicateInsertionsPrevented": 12,
+    "pending": [
+      "collab-sahid-2026",
+      "candidate-dimas-2026"
+    ],
+    "verified2026": 15,
+    "method": "DOI, judul ternormalisasi dan penulis; metadata halaman/PDF penerbit atau metadata DOI penerbit melalui Crossref. Tidak menambah klaim indeksasi."
   }
 }

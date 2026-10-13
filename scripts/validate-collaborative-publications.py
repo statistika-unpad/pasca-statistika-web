@@ -1,5 +1,7 @@
 """Validate the collaboration catalog data and its local navigation/assets."""
 import json
+import re
+import unicodedata
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlparse, unquote
@@ -52,3 +54,17 @@ class Links(HTMLParser):
 Links().feed(PAGE.read_text())
 assert (ROOT / 'data/collaborative_publications.json').exists()
 print(f'PASS: {len(rows)} unique publications, years >= 2023, complete author lists, valid URL structure, zero broken local links.')
+
+# Detect equivalent titles even if case, punctuation, or formatting differ.
+def normalize_title(value):
+    return re.sub(r"[^a-z0-9]", "", unicodedata.normalize("NFKD", value).lower())
+assert len({normalize_title(r['title']) for r in rows}) == len(rows), 'Normalized title duplicate'
+if 'batchReview' in data:
+    assert data['batchReview']['verified2026'] == sum(r['year'] == 2026 and r.get('reviewStatus') == 'verified' for r in rows)
+    for r in rows:
+        if r.get('reviewStatus') == 'verified':
+            assert r.get('authorEvidence') and r.get('authors'), r['id']
+    for candidate in data.get('candidates', []):
+        assert candidate['status'] == 'perlu_verifikasi'
+        assert candidate['doi'].lower() not in dois
+print('PASS: normalized titles unique, verification totals match, candidates excluded.')
