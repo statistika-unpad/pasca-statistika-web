@@ -43,3 +43,13 @@ Ringkasan topik dan pie chart: `topic-classification.json` memuat tinjauan judul
 Dua duplikat akibat mojibake pada apostrof (judul kesejahteraan dan produksi minyak) digabung setelah perbaikan encoding. Total katalog menjadi 186. Varian judul berbeda substantif, misalnya PM2.5 versus PM5.5 pada dua sumber, tidak otomatis digabung tanpa bukti identitas rekaman yang cukup.
 
 Pembaruan 7 Oktober 2026: Yudhie Andriyana (SINTA 6028086) ditambahkan. Katalog menjadi 193 artikel unik, 17 dosen dan 68 halaman sumber. Terdapat 13 artikel terkait Yudhie, termasuk enam artikel bersama yang sudah ada. Sumber dosen lain tetap bertanggal 3 Oktober; sumber Yudhie diperiksa 7 Oktober. Google Scholar tetap dikecualikan.
+
+## Pembaruan kolaborasi 14 Oktober 2026
+
+Katalog 193 artikel SINTA dipertahankan dan dilengkapi lima artikel 2026 dari katalog kolaborasi yang memiliki bukti penerbit. Artikel sumber `Penerbit` tidak diberi klaim Scopus/WoS. Artikel Sahid belum ditambahkan ke katalog dosen karena tanggal terbit masih perlu konfirmasi.
+
+`enrich-collaborations.py CACHE_DIR` membaca objek `message` respons Crossref `/works/{doi}`. Metadata dicocokkan berdasarkan DOI atau judul ternormalisasi, tidak berdasarkan nama belakang. Cache sumber disimpan di luar repository; afiliasi mentah per penulis, URL metadata, dan tanggal pemeriksaan disimpan pada `publications[].collaboration`. Artikel PLOS 10.1371/journal.pone.0346790 memiliki afiliasi tambahan yang ditelaah langsung pada laman penerbit karena Crossref tidak memuatnya.
+
+Mitra adalah penulis di luar roster 17 dosen. Afiliasi kedua seorang dosen sendiri tidak dianggap sebagai mitra baru. Kelompok eksklusif mengikuti prioritas lintas negara, nasional, lintas unit Unpad, Statistika Unpad; rekaman tanpa bukti memadai masuk belum terpetakan. Bukti parsial yang menunjukkan mitra eksternal tetap dihitung sebagai minimum terkonfirmasi, dengan label cakupan parsial. Statistika Unpad tidak otomatis berarti Prodi S2. Institusi dan negara mitra dapat beririsan antarartikel; jumlahnya tidak boleh dijumlahkan sebagai total karya unik. ITS belum ditemukan pada afiliasi yang diperiksa, bukan klaim tidak ada kolaborasi ITS.
+
+Panel mengikuti filter dosen, tahun, sumber, kata kunci, topik, kelompok dan institusi. Ekspor CSV memakai populasi sama dengan daftar artikel. Pie mengecualikan belum-terpetakan dengan penyebut eksplisit; tren menyertakan kelompok belum-terpetakan untuk menjaga rekonsiliasi per tahun. Tahun 2026 belum setahun penuh. Metrik profil SINTA tetap bertanggal snapshot asal, bukan diklaim sebagai refresh seluruh profil.

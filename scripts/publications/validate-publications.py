@@ -15,7 +15,7 @@ seen=set();urls={};dois={}
 for r in rows:
  assert 'Google Scholar' not in r['indexSources']
  assert not r['historicalOnly']
- assert all(e['via']=='SINTA' and e['source']!='Google Scholar' for e in r['evidence'])
+ assert all((e['via']=='SINTA' or e['source']=='Penerbit') and e['source']!='Google Scholar' for e in r['evidence'])
  key=(re.sub('[^a-z0-9]','',unicodedata.normalize('NFKD',r['title']).encode('ascii','ignore').decode().lower()),r['year'])
  assert key not in seen,('duplicate',key)
  seen.add(key)
@@ -48,3 +48,15 @@ assert len(d['sourceAudit'])==68
 assert len({(s['facultyId'],s['source']) for s in d['sourceAudit']})==68
 assert next(f['googleScholarId'] for f in faculty if f['sintaId']=='6084299')=='572z_AIAAAAJ'
 print(json.dumps({'status':'PASS','faculty':17,'uniquePublications':len(rows),'sourcePages':68,'duplicateTitleYear':0,'invalidSourceURLs':0,'years':d['years']},indent=2))
+
+# Affiliation groups must reconcile and every mapped group needs primary metadata.
+assert sum(d['collaborationReview']['groups'].values()) == len(rows)
+for r in rows:
+ c=r['collaboration']
+ assert c['group'] in ['international','national','cross-unit','statistics','unknown']
+ if c['group']!='unknown': assert c['sourceUrl'] and c['authors']
+ if c['group'] in ['international','national','cross-unit']:
+  assert any(p['kind']==c['group'] for p in c['partners'])
+ if c['group']=='statistics': assert c['completeAffiliations'] and not c['partners']
+ if c['sourceUrl']: assert c['sourceUrl'].startswith('https://')
+print('PASS: affiliation groups reconcile; partial coverage and publisher sources explicit.')

@@ -97,6 +97,7 @@
   <link rel="stylesheet" href="assets/handbook-library.css?v=20260928-visual">
 <link rel="stylesheet" href="assets/grant-dashboard.css?v=20261008-funding">
 <link rel="stylesheet" href="assets/publications-refresh.css?v=20261007-yudhie" />
+<link rel="stylesheet" href="assets/publication-collaborations.css?v=20261014" />
 </head>
 <body>
   <div class="topbar">
@@ -1106,7 +1107,7 @@
           <div class="faculty-publication-metrics" aria-label="Ringkasan publikasi dosen">
             <div>
               <span>Artikel unik terhimpun</span>
-              <strong id="publicationTotalCount">193</strong>
+              <strong id="publicationTotalCount">198</strong>
             </div>
             <div>
               <span data-i18n="publicationFacultyLabel">Profil dosen</span>
@@ -1157,7 +1158,7 @@
 
         <div class="faculty-publication-note">
           <span aria-hidden="true">i</span>
-          <p>Diperiksa 3 Oktober 2026. Daftar publik terbatas pada rekaman yang ditampilkan SINTA; bukan bibliografi lengkap atau ekspor langsung seluruh indeks. Artikel bersama digabung berdasarkan judul/tahun, DOI, atau ID rekaman. Jumlah antarindeks beririsan. Revisi 4 Oktober 2026: entri Google Scholar tidak digunakan dalam katalog atau statistik. Rekaman arsip yang belum terkonfirmasi pada snapshot SINTA terbaru juga tidak dihitung.</p>
+          <p>Pembaruan 14 Oktober 2026: snapshot SINTA dipertahankan dan dilengkapi artikel terbaru dari penerbit terverifikasi. Sumber “Penerbit” tidak berarti terindeks Scopus/WoS. Afiliasi diperiksa dari metadata artikel; cakupan masih parsial. Artikel bersama dihitung sekali. Google Scholar tetap tidak digunakan dalam katalog atau statistik.</p>
         </div>
 
         <div class="faculty-publication-controls">
@@ -1168,7 +1169,7 @@
           <details class="pub-person-picker pub-year-picker" id="publicationYearPicker"><summary>Tahun: <span id="publicationYearSummaryLabel">Semua tahun</span></summary><p>Pilih satu atau beberapa tahun publikasi.</p><div class="pub-person-actions"><button type="button" id="publicationYearsAll">Semua tahun</button><button type="button" id="publicationYearsClear">Hapus pilihan</button></div><fieldset id="publicationYears"><legend class="sr-only">Pilih tahun publikasi</legend></fieldset></details>
         </div>
 
-        <div class="pub-filters"><details class="pub-person-picker"><summary>Dosen: <span id="publicationPersonSummary">Semua dosen</span></summary><p>Pilih satu atau beberapa dosen. Artikel dari salah satu dosen terpilih akan ditampilkan; artikel bersama tetap dihitung sekali.</p><div class="pub-person-actions"><button type="button" id="publicationPeopleAll">Semua dosen</button><button type="button" id="publicationPeopleClear">Hapus pilihan</button></div><fieldset id="publicationPeople"><legend class="sr-only">Pilih dosen untuk ditampilkan</legend></fieldset></details><label>Sumber indeks<select id="publicationSource"><option value="">Semua sumber</option><option>Scopus</option><option>Web of Science</option><option>Garuda</option></select></label></div>
+        <div class="pub-filters"><details class="pub-person-picker"><summary>Dosen: <span id="publicationPersonSummary">Semua dosen</span></summary><p>Pilih satu atau beberapa dosen. Artikel dari salah satu dosen terpilih akan ditampilkan; artikel bersama tetap dihitung sekali.</p><div class="pub-person-actions"><button type="button" id="publicationPeopleAll">Semua dosen</button><button type="button" id="publicationPeopleClear">Hapus pilihan</button></div><fieldset id="publicationPeople"><legend class="sr-only">Pilih dosen untuk ditampilkan</legend></fieldset></details><label>Sumber indeks<select id="publicationSource"><option value="">Semua sumber</option><option>Scopus</option><option>Web of Science</option><option>Garuda</option><option>Penerbit</option></select></label></div>
         <p><a href="data/faculty_publications.json" target="_blank" rel="noopener">Buka data terbaru dan jejak sumber ↗</a></p>
         <div class="faculty-publication-toolbar">
           <label class="faculty-publication-search" for="publicationSearch">
@@ -1178,6 +1179,7 @@
           </label>
         </div>
 
+        <section id="publicationCollaborationPanel" class="pub-collab-panel" aria-label="Statistik kolaborasi publikasi dosen"></section>
         <section id="publicationTopicPanel" class="pub-topic-panel" aria-labelledby="publicationTopicTitle">
           <h3 id="publicationTopicTitle">Topik publikasi</h3>
           <p id="publicationTopicScope" class="pub-topic-scope"></p>
@@ -1188,7 +1190,7 @@
         </section>
 
         <div class="faculty-publication-result-bar">
-          <strong id="publicationVisibleCount">193</strong>
+          <strong id="publicationVisibleCount">198</strong>
           <span id="publicationVisibleLabel" data-i18n="publicationRecordsShown">publikasi ditampilkan</span>
         </div>
         <div class="faculty-publication-grid" id="publicationRows" aria-live="polite"></div>
@@ -3570,6 +3572,7 @@
   <script src="assets/handbook-library.js?v=20260928" defer></script>
 <script type="module" src="assets/grant-dashboard.js?v=20261008-funding"></script>
 <script src="assets/publication-topics.js?v=20261007-yudhie" defer></script>
-<script src="assets/publications-refresh.js?v=20261007-yudhie" defer></script>
+<script src="assets/publication-collaborations.js?v=20261014" defer></script>
+<script src="assets/publications-refresh.js?v=20261014-collab" defer></script>
 </body>
 </html>
