@@ -278,7 +278,8 @@ const program = {
   ]
 };
 
-const vision = "Menjadi Program Studi Doktor Statistika yang unggul, bereputasi internasional, dan berdampak dalam pengembangan teori, metodologi, komputasi, serta sistem inferensi statistik untuk menyelesaikan persoalan kompleks lokal, nasional, dan global.";
+// Acuan: Naskah Akademik Bab 7 dan Naskah Kurikulum Bab 2–3 (berkas Submitted, 15 Oktober 2026).
+const vision = "Menjadi Program Studi Doktor Statistika yang unggul dan bereputasi internasional dalam pengembangan teori, metodologi, komputasi, dan sistem inferensi statistika modern yang diperkuat oleh sains data dan artificial intelligence, serta berdampak pada penyelesaian persoalan kompleks terutama di bidang kesehatan dan transisi energi.";
 
 const missions = [
   "Menyelenggarakan pendidikan doktor statistika berbasis riset yang menekankan orisinalitas, integritas, kedalaman teori, dan kekuatan metodologi.",
@@ -290,85 +291,49 @@ const missions = [
 ];
 
 const objectives = [
-  "Menghasilkan lulusan doktor yang mampu mengembangkan teori, metode, dan model statistika baru atau teruji untuk menyelesaikan persoalan kompleks berbasis data.",
-  "Menghasilkan peneliti, akademisi, metodolog statistik, konsultan, dan pemimpin analitik yang mandiri, berintegritas, serta mampu menghasilkan kontribusi ilmiah orisinal.",
-  "Mengembangkan riset statistika modern yang mencakup inferensi statistik, statistika Bayesian, statistika komputasi, machine learning, sains data, statistika spasial-temporal, forecasting probabilistik, analitik risiko, causal inference, survei, statistika resmi, dan evaluasi kebijakan.",
-  "Meningkatkan luaran akademik bereputasi melalui publikasi ilmiah, diseminasi riset, kolaborasi nasional dan internasional, serta pengembangan inovasi berbasis statistika.",
-  "Membangun ekosistem riset kolaboratif dengan perguruan tinggi, lembaga pemerintah, industri, lembaga riset, asosiasi profesi, dan masyarakat pengguna data.",
-  "Mendukung pengambilan keputusan berbasis data melalui pengembangan model, sistem inferensi, evaluasi dampak kebijakan, dan decision dashboard yang valid, transparan, dan berkelanjutan.",
-  "Memperkuat mutu akademik dan daya saing internasional Program Studi Doktor Statistika melalui kurikulum berbasis riset, standar CPL jenjang KKNI Level 9, serta orientasi pada akreditasi internasional."
+  "Menghasilkan lulusan doktor yang mampu mengembangkan teori, metodologi, algoritma, model, dan sistem inferensi statistik yang orisinal, teruji, dan memperoleh rekognisi ilmiah.",
+  "Menghasilkan riset doktoral pada bidang metodologi statistika lanjut, komputasi statistik, Bayesian statistics, spatial-spatiotemporal statistics, biostatistics, epidemiological statistics, responsible AI, official statistics, causal-policy analytics, dan risk analytics.",
+  "Memperkuat kapasitas nasional dalam pengambilan keputusan berbasis bukti melalui pengembangan metode statistik untuk kebijakan publik, kesehatan, lingkungan, ekonomi, industri, dan keuangan.",
+  "Membangun ekosistem riset S2-S3 yang terintegrasi melalui research pipeline, joint research group, shared analytics laboratory, co-publication pathway, dan doctoral colloquium.",
+  "Meningkatkan reputasi akademik Universitas Padjadjaran melalui publikasi internasional bereputasi, kolaborasi riset global, visiting professor, external examiner, dan joint supervision.",
+  "Menghasilkan inovasi berbasis statistik berupa perangkat lunak, repository kode, decision dashboard, policy brief, prototipe sistem informasi, atau model analitik yang dapat digunakan oleh pemerintah, industri, dan masyarakat."
 ];
 
 const graduateProfiles = [
   {
-    code: "P1",
-    title: "Akademisi Doktoral",
-    titleEn: "Doctoral Academic",
-    description: "Dosen dan pendidik yang mengembangkan pembelajaran dan riset statistika tingkat lanjut.",
-    competencies: "Pengembangan kurikulum, publikasi, pembimbingan, dan kepemimpinan akademik."
+    "code": "P1",
+    "title": "Akademisi Doktoral",
+    "titleEn": "Doctoral Academic",
+    "description": "Dosen, pendidik, dan pemimpin akademik yang mampu mengembangkan pendidikan, keilmuan, dan riset statistika tingkat lanjut serta membangun ekosistem akademik yang mendukung penciptaan pengetahuan baru.",
+    "competencies": "Pengembangan kurikulum dan pembelajaran statistika tingkat lanjut, pengembangan bahan ajar berbasis riset, pembimbingan tesis dan disertasi, publikasi ilmiah bereputasi, mentoring, pengembangan kelompok keilmuan dan laboratorium riset, kolaborasi akademik, serta kepemimpinan akademik."
   },
   {
-    code: "P2",
-    title: "Peneliti Utama",
-    titleEn: "Principal Researcher",
-    description: "Pemimpin riset di perguruan tinggi, lembaga riset, kementerian, BPS, industri, dan lembaga internasional.",
-    competencies: "Desain riset, metodologi, hibah, publikasi, dan jejaring kolaborasi."
+    "code": "P2",
+    "title": "Peneliti Utama, Pemimpin Riset, dan Pengembang Metodologi Statistika",
+    "titleEn": "Principal Researcher, Research Leader, and Statistical Methodology Developer",
+    "description": "Peneliti yang mampu merancang, memimpin, dan mengembangkan riset statistika maupun riset interdisipliner serta menciptakan, mengembangkan, dan memvalidasi teori, metode, model, estimator, algoritma, dan sistem inferensi statistika yang orisinal untuk menyelesaikan persoalan data kompleks.",
+    "competencies": "Advanced statistical inference, Bayesian and frequentist inference, causal inference, statistical decision theory, statistical learning, computational statistics, simulation, model validation, uncertainty quantification, algorithm development, reproducible research, pengembangan perangkat lunak statistik, desain riset tingkat lanjut, manajemen riset dan hibah, publikasi internasional, serta kepemimpinan dan jejaring kolaborasi ilmiah."
   },
   {
-    code: "P3",
-    title: "Metodolog Statistik",
-    titleEn: "Statistical Methodologist",
-    description: "Pengembang teori, model, estimator, algoritma, dan framework inferensi statistik.",
-    competencies: "Advanced inference, validasi, simulasi, komputasi, dan reproducibility."
+    "code": "P3",
+    "title": "Statistical Scientist Bidang Kesehatan",
+    "titleEn": "Statistical Scientist in Health",
+    "description": "Ahli statistika yang mampu menciptakan, mengembangkan, dan memvalidasi metodologi, model, algoritma, dan sistem inferensi untuk permasalahan biostatistika, epidemiologi, kesehatan publik, serta evaluasi intervensi kesehatan.",
+    "competencies": "Biostatistics, epidemiological modelling, survival and longitudinal analysis, Bayesian hierarchical modelling, spatial-spatiotemporal statistics, disease mapping, causal inference, health analytics, statistical learning, model validation, dan uncertainty quantification."
   },
   {
-    code: "P4",
-    title: "Data Policy Scientist",
-    titleEn: "Data Policy Scientist",
-    description: "Ahli yang menerjemahkan data dan bukti statistik menjadi rekomendasi kebijakan.",
-    competencies: "Causal inference, policy analytics, dashboard, dan policy brief."
-  },
-  {
-    code: "P5",
-    title: "Epidemiological/Public Health Statistician",
-    titleEn: "Epidemiological/Public Health Statistician",
-    description: "Ahli statistik untuk kesehatan publik, disease mapping, dan evaluasi intervensi.",
-    competencies: "Biostatistics, Bayesian/spatiotemporal model, dan public health analytics."
-  },
-  {
-    code: "P6",
-    title: "Survey and Official Statistics Specialist",
-    titleEn: "Survey and Official Statistics Specialist",
-    description: "Ahli statistik untuk survei kompleks, data administratif, dan statistik resmi.",
-    competencies: "Sampling, small area estimation, calibration, dan data integration."
-  },
-  {
-    code: "P7",
-    title: "Risk, Actuarial, and Financial Analytics Scientist",
-    titleEn: "Risk, Actuarial, and Financial Analytics Scientist",
-    description: "Ahli risiko, aktuaria, dan pemodelan keuangan.",
-    competencies: "Time series, extreme value, survival/loss model, dan risk analytics."
-  },
-  {
-    code: "P8",
-    title: "Statistical Consulting and Dashboard Leader",
-    titleEn: "Statistical Consulting and Dashboard Leader",
-    description: "Pemimpin konsultasi statistik dan pengembang sistem keputusan berbasis data.",
-    competencies: "Communication, consulting, software, dashboard, dan stakeholder engagement."
-  },
-  {
-    code: "P9",
-    title: "Energy Transition and Renewable Energy Statistician",
-    titleEn: "Energy Transition and Renewable Energy Statistician",
-    description: "Ahli statistika untuk perencanaan, pemantauan, evaluasi, dan pengambilan keputusan Energi Baru Terbarukan serta transisi energi berkelanjutan.",
-    competencies: "Spatiotemporal modeling, probabilistic forecasting, Bayesian hierarchical modeling, uncertainty quantification, risk analytics, causal-policy evaluation, optimal site selection, dan energy decision dashboard."
+    "code": "P4",
+    "title": "Statistical Scientist Bidang Transisi Energi",
+    "titleEn": "Statistical Scientist in Energy Transition",
+    "description": "Ahli statistika yang mampu menciptakan dan mengembangkan metodologi, model, algoritma, dan sistem inferensi untuk perencanaan, pemantauan, evaluasi, prediksi, serta pengambilan keputusan pada energi baru terbarukan dan transisi energi.",
+    "competencies": "Spatial-spatiotemporal modelling, Bayesian hierarchical modelling, probabilistic forecasting, time-series modelling, uncertainty quantification, reliability and risk analytics, causal-policy evaluation, statistical learning, optimization, climate-energy analytics, dan energy decision analytics."
   }
 ];
 
 const cpl = [
   { code: "CPL-1", domain: "Sikap dan etika akademik", text: "Lulusan mampu menginternalisasi nilai religius, Pancasila, kemanusiaan, integritas akademik, etika riset, tanggung jawab sosial, dan tata kelola data yang bertanggung jawab." },
   { code: "CPL-2", domain: "Pengetahuan dan filosofi keilmuan", text: "Lulusan mampu mensintesis teori statistika, probabilitas, inferensi, pemodelan, komputasi, dan filosofi sains untuk merumuskan masalah ilmiah tingkat doktoral." },
-  { code: "CPL-3", domain: "Kreasi metodologi statistik", text: "Lulusan mampu menciptakan, mengembangkan, dan memvalidasi metode, model, estimator, algoritma, atau sistem inferensi statistik yang orisinal dan teruji." },
+  { code: "CPL-3", domain: "Kreasi metodologi statistika", text: "Lulusan mampu menciptakan, mengembangkan, dan memvalidasi metode, model, estimator, algoritma, atau sistem inferensi statistik yang orisinal dan teruji." },
   { code: "CPL-4", domain: "Komputasi dan reproducible research", text: "Lulusan mampu merancang komputasi statistik yang efisien, transparan, skalabel, dapat direproduksi, dan sesuai dengan prinsip responsible AI serta tata kelola data." },
   { code: "CPL-5", domain: "Riset interdisipliner berbasis statistika", text: "Lulusan mampu memimpin riset statistik pada masalah kompleks lintas bidang dengan tetap menjaga kontribusi metodologis statistika sebagai inti disertasi." },
   { code: "CPL-6", domain: "Diseminasi dan rekognisi ilmiah", text: "Lulusan mampu mendiseminasikan kontribusi riset melalui publikasi internasional bereputasi, konferensi, repository, dashboard, dan komunikasi ilmiah yang efektif." },
@@ -377,9 +342,11 @@ const cpl = [
 ];
 
 const documents = [
-  docEntry("Kurikulum S3 STATISTIKA.pdf", "Kurikulum S3 Statistika", "Dokumen kurikulum utama Program Doktor Statistika."),
-  docEntry("Naskah Syarat Akreditasi Minimal.pdf", "Naskah Syarat Akreditasi Minimal", "Naskah akademik untuk kebutuhan pemenuhan syarat akreditasi minimal."),
-  docEntry("Naskah Urgensi S3 Statistika.pdf", "Naskah Urgensi S3 Statistika", "Naskah urgensi pendirian dan pengembangan Program Doktor Statistika.")
+  docEntry("(No. 4)-Naskah Kurikulum.pdf", "Naskah Kurikulum", "Kurikulum Program Studi Doktor Statistika: visi, misi, tujuan, profil lulusan, CPL, dan rancangan pembelajaran."),
+  docEntry("(No. 3)-Naskah Akademik Program Studi.pdf", "Naskah Akademik Program Studi", "Landasan akademik pendirian dan pengembangan Program Studi Doktor Statistika."),
+  docEntry("(No. 8)-Daftar Dosen dan CV.pdf", "Daftar Dosen dan CV", "Daftar dosen dan curriculum vitae pendukung Program Studi Doktor Statistika."),
+  docEntry("(No. 9)-Daftar Sarana Prasarana.pdf", "Daftar Sarana Prasarana", "Dokumen sarana dan prasarana pendukung pendidikan dan riset doktoral."),
+  docEntry("Naskah Syarat Akreditasi Minimal.pdf", "Naskah Syarat Akreditasi Minimal", "Dokumen pendukung pemenuhan syarat akreditasi minimal.")
 ];
 
 const surveys = [
@@ -429,43 +396,43 @@ if (fs.existsSync(chunksPath)) {
     {
       id: "s3-overview",
       title: "Web S3 Statistika",
-      sourceTitle: "Kurikulum S3 Statistika",
+      sourceTitle: "Naskah Kurikulum",
       sourceUrl: documents[0].href,
       text: `${program.title} ${program.subtitle}. ${program.lead} Beban studi ${program.studyLoad}; penuh waktu ${program.fullTime}; paruh waktu ${program.partTime}; batas studi maksimum ${program.maxStudy}. Struktur: Kompetensi Kualifikasi Doktor 12 SKS dan Riset dan Disertasi 42 SKS.`
     },
     {
       id: "s3-visi",
       title: "Visi S3 Statistika",
-      sourceTitle: "Kurikulum S3 Statistika",
+      sourceTitle: "Naskah Kurikulum",
       sourceUrl: documents[0].href,
       text: `Visi Program Studi Doktor Statistika: ${vision}`
     },
     {
       id: "s3-misi",
       title: "Misi S3 Statistika",
-      sourceTitle: "Naskah Urgensi S3 Statistika",
-      sourceUrl: documents[2].href,
+      sourceTitle: "Naskah Kurikulum",
+      sourceUrl: documents[0].href,
       text: `Misi Program Studi Doktor Statistika: ${missions.join(" ")}`
     },
     {
       id: "s3-tujuan",
       title: "Tujuan S3 Statistika",
-      sourceTitle: "Kurikulum S3 Statistika",
+      sourceTitle: "Naskah Kurikulum",
       sourceUrl: documents[0].href,
       text: `Tujuan Program Studi Doktor Statistika: ${objectives.join(" ")}`
     },
     {
       id: "s3-profil-lulusan",
       title: "Profil Lulusan S3 Statistika",
-      sourceTitle: "Naskah Syarat Akreditasi Minimal",
-      sourceUrl: documents[1].href,
+      sourceTitle: "Naskah Kurikulum",
+      sourceUrl: documents[0].href,
       text: `Profil lulusan Program Studi Doktor Statistika: ${graduateProfiles.map((profile) => `${profile.code} ${profile.title}: ${profile.description} Kompetensi utama: ${profile.competencies}`).join(" ")}`
     },
     {
       id: "s3-cpl",
       title: "Capaian Pembelajaran Lulusan S3 Statistika",
-      sourceTitle: "Naskah Urgensi S3 Statistika",
-      sourceUrl: documents[2].href,
+      sourceTitle: "Naskah Kurikulum",
+      sourceUrl: documents[0].href,
       text: `Capaian Pembelajaran Lulusan Program Studi Doktor Statistika: ${cpl.map((item) => `${item.code} ${item.domain}: ${item.text}`).join(" ")}`
     },
     {

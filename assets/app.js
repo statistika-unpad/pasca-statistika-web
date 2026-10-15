@@ -1272,7 +1272,7 @@ const I18N = {
     s3ObjectivesLabel: "Tujuan",
     s3DocsLabel: "Dokumen Akademik",
     s3ProfilesKicker: "Profil Lulusan S3",
-    s3ProfilesTitle: "Peran lulusan doktor dalam akademik, riset, kebijakan, industri, kesehatan, survei, risiko, konsultansi, dan energi.",
+    s3ProfilesTitle: "Empat profil lulusan: akademisi, pemimpin riset dan pengembang metodologi, serta statistical scientist bidang kesehatan dan transisi energi.",
     s3CplKicker: "Capaian Pembelajaran Lulusan",
     s3CplTitle: "Delapan CPL jenjang doktoral sesuai KKNI Level 9.",
     s3SurveysKicker: "Survei S3",
@@ -2225,7 +2225,7 @@ const I18N = {
     s3ObjectivesLabel: "Objectives",
     s3DocsLabel: "Academic Documents",
     s3ProfilesKicker: "Doctoral Graduate Profiles",
-    s3ProfilesTitle: "Doctoral graduate roles in academia, research, policy, industry, health, surveys, risk, consulting, and energy.",
+    s3ProfilesTitle: "Four graduate profiles: doctoral academics, research leaders and methodology developers, and statistical scientists in health and energy transition.",
     s3CplKicker: "Program Learning Outcomes",
     s3CplTitle: "Eight doctoral learning outcomes aligned with KKNI Level 9.",
     s3SurveysKicker: "Doctoral Surveys",
@@ -6245,7 +6245,7 @@ async function loadRpsDocs() {
 
 async function loadS3Site() {
   try {
-    const response = await fetch("data/s3_statistika.json", { cache: "default" });
+    const response = await fetch("data/s3_statistika.json?v=20261015", { cache: "no-cache" });
     if (!response.ok) throw new Error("Data Web S3 tidak dapat dimuat.");
     const data = await response.json();
     if (!data?.rps?.documents?.length) throw new Error("Data Web S3 kosong.");
@@ -6564,7 +6564,7 @@ async function loadKnowledge() {
   if (knowledgeLoadPromise) return knowledgeLoadPromise;
   knowledgeLoadPromise = (async () => {
     try {
-      const response = await fetch("data/knowledge_chunks.json", { cache: "default" });
+      const response = await fetch("data/knowledge_chunks.json?v=20261015", { cache: "no-cache" });
       if (!response.ok) throw new Error("Knowledge base tidak dapat dimuat.");
       const chunks = await response.json();
       if (!Array.isArray(chunks) || !chunks.length) throw new Error("Knowledge base kosong.");
