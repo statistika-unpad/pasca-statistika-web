@@ -18,7 +18,8 @@
     "build:s3-site": "node scripts/build-s3-site.mjs",
     "standardize:materials": "node scripts/standardize-material-template.mjs",
     "dev": "node server.js",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test:s3-scholarships": "node --test tests/s3-scholarship-rules.test.mjs"
   },
   "dependencies": {
     "@dotenvx/dotenvx": "^1.31.0",
