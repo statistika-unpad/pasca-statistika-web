@@ -1,0 +1,686 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-16",
+  "title": "Informasi Akademik & Beasiswa",
+  "sources": {
+    "perrek32": {
+      "title": "Peraturan Rektor 32 Tahun 2026",
+      "url": "https://jdih.unpad.ac.id/storage/dokumen/2026/peraturan/Salinan%20Peraturan%20Rektor%20No.%2032%20Tahun%202026%20Perubahan%20Kedua%20Perrek%2013%20Tahun%202025%20Penyelenggaraan%20Pendidikan%20Doktor%20Unpad.pdf",
+      "locator": "Pasal 11–12, 14–15, 18, 24, 29–30",
+      "status": "Naskah perubahan diperiksa",
+      "verifiedAt": "2026-10-16"
+    },
+    "perrek13": {
+      "title": "Peraturan Rektor 13 Tahun 2025",
+      "url": "https://jdih.unpad.ac.id/dokumen/peraturan-rektor-universitas-padjadjaran-nomor-13-tahun-2025-tentang-penyelenggaraan-pendidikan-doktor-di-universitas-padjadjaran",
+      "locator": "Peraturan induk",
+      "status": "Metadata JDIH diperiksa; unduhan naskah induk belum berhasil dibaca",
+      "verifiedAt": null,
+      "checkedAt": "2026-10-16"
+    },
+    "perrek22": {
+      "title": "Peraturan Rektor 22 Tahun 2025",
+      "url": "https://jdih.unpad.ac.id/storage/dokumen/2025/peraturan/Salinan%20Peraturan%20Rektor%20No.%2022%20Tahun%202025%20Tentang%20Perubahan%20Atas%20Perrek%20No.%2013%20Tahun%202025%20Tentang%20Penyelenggraan%20Pendidikan%20Doktor%20di%20Unpad.pdf",
+      "locator": "Perubahan pertama; ketentuan yang diubah kembali mengikuti Perrek 32/2026",
+      "status": "Naskah diperiksa",
+      "verifiedAt": "2026-10-16"
+    },
+    "hru": {
+      "title": "Pedoman Hibah Riset Internal Unpad 2026",
+      "url": "https://drhpm.unpad.ac.id/wp-content/uploads/2026/02/Pedoman-HRU-2026.pdf",
+      "locator": "Bab 12, halaman tercetak 87–93",
+      "status": "Bab RDDU diperiksa",
+      "verifiedAt": "2026-10-16"
+    },
+    "bpdp": {
+      "title": "SMUP BPDP",
+      "url": "https://smup.unpad.ac.id/beasiswa-program-doktoral-padjadjaran/",
+      "locator": "Persyaratan, fasilitas, daftar promotor, dan jadwal 2026/2027",
+      "status": "Diperiksa",
+      "verifiedAt": "2026-10-16"
+    },
+    "bupp": {
+      "title": "SMUP BUPP",
+      "url": "https://smup.unpad.ac.id/beasiswa-unggulan-pascasarjana-padjadjaran/",
+      "locator": "Persyaratan, fasilitas, daftar promotor, dan jadwal 2026/2027",
+      "status": "Diperiksa",
+      "verifiedAt": "2026-10-16"
+    },
+    "lpdp": {
+      "title": "Kebijakan Beasiswa LPDP 2026",
+      "url": "https://lpdp.kemenkeu.go.id/beasiswa/kebijakan-umum/",
+      "locator": "Kebijakan umum; rincian per jalur perlu diperiksa terpisah",
+      "status": "Portal kebijakan diperiksa",
+      "verifiedAt": "2026-10-16"
+    },
+    "pddi": {
+      "title": "Panduan BPDDI 2026",
+      "url": "https://beasiswa.kemdiktisaintek.go.id/wp-content/uploads/2026/06/Buku-Panduan-Pendaftaran-BPDDI-Tahun-2026.pdf",
+      "locator": "Bagian C, E, G, dan J",
+      "status": "Panduan diperiksa",
+      "verifiedAt": "2026-10-16"
+    },
+    "pddi-list": {
+      "title": "Daftar program studi BPDDI",
+      "url": "https://beasiswa.kemdiktisaintek.go.id/informasi/",
+      "locator": "Daftar prodi tujuan; kelayakan S3 Statistika belum dipastikan",
+      "status": "Portal diperiksa; daftar tujuan belum terverifikasi",
+      "verifiedAt": null,
+      "checkedAt": "2026-10-16"
+    },
+    "pmdsu": {
+      "title": "SMUP PMDSU Angkatan X",
+      "url": "https://smup.unpad.ac.id/beasiswa-pmdsu/",
+      "locator": "Persyaratan dan penawaran 2026",
+      "status": "Diperiksa",
+      "verifiedAt": "2026-10-16"
+    },
+    "smup": {
+      "title": "SMUP Program Doktor",
+      "url": "https://smup.unpad.ac.id/program-doktor/",
+      "locator": "Persyaratan penerimaan umum; bukan jaminan kuota beasiswa",
+      "status": "Laman diperiksa",
+      "verifiedAt": "2026-10-16"
+    },
+    "drhpm": {
+      "title": "Unduh berkas DRHPM",
+      "url": "https://drhpm.unpad.ac.id/unduh-berkas/",
+      "locator": "Portal pembaruan pedoman hibah",
+      "status": "Portal rujukan dari panduan; periksa pengumuman aktif",
+      "verifiedAt": null,
+      "checkedAt": "2026-10-16"
+    }
+  },
+  "academic": {
+    "overview": "Pendidikan S3 Statistika berpusat pada riset orisinal dalam teori, metodologi, komputasi, dan inferensi. Bentuk disertasi ditetapkan melalui prosedur prodi/fakultas; pilihan bentuk tugas akhir tidak otomatis menentukan beasiswa.",
+    "loadNote": "Kurikulum S3 Statistika pada situs memuat 54 SKS. Angka 42 SKS dalam Perrek 32/2026 adalah batas minimum universitas, bukan pengganti otomatis kurikulum prodi. Penerapan jalur artikel dan pemetaan SKS di S3 Statistika memerlukan penetapan prodi/fakultas.",
+    "comparison": [
+      [
+        "Bentuk naskah",
+        "Bab-bab riset yang saling terkait, dengan pendahuluan dan kesimpulan; mahasiswa penulis tunggal.",
+        "Sedikitnya tiga artikel terkait, diikat pendahuluan dan kesimpulan menjadi satu penelitian.",
+        "Pasal 14"
+      ],
+      [
+        "Sidang",
+        "SUR → UND → PND → SPD.",
+        "SUR → SPD; PND dapat ditambahkan jika dibutuhkan. UND tidak tercantum dalam tahapan jalur artikel.",
+        "Pasal 14(4)–(5)"
+      ],
+      [
+        "Pengajuan SPD",
+        "Naskah disetujui tim pembahas/penguji saat PND; persetujuan tim promotor.",
+        "Bukti satu artikel published dan dua submitted, naskah kumpulan artikel, serta persetujuan promotor.",
+        "Pasal 18(3)"
+      ],
+      [
+        "Publikasi dan predikat",
+        "Tidak menerapkan otomatis rumus 1+2 jalur artikel. Publikasi untuk predikat pujian mengikuti Pasal 26 dan 30.",
+        "First author; minimal Scopus Q3 dan/atau WoS ber-IF, tidak discontinued saat terbit. Syarat pujian berbeda dari syarat SPD.",
+        "Pasal 18, 26, 30"
+      ],
+      [
+        "Minimum SKS universitas",
+        "42 SKS: kualifikasi 12; SUR 6; UND 6; PND 6; diseminasi 6; SPD 6.",
+        "42 SKS: kualifikasi 12; SUR 6; diseminasi 6; publikasi 12; SPD 6. Jika PND 6 ditambahkan, publikasi menjadi 6.",
+        "Pasal 11–12"
+      ]
+    ],
+    "publication": [
+      [
+        "Jumlah artikel",
+        "Minimal 3 artikel terintegrasi"
+      ],
+      [
+        "Artikel pertama",
+        "Published"
+      ],
+      [
+        "Artikel kedua",
+        "Submitted"
+      ],
+      [
+        "Artikel ketiga",
+        "Submitted"
+      ],
+      [
+        "Jurnal",
+        "Minimal Scopus Q3 dan/atau WoS ber-Impact Factor; tidak discontinued saat diterbitkan"
+      ],
+      [
+        "Kepengarangan",
+        "Mahasiswa first author; ditulis selama studi dan merupakan bagian disertasi"
+      ],
+      [
+        "Integrasi",
+        "Satu topik/tujuan riset, disatukan pendahuluan dan kesimpulan"
+      ]
+    ],
+    "clarifications": [
+      "PND: Pasal 14(5) menyatakan dapat ditambahkan bila dibutuhkan, tetapi Pasal 18(3)(a) masih memuat kelulusan PND. Prosedur penerapan untuk jalur artikel memerlukan klarifikasi fakultas/prodi; halaman ini tidak menetapkan PND sebagai kewajiban universal.",
+      "Kelulusan: Pasal 29 meminta pemenuhan kompetensi, IPK ≥3,00, persetujuan naskah, kelulusan rangkaian sidang, dan bukti artikel published untuk jalur artikel. Pasal ini tidak merinci angka tiga artikel published; rincian bukti administrasi perlu dikonfirmasi.",
+      "Predikat pujian: Pasal 30 menambah syarat publikasi di luar syarat pengajuan SPD dan merujuk Pasal 27(4) pada aturan induk. Pembacaan konsolidasi serta keputusan fakultas diperlukan; situs tidak menentukan predikat kelulusan."
+    ],
+    "faq": [
+      [
+        "Apakah ketiga artikel harus sudah published untuk mengajukan SPD?",
+        "Pasal 18(3)(b) menyebut minimal satu published dan dua submitted. Ini syarat pengajuan SPD, bukan pernyataan bahwa seluruh kewajiban kelulusan telah selesai."
+      ],
+      [
+        "Apakah PND dan UND wajib untuk jalur artikel?",
+        "Pasal 14(5) menyebut SUR dan SPD, dengan PND jika dibutuhkan. UND tidak tercantum pada jalur ini. Perbedaan redaksi syarat PND pada Pasal 18(3)(a) memerlukan klarifikasi operasional fakultas."
+      ],
+      [
+        "Apakah jalur artikel merupakan beasiswa?",
+        "Tidak. Bentuk tugas akhir dan sumber pendanaan adalah dua keputusan berbeda."
+      ],
+      [
+        "Mengapa RDDU meminta dua artikel published?",
+        "Itu luaran kontrak hibah, terpisah dari syarat pengajuan SPD jalur artikel. Penerima RDDU harus memenuhi kedua kelompok ketentuan yang berlaku baginya."
+      ],
+      [
+        "Apakah beasiswa Unpad pasti tersedia untuk S3 Statistika?",
+        "Tidak. Periksa secara terpisah jadwal, daftar prodi, promotor dan kuota. Kecocokan pribadi tidak menggantikan penetapan prodi tujuan."
+      ]
+    ],
+    "routes": {
+      "konvensional": [
+        [
+          "Tetapkan jalur dan tim promotor",
+          "Pilihan prodi melalui pertimbangan senat fakultas dan Keputusan Dekan. Perubahan pilihan paling lambat akhir semester 1.",
+          "Pasal 24"
+        ],
+        [
+          "Seminar Usulan Riset (SUR)",
+          "Proposal dinilai tim promotor dan penguji; paling cepat semester 1 dan paling lambat semester 4.",
+          "Pasal 15"
+        ],
+        [
+          "Riset dan penulisan disertasi",
+          "Laksanakan penelitian dan kompetensi kualifikasi; siapkan naskah dan diseminasi.",
+          "Pasal 12, 14"
+        ],
+        [
+          "Ujian Naskah Disertasi (UND)",
+          "Penilaian naskah sesuai prosedur akademik dan pedoman fakultas.",
+          "Pasal 14(4)"
+        ],
+        [
+          "Penelaahan Naskah Disertasi (PND)",
+          "Perbaikan dan persetujuan naskah oleh tim pembahas/penguji sebelum SPD.",
+          "Pasal 14, 18"
+        ],
+        [
+          "Sidang Promosi Doktor (SPD)",
+          "Persetujuan promotor dan persyaratan sidang harus terpenuhi; paling cepat semester 5.",
+          "Pasal 18"
+        ],
+        [
+          "Penyelesaian kelulusan",
+          "Penuhi kompetensi, IPK, naskah final, kelulusan sidang dan administrasi; predikat diputuskan melalui yudisium.",
+          "Pasal 29–30"
+        ]
+      ],
+      "artikel": [
+        [
+          "Tetapkan jalur dan tim promotor",
+          "Penetapan prodi/fakultas; perubahan paling lambat akhir semester 1. Kontrak output riset disampaikan setelah SUR.",
+          "Pasal 24"
+        ],
+        [
+          "Seminar Usulan Riset (SUR)",
+          "Rumusan kontribusi dan integrasi artikel ditinjau; jendela semester 1–4.",
+          "Pasal 15"
+        ],
+        [
+          "Riset dan penyusunan artikel",
+          "Sekurang-kurangnya tiga artikel terkait serta pendahuluan dan kesimpulan pengintegrasi.",
+          "Pasal 14(3)"
+        ],
+        [
+          "Publikasi dan pengajuan SPD",
+          "Siapkan bukti satu published, dua submitted, kualitas jurnal dan kepengarangan, naskah, serta persetujuan promotor.",
+          "Pasal 18(3)"
+        ],
+        [
+          "PND jika ditetapkan",
+          "Dapat ditambahkan jika dibutuhkan. Harmonisasi dengan Pasal 18(3)(a) perlu konfirmasi fakultas; UND tidak dinyatakan wajib.",
+          "Pasal 14(5), 18(3)(a)"
+        ],
+        [
+          "Sidang Promosi Doktor (SPD)",
+          "Dilaksanakan sesuai persetujuan dan prosedur yang ditetapkan; paling cepat semester 5.",
+          "Pasal 18"
+        ],
+        [
+          "Administrasi kelulusan",
+          "Bukti published dan persyaratan Pasal 29 diperiksa terpisah; konfirmasi bentuk bukti yang diminta.",
+          "Pasal 29–30"
+        ]
+      ]
+    },
+    "spdNotice": "Persyaratan minimal pengajuan SPD: satu artikel published + dua submitted. Ini bukan pernyataan bahwa seluruh kewajiban kelulusan sudah selesai."
+  },
+  "schemes": [
+    {
+      "id": "rddu",
+      "name": "Riset Disertasi Doktor Unpad (RDDU)",
+      "type": "Hibah riset",
+      "provider": "DRHPM Universitas Padjadjaran",
+      "year": "2026/2027",
+      "target": "Dosen Unpad yang menempuh doktor di Unpad; pengusul adalah ketua promotor.",
+      "requirements": "Tim: ketua promotor, satu dosen Unpad anggota promotor, dan dosen Unpad sebagai mahasiswa doktor. Cohort 2026 atau lanjutan 2025/2024, atau ongoing tahun 1–3 tanpa pendanaan studi.",
+      "funding": "Operasional riset Rp60.000.000 sesuai SK Rektor; periode alokasi perlu diperiksa pada kontrak. Ada bantuan tuition fee, nominal tidak dirinci. Tanpa dana output.",
+      "duration": "Riset maksimal 3 tahun.",
+      "outputs": "Dua artikel published paling lambat tahun ketiga, mahasiswa first author, minimal Scopus Q3 atau WoS ber-IF; lulus tepat waktu.",
+      "supervisor": "Jejaring co-promotor luar negeri dengan korespondensi; LoI pada pengusulan tahun pertama.",
+      "age": "Tidak ditemukan batas angka pada Bab 12.",
+      "gpa": "Tidak ditemukan ambang khusus pada Bab 12.",
+      "tests": "Mengikuti ketentuan akademik; Bab 12 tidak memberi ambang TKA/TKBI tersendiri.",
+      "opening": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "targetProgram": "Kelayakan dosen, tim, cohort, dan kontrak harus dikonfirmasi DRHPM; bukan beasiswa umum calon pendaftar.",
+      "sources": [
+        "hru",
+        "drhpm"
+      ],
+      "verifiedAt": "2026-10-16",
+      "informationStatus": "Diperiksa pada sumber resmi; batas penerapan tercantum per komponen",
+      "rules": [
+        {
+          "field": "unpadLecturer",
+          "operator": "eq",
+          "value": "yes",
+          "label": "Mahasiswa penerima adalah dosen Unpad",
+          "source": "hru",
+          "verifiedAt": "2026-10-16",
+          "severity": "hard"
+        },
+        {
+          "field": "funding",
+          "operator": "eq",
+          "value": "no",
+          "label": "Tidak menerima pendanaan studi/beasiswa lain",
+          "source": "hru",
+          "verifiedAt": "2026-10-16",
+          "severity": "hard"
+        },
+        {
+          "field": "doctoralStatus",
+          "operator": "in",
+          "value": [
+            "unpad1",
+            "unpad2",
+            "unpad3"
+          ],
+          "label": "Mahasiswa doktor Unpad tahun 1–3 / cohort sesuai pedoman",
+          "source": "hru",
+          "verifiedAt": "2026-10-16",
+          "severity": "complete"
+        },
+        {
+          "field": "promoter",
+          "operator": "eq",
+          "value": "yes",
+          "label": "Ada ketua promotor pengusul",
+          "source": "hru",
+          "verifiedAt": "2026-10-16",
+          "severity": "complete"
+        }
+      ],
+      "notes": [
+        "Pendanaan dihentikan apabila mahasiswa memperoleh pendanaan studi/beasiswa lain. Luaran hibah terpisah dari syarat pengajuan SPD."
+      ],
+      "manualChecks": [
+        "Validasi cohort, susunan tim, LoI co-promotor luar negeri, SK dan kontrak."
+      ]
+    },
+    {
+      "id": "bpdp",
+      "name": "Beasiswa Program Doktoral Padjadjaran (BPDP)",
+      "type": "Beasiswa doktor",
+      "provider": "Universitas Padjadjaran",
+      "year": "2026/2027",
+      "target": "Lulusan magister, WNI/WNA.",
+      "requirements": "Dua rekomendasi, Statement of Purpose, kesediaan promotor, dan pernyataan penyelesaian studi.",
+      "funding": "Tuition fee at cost; riset maksimal Rp30 juta/tahun.",
+      "duration": "Maksimal 3 tahun.",
+      "outputs": "Publikasi Q1 first author adalah alternatif bukti tes, bukan kewajiban publikasi awal bagi semua pelamar. Luaran selama studi mengikuti kontrak.",
+      "supervisor": "Surat kesediaan ketua promotor; cocokkan daftar penawaran.",
+      "age": "Maksimal 35 tahun.",
+      "gpa": "S2 minimal 3,50 / 4.",
+      "tests": "TKA/TPA ≥525 dan ELT/TKBI ≥525 yang masih berlaku; IELTS ≥6,0 atau TOEFL iBT ≥70 dari penyelenggara yang diakui. Publikasi Scopus Q1 sebagai first author dapat menggantikan kedua sertifikat tes.",
+      "opening": "Jadwal yang tercantum: 11 Mei–13 Juli 2026, sudah berlalu. Pembukaan berikutnya belum terverifikasi.",
+      "targetProgram": "S3 Statistika tidak tercantum dalam daftar promotor/prodi 2026/2027 yang diperiksa. Perlu penawaran baru atau konfirmasi resmi.",
+      "sources": [
+        "bpdp"
+      ],
+      "verifiedAt": "2026-10-16",
+      "informationStatus": "Diperiksa pada sumber resmi; batas penerapan tercantum per komponen",
+      "rules": [
+        {
+          "field": "education",
+          "operator": "in",
+          "value": [
+            "s2",
+            "s3"
+          ],
+          "label": "Memiliki pendidikan magister",
+          "source": "bpdp",
+          "verifiedAt": "2026-10-16",
+          "severity": "hard"
+        },
+        {
+          "field": "age",
+          "operator": "lte",
+          "value": 35,
+          "label": "Usia maksimal 35 tahun saat mendaftar",
+          "source": "bpdp",
+          "verifiedAt": "2026-10-16",
+          "severity": "hard"
+        },
+        {
+          "field": "gpaS2",
+          "operator": "gte",
+          "value": 3.5,
+          "label": "IPK S2 minimal 3,50 (skala 4)",
+          "source": "bpdp",
+          "verifiedAt": "2026-10-16",
+          "severity": "hard"
+        },
+        {
+          "field": "tests",
+          "operator": "tests",
+          "value": {
+            "tka": 525,
+            "tkbi": 525,
+            "q1Waiver": true,
+            "ielts": 6,
+            "toefl": 70
+          },
+          "label": "Sertifikat akademik dan bahasa atau publikasi Q1 first author",
+          "source": "bpdp",
+          "verifiedAt": "2026-10-16",
+          "severity": "complete"
+        },
+        {
+          "field": "promoter",
+          "operator": "eq",
+          "value": "yes",
+          "label": "Surat kesediaan calon promotor",
+          "source": "bpdp",
+          "verifiedAt": "2026-10-16",
+          "severity": "complete"
+        }
+      ],
+      "notes": [],
+      "manualChecks": [
+        "Validasi sertifikat, rekomendasi, SoP, dan penawaran prodi/promotor."
+      ]
+    },
+    {
+      "id": "bupp",
+      "name": "Beasiswa Unggulan Pascasarjana Padjadjaran (BUPP)",
+      "type": "Magister menuju doktor",
+      "provider": "Universitas Padjadjaran",
+      "year": "2026/2027",
+      "target": "Lulusan sarjana/sarjana terapan.",
+      "requirements": "Pendidikan terintegrasi; IPK akhir semester 2 minimal 3,5, lulus magister semester 3, dan lulus SUR doktor semester 4.",
+      "funding": "Tuition fee at cost; riset maksimal Rp30 juta/tahun; biaya hidup Rp2,5 juta/bulan.",
+      "duration": "Maksimal 4 tahun.",
+      "outputs": "Q1 first author dapat menggantikan tes; luaran studi mengikuti kontrak.",
+      "supervisor": "Cocokkan calon promotor dan prodi pada penawaran.",
+      "age": "Maksimal 30 tahun.",
+      "gpa": "S1 minimal 3,25 (Indonesia) atau GPA 3,50 (luar negeri).",
+      "tests": "TKA/TPA ≥525 dan ELT/TKBI ≥525 yang masih berlaku; IELTS ≥6,0 atau TOEFL iBT ≥70 dari penyelenggara yang diakui. Publikasi Scopus Q1 sebagai first author dapat menggantikan kedua sertifikat tes.",
+      "opening": "Jadwal yang tercantum: 11 Mei–13 Juli 2026, sudah berlalu. Pembukaan berikutnya belum terverifikasi.",
+      "targetProgram": "S3 Statistika tidak tercantum dalam daftar promotor/prodi 2026/2027 yang diperiksa. Perlu penawaran baru atau konfirmasi resmi.",
+      "sources": [
+        "bupp"
+      ],
+      "verifiedAt": "2026-10-16",
+      "informationStatus": "Diperiksa pada sumber resmi; batas penerapan tercantum per komponen",
+      "rules": [
+        {
+          "field": "education",
+          "operator": "in",
+          "value": [
+            "s1",
+            "d4"
+          ],
+          "label": "Jalur terintegrasi setelah sarjana/sarjana terapan",
+          "source": "bupp",
+          "verifiedAt": "2026-10-16",
+          "severity": "complete"
+        },
+        {
+          "field": "age",
+          "operator": "lte",
+          "value": 30,
+          "label": "Usia maksimal 30 tahun saat mendaftar",
+          "source": "bupp",
+          "verifiedAt": "2026-10-16",
+          "severity": "hard"
+        },
+        {
+          "field": "gpaS1",
+          "operator": "gpaOrigin",
+          "value": {
+            "domestic": 3.25,
+            "foreign": 3.5
+          },
+          "label": "IPK S1 minimal 3,25 (Indonesia) atau GPA 3,50 (luar negeri)",
+          "source": "bupp",
+          "verifiedAt": "2026-10-16",
+          "severity": "hard"
+        },
+        {
+          "field": "tests",
+          "operator": "tests",
+          "value": {
+            "tka": 525,
+            "tkbi": 525,
+            "q1Waiver": true,
+            "ielts": 6,
+            "toefl": 70
+          },
+          "label": "Sertifikat akademik dan bahasa atau publikasi Q1 first author",
+          "source": "bupp",
+          "verifiedAt": "2026-10-16",
+          "severity": "complete"
+        }
+      ],
+      "notes": [],
+      "manualChecks": [
+        "Akreditasi asal, sertifikat, pernyataan kesanggupan, dan penawaran prodi."
+      ]
+    },
+    {
+      "id": "lpdp",
+      "name": "LPDP",
+      "type": "Beasiswa doktor",
+      "provider": "Lembaga Pengelola Dana Pendidikan, Kementerian Keuangan",
+      "year": "2026/2027",
+      "target": "Pelamar sesuai jalur LPDP yang dipilih.",
+      "requirements": "Persyaratan individu dan tujuan berbeda per skema; pilih panduan skema sebelum menyimpulkan kelayakan.",
+      "funding": "Komponen pendidikan dan pendukung mengikuti panduan skema; nominal belum diverifikasi.",
+      "duration": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "outputs": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "supervisor": "Mengikuti skema dan persyaratan penerimaan prodi.",
+      "age": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "gpa": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "tests": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "opening": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "targetProgram": "Kelayakan S3 Statistika pada daftar tujuan/skema belum terverifikasi.",
+      "sources": [
+        "lpdp"
+      ],
+      "verifiedAt": "2026-10-16",
+      "informationStatus": "Diperiksa pada sumber resmi; batas penerapan tercantum per komponen",
+      "rules": [],
+      "notes": [],
+      "manualChecks": [
+        "Pilih skema, periksa usia, IPK, bahasa, LoA, tujuan, dan jadwal aktif."
+      ]
+    },
+    {
+      "id": "pddi",
+      "name": "PDDI/BPDDI dan rujukan BPI",
+      "type": "Beasiswa doktor untuk dosen",
+      "provider": "Kemdiktisaintek / PPAPT",
+      "year": "2026/2027",
+      "target": "Dosen tetap di bawah koordinasi Kemdiktisaintek, memiliki NUPTK dan terdaftar PDDIKTI.",
+      "requirements": "WNI, izin pimpinan, bukan CPNS; mahasiswa baru ber-LoA pada prodi tujuan atau ongoing maksimal semester 3 sesuai skema.",
+      "funding": "Biaya pendidikan, pendaftaran, penelitian disertasi, insentif publikasi dan dukungan sesuai skema. Nominal mengikuti penetapan.",
+      "duration": "Ikuti panduan dan keputusan pembiayaan.",
+      "outputs": "Ketentuan luaran mengikuti kontrak/panduan; jangan disamakan dengan RDDU.",
+      "supervisor": "Rekomendasi dan bukti korespondensi calon promotor untuk penilaian kesiapan studi.",
+      "age": "Per 31 Desember 2026: belum berusia 53 (meninggalkan tugas) atau 57 (tetap menjalankan tugas).",
+      "gpa": "Mahasiswa baru: IPK S2 minimal 3,25.",
+      "tests": "TBS untuk mahasiswa baru; nilai ambang TKA/TKBI tidak diasumsikan.",
+      "opening": "Panduan mencantumkan 19 Juni–9 Juli 2026; telah berlalu. Pembukaan berikutnya belum terverifikasi.",
+      "targetProgram": "Daftar tujuan tersedia; keberadaan S3 Statistika belum terverifikasi.",
+      "sources": [
+        "pddi",
+        "pddi-list"
+      ],
+      "verifiedAt": "2026-10-16",
+      "informationStatus": "Diperiksa pada sumber resmi; batas penerapan tercantum per komponen",
+      "rules": [
+        {
+          "field": "lecturer",
+          "operator": "eq",
+          "value": "yes",
+          "label": "Berstatus dosen (validasi status tetap dan PDDIKTI tetap diperlukan)",
+          "source": "pddi",
+          "verifiedAt": "2026-10-16",
+          "severity": "hard"
+        }
+      ],
+      "notes": [
+        "Portal BPI lama telah bermigrasi. Angka di sini khusus BPDDI 2026, bukan seluruh skema BPI. Pendanaan komponen yang sama tidak boleh ganda."
+      ],
+      "manualChecks": [
+        "Status dosen tetap/NUPTK, kewarganegaraan, usia pada tanggal acuan, tugas belajar, LoA, semester, dan prodi tujuan."
+      ]
+    },
+    {
+      "id": "pmdsu",
+      "name": "PMDSU",
+      "type": "Magister menuju doktor",
+      "provider": "Kemdiktisaintek dan perguruan tinggi penyelenggara",
+      "year": "2026/2027",
+      "target": "Sarjana unggul lulusan 2025/2026 untuk angkatan X.",
+      "requirements": "Bukan mahasiswa ongoing pascasarjana; satu perguruan tinggi dan satu promotor; tanpa beasiswa lain atau ikatan kontrak kerja.",
+      "funding": "Paket mengikuti pedoman angkatan X; rincian biaya belum terverifikasi.",
+      "duration": "Pendidikan terintegrasi 4 tahun.",
+      "outputs": "Ikuti pedoman PMDSU dan kontrak promotor.",
+      "supervisor": "Harus sesuai promotor penyelenggara yang ditetapkan.",
+      "age": "Maksimal 25 (nonprofesi) atau 27 (profesi), acuan 31 Desember 2026.",
+      "gpa": "S1: 3,25–3,75 atau >3,8 bergantung kombinasi akreditasi PT/prodi.",
+      "tests": "TKA dan ELT/TKBI minimal 500; ekuivalensi mengikuti tabel SMUP.",
+      "opening": "Angkatan X: 25 Mei–6 Juli 2026; telah berlalu. Pembukaan berikutnya belum terverifikasi.",
+      "targetProgram": "S3 Statistika tidak tercantum dalam daftar promotor/prodi 2026/2027 yang diperiksa. Perlu penawaran baru atau konfirmasi resmi.",
+      "sources": [
+        "pmdsu"
+      ],
+      "verifiedAt": "2026-10-16",
+      "informationStatus": "Diperiksa pada sumber resmi; batas penerapan tercantum per komponen",
+      "rules": [
+        {
+          "field": "education",
+          "operator": "in",
+          "value": [
+            "s1",
+            "d4"
+          ],
+          "label": "Ditujukan bagi lulusan sarjana untuk jalur magister–doktor",
+          "source": "pmdsu",
+          "verifiedAt": "2026-10-16",
+          "severity": "complete"
+        },
+        {
+          "field": "scholarship",
+          "operator": "eq",
+          "value": "no",
+          "label": "Tidak sedang menerima beasiswa lain",
+          "source": "pmdsu",
+          "verifiedAt": "2026-10-16",
+          "severity": "hard"
+        }
+      ],
+      "notes": [],
+      "manualChecks": [
+        "Tahun lulus, status profesi, usia tanggal acuan, akreditasi, IPK, tes dan promotor."
+      ]
+    },
+    {
+      "id": "institusi",
+      "name": "Pendanaan institusi dan kerja sama",
+      "type": "Sponsor / tugas belajar",
+      "provider": "Instansi asal atau mitra kerja sama",
+      "year": "2026/2027",
+      "target": "ASN, pegawai BPS, dosen, pegawai BUMN, industri atau penerima sponsor yang ditetapkan.",
+      "requirements": "Memerlukan keputusan sponsor, izin studi dan/atau perjanjian kerja sama.",
+      "funding": "Cakupan biaya ditetapkan sponsor; belum ada paket atau nominal universal.",
+      "duration": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "outputs": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "supervisor": "Mengikuti kesepakatan prodi dan sponsor.",
+      "age": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "gpa": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "tests": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "opening": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+      "targetProgram": "Perlu kesepakatan tertulis dengan sponsor dan prodi.",
+      "sources": [
+        "smup"
+      ],
+      "verifiedAt": null,
+      "informationStatus": "Belum terverifikasi pada sponsor tertentu",
+      "rules": [],
+      "notes": [
+        "Laman SMUP adalah rujukan penerimaan akademik, bukan bukti adanya pendanaan institusi."
+      ],
+      "manualChecks": [
+        "Surat tugas, komponen biaya, durasi, ikatan dinas, dan aturan pendanaan ganda."
+      ]
+    }
+  ],
+  "rddu": {
+    "budget": [
+      [
+        "Operasional dan bahan habis pakai laboratorium",
+        "Maksimal 60%"
+      ],
+      [
+        "Petugas laboratorium / pengumpulan dan pengolahan data / sistem",
+        "Maksimal 25%"
+      ],
+      [
+        "ATK, laporan, publikasi, komunikasi dan bahan laboratorium",
+        "Maksimal 20%"
+      ],
+      [
+        "Perjalanan survei/sampling (bukan seminar/workshop)",
+        "Maksimal 40%"
+      ],
+      [
+        "Sewa peralatan, ruang laboratorium dan penunjang riset",
+        "Maksimal 40%"
+      ]
+    ],
+    "documents": [
+      "Proposal dan pengesahan; maksimal 20 halaman inti, A4, Times New Roman 12, spasi 1,5 (ringkasan satu spasi).",
+      "RAB dan justifikasi biaya; jadwal serta target luaran.",
+      "Biodata tim dan surat pernyataan sesuai lampiran pedoman.",
+      "Bukti korespondensi mitra luar negeri serta LoI co-promotor pada tahun pertama.",
+      "Unggah satu PDF maksimal 5 MB melalui staffs.unpad.ac.id oleh pengusul."
+    ],
+    "notes": [
+      "Batas persentase berlaku per komponen dan bukan alokasi yang harus dijumlahkan. RAB tetap harus sesuai total dana yang disetujui.",
+      "Dana dapat mendukung kedatangan co-promotor luar negeri atau kegiatan riset mahasiswa di luar negeri sesuai pedoman. Konferensi nasional/internasional tidak boleh dibiayai.",
+      "Cantumkan Unpad, skema RDDU dan nomor kontrak dalam acknowledgement/funding source. Sandwich program dan/atau MoU merupakan luaran tambahan."
+    ],
+    "amountLabel": "Rp60.000.000",
+    "outputsHeadline": "2 artikel published"
+  },
+  "unknownLabel": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara."
+}
