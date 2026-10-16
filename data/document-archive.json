@@ -3320,5 +3320,42 @@
     "href": "dokumen-sk/arsip-2023-2026/sk-sur-964-2026.pdf",
     "sha256": "d92fadd60a7ecf4d82877f049435b6a69b88ed05b2d7317f3eb49db9abc2e71d",
     "source": "SK No 964 SUR S2 Statatistika an. Linda Apriliana (tgl ajuan 1 Oktober 2026).pdf"
+  },
+  {
+    "id": "7028e7b97df4",
+    "kind": "sk",
+    "year": 2023,
+    "number": "059.a/UN6.D/Kep/FMIPA/2023",
+    "title": "Pengangkatan Tim Ad Hoc Pengukuran Kepuasan Pemangku Kepentingan Prodi S-2 Statistika FMIPA Unpad",
+    "people": [
+      {
+        "name": "I Gede Nyoman Mindra Jaya",
+        "page": 3,
+        "role": "Ketua"
+      },
+      {
+        "name": "Budhi Handoko",
+        "page": 3,
+        "role": "Anggota"
+      },
+      {
+        "name": "Bertho Tantular",
+        "page": 3,
+        "role": "Anggota"
+      },
+      {
+        "name": "Anindya Apriliyanti Pravitasari",
+        "page": 3,
+        "role": "Anggota"
+      },
+      {
+        "name": "Irlandia Ginanjar",
+        "page": 3,
+        "role": "Anggota"
+      }
+    ],
+    "href": "dokumen-sk/arsip-2023-2026/sk-2023-7028e7b97df4.pdf",
+    "sha256": "7028e7b97df43a16444e06c3ea5e26bb1b4254fe7606bd378811f089c8ceea8c",
+    "source": "059.a.UN6.D.Kep.FMIPA.2023 Pengangkatan Tim AdHoc Pengukuran Kepuasan Pemangku Kepentingan Prodi S-2 Statistika FMIPA Unpad.pdf"
   }
 ]
