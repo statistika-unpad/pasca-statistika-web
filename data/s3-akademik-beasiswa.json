@@ -89,6 +89,20 @@
       "status": "Portal rujukan dari panduan; periksa pengumuman aktif",
       "verifiedAt": null,
       "checkedAt": "2026-10-16"
+    },
+    "smupCosts": {
+      "title": "SMUP Doktor: pendaftaran dan BPP 2026/2027",
+      "url": "https://smup.unpad.ac.id/program-doktor/",
+      "verifiedAt": "2026-10-21",
+      "locator": "Prosedur pendaftaran dan tabel BPP doktor",
+      "status": "Pendaftaran Rp750.000 terverifikasi. S3 Statistika belum tercantum pada tabel; UKT Rp14 juta bersumber dari pengelola prodi."
+    },
+    "toga": {
+      "title": "Sarpras Unpad: peminjaman dan pengembalian toga",
+      "url": "https://sarpras.unpad.ac.id/infotoga",
+      "verifiedAt": "2026-10-21",
+      "locator": "Panduan peminjaman toga",
+      "status": "Mengatur jaminan dan pengembalian toga; nominal terbaru tidak dicantumkan. Halaman memuat tanggal yang tidak konsisten, sehingga jadwal harus dikonfirmasi ke petugas."
     }
   },
   "academic": {
@@ -682,5 +696,64 @@
     "amountLabel": "Rp60.000.000",
     "outputsHeadline": "2 artikel published"
   },
-  "unknownLabel": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara."
+  "unknownLabel": "Belum terverifikasi; silakan mengacu pada pengumuman resmi penyelenggara.",
+  "studyCosts": {
+    "updatedAt": "2026-10-21",
+    "tuitionPerSemester": 14000000,
+    "registration": 750000,
+    "graduation": null,
+    "tuitionBasis": "Informasi pengelola Program Studi S3 Statistika, 21 Oktober 2026. UKT di luar biaya pendaftaran dan wisuda. Tabel SMUP yang diperiksa belum mencantumkan S3 Statistika; konfirmasikan tagihan resmi ketika mendaftar.",
+    "rows": [
+      [
+        "UKT S3 Statistika",
+        "Rp14.000.000 per semester",
+        "Informasi pengelola prodi; di luar pendaftaran dan wisuda."
+      ],
+      [
+        "Pendaftaran seleksi doktor",
+        "Rp750.000 per pendaftaran",
+        "Tarif umum doktor pada SMUP; bayar sesuai nomor tagihan resmi."
+      ],
+      [
+        "Wisuda",
+        "Nominal terbaru belum terverifikasi",
+        "Di luar UKT. Konfirmasikan kepada akademik FMIPA/ULT dan melalui tagihan Students saat pengajuan wisuda."
+      ],
+      [
+        "Jaminan peminjaman toga dan baret",
+        "Nominal mengikuti pengumuman/tagihan resmi",
+        "Terpisah dari biaya wisuda. Sarpras mengatur peminjaman dan pengembalian; bukan otomatis biaya habis pakai. Ketentuan pengembalian jaminan perlu dikonfirmasi."
+      ],
+      [
+        "TKA/TPA dan tes bahasa Inggris",
+        "Sesuai penyelenggara dan sertifikat yang digunakan",
+        "Kebutuhan sebelum seleksi apabila belum memiliki sertifikat yang berlaku atau tidak memperoleh pengecualian. Biaya tes terpisah dari pendaftaran SMUP."
+      ],
+      [
+        "Penelitian disertasi",
+        "Sesuai rancangan riset",
+        "Anggarkan kebutuhan data, survei, perjalanan lapangan, komputasi, perangkat lunak atau laboratorium bila diperlukan. Ini kebutuhan penelitian, bukan tarif wajib seragam universitas."
+      ],
+      [
+        "Publikasi, penyuntingan dan konferensi",
+        "Sesuai jurnal/layanan/kegiatan yang dipilih",
+        "APC hanya jika jurnal mengenakan biaya; penyuntingan dan konferensi sesuai kebutuhan. Jangan menganggap semua jurnal berbayar atau semuanya ditanggung UKT."
+      ],
+      [
+        "Biaya hidup dan kebutuhan pribadi",
+        "Sesuai kebutuhan mahasiswa",
+        "Tempat tinggal, makan, transportasi, internet, buku, serta pencetakan dan penggandaan bila diperlukan."
+      ],
+      [
+        "IPI, matrikulasi, ujian atau administrasi tambahan",
+        "Belum ada tarif khusus S3 Statistika yang terverifikasi",
+        "Tidak dinyatakan sebagai pungutan wajib maupun gratis. Tanyakan komponen yang termasuk UKT dan minta dasar/tagihan resmi jika berlaku."
+      ],
+      [
+        "Masa tunggu sidang promosi doktor",
+        "Rp1.000.000, hanya untuk kondisi khusus pada SMUP",
+        "Untuk mahasiswa yang telah disetujui sidang promosi dan menunggu pelaksanaan paling lama 3 bulan; bukan tarif otomatis semua semester lanjutan. Penerapan perlu persetujuan/tagihan resmi."
+      ]
+    ]
+  }
 }
