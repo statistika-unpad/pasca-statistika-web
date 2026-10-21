@@ -1140,6 +1140,7 @@ const I18N = {
     alumniKicker: "Lulusan & Tesis",
     alumniTitle: "Jejak riset lulusan 2022-2026",
     alumniText: "Ringkasan judul tesis, pembimbing, tema riset, dan tahun lulus berdasarkan data lulusan program magister.",
+    workspaceThesisTitles: "Judul Tesis Mahasiswa",
     alumniSearchLabel: "Cari lulusan atau tesis",
     alumniSearchPlaceholder: "Nama, topik, pembimbing, tahun...",
     alumniDisplayed: "tesis tampil",
@@ -2093,6 +2094,7 @@ const I18N = {
     alumniKicker: "Graduates & Theses",
     alumniTitle: "Graduate research record 2022-2026",
     alumniText: "A summary of thesis titles, supervisors, research themes, and graduation years based on master's program graduate data.",
+    workspaceThesisTitles: "Student Thesis Titles",
     alumniSearchLabel: "Search graduates or theses",
     alumniSearchPlaceholder: "Name, topic, supervisor, year...",
     alumniDisplayed: "theses shown",
@@ -2419,6 +2421,7 @@ function t(key) {
 }
 
 function normalizeWorkspacePanelId(id) {
+  if (id === "lulusan-tesis") return "lulusan";
   if (id === "peo" || id === "obe-alignment") return "program-profile";
   if (id === "panduan-akademik") return "pedoman-pendidikan";
   if (id === "prestasi-mahasiswa") return "mahasiswa";
