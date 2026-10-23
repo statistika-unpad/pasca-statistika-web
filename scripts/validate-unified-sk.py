@@ -1,7 +1,7 @@
 from pathlib import Path
 import re,html,hashlib
 s=Path('index.html').read_text();cards=re.findall(r'<article class="document-card".*?</article>',s,re.S)
-assert len(cards)==118
+assert len(cards)==120
 seen=set();numbers=set()
 for c in cards:
  path=html.unescape(re.search(r'<a class="open" href="([^"]+)"',c)[1]);p=Path(path);assert p.is_file(),path
@@ -13,7 +13,7 @@ assert s.count('id="documents"')==1
 assert 'data-document-archive' not in s
 assert s.count('id="grantDashboard"')==1
 assert 'id="grantRows"' not in s
-print('PASS: 118 SK/undangan; unique PDF hashes and indexed document numbers; one SK catalog and one grant dashboard.')
+print('PASS: 120 SK/undangan; unique PDF hashes and indexed document numbers; one SK catalog and one grant dashboard.')
 
 import json
 from collections import Counter
@@ -29,5 +29,5 @@ for c in cards:
  activities[activity]+=1
 options=html.unescape(re.search(r'<select id="stage">(.*?)</select>',s,re.S)[1])
 assert all(f'value="{a}"' in options for a in activities)
-assert len(activities)==21
-print('PASS: all 118 documents classified into 21 source-backed activity types; no blank activity.')
+assert len(activities)==22
+print('PASS: all 120 documents classified into 22 source-backed activity types; no blank activity.')
