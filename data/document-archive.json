@@ -3390,5 +3390,69 @@
     "href": "dokumen-sk/arsip-2023-2026/sk-2026-a57211945380.pdf",
     "sha256": "a57211945380bff9711cdb6d092486fcfcd1d216cfb594ee866fc0172e59672d",
     "source": "014.UN6.DKep.FMIPA.2026 Penetapan Syarat Kelulusan Mahasiswa Program Doktor FMIPA Unpad (1).pdf"
+  },
+  {
+    "id": "f1c365558e60",
+    "kind": "sk",
+    "year": 2026,
+    "number": "1011/UN6.D/Kep/FMIPA/2026",
+    "title": "Tim Penguji Seminar Usulan Riset (SUR) — Salwa Azzah Imtiyaz",
+    "people": [
+      {
+        "name": "I Gede Nyoman Mindra Jaya",
+        "page": 3,
+        "role": "Pembimbing"
+      },
+      {
+        "name": "Yusep Suparman",
+        "page": 3,
+        "role": "Co. Pembimbing"
+      },
+      {
+        "name": "Budhi Handoko",
+        "page": 3,
+        "role": "Penguji"
+      },
+      {
+        "name": "Hasna Afifah Rusyda",
+        "page": 3,
+        "role": "Penguji"
+      }
+    ],
+    "href": "dokumen-sk/arsip-2023-2026/sk-2026-f1c365558e60.pdf",
+    "sha256": "f1c365558e606f7426a123d3dd00663073872618f3c9593db625368ea6f7477d",
+    "source": "SK No 1011 SUR S2 Statistika an. Salwa Azzah Imtiyaz (tgl ajuan 14 Oktober 2026).pdf"
+  },
+  {
+    "id": "d70cd5ac8652",
+    "kind": "sk",
+    "year": 2026,
+    "number": "1019/UN6.D/Kep/FMIPA/2026",
+    "title": "Tim Penguji Seminar Usulan Riset (SUR) — Auro Aurellia Simbolon",
+    "people": [
+      {
+        "name": "Lienda Noviyanti",
+        "page": 3,
+        "role": "Pembimbing"
+      },
+      {
+        "name": "Budhi Handoko",
+        "page": 3,
+        "role": "Co. Pembimbing"
+      },
+      {
+        "name": "I Gede Nyoman Mindra Jaya",
+        "page": 3,
+        "role": "Penguji"
+      },
+      {
+        "name": "Restu Arisanti",
+        "page": 3,
+        "role": "Penguji"
+      }
+    ],
+    "href": "dokumen-sk/arsip-2023-2026/sk-2026-d70cd5ac8652.pdf",
+    "sha256": "d70cd5ac8652e7f71d290b93744c8ba520166b6e58b9e1e4304bc281a4bbf8a8",
+    "source": "SK No 1019 SUR S2 Statistika an. Auro Aurellia Simbolon (tgl ajuan 15 Oktober 2026).pdf"
   }
 ]
