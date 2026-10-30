@@ -80,7 +80,9 @@
     .academic-news-control{display:grid;place-items:center;width:42px;height:42px;border:1px solid rgba(255,255,255,.55);border-radius:50%;background:linear-gradient(135deg,#0c3b5e 0%,#0e6b58 62%,#f2a900 100%);color:#fff;font-size:1.55rem;font-weight:950;line-height:1;box-shadow:0 12px 24px rgba(12,59,94,.18);cursor:pointer;transition:transform .18s ease,box-shadow .18s ease,filter .18s ease}
     .academic-news-control:hover,.academic-news-control:focus-visible{transform:translateY(-2px);box-shadow:0 16px 30px rgba(12,59,94,.24);filter:saturate(1.08)}
     .academic-news-control:focus-visible{outline:3px solid rgba(242,169,0,.38);outline-offset:3px}
-    .academic-news-viewport{overflow-x:auto!important;overflow-y:hidden!important;scroll-behavior:smooth;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;cursor:grab;padding-bottom:12px}
+    .academic-news-track{animation:none!important;transform:none!important;will-change:auto}
+    .academic-news-group[aria-hidden="true"]{display:none}
+    .academic-news-viewport{mask-image:none!important;-webkit-mask-image:none!important;overflow-x:auto!important;overflow-y:hidden!important;scroll-behavior:smooth;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;cursor:grab;padding-bottom:12px}
     .academic-news-viewport.is-dragging{cursor:grabbing;scroll-behavior:auto;user-select:none}
     .academic-news-viewport::-webkit-scrollbar{height:9px}
     .academic-news-viewport::-webkit-scrollbar-track{background:rgba(12,59,94,.08);border-radius:999px}
@@ -545,7 +547,7 @@
               <p>Dokumentasi kegiatan, pembelajaran, penerimaan mahasiswa baru, dan penguatan ekosistem riset S2 Statistika Terapan.</p>
             </div>
             <div class="academic-news-toolbar" aria-label="Kontrol berita akademik">
-              <span class="academic-news-motion"><i aria-hidden="true">↔</i> Otomatis &amp; manual</span>
+              <span class="academic-news-motion"><i aria-hidden="true">↔</i> Geser untuk melihat berita</span>
               <div class="academic-news-controls" aria-label="Navigasi berita akademik">
                 <button class="academic-news-control" type="button" data-academic-news-nav="prev" aria-label="Geser ke berita sebelumnya">‹</button>
                 <button class="academic-news-control" type="button" data-academic-news-nav="next" aria-label="Geser ke berita berikutnya">›</button>
