@@ -394,7 +394,12 @@
       "pembimbing2": "Prof. Dr. Budi Nurani Ruchjana., MS",
       "tahun_masuk": 2022,
       "tahun_lulus": 2024,
-      "tema": "Spasial, Lingkungan, dan Wilayah"
+      "tema": "Spasial, Lingkungan, dan Wilayah",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 3,
@@ -416,18 +421,28 @@
       "pembimbing2": "Yudhie Andriyana, M.Sc., Ph.D",
       "tahun_masuk": 2022,
       "tahun_lulus": 2024,
-      "tema": "Statistika Terapan Lainnya"
+      "tema": "Statistika Terapan Lainnya",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 5,
-      "nama": "RENATA AYIFA KRISTANTO",
+      "nama": "RENATA SYIFA KRISTANTO",
       "npm": "140720220008",
-      "judul": "METODE REKATEGORISASI UNTUK HYBRD JOINT CORRESPONDENCE ANALYSIS MENGGUNAKAN ELLIPTICAL CONFIDENCE REGIONS",
+      "judul": "METODE REKATEGORISASI UNTUK HYBRID JOINT CORRESPONDENCE ANALYSIS MENGGUNAKAN ELLIPTICAL CONFIDENCE REGIONS",
       "pembimbing1": "Dr. Irlandia Ginanjar. MS",
       "pembimbing2": "Dr. Titi Purwandari., MS",
       "tahun_masuk": 2022,
       "tahun_lulus": 2024,
-      "tema": "Regresi, Multivariat, dan Pemodelan"
+      "tema": "Regresi, Multivariat, dan Pemodelan",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 12,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 6,
@@ -504,7 +519,12 @@
       "pembimbing2": "Dr. Bertho Tantular, S.Si., M.Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2024,
-      "tema": "Spasial, Lingkungan, dan Wilayah"
+      "tema": "Spasial, Lingkungan, dan Wilayah",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 2,
@@ -515,7 +535,12 @@
       "pembimbing2": "Dr. Bertho Tantular, S.Si., M.Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2024,
-      "tema": "Spasial, Lingkungan, dan Wilayah"
+      "tema": "Spasial, Lingkungan, dan Wilayah",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 12,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 3,
@@ -526,7 +551,12 @@
       "pembimbing2": "Dr.Sri Winarni, S. Si., M. Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Sains Data, AI, dan Machine Learning"
+      "tema": "Sains Data, AI, dan Machine Learning",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 12,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 4,
@@ -537,7 +567,12 @@
       "pembimbing2": "Prof Dr.rer.nat Yudi Rosandi,M.Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Spasial, Lingkungan, dan Wilayah"
+      "tema": "Spasial, Lingkungan, dan Wilayah",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 5,
@@ -548,7 +583,12 @@
       "pembimbing2": "Dr.Defi Yusti Faidah, M.Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Biostatistika dan Kesehatan"
+      "tema": "Biostatistika dan Kesehatan",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 6,
@@ -559,7 +599,12 @@
       "pembimbing2": "Dr. Bertho Tantular, S.Si., M.Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Regresi, Multivariat, dan Pemodelan"
+      "tema": "Regresi, Multivariat, dan Pemodelan",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 7,
@@ -570,7 +615,12 @@
       "pembimbing2": "Dr. Anindya Apriliyanti P. M.Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Sains Data, AI, dan Machine Learning"
+      "tema": "Sains Data, AI, dan Machine Learning",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 8,
@@ -581,7 +631,12 @@
       "pembimbing2": "Dr. Titi Purwandari., MS",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Regresi, Multivariat, dan Pemodelan"
+      "tema": "Regresi, Multivariat, dan Pemodelan",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 11,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 9,
@@ -592,7 +647,12 @@
       "pembimbing2": "Dr. Titi Purwandari., MS",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Statistika Terapan Lainnya"
+      "tema": "Statistika Terapan Lainnya",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 10,
@@ -614,7 +674,12 @@
       "pembimbing2": "Budhi Handoko,S.Si., M.Si., Ph.D",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Sains Data, AI, dan Machine Learning"
+      "tema": "Sains Data, AI, dan Machine Learning",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 12,
@@ -625,7 +690,12 @@
       "pembimbing2": "Prof . Dr. Budi Nurani Ruchjana, MS",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Spasial, Lingkungan, dan Wilayah"
+      "tema": "Spasial, Lingkungan, dan Wilayah",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 13,
@@ -636,7 +706,12 @@
       "pembimbing2": "Dr. I Gede Nyoman Mindra Jaya, M.Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Survei, Sosial, dan Kebijakan"
+      "tema": "Survei, Sosial, dan Kebijakan",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 14,
@@ -647,7 +722,12 @@
       "pembimbing2": "Dr. Restu Arisanti, S.Si., M.Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Sains Data, AI, dan Machine Learning"
+      "tema": "Sains Data, AI, dan Machine Learning",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 15,
@@ -658,7 +738,12 @@
       "pembimbing2": "Dr. I Gede Nyoman Mindra Jaya, M.Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Spasial, Lingkungan, dan Wilayah"
+      "tema": "Spasial, Lingkungan, dan Wilayah",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 16,
@@ -669,7 +754,12 @@
       "pembimbing2": "Dr. Triyani Hendrawati,S.Si., M.Si.",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Sains Data, AI, dan Machine Learning"
+      "tema": "Sains Data, AI, dan Machine Learning",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 17,
@@ -680,7 +770,12 @@
       "pembimbing2": "Dr. Restu Arisanti, S.Si., M.Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Spasial, Lingkungan, dan Wilayah"
+      "tema": "Spasial, Lingkungan, dan Wilayah",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 18,
@@ -691,7 +786,12 @@
       "pembimbing2": "Dr. Bertho Tantular, S.Si., M.Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Spasial, Lingkungan, dan Wilayah"
+      "tema": "Spasial, Lingkungan, dan Wilayah",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 19,
@@ -706,14 +806,19 @@
     },
     {
       "no": 20,
-      "nama": "ANGGI ALNURIN PRASETYA",
-      "npm": "140720230011",
-      "judul": "PERAMALAN HARGA KONTRAK BERJANGKA NIKEL MENGGUNAKAN METODE BYBRID VARIATIONAL MODE DECOMPOSITION -BIDIRECTIONAL GATED RECURRENT UNIT ( VMD-BIGRU)",
+      "nama": "ANGGIE ALNURIN PRASETYA",
+      "npm": "140720240011",
+      "judul": "PERAMALAN HARGA KONTRAK BERJANGKA NIKEL MENGGUNAKAN METODE HYBRID VARIATIONAL MODE DECOMPOSITION-BIDIRECTIONAL GATED RECURRENT UNIT (VMD-BiGRU)",
       "pembimbing1": "Yudhie Andriyana, M.Sc.",
       "pembimbing2": "Dr. Bertho Tantular, S.Si., M.Si",
       "tahun_masuk": 2023,
       "tahun_lulus": 2025,
-      "tema": "Statistika Terapan Lainnya"
+      "tema": "Statistika Terapan Lainnya",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 1,
@@ -724,7 +829,12 @@
       "pembimbing2": "Dr.Sri Winarni, S. Si., M. Si",
       "tahun_masuk": 2024,
       "tahun_lulus": 2025,
-      "tema": "Statistika Terapan Lainnya"
+      "tema": "Statistika Terapan Lainnya",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 2,
@@ -735,7 +845,12 @@
       "pembimbing2": "Dr. Triyani Hendrawati,S.Si., M.Si.",
       "tahun_masuk": 2024,
       "tahun_lulus": 2025,
-      "tema": "Regresi, Multivariat, dan Pemodelan"
+      "tema": "Regresi, Multivariat, dan Pemodelan",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 3,
@@ -746,7 +861,12 @@
       "pembimbing2": "Budhi Handoko, M.Si., Ph.D",
       "tahun_masuk": 2024,
       "tahun_lulus": 2025,
-      "tema": "Biostatistika dan Kesehatan"
+      "tema": "Biostatistika dan Kesehatan",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 4,
@@ -757,7 +877,12 @@
       "pembimbing2": "Dr. Bertho Tantular, S.Si., M.Si",
       "tahun_masuk": 2024,
       "tahun_lulus": 2025,
-      "tema": "Regresi, Multivariat, dan Pemodelan"
+      "tema": "Regresi, Multivariat, dan Pemodelan",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 5,
@@ -768,7 +893,12 @@
       "pembimbing2": "Dr. Bertho Tantular, S.Si., M.Si",
       "tahun_masuk": 2024,
       "tahun_lulus": 2025,
-      "tema": "Regresi, Multivariat, dan Pemodelan"
+      "tema": "Regresi, Multivariat, dan Pemodelan",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 7,
@@ -779,7 +909,12 @@
       "pembimbing2": "Dr. Triyani Hendrawati,S.Si., M.Si.",
       "tahun_masuk": 2024,
       "tahun_lulus": 2026,
-      "tema": "Statistika Terapan Lainnya"
+      "tema": "Statistika Terapan Lainnya",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 8,
@@ -790,7 +925,12 @@
       "pembimbing2": "Dr.Defi Yusti Faidah, M.Si",
       "tahun_masuk": 2024,
       "tahun_lulus": 2026,
-      "tema": "Spasial, Lingkungan, dan Wilayah"
+      "tema": "Spasial, Lingkungan, dan Wilayah",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 9,
@@ -801,7 +941,12 @@
       "pembimbing2": "Dr.Aceng Komarudin Mutaqin ,M.T.M.Si",
       "tahun_masuk": 2024,
       "tahun_lulus": 2026,
-      "tema": "Aktuaria, Keuangan, dan Risiko"
+      "tema": "Aktuaria, Keuangan, dan Risiko",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 10,
@@ -812,7 +957,12 @@
       "pembimbing2": "Dr.Aceng Komarudin Mutaqin ,M.T.M.Si",
       "tahun_masuk": 2024,
       "tahun_lulus": 2026,
-      "tema": "Statistika Terapan Lainnya"
+      "tema": "Statistika Terapan Lainnya",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     },
     {
       "no": 11,
@@ -834,7 +984,12 @@
       "pembimbing2": "Dr. Restu Arisanti, S.Si., M.Si",
       "tahun_masuk": 2024,
       "tahun_lulus": 2026,
-      "tema": "Sains Data, AI, dan Machine Learning"
+      "tema": "Sains Data, AI, dan Machine Learning",
+      "thesisArchive": {
+        "access": "request-email",
+        "fileCount": 13,
+        "verifiedOn": "2026-11-02"
+      }
     }
   ]
 }

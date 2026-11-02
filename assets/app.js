@@ -6173,6 +6173,8 @@ function renderAlumni() {
         <p class="syllabus-code">${escapeHTML(record.npm || t("npmUnavailable"))}</p>
         <p>${escapeHTML(record.judul)}</p>
         <small>${escapeHTML(t("advisors"))}: ${escapeHTML([record.pembimbing1, record.pembimbing2].filter(Boolean).join(` ${t("and")} `) || t("notAvailable"))}</small>
+        ${record.thesisArchive ? `<div class="thesis-access-actions"><p><strong>Akses tesis melalui persetujuan Kaprodi</strong> · ${Number(record.thesisArchive.fileCount)} berkas terindeks</p><a class="button button-primary" href="akses-tesis.html?npm=${encodeURIComponent(record.npm)}">Minta akses melalui email ↗</a></div>` : ''}
+
       </article>
     `)
     .join("");
@@ -6209,7 +6211,7 @@ function mergeVisiblePageKnowledge() {
 
 async function loadAlumni() {
   try {
-    const response = await fetch("data/alumni.json", { cache: "default" });
+    const response = await fetch("data/alumni.json?v=20261102-thesis-access", { cache: "default" });
     if (!response.ok) throw new Error("Data alumni tidak dapat dimuat.");
     const data = await response.json();
     if (!data?.records?.length) throw new Error("Data alumni kosong.");
