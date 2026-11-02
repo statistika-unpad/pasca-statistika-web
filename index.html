@@ -100,6 +100,13 @@
 <link rel="stylesheet" href="assets/grant-dashboard.css?v=20261008-funding">
 <link rel="stylesheet" href="assets/publications-refresh.css?v=20261007-yudhie" />
 <link rel="stylesheet" href="assets/publication-collaborations.css?v=20261014" />
+<style id="s3-apply-style">
+.s3-apply-button{display:inline-flex;align-items:center;justify-content:center;gap:12px;max-width:100%;padding:16px 24px;border:2px solid #ffe39a;border-radius:16px;background:linear-gradient(120deg,#ffe39a,#ffc247);color:#17324d!important;font-size:1rem;font-weight:800;line-height:1.4;text-align:center;text-decoration:none;box-shadow:0 0 18px #ffc24766;animation:s3ApplyGlow 2.8s ease-in-out infinite;transition:transform .2s ease}
+.s3-apply-button:hover{transform:translateY(-2px)}
+.s3-apply-button:focus-visible{outline:3px solid #123e56;outline-offset:5px}
+@keyframes s3ApplyGlow{0%,100%{box-shadow:0 0 12px #ffc24755,0 4px 12px #17324d22}50%{box-shadow:0 0 28px #ffc247bb,0 4px 18px #17324d33}}
+@media(prefers-reduced-motion:reduce){.s3-apply-button{animation:none;transition:none}}
+</style>
 </head>
 <body>
   <div class="topbar">
@@ -1478,6 +1485,7 @@
             <p class="section-kicker" data-i18n="s3Kicker">Web S3 Statistika</p>
             <h2 data-i18n="s3Title">Program Doktor Statistika FMIPA Unpad.</h2>
             <p data-i18n="s3Text">Ruang informasi S3 Statistika yang memuat visi, misi, tujuan, profil lulusan, CPL, dokumen akademik, dan seluruh RPS mata kuliah/kegiatan doktoral.</p>
+          <div class="hero-actions"><a class="s3-apply-button" href="https://script.google.com/macros/s/AKfycbzpwU98kn6jwUXLqWeVpxG_yWQ0UwsewzoTQEL8pdSqo7rtdIR51q1_h7pAc98KdWtb_A/exec" target="_blank" rel="noopener noreferrer">Apply for Doctoral Program <span aria-hidden="true">↗</span></a></div>
           </div>
           <div class="s3-hero-metric">
             <span data-i18n="s3StudyLoad">Beban Studi</span>
