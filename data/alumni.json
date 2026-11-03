@@ -399,7 +399,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Sebagian besar wilayah Indonesia merupakan kawasan pedesaan. Oleh karena itu, Pemerintah Indonesia menerapkan prinsip-prinsip Sustainable Development Goals (SDGs) Desa, yang merupakan program turunan dari SDGs, agar tujuan pembangunan nasional dapat tercapai secara merata. Salah satu indikator pengukuran kemajuan dan kemandirian desa di Indonesia adalah ketersediaan akses sinyal telepon seluler. Indikator ini penting karena sebagian besar pengguna internet di Indonesia menggunakannya untuk mengakses koneksi internet. Namun, sinyal dari menara provider memiliki jangkauan yang terbatas. Menurut data Indeks Desa Membangun tahun 2022, Provinsi Jawa Barat yang terletak dekat dengan Ibu Kota Indonesia, masih memiliki 15,59% desa dengan sinyal lemah yang tersebar di daerah dataran tinggi. Untuk mengkaji bagaimana pengaruh jarak dan selisih ketinggian antara penempatan menara provider terdekat dengan lokasi desa terhadap kategori kekuatan sinyal internet di Jawa Barat, diperlukan pemodelan Logistic Spatial Autoregressive. Penelitian ini menggunakan dua metode estimasi, yaitu versi linearisasi dari Generalized Method of Moments (Linearized GMM) dan Bayesian Markov-Chain Monte Carlo (Bayesian MCMC), karena sesuai dengan kondisi data yang ada. Linearized GMM merupakan metode yang dapat digunakan untuk data dengan ukuran sampel besar, sementara pendekatan Bayesian MCMC merupakan metode yang fleksibel dan efisiensi secara komputasi. Selain itu, digunakan dua matriks bobot spasial berbasis jarak, yaitu K-nearest neighbor dan radial distance, karena memiliki karakteristik untuk menggambarkan kekuatan sinyal. Hasil penelitian menunjukkan bahwa model dengan pendekatan Linearized GMM dan matriks bobot radial distance menghasilkan tingkat performa tertinggi. Kekuatan sinyal desa di Jawa Barat memiliki kemiripan sebesar 48,507% dengan desa-desa lain di sekitarnya yang berjarak kurang 2,6 km. Faktor jarak dan selisih ketinggian antara menara provider terdekat dengan lokasi desa memberikan pengaruh negatif terhadap kekuatan sinyal internet di Jawa Barat, artinya semakin dekat jarak lokasi menara provider dengan lokasi desa, maka semakin besar kemungkinan sinyal desa tersebut kuat. Selain itu, faktor selisih ketinggian berpengaruh lebih besar dibandingkan dengan faktor jarak secara horizontal.",
+      "kata_kunci": "Sinyal Internet, Menara Provider, Logistic SAR Model, Matriks Bobot Spasial Berbasis Jarak, Join Count, Linearized GMM, Bayesian MCMC",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 3,
@@ -426,7 +429,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Semakin berkembangnya zaman, media sosial yang dahulunya digunakan sebagai sarana komunikasi antar pengguna, saat ini mengalami pergeseran sebagai sarana broadcast informasi, bisnis, iklan, sampai dengan campaign hal-hal yang berbau politik. Dalam hal pelaksanaan pemilu maupun pilkada, media sosial juga dimanfaatkan untuk menurunkan elektabilitas pasangan calon (paslon) lawan. Tidak jarang para pendukung pasangan calon melakukan hal-hal yang melanggar ketentuan untuk menurunkan elektabilitas pasangan calon lawan dengan menyebarkan ujaran kebencian dan informasi hoaks atau palsu. Hal tersebut tentunya akan membuat situasi pelaksanaan pemilu berpotensi menyebabkan kerusuhan dan perpecahan di masyarakat. Diperlukan adanya fungsi kontrol dari Pemerintah untuk menyaring konten-konten pada media sosial yang masuk dalam kategori melanggar hukum. Penelitian ini akan memanfaatkan Bidirectional Gated Recurrent Unit (BiGRU) sebagai metode klasifikasi hoaks dan hate speech. Selanjutnya hasil klasifikasi tersebut akan dikombinasikan dengan variabel yang mempengaruhi viralitas suatu data tweet seperti jumlah follower, jumlah retweet, dan penggunaan hashtag untuk kemudian dilakukan klasterisasi menggunakan K- Prototype. Klaster-klaster yang terbentuk diharapkan dapat mencerminkan skala prioritas data tweet yang perlu segera ditindaklanjuti oleh Pemerintah agar tidak semakin menyebar luas dan menimbulkan keresahan di masyarakat. Berdasarkan hasil analisis, pembentukan model hoaks menggunakan Bidirectional Gated Recurrent Unit (BiGRU) menghasilkan nilai F1-score sebesar 96%. Sedangkan pembentukan model hate speech menghasilkan nilai F1-score sebesar 89%. Hal tersebut menunjukkan bahwa model memiliki performa yang baik dalam melakukan prediksi. Selanjutnya, pengelompokkan data dengan menggunakan K- Prototype pada penelitian ini berhasil mengurangi jumlah data tweet yang sebelumnya sebanyak 13.183 data menjadi 18 data yang menjadi prioritas dan perlu ditindak lanjuti dalam mencegah terjadinya perpecahan dan perselisihan di media sosial.",
+      "kata_kunci": "Pemilu, Hoaks, hate speech, Klaster, K-Prototype, BiGRU",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 5,
@@ -442,7 +448,10 @@
         "access": "request-email",
         "fileCount": 12,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Pada tahun 2022, Indeks Kualitas Lingkungan Hidup (IKLH) Kabupaten Bandung adalah sebesar 56,03 termasuk pada kategori sedang dengan indeks kualitas air dan tutupan lahan yang kurang baik dengan nilai 34 dan 49,35. Setiap kecamatan memiliki karakteristik IKLH yang berbeda, sehingga diperlukan identifikasi karakteristik IKLH pada setiap kecamatan di Kabupaten Bandung berdasarkan kebergantungan antar variabel kualitatif dan korelasi antar variabel kuantitatif. Oleh karena itu, dapat digunakan hybrid joint correspondence analysis. Data karakteristik IKLH yang digunakan diperoleh dari data SWP Kabupaten Bandung tahun 2022 yang terdiri dari 8 variabel kualitatif dengan data kecamatan dijadikan sebagai objek dan 3 variabel kuantitatif. Representasi kebergantungan dengan banyak variabel kategori dalam bentuk dua dimensi tidak memungkinkan untuk mendapat nilai persentase kumulatif varians yang lebih besar atau sama dengan 70% karena varians dari data terbagi dalam beberapa dimensi, sehingga diperlukan rekategorisasi berdasarkan elliptical confidence regions yang dapat mengidentifikasi kontribusi kebergantungan antara dua variabel. Berdasarkan Uji Chi-Square, terdapat 6 karakteristik signifikan yang mempunyai ketergantungan terhadap kecamatan. Elliptical confidence regions dilakukan enam kali berdasarkan analisis korespondensi sederhana. Terdapat perbedaan perlakuan antara karakteristik dan kecamatan. Rekategorisasi karakteristik didasarkan pada elliptical confidence regions, sedangkan kecamatan dikategorikan berdasarkan jarak Euclidean dari nilai koordinat utama JCA karena elliptical confidence regions akan menghasilkan enam hasil yang berbeda. Peta dua dimensi akhir dapat menjelaskan 70,1% variasi data pada analisis ke-27. Hubungan antara variabel kualitatif dan kuantitif dapat dilihat dengan menggunakan korelasi kosinus. Koordinat dari peta dua dimensi variabel kualitatif digunakan dalam perhitungan korelasi kosinus variabel kuantitatif. Hasil analisis menunjukkan 5 kelompok kecamatan dengan 17 kategori dan 3 variabel kuantitatif dapat menjelaskan karakteristik kualitas lingkungan hidup di Kabupaten Bandung.",
+      "kata_kunci": "Analisis Korespondensi, Elliptical Confidence Regions, IKLH, Rekategorisasi",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 6,
@@ -524,7 +533,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Peramalan time series merupakan metode yang menggunakan data deret waktu sebagai dasar peramalan. Salah satu provinsi yang menjadi primadona di Indonesia yaitu DI Yogyakarta. Provinsi DI Yogyakarta terkenal dengan wisata budaya, sejarah, alam, kuliner, dan banyak potensi wisata, membuatnya menjadi salah satu tempat favorit turis domestik dan asing. Hal ini menunjukkan bahwa wisatawan dari luar DI Yogyakarta semakin percaya pada keadaan dan kondisi kota. Dalam penelitian ini, metode yang akan digunakan adalah metode Hibrida Fuzzy Time Series Markov Chain (FTSMC) dan Singular Spectrum Analysis (SSA). Metode Fuzzy Time Series digunakan karena metode ini tidak perlu memenuhi asumsi seperti metode peramalan lainnya. Berdasarkan hasil pada beberapa penelitian yang membahas tentang perbandingan pada beberapa jenis metode yang ada didalam Fuzzy Time Series didapatkan bahwa Fuzzy Time Series jenis Markov Chain mayoritas memiliki tingkat kesalahan dalam peramalan yang lebih rendah di bandingkan dengan jenis metode Fuzzy Time Series lainnya, sedangkan metode Singular Spectrum Analysis (SSA) digunakan untuk mendekomposisi data menjadi komponen utama pada analisis tren, musiman dan residu. Hasil dari penelitian ini menunjukkan bahwa metode hybrid FTSMC-SSA mencapai akurasi yang lebih baik dalam memprediksi tingkat hunian kamar jika dibandingkan dengan metode lainnya. Mean Absolute Percentage Error (MAPE) untuk 20% data out-sample adalah 15,85%, untuk 10% out-sample adalah 10,60%, dan untuk 5% out-sample adalah 7,34%. Temuan ini mengkonfirmasi bahwa metode hybrid FTSMC-SSA merupakan metode yang lebih akurat dibandingkan metode FTSMC dan SSA, sehingga dapat diandalkan untuk meramalkan tingkat hunian kamar di Yogyakarta. Hasil peramalan dan tingkat akurasi ini disajikan ke dalam web interaktif (GUI) menggunakan R-Shiny yang user-friendly dan mudah diakses, sehingga dapat di akses langsung dan memberikan wawasan yang berharga untuk manajemen pariwisata dan Dinas Pariwisata dapat melakukan pengambilan keputusan yang lebih strategis dalam upaya mendukung perkembangan industri pariwisata di DIY.",
+      "kata_kunci": "FTSMC, Peramalan, R-Shiny, SSA, Tingkat Hunian Kamar.",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 2,
@@ -540,7 +552,10 @@
         "access": "request-email",
         "fileCount": 12,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Pemantauan PM2.5 sangat penting karena berdampak serius terhadap kesehatan masyarakat dan lingkungan. Namun, seringkali stasiun pemantauan tidak mencakup semua lokasi yang relevan, mengharuskan adanya estimasi untuk nilai pada titik-titik yang tidak memiliki pengamatan langsung. Salah satu metode yang dapat digunakan adalah kriging. Teknik kriging pertama kali dikembangkan untuk menginterpolasi data pada titik-titik yang tidak teramati berdasarkan informasi variabilitas spasial yang diperoleh dari semivariogram. Akan tetapi, polusi udara di suatu lokasi tidak hanya dipengaruhi oleh keadaan wilayah lain pada waktu yang sama, melainkan juga dipengaruhi oleh keadaan di waktu sebelumnya dan variabel- variabel lain seperti curah hujan, kecepatan angin, dan kepadatan penduduk. Oleh karena itu, perlu untuk mempertimbangkan adanya dependensi spasiotemporal dan peran variabel-variabel tambahan pada fenomena ini. Penambahan informasi variasi dari segi temporal dan variabel-variabel tambahan pada model kriging akan menambah informasi yang dapat menjelaskan keragaman dalam data sehingga memungkinkan estimasi yang lebih akurat pada lokasi-lokasi yang tidak teramati. Penelitian ini mengusulkan penggunaan model spasiotempral cokriging untuk estimasi konsentrasi PM2.5 di wilayah DKI Jakarta. Analisis dilakukan dengan menggunakan data bulanan konsentrasi PM2.5 dari 29 stasiun pemantauan di Jakarta, yang dicatat antara Januari 2023 hingga Desember 2023. Dengan mengintegrasikan variasi temporal dan variabel sekunder, model cokriging spasiotemporal mampu menangkap dinamika kompleks PM2.5 dengan akurasi yang lebih baik. Model semivariogram sum-metric diidentifikasi sebagai yang paling sesuai untuk merepresentasikan pola variabilitas semivariogram empiris. Model yang diusulkan menunjukkan kinerja prediktif yang kuat, dengan Mean Absolute Percentage Error (MAPE) sebesar 0,659% dan Root Mean Square Error (RMSE) sebesar 0,384. Hasil ini menegaskan efektivitas cokriging spasiotemporal dalam menyediakan prediksi konsentrasi PM2.5 yang andal di lokasi yang tidak teramati.",
+      "kata_kunci": "DKI Jakarta, Kualitas Udara, PM2.5, Spasiotemporal Cokriging, Semivariogram",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 3,
@@ -556,7 +571,10 @@
         "access": "request-email",
         "fileCount": 12,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Demensia adalah masalah kesehatan masyarakat yang signifikan, menyebabkan penurunan kognitif, gangguan perilaku, dan hilangnya kemandirian. Penyakit Alzheimer, penyebab utama demensia, dipengaruhi oleh interaksi kompleks antara faktor demografi, gaya hidup, riwayat medis, dan kognitif. Perkembangannya, yang dipengaruhi oleh faktor genetik, lingkungan, dan perilaku, membuat diagnosis dini dan manajemen yang efektif menjadi tantangan. Penelitian ini menggunakan dataset komprehensif tentang penyakit Alzheimer yang diperoleh dari Kaggle, mencakup informasi kesehatan dari 2.149 individu yang diidentifikasi dengan ID Patient. Dataset ini, diterbitkan pada tahun 2024 oleh Rabie El Kharoua, mencakup satu variabel dependen yang menunjukkan status Alzheimer dan 32 variabel independen yang terkait dengan faktor risiko potensial. Berdasarkan data pada penelitian ini, metode XGBoost digunakan untuk klasifikasi dalam menangani ketidakseimbangan data dengan menggunakan metode Synthetic Minority Oversampling Technique (SMOTE) dan meningkatkan interpretasi menggunakan SHapley Additive exPlanations (SHAP). Melalui hyperparameter tuning dengan GridSearchCV dan 5-fold cross validation, performa model dioptimalkan. Hasil model menunjukkan akurasi sebesar 93,9%, presisi 96%, recall 94,6%, F1 Score 95,3%, dan AUC 0,946. Analisis SHAP menunjukkan bahwa Functional Assessment adalah variabel paling signifikan dengan nilai SHAP sebesar 2,659. Penelitian ini menunjukkan manfaat teknik machine learning lanjutan untuk deteksi dini Alzheimer, mendukung kebijakan pencegahan, dan intervensi kesehatan yang berguna bagi pasien Alzheimer. Temuan ini menyoroti pentingnya dataset yang seimbang dan model yang dapat diinterpretasikan untuk meningkatkan hasil pasien dan perawatan Alzheimer.",
+      "kata_kunci": "Demensia, Penyakit Alzheimer, XGBoost, SMOTE, SHAP.",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 4,
@@ -572,7 +590,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Indonesia merupakan wilayah rawan gempa bumi karena terletak di pertemuan tiga lempeng tektonik dunia, yaitu lempeng Indo-Australia, Eurasia, dan Pasifik. Pulau Sumatra merupakan salah satu kawasan seismik aktif dan bagian dari zona megathrust, dimana sumber gempa besar terjadi. Dampak dari gempa besar berupa korban jiwa dan kerusakan infrastruktur. Sehingga diperlukan upaya preventif untuk meminimalkan dampak buruk dari gempa. Pengembangan Early Warning System (EWS) dapat menjadi salah satu upaya yang dapat dilakukan untuk mengetahui potensi gempa berdasarkan kekuatan gempa bumi pada lokasi tertentu. Namun, tidak semua lokasi pernah terjadi gempa. Sehingga perlu untuk memperkirakan aktivitas seismik di daerah yang tidak terukur. Hal ini dapat dilakukan dengan menggunakan teknik interpolasi spasial yang dikombinasikan dengan pendekatan Gaussian Field (GF). Terlepas dari keakuratannya, penggunaan GF menjadi tantangan secara komputasi karena adanya 'big n problem'. Dimana kumpulan data yang besar membuat komputasi menjadi lebih kompleks. Untuk mengatasi hal ini, metode Gaussian Markov Random Field (GMRF) diterapkan. GMRF menyederhanakan perhitungan dengan memecah data spasial kontinu menjadi komponen-komponen diskrit menggunakan Stochastic Partial Differential Equation (SPDE). SPDE meningkatkan efisiensi pemodelan spasial melalui triangulasi dan transformasi GMRF. Hasil pemodelan menunjukkan bahwa parameter yang optimal adalah jarak 10 km dan standar deviasi 0,1 dengan nilai DIC sebesar 7,84, WAIC sebesar 107,93 dan logCPO sebesar -155,68. Model menunjukan bahwa jarak 10 km adalah batas optimal untuk menggambarkan pengaruh antar lokasi dalam memodelkan kekuatan gempa. Hasil pemetaan mampu mengidentifikasi area-area yang berpotensi terkena gempa bumi. Sehingga menyediakan informasi penting bagi pembuat kebijakan untuk merumuskan aturan keselamatan dan merancang program peningkatan kesadaran masyarakat. Pada akhirnya dapat memperkuat ketahanan masyarakat dan memperbaiki perencanaan mitigasi bencana.",
+      "kata_kunci": "Bayesian statistik, Gempa bumi, Gaussian Markov Random Field (GMRF), Interpolasi, INLA, Spatiotemporal",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 5,
@@ -588,7 +609,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Perkembangan ilmu pengetahuan dan teknologi dalam bidang kesehatan mendorong para tenaga ahli selalu mengadakan riset terhadap berbagai penyakit. Berdasarkan sifat penularannya, penyakit terbagi menjadi penyakit menular (Communicable diseases) dan penyakit tidak menular (Noncommunicable diseases). Menurut World Health Organization (WHO), penyakit tidak menular telah membunuh 41 juta orang setiap tahunnya, setara dengan 74% dari total kematian secara global. Penyakit tidak menular yang paling banyak menyebabkan kematian adalah penyakit kardiovaskular, dengan angka mencapai 17,9 juta kematian setiap tahunnya. Tingginya angka kematian ini menunjukkan perlunya langkah strategis untuk menekan dampaknya. Salah satu upaya yang dapat dilakukan adalah dengan melakukan pengelompokan pasien penyakit jantung berdasarkan faktor risikonya. Oleh karena itu, penelitian ini bertujuan untuk mengelompokan pasien penyakit jantung berdasarkan faktor risikonya meliputi usia, tekanan darah, kolesterol dan detak jantung maksimum. Adapun data yang digunakan diindikasi memiliki campuran distribusi normal dan diindikasi terdapat ketidakpastian cluster, sehingga penelitian ini mengusulkan menggunakan pendekatan model-based clustering normal multivariat. Metode ini mengoptimalkan kemiripan antara individu dengan menggunakan pendekatan model peluang dengan mengasumsikan bahwa data dibangkitkan dari campuran beberapa distribusi peluang, yang mana setiap sebaran mewakili kelompok berbeda dengan parameter yang berbeda. Estimasi parameter dilakukan menggunakan algoritma Expectation Maximization (EM). Penelitian ini menghasilkan model terbaiknya “EEI” dengan 2 cluster, dimana cluster 1 terdiri dari 103 pasien dan cluster 2 terdiri dari 29 pasien.",
+      "kata_kunci": "Model-Based Clustering, EM-algorithm, Penyakit Jantung.",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 6,
@@ -604,7 +628,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Pendidikan merupakan hal yang sangat penting dalam membentuk generasi yang berkualitas dan berdaya saing tinggi. Capaian akademik siswa sekolah dasar dipengaruhi oleh berbagai faktor, baik dari karakteristik individu siswa maupun dari lingkungan sekolah. Capaian akademik siswa sekolah dapat dibagi menjadi dua jenis yaitu kemampuan verbal dan kemampuan kuantitatif. Penelitian ini bertujuan untuk menganalisis pengaruh karakteristik siswa dan sekolah terhadap capaian akademik siswa menggunakan metode Multilevel Structural Equation Modeling (MSEM). Data yang digunakan dalam penelitian ini memiliki struktur hierarki, di mana siswa dikelompokkan dalam sekolah yang berbeda. Karakteristik individu seperti usia, jenis kelamin, dan tingkat ekonomi siswa, serta karakteristik sekolah, dianalisis untuk dilihat pengaruhnya terhadap kemampuan verbal dan kemampuan kuantitatif. Dengan menggunakan metode MSEM, penelitian ini dapat lebih mendalam mengidentifikasi hubungan antar variabel pada level individu dan sekolah. Hasil penelitian menunjukkan bahwa kualitas sekolah memiliki pengaruh sebesar 0,944 terhadap kemampuan kuantitatif dan sebesar 0,981 terhadap kemampuan verbal siswa. Usia tidak memberikan pengaruh terhadap peningkatan kemampuan kuantitatif ataupun verbal. Tingkat ekonomi mempengaruhi kemampuan kuantitatif dan verbal berturut-turut sebesar 0,313 dan 0,380. Serta anak perempuan memiliki keunggulan pada kemampuan kuantitatif dan verbal berturut-turut sebesar 1,769 dan 2,165. Penelitian ini diharapkan dapat menjadi dasar bagi pengembangan kebijakan pendidikan yang lebih efektif untuk meningkatkan capaian akademik siswa sekolah dasar.",
+      "kata_kunci": "karakteristik siswa, capaian akademik, variabel laten",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 7,
@@ -620,7 +647,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Media sosial telah menjadi ruang utama bagi masyarakat untuk menyampaikan pendapat, termasuk opini dan keluhan terkait layanan telekomunikasi. Tantangan utama klasifikasi emosi adalah memahami teks berbahasa Indonesia yang tidak baku, dengan singkatan, emotikon, campuran bahasa, serta konteks tersembunyi yang bergantung pada urutan kata. Penelitian ini bertujuan untuk mengevaluasi tingkat akurasi metode CNN-BiLSTM dengan word embedding IndoBERT. Model ini memanfaatkan IndoBERT untuk menangkap konteks bahasa Indonesia dalam bentuk vektor, CNN untuk mengenali pola penting dalam teks, dan BiLSTM untuk memahami hubungan antar kata secara berurutan. Dataset yang digunakan berasal dari media sosial dan mencakup enam kategori emosi dasar yaitu ketakutan, rasa jijik, kemarahan, terkejut, kegembiraan, dan kesedihan. Model terbaik diperoleh dengan menggunakan batch size sebesar 8, jumlah filter pada CNN sebanyak 128, ukuran kernel 4, 1 lapisan BiLSTM berjumlah 32 unit, 1 lapisan dense berjumlah 128 neuron, tingkat dropout sebesar 0,1, learning rate 10−5 dan jumlah epoch sebanyak 10. Model tersebut pada unseen data mampu mengklasifikasikan emosi dengan akurasi hingga 93% dengan F1-score keseluruhan sebesar 92,97%. Hasil ini menunjukkan bahwa metode CNN-BiLSTM dengan word embedding IndoBERT dapat membantu memahami dan mengelompokkan emosi di media sosial dengan akurasi tinggi. Temuan ini diharapkan dapat digunakan dalam berbagai aplikasi praktis, seperti analisis opini publik atau peningkatan layanan pelanggan di bidang telekomunikasi secara otomatis.",
+      "kata_kunci": "CNN-BiLSTM, IndoBERT, Klasifikasi Emosi, Layanan Telekomunikasi, Media Sosial",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 8,
@@ -636,7 +666,10 @@
         "access": "request-email",
         "fileCount": 11,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Tantangan utama di wilayah ini adalah mencapai Tujuan Pembangunan Berkelanjutan (TPB) ke-6, yaitu akses air layak dan sanitasi. Pada penelitian ini terdapat beberapa variabel kualitatif dan setiap variabel terdiri dari beberapa kategori. Kategori yang banyak membutuhkan reduksi dimensi peta dan hal ini mengakitbakan adanya varian data yang hilang. Proses rekategorisasi dilakukan untuk memastikan bahwa semua kategori variabel berkontribusi terhadap kebergantungannya agar baik dalam pengambilan keputusan. Proses reduksi dengan proses iterasi hingga diperoleh peta dua dimensi dengan varians kumulatif yang besar tidak selalu baik dalam menjelaskan data yang sebenarnya. Proses iterasi menyebabkan matriks jarak yang baru berubah terlalu jauh dari matriks jarak data yang sebenarnya, maka perlu dilakukan penanggulangan hasil pemetaan dengan persentase ukuran kualitas pemetaan yang besar tetapi matriks jarak koordinat peta hasil iterasi dengan matriks jarak koordinat pada peta yang sebenarnya tidak berubah terlalu jauh. Hasil varians kumulatif dari joint correspondence analysis memerlukan evaluasi dengan nilai stress dan alternatif solusi yang dapat digunakan adalah menggunakan Multiple Correspondence Analysis (MCA). Hasil awal dari MCA menunjukkan bahwa cakupan varians pada dua dimensi hanya mencapai 22,3% yang dapat mengakibatkan informasi yang diberikan akan menyesatkan. Hasil awal JCA menghasilkan varians kumulatif 70,52% namun hasil nilai stress adalah 0,632 yang artinya kualitas pemetaan kurang baik. Setelah dilakukan rekategorisasi variabel menggunakan elliptical confidence region diperoleh hasil JCA 77,79 dan nilai stress masih di atas 0,2 yaitu 0,539. Oleh karena itu, analisis dilakukan menggunakan MCA dengan menggunakan matriks jarak euclidean yang melibatkan 36 dimensi, mencakup 100% varians kumulatif. Berdasarkan hasil perhitungan simultan dengan jarak euclidean, diperoleh 9 kelompok kabupaten/kota berdasarkan karakteristik air bersih dan sanitasi.",
+      "kata_kunci": "Joint Correspondence Analysis, Multiple Correspondence Analysis, stress, air layak, sanitasi",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 9,
@@ -652,7 +685,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Karakteristik suatu objek (kecamatan) merupakan atribut-atribut spesifik yang menggambarkan kondisi dan kualitas dari objek (kecamatan) tertentu. Identifikasi karakteristik kecamatan akan memberikan gambaran yang lebih jelas tentang kecamatan-kecamatan yang membutuhkan perhatian lebih dalam situasi tertentu. Karakteristik di setiap kecamatan dapat dikenali berdasarkan hubungan kebergantungan antar kategori pada variabel kualitatif dan korelasi antar variabel kuantitatif. Untuk menganalisis karakteristik tersebut dapat menggunakan hybrid analisis korespondensi multipel. Hybrid analisis korespondensi multipel digunakan karena data dalam penelitian ini terdiri dari delapan variabel kualitatif bersifat kategori dan tiga variabel kuantitatif dari Data Wilayah Pendukung Kabupaten Bandung Tahun 2023. Varians kumulatif yang dihasilkan akan dianggap baik jika pada dua dimensi mencapai 80%. Dari hasil analisis diperoleh bahwa cakupan varians pada dua dimensi hanya sebesar 16,9%. Hal ini menyebabkan informasi yang dihasilkan kurang representatif. Maka perhitungan dilakukan menggunakan matriks jarak Euclidean, dimana menggunakan 43 dimensi yang mencakup 100% kumulatif varians. Berdasarkan hasil analisis kebergantungan dan korelasi kosinus, diperoleh sebanyak 19 kelompok kecamatan. Oleh karena itu, kecamatan dapat dikelompokan kembali berdasarkan jarak antar objek menggunakan metode analisis klaster terbaik yang hasilnya mirip dengan hasil analisis kebergantungan. Berdasarkan hasil analisis klaster hirarki diperoleh jumlah kelompok kecamatan yang lebih sedikit yaitu sebanyak 12,11, dan 10 kelompok dengan metode terbaik yaitu ward method.",
+      "kata_kunci": "analisis korespondensi multipel, korelasi kosinus, jarak Euclidean, analisis klaster",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 10,
@@ -679,7 +715,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Di era digital saat ini sistem rekomendasi telah dipakai oleh berbagai kalangan usia mulai dari anak-anak hingga dewasa. Salah satu sistem rekomendasi yang sering dipakai oleh banyak orang yaitu dalam aplikasi YouTube. Pengguna YouTube sering mendapatkan rekomendasi video yang berkaitan dengan video yang ditonton sebelumnya. Hal tersebut merupakan bukti nyata bahwa sistem rekomendasi ini dekat dan membantu kehidupan manusia saat ini. Hal tersebut membuat para peneliti berlomba-lomba mengembangkan sistem rekomendasi yang semakin baik dan akurat. Salah satu sistem rekomendasi yang dinilai memiliki performa yang baik yaitu sistem rekomendasi dengan metode Attentive Item2Vec (AI2V). Metode AI2V merupakan pengembangan dari metode Item2Vec (I2V), yang merupakan kombinasi dari collaborative filtering dengan neural network dalam mendapatkan suatu rekomendasi. Keunggulan dari AI2V yaitu memperhatikan seluruh urutan item (barang, video, gambar) yang dikonsumsi oleh pengguna, memperhatikan hubungan yang rumit antara seluruh item dalam urutan pengguna dan dapat diterapkan dalam berbagai jenis sistem rekomendasi. Selain itu AI2V dapat mengatasi masalah sparsity yang berdampak pada ketidakakuratan rekomendasi yang diperoleh. Masalah sparsity adalah ketika terdapat item yang jarang dinilai. Hal tesebut mengakibatkan matriks user-item memiliki nilai 0 yang cukup banyak atau dikatakan sebagai matriks elemen jarang (sparse). Pada penelitian ini, metode AI2V diterapkan pada data penilaian para wisatawan terhadap beberapa destinasi wisata di Indonesia. Metode AI2V diantaranya yaitu data preparation, data splitting, Attentive Context-Target Representation, Multi Attentive User Representation¸ AI2V similarity function, membuat Top-5 Recommendation dan performance evaluation. Berdasarkan analisis yang digunakan, AI2V menghasilkan Top-5 Recommendation destinasi wisata yaitu Keraton Surabaya, Sanghyang Heuleut, Desa Wisata Gamplong, Jogja Bay Pirates Adventure Waterpark dan Jogja Exotarium. Wisatawan dapat diberikan Top-5 Recommendation tersebut dan diharapkan sesuai dengan minat mereka. Tingkat akurasi Mean Percentage Ranking (MPR) dari rekomendasi AI2V yang dihasilkan yaitu sebesar 0,48976, artinya hasil rekomendasi untuk semua wisatawan dianggap kedalam performa yang cukup baik dan sesuai dengan minat dari wisatawan.",
+      "kata_kunci": "Attentive Item2Vec, Destinasi Wisata, Item2Vec, Neural Network, Sistem Rekomendasi",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 12,
@@ -695,7 +734,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "PM10 merupakan partikel udara yang berdiameter 10 mikrometer atau kurang, dan berpotensi menyebabkan berbagai masalah kesehatan seperti penyakit pernapasan, jantung, dan stroke. Di daerah perkotaan seperti DKI Jakarta, pemantauan dan peramalan konsentrasi PM10 sangat penting karena tingginya tingkat polusi udara di provinsi tersebut. Namun, memodelkan konsentrasi PM10 cukup kompleks karena faktor cuaca memiliki hubungan non-linear dengan PM10, khususnya curah hujan yang diketahui dapat menurunkan konsentrasi PM10 secara signifikan. Penelitian ini menggunakan model Dynamic Spatio-Temporal dengan Integrated Nested Laplace Approximations (INLA) untuk memodelkan konsentrasi PM10 yang berkaitan dengan curah hujan di Provinsi DKI Jakarta. Model ini mampu menangkap variasi spasial dan temporal secara dinamis serta mengakomodasi efek interaksi antara ruang dan waktu. Model dengan tipe interaksi IV dipilih karena memberikan hasil terbaik, dengan nilai Deviance Information Criterion (DIC) sebesar 14.892,57, WAIC sebesar 15.294,09, dan Pseudo R2 sebesar 0,7105. Analisis menunjukkan bahwa curah hujan memiliki hubungan negatif dengan konsentrasi PM10, dengan koefisien sebesar -0,018, sesuai dengan teori rain scavenging. Hasil peramalan menunjukkan distribusi spasial PM10 yang bervariasi dengan konsentrasi tertinggi di Jakarta Barat (63,2 µg/m³) dan terendah di Jakarta Pusat (44,6 µg/m³). Evaluasi model menunjukkan akurasi peramalan yang baik dengan Mean Absolute Percentage Error (MAPE) sebesar 7,74%. Model ini diharapkan dapat menjadi acuan dalam perencanaan kebijakan mitigasi polusi udara yang lebih efektif terkait dengan curah hujan.",
+      "kata_kunci": "Dynamic Spatio-Temporal, INLA, PM10, Curah Hujan",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 13,
@@ -711,7 +753,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Penelitian ini mengusulkan penerapan model IndoBERT yang dikombinasikan dengan metode Stochastic Weight Averaging Gaussian (SWAG) untuk mendeteksi hate speech di platform X, khususnya dalam konteks perdebatan mengenai pembangunan Ibu Kota Negara (IKN) Indonesia. SWAG, yang berbasis distribusi probabilistik, memungkinkan model untuk mengestimasi ketidakpastian prediksi, memberikan gambaran yang lebih jelas tentang tingkat kepercayaan terhadap hasil prediksi. Penelitian ini menunjukkan bahwa penerapan SWAG pada model IndoBERT meningkatkan stabilitas pelatihan dengan mengurangi fluktuasi ekstrem pada grafik loss antara pelatihan dan validasi. Akurasi keseluruhan model mencapai 92%, dengan precision, recall, dan F1-score yang tinggi pada kedua kelas, menunjukkan kemampuan model yang sangat baik dalam mengklasifikasikan data hate speech dan non-hate speech. Penggunaan 95% credible interval juga memperlihatkan kepercayaan model yang tinggi terhadap prediksi yang benar, dan ketidakpastian yang lebih besar pada prediksi yang salah. Secara keseluruhan, SWAG berkontribusi pada stabilitas pelatihan, dan pemahaman ketidakpastian prediksi, yang meningkatkan kinerja model dalam deteksi hate speech.",
+      "kata_kunci": "Hate Speech, Stochastic Weight Averaging Gaussian, IndoBERT",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 14,
@@ -727,7 +772,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Angka Kematian Bayi (AKB) merupakan indikator untuk menilai derajat kesehatan suatu wilayah. Indonesia masih menghadapi tantangan dalam menurunkan AKB yang tinggi, yaitu 16,85 per 1.000 kelahiran hidup. Disparitas AKB, terutama di Pulau Jawa mencerminkan adanya variasi spasial yang menunjukkan hubungan tidak merata dan kompleks antara AKB dengan faktor-faktor risikonya. Sehingga diperlukan metode prediktif yang mampu mengakomodasi heterogenitas spasial dan nonlinieritas. Penelitian ini menerapkan Geographically Weighted Random Forest (GWRF) untuk memprediksi AKB di 119 kabupaten/kota di Pulau Jawa pada tahun 2022 dengan sebelas variabel prediktor. Model ini dibandingkan dengan Random Forest (RF), regresi linier berganda (OLS), dan Geographically Weighted Regression (GWR). Hasil menunjukkan bahwa GWRF memiliki akurasi prediksi lebih baik (𝑅² = 0,62) dibandingkan RF (𝑅² = 0,54) dan OLS (𝑅² = 0,47). Meskipun GWR memiliki R² global lebih tinggi (𝑅² = 0,65), analisis residual menunjukkan bahwa model ini masih menyisakan pola spasial yang signifikan dan kurang mampu menangkap hubungan nonlinier, sehingga kurang sesuai untuk data dengan pola kompleks. Sebaliknya, GWRF menghasilkan distribusi residual lebih merata dan mampu mendeteksi pola spasial yang lebih kompleks. GWRF mengidentifikasi empat faktor utama dengan kontribusi terbesar, yaitu berat badan lahir rendah (BBLR), asi eksklusif, ketahanan pangan dan rasio puskesmas. BBLR menjadi faktor utama di 37% wilayah, terutama di sebagian besar Kabupaten/kota di Jawa Tengah. Model ini memberikan wawasan tentang karakteristik lokal dan pola spasial, sehingga dapat digunakan untuk merancang intervensi berbasis lokasi yang lebih efisien dan tepat sasaran. Penelitian ini memberikan kontribusi dalam mendukung kebijakan kesehatan berbasis data untuk menurunkan AKB dan mengurangi disparitas kesehatan di Pulau Jawa.",
+      "kata_kunci": "Angka Kematian Bayi, Model Prediksi, Geographically Weighted Random Forest (GWRF), Heterogenitas Spasial, Nonlinieritas",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 15,
@@ -743,7 +791,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Stunting merupakan gangguan pertumbuhan yang tidak hanya berdampak pada tinggi badan tetapi juga memengaruhi perkembangan kognitif, sistem kekebalan tubuh, dan produktivitas di masa depan. Pada tahun 2023, prevalensi stunting di Jawa Barat mencapai 21,7%, melebihi ambang batas WHO sebesar 20%. Penelitian ini bertujuan untuk mengidentifikasi faktor-faktor yang berkontribusi terhadap stunting di kabupaten/kota di seluruh Provinsi Jawa Barat. Namun demikian tidak semua faktor yang berkontribusi terhadap stunting memiliki data yang tersedia. Selain itu, stunting di suatu wilayah tidak hanya dipengaruhi oleh karakteristik lokal, tetapi juga oleh kondisi wilayah sekitarnya dan perubahan kebijakan dari waktu ke waktu. Model Spatial Error Component (SEC) digunakan untuk mengakomodasi efek spasial, efek temporal, serta interaksi spasio-temporal pada error. Penelitian ini menggunakan data tingkat kabupaten/kota dengan variabel meliputi persentase stunting, cakupan ASI eksklusif, imunisasi dasar lengkap, bayi berat lahir rendah (BBLR), akses sanitasi layak, serta tingkat pendidikan ibu. Struktur model yang kompleks menyebabkan Maximum Likelihood Estimation (MLE) mengalami masalah identifiability parameter, Sehingga digunakan pendekatan Bayesian dengan pendekatan numerik Integrated Nested Laplace Approximation (INLA). Metode ini memungkinkan pemanfaatan informasi prior untuk meningkatkan stabilitas estimasi serta mengatasi ketidakpastian parameter. Hasil penelitian menunjukkan bahwa faktor ASI eksklusif dan imunisasi dasar lengkap memiliki pengaruh. Selain itu, model SEC menunjukkan kecocokan yang lebih baik dibandingkan model lainnya berdasarkan nilai WAIC, DIC, dan MLIK.",
+      "kata_kunci": "Bayesian, Spatial Error Component, Stunting, INLA, Jawa Barat.",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 16,
@@ -759,7 +810,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Rasa sakit merupakan sensasi yang tidak nyaman yang umumnya dialami oleh manusia dan bisa diekspresikan melalui wajah seseorang sebagai bentuk komunikasi secara nonverbal. Penelitian ini bertujuan untuk mengklasifikasikan citra multiclass dari ekspresi wajah manusia dengan menggunakan pendekatan convolutional neural network dengan menggunakan perbandingan dari beberapa arsitektur yaitu MobileNetV1, MobileNetV2, MobileNetV3Small, MobileNetV3Large, dan NASNetMobile. Penelitian ini dapat menghasilkan model klasifikasi yang ringan dan efisien untuk dapat melakukan pemantauan rasa sakit secara real time melalui layar monitor. Dari pelatihan kelima model, didapatkan model MobileNetV3Large menjadi model terbaik dalam proses klasifikasi citra. MobileNetV3Large dapat menghasilkan nilai akurasi sebesar 98,5%, precision sebesar 97,1%, recall sebesar 96,8%, dan F1 score sebesar 97%. Klasifikasi citra MobileNetV3Large juga dapat bekerja dengan baik untuk segala usia, ras, dan jenis kelamin. Hal ini menjadi sangat penting dalam memanajemen rasa sakit di ruang perawatan intensif demi membantu tenaga medis dalam memberikan respons yang cepat dan tepat. Hal ini sangat penting yang dapat memberikan solusi pendeteksian ekspresi wajah secara real-time pada wajah manusia, dimana waktu respon terhadap rasa sakit dalam penanganan pasien di masa depan.",
+      "kata_kunci": "MobileNet, Klasifikasi Citra Wajah Multiclass, Real time",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 17,
@@ -775,7 +829,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Suatu analisis yang dilakukan untuk mengetahui hubungan antara satu variabel tak bebas dan satu atau lebih variabel prediktor disebut analisis regresi. Analisis regresi Poisson merupakan salah satu analisis yang dapat digunakan untuk analisis regresi dengan variabel respon menggunakan data cacah. Regresi ini dapat digunakan pada pemodelan kejadian banjir di kecamatan-kecamatan yang ada di Kabupaten Bandung. Banjir merupakan bencana alam yang disebabkan oleh faktor alam maupun manusia. Faktor alam dapat meliputi curah hujan, daerah aliran sungai, dan topografi wilayah. Sedangkan faktor manusia meliputi pembangunan komplek perumahan, pembukaan usaha, penggundulan hutan, dan perubahan tata guna lahan lainnya sehingga dapat mengurangi daerah resapan air. Kabupaten Bandung menjadi salah satu wilayah dengan bencana banjir paling banyak di Provinsi Jawa Barat. Pada tahun 2023 di Kabupaten Bandung terjadi banjir sebanyak 61 kejadian dan terdapat 62.600 jiwa yang terdampak. Penelitian ini bertujuan untuk memperoleh faktor-faktor yang menyebabkan banjir sebagai upaya untuk pencegahan bencana. Data yang digunakan adalah frekuensi kejadian banjir, yang merupakan data cacah, sehingga analisis yang dipilih adalah regresi Poisson. Namun, Regresi Poisson menghadapi permasalahan overdispersi, yang diindikasi karena adanya excess zero pada data sehingga digunakan model Zero Inflated Poisson (ZIP) untuk menangani masalah ini. Selain itu, data dengan komponen wilayah berpotensi menghadapi masalah ketergantungan spasial antar unit pengamatan (spatial dependence) atau heterogenitas spasial (spatial heterogeneity). Jika masalah ini diabaikan, dapat menyebabkan taksiran parameter menjadi tidak efisien. Oleh karena itu, penelitian ini menggunakan pendekatan Geographically Weighted Zero Inflated Poisson Regression (GWZIPR) untuk mengatasi permasalahan spasial dan memberikan hasil taksiran yang lebih baik. Hasil yang diperoleh dibentuk kedalam kelompok berdasarkan variabel yang signifikan. Pada model poisson state terbentuk 6 kelompok kecamatan dan pada model zero state hanya pada Kecamatan Baleendah yang dipengaruhi oleh variabel prediktor.",
+      "kata_kunci": "Banjir, Regresi Poisson, Zero Inflated Poisson, Geographically Weighted Zero Inflated Poisson Regression, ZIP, GWZIPR",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 18,
@@ -791,7 +848,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Analisis korespondensi tiga arah merupakan metode yang efisien untuk mengeksplorasi keterkaitan tiga variabel kategorik. Metode ini menggunakan biplot interaktif untuk memvisualisasikan hubungan antar variabel secara simultan. Penelitian ini menerapkan pendekatan yang mengintegrasikan polinomial orthogonal bagi variabel ordinal dan vektor singular hasil dekomposisi Tucker3 untuk variabel nominal, sehingga menghasilkan representasi grafis yang lebih informatif. Three-way Ordered Non-Symmetrical Correspondence Analysis (ONSCA) diimplementasikan pada data penduduk Indonesia tahun 2024 berdasarkan wilayah tempat tinggal dan kelompok umur. Data diperoleh dari Survei Angkatan Kerja Nasional (SAKERNAS) yang dilakukan oleh Badan Pusat Statistik (BPS) dan diterbitkan pada Agustus 2024. Data tersebut merupakan data kategorik diskrit yang terdiri dari variabel wilayah tempat tinggal (nominal), kelompok umur (ordinal), dan jenis kegiatan penduduk (nominal). Analisis dilakukan untuk mengidentifikasi kebergantungan antar variabel serta memetakan jenis kegiatan penduduk berdasarkan kelompok umur dan wilayah pemukiman. Hasil penelitian menunjukkan adanya kebergantungan antara ketiga variabel, sehingga analisis ONSCA dapat diterapkan. Hasil pemetaan menghasilkan biplot dua dimensi yang menjelaskan 86% total variasi dalam dua dimensi utama, dengan temuan bahwa kelompok umur muda (U1) di wilayah perkotaan memiliki profil kegiatan yang paling berbeda, sedangkan kelompok umur lainnya cenderung berdekatan menunjukkan kemiripan pola kegiatan di wilayah perdesaan dan perkotaan. Temuan ini diharapkan menjadi dasar perumusan kebijakan pembangunan dan penyediaan lapangan kerja yang sesuai dengan karakteristik penduduk berdasarkan umur dan wilayah tempat tinggal.",
+      "kata_kunci": "Three-way Ordered Non-Symmetrical Correspondence Analysis (ONSCA), Tucker3, polinomial orthogonal, penduduk, perkotaan, perdesaan, bekerja",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 19,
@@ -818,7 +878,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Nikel merupakan komoditas strategis yang berperan penting dalam mendukung transisi energi bersih, khususnya untuk baterai kendaraan listrik dan penyimpanan energi terbarukan. Namun, harga kontrak berjangka nikel cenderung fluktuatif sehingga menimbulkan risiko bagi industri dan pembuat kebijakan. Penelitian ini bertujuan mengembangkan metode hybrid Variational Mode Decomposition– Bidirectional Gated Recurrent Unit (VMD-BiGRU) untuk meningkatkan akurasi peramalan harga nikel. Data yang digunakan berupa harga mingguan kontrak berjangka nikel sebanyak 1.668 observasi dari 2 Agustus 1993 hingga 14 Juli 2025. VMD digunakan untuk mendekomposisi data nonlinear dan mengandung noise menjadi beberapa mode intrinsik, yang kemudian diprediksi secara terpisah menggunakan BiGRU sebelum direkonstruksi menjadi hasil akhir. Evaluasi dilakukan dengan membandingkan kinerja model VMD-BiGRU terhadap model intervensi, BiGRU, dan EMD-BiGRU menggunakan Mean Absolute Percentage Error (MAPE) pada pembagian data 80:20. Hasil penelitian menunjukkan VMD- BiGRU memberikan performa terbaik dengan MAPE sebesar 2,643% pada data training dan 2,037% pada data testing. Temuan ini menunjukkan bahwa integrasi dekomposisi sinyal dan pembelajaran mendalam dua arah mampu memodelkan dinamika harga komoditas yang kompleks. Pendekatan ini berpotensi mendukung manajemen risiko, pengambilan keputusan investasi, serta kebijakan strategis terkait ketahanan mineral kritis.",
+      "kata_kunci": "VMD, BiGRU, Nikel, Peramalan",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 1,
@@ -834,7 +897,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Perkembangan teknologi yang semakin pesat mempermudah pengerjaan sesuatu yang awalnya harus dilakukan secara manual dan secara konvensional, sekarang dapat dilakukan secara digital dan mobile. BPJS Ketenagakerjaan sebagai salah satu lembaga pelayanan publik merespon situasi tersebut melalui pembuatan aplikasi Jamsostek Mobile (JMO). Dalam optimalisasi aplikasi, tidak dapat dilakukan hanya dengan pengembangan fitur dalam aplikasi, adanya evaluasi terhadap penggunaan aplikasi perlu dilakukan dimana pengembang aplikasi harus mengikuti informasi berasal dari pengguna untuk mengidentifikasi tanggapan pengguna agar sesuai dengan kebutuhan pengguna. Pada penelitian ini menjelaskan bagaimana metode IndoBERT digunakan untuk mengklasifikasikan ulasan aplikasi JMO berdasarkan polarisasi sentimen. Kemudian metode BERTopic digunakan dalam pemodelan topik pada sentimen ulasan aplikasi JMO. Hasil dari penelitian ini didapatkan model terbaik untuk klasifikasi sentimen IndoBERT dengan menggunakan jumlah neuron sebesar 128, learning rate sebesar 10-5, epoch sebesar 30, dan batch size sebesar 8. Model tersebut pada data ulasan baru mampu mengklasifikasikan ulasan dengan akurasi hingga 99,6%. Untuk pemodelan topik BERTopic yang dilakukan pada kelas klasifikasi sentimen negatif didapat 18 topik dengan nilai 𝐶𝑣 sebesar 0,776. Kemudian pada intertopic distance map terbentuk 3 kluster dari 18 topik yang didapatkan. Tiga kluster topik yang diidentifikasi yakni terkait masalah pengkinian data pengguna, gangguan akibat update aplikasi, dan masalah teknis seperti login dan klaim jaminan. Diharapkan pihak Jamsostek Mobile dapat melakukan perbaikan pada aplikasi JMO terutama pada ketiga topik permasalahan tersebut agar dapat meningkatkan kepuasan dan kenyamanan pengguna dalam menggunakan aplikasi JMO.",
+      "kata_kunci": "BERTopic, IndoBERT, JMO, Pemodelan Topik",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 2,
@@ -850,7 +916,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Penilaian nyeri secara objektif masih menjadi tantangan dalam praktik klinis karena dominannya ketergantungan pada laporan subjektif pasien, sementara ekspresi wajah menyediakan indikator nonverbal yang kaya informasi namun memerlukan pendekatan statistik yang mampu menangkap ketergantungan spasial citra secara eksplisit. Penelitian ini bertujuan untuk mengidentifikasi area wajah yang paling diskriminatif antara nyeri fasik dan tonik melalui pendekatan berbasis teori informasi dan pemodelan spasial, dengan mengintegrasikan Divergensi Kullback– Leibler (KL) per piksel dan model Bayesian Gaussian Markov Random Field (GMRF). Data sekunder dari studi Fernandes-Magalhaes et al. (2022) digunakan, dengan fokus analisis pada area mata dan alis sebagai wilayah yang paling berperan dalam ekspresi nyeri. Distribusi intensitas piksel untuk masing-masing kondisi nyeri diestimasi secara empiris dan dimodelkan menggunakan GMRF untuk menangkap dependensi spasial, selanjutnya perbedaan distribusi diukur melalui Symmetric Kullback–Leibler Divergence (SKLD) dan divisualisasikan dalam peta spasial yang telah diperlunak menggunakan Gaussian smoothing. Hasil analisis menunjukkan bahwa area dengan nilai SKLD tertinggi secara konsisten terlokalisasi pada wilayah glabella, nasal bridge, dan sudut lateral mata kiri, yang berkorelasi dengan aktivitas otot procerus, nasalis, dan orbicularis oculi sebagai respons fisiologis terhadap nyeri. Temuan ini menegaskan bahwa perbedaan antara nyeri fasik dan tonik termanifestasi terutama pada wajah bagian atas dalam bentuk pola spasial yang terstruktur dan konsisten. Penelitian ini berkontribusi dengan menghadirkan kerangka analisis spasial berbasis probabilistik yang objektif dan dapat ditafsirkan secara fisiologis, serta menyediakan dasar metodologis bagi pengembangan sistem deteksi nyeri otomatis yang lebih transparan, robust, dan dapat dipertanggungjawabkan secara klinis.",
+      "kata_kunci": "Analisis Nyeri Wajah, Gaussian Markov Random Field, Divergensi Kullback–Leibler, Nyeri Fasik dan Tonik, Interpretasi Spasial",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 3,
@@ -866,7 +935,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Stunting merupakan gangguan pertumbuhan akibat kekurangan gizi kronis dan infeksi berulang yang berdampak pada kualitas sumber daya manusia. Indonesia masih menghadapi tantangan besar dalam percepatan penurunan angka stunting. Peraturan Presiden No. 72 Tahun 2021 menargetkan prevalensi stunting turun menjadi 14 persen pada tahun 2024 melalui intervensi spesifik dan sensitif yang dilaksanakan secara konvergen. Namun hingga tahun 2024, target tersebut belum tercapai. Provinsi Jawa Barat termasuk ke dalam provinsi prioritas, dan Kota Cirebon masih menunjukkan peningkatan prevalensi pada tahun 2023 meskipun telah melaksanakan 8 aksi konvergensi. Untuk memperkuat koordinasi lintas sektor hingga tingkat kecamatan dan kelurahan, pemerintah membentuk Tim Percepatan Penurunan Stunting (TPPS). Penelitian ini bertujuan mengidentifikasi karakteristik intervensi stunting pada tingkat kelurahan maupun kecamatan berdasarkan 6 indikator intervensi spesifik dan 6 indikator intervensi sensitif. Metode yang digunakan adalah ANOVA–Simultaneous Component Analysis (ASCA) dengan visualisasi Biplot. ASCA mengintegrasikan dekomposisi varians dari ANOVA dengan analisis struktur data menggunakan PCA, sehingga variasi data dapat dipisahkan menjadi komponen yang berasal dari perbedaan antar-kecamatan dan antar-kelurahan di dalam kecamatan. Pemisahan ini memungkinkan pengujian signifikansi faktor secara independen, sehingga level administrasi yang paling relevan untuk penetapan kebijakan dapat diidentifikasi. Hasil penelitian menunjukkan bahwa perbedaan pola intervensi pada sasaran ibu hamil, balita, serta air minum dan sanitasi lebih banyak dijelaskan oleh variasi antar-kelurahan. Pada sasaran ibu hamil terbentuk 7 kelompok kelurahan, pada sasaran balita 10 kelompok, dan pada sasaran air minum dan sanitasi terbentuk 6 kelompok kelurahan dengan pola intervensi yang serupa. Sebaliknya, pada sasaran calon pengantin dan pasangan usia subur, variasi dipengaruhi oleh perbedaan antar- kecamatan, dan kelima kecamatan menunjukkan karakteristik intervensi yang berbeda. Penelitian ini memberikan dasar yang lebih terarah dalam menentukan prioritas perbaikan dan mendukung pengambilan keputusan yang lebih tepat sasaran dalam percepatan penurunan stunting di Kota Cirebon.",
+      "kata_kunci": "Stunting, Intervensi Spesifik, Intervensi Sensitif, ASCA, Biplot.",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 4,
@@ -882,7 +954,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Kabupaten Bandung menghadapi tantangan signifikan dalam mencapai Tujuan Pembangunan Berkelanjutan (SDGs) ke-12 mengenai konsumsi dan produksi yang bertanggung jawab, dengan skor pencapaian yang sangat rendah, yaitu 14,53 dari 100. Skor ini merefleksikan kompleksitas masalah di mana kebijakan yang seragam terbukti tidak efektif karena gagal mengakomodasi keragaman karakteristik antarwilayah. Upaya perumusan kebijakan yang tepat sasaran sering kali terhambat oleh keterbatasan data survei kategorikal yang mengandung ketidakpastian karena gagal merefleksikan spektrum kondisi nyata di lapangan. Penelitian ini bertujuan untuk mengidentifikasi karakteristik kecamatan berdasarkan pola konsumsi dan produksi dengan mempertimbangkan ketidakpastian guna memberikan rekomendasi kebijakan yang tepat sasaran. Data yang digunakan bersumber dari Survei Wilayah Pendukung (SWP) tahun 2024 yang dihimpun oleh Diskominfo Kabupaten Bandung, mencakup 280 desa/kelurahan di 31 kecamatan. Penelitian ini menggunakan metode kombinasi stacking, Correspondence Analysis for Fuzzy Data (CAFD), dan korelasi kosinus untuk menganalisis empat variabel kualitatif dan tiga variabel kuantitatif. Tahap stacking dilakukan untuk mengubah struktur data multi arah menjadi dua arah agar dapat dianalisis menggunakan CAFD. CAFD dipilih karena kemampuannya menangani ketidakpastian dalam data kualitatif, sementara korelasi kosinus digunakan untuk mengidentifikasi karakteristik kuantitatif tiap kecamatan berdasarkan korelasinya. Hasil analisis menunjukkan bahwa dua dimensi utama mampu menangkap 73,35% dari total keragaman informasi, serta berhasil mengidentifikasi 18 kelompok kecamatan dengan profil permasalahan serupa. Pendekatan fuzzy berhasil mengungkap profil multi- karakteristik untuk setiap kecamatan, dengan mengidentifikasi karakteristik dominan dan sekunder yang lebih bernuansa. Dengan demikian, penelitian ini memberikan kontribusi praktis berupa peta dua dimensi yang memungkinkan Pemerintah Kabupaten Bandung untuk beralih dari kebijakan umum ke intervensi yang disesuaikan dengan permasalahan spesifik setiap kecamatan sebagai langkah konkret untuk meningkatkan skor pencapaian SDGs ke-12.",
+      "kata_kunci": "stacking, correspondence analysis for fuzzy data, korelasi kosinus, pola konsumsi dan produksi, SDGs",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 5,
@@ -898,7 +973,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Pembangunan berkelanjutan, khususnya terkait akses air layak (SDG 6), merupakan prioritas dari tingkat nasional hingga tingkat lokal, termasuk Kabupaten Bandung. Kabupaten ini berada di peringkat ke-15 dari 27 kabupaten/kota di Jawa Barat dalam hal akses air minum layak, dan kinerjanya dalam pemenuhan target Rencana Pembangunan Jangka Menengah Daerah (RPJMD) juga belum optimal, tercermin dari capaian akses air bersih yang hanya mencapai 87% dari target 98% tahun 2024. Kondisi ini mendesak analisis mendalam untuk merancang program pemerintah yang tepat sasaran. Penelitian ini bertujuan mengidentifikasi karakteristik setiap kecamatan berdasarkan interaksi simultan antara tiga variabel, yaitu kecamatan, sumber air minum, dan sumber air mandi/cuci. Kompleksitas hubungan tiga arah tersebut dianalisis menggunakan Three-Way Correspondence Analysis yang berlandaskan pada kriteria nasional mengenai kelayakan sumber air minum kategori tidak berkelanjutan (air isi ulang/kemasan). Karena tidak semua kombinasi kategori signifikan secara statistik, penelitian ini menerapkan pendekatan berupa rekategorisasi berbasis Elliptical Confidence Region untuk menyederhanakan kategori secara objektif dan memastikan validitasnya. Hasil penelitian menunjukkan bahwa setelah rekategorisasi, dua dimensi utama menjelaskan 92% total inersia dan membentuk dua kelompok kecamatan dengan kombinasi akses air yang kontras. Mayoritas kecamatan terkategori \"tidak layak\" karena memadukan sumber air minum tidak berkelanjutan dengan sumber mandi/cuci yang tidak layak. Sebagian kecil lainnya terkategori \"layak\" dengan memadukan sumber air minum yang sama namun dengan sumber mandi/cuci yang layak. Temuan ini memberikan dasar kebijakan yang kuat bagi pemerintah daerah untuk merumuskan intervensi yang sesuai dengan karakteristik lokal yang spesifik, sekaligus membuktikan bahwa Elliptical Confidence Region adalah alat bantu rekategorisasi yang efektif dalam analisis Three-Way Correspondence Analysis.",
+      "kata_kunci": "akses air layak, Elliptical Confidence Region, Kabupaten Bandung, Non-Ordered, Simetris, Three-Way Correspondence Analysis",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 7,
@@ -914,7 +992,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Nilai tukar rupiah terhadap dolar Amerika Serikat memiliki peran krusial dalam perekonomian Indonesia. Dinamika global, seperti kebijakan moneter Federal Reserve dan ketegangan perang dagang internasional, serta perubahan indikator ekonomi domestik, turut menyebabkan volatilitas nilai tukar pada periode Juni 2019 hingga November 2025. Karakteristiknya yang fluktuatif, nonlinear, dan tidak stasioner menuntut pendekatan pemodelan yang lebih adaptif dibandingkan metode konvensional. Untuk menangani karakteristik tersebut, penelitian ini menggunakan pendekatan hybrid yang menggabungkan Singular Spectrum Analysis (SSA) dan Fuzzy Time Series Markov Chain (FTSMC). SSA digunakan untuk mengekstraksi komponen penting deret waktu, sementara FTSMC memodelkan residu dengan mempertimbangkan ketidakpastian dan probabilitas transisi antar state. Peramalan dilakukan dengan menggabungkan hasil prediksi SSA dan residu dari FTSMC. Penelitian menggunakan data harian kurs beli Rupiah terhadap Dolar Amerika Serikat sebanyak 1.574 observasi. Evaluasi performa model dilakukan dengan membandingkan akurasi metode SSA, FTSMC, dan hybrid SSA-FTSMC menggunakan Mean Absolute Percentage Error (MAPE) pada berbagai horizon. Hasil penelitian menunjukkan bahwa metode hybrid memberikan akurasi lebih baik dibandingkan metode tunggal pada sebagian besar horizon, dengan kinerja terbaik pada horizon ke-147, yaitu MAPE testing sebesar 0,6346% dan MAPE training sebesar 0,1431%. Model yang diperoleh selanjutnya digunakan untuk meramalkan kurs beli Rupiah terhadap Dolar Amerika Serikat untuk periode lima dan sepuluh hari ke depan.",
+      "kata_kunci": "Hybrid SSA-FTSMC, SSA, FTSMC, Kurs Beli",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 8,
@@ -930,7 +1011,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Tuberkulosis (TB) masih menjadi permasalahan kesehatan utama di Provinsi Jawa Barat, yang merupakan provinsi dengan kasus tertinggi di Indonesia. Kondisi ini mendorong program pengendalian TB nasional untuk terus mempercepat upaya pengendalian TB pada tahun 2030 sesuai target yang telah ditetapkan. Distribusi kasus TB antar kabupaten/kota menunjukkan adanya dependensi dan heterogenitas spasial, serta variasi temporal dari tahun ke tahun. Oleh karena itu, analisis spasial- temporal secara simultan diperlukan untuk menggambarkan fenomena ini secara akurat. Model Improved Geographically and Temporally Weighted Regression (I- GTWR) merupakan salah satu metode yang mampu menangkap dependensi dan heterogenitas tersebut. Namun, metode I-GTWR menggunakan penaksiran berbasis Weighted Least Squares (WLS) yang sensitif terhadap outlier, sehingga keberadaan outlier dapat menyebabkan kesalahan estimasi parameter dan menurunkan akurasi model. Penelitian ini menerapkan model Robust I-GTWR dengan tiga jenis estimator, yaitu M-estimator, S-estimator, dan MM-estimator yang lebih tahan terhadap pengaruh outlier. Data yang digunakan mencakup insidensi TB di 27 kabupaten/kota di Provinsi Jawa Barat selama periode 2020– 2024. Hasil analisis menunjukkan bahwa model Robust I-GTWR dengan M- estimator memberikan kinerja terbaik berdasarkan nilai Akaike Information Criterion (AIC) terkecil. Estimasi parameter menunjukkan adanya variasi pengaruh antarwilayah dan waktu dengan arah positif maupun negatif terhadap insidensi TB. Secara keseluruhan, faktor kepadatan penduduk, insidensi HIV, serta akses terhadap sanitasi layak muncul sebagai faktor yang paling berpengaruh secara signifikan terhadap insidensi TB di sebagian besar wilayah. Hasil ini menunjukkan bahwa penyebaran TB di Jawa Barat dipengaruhi oleh faktor individu, kependudukan, dan lingkungan, serta menegaskan pentingnya penerapan pendekatan spasial-temporal dalam perumusan kebijakan pengendalian TB berbasis wilayah.",
+      "kata_kunci": "Tuberkulosis, Robust Regression, Improved Geographically and Temporally Weighted Regression (I-GTWR)",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 9,
@@ -946,7 +1030,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Pertumbuhan jumlah kendaraan bermotor di Indonesia meningkatkan risiko kecelakaan lalu lintas, sehingga diperlukan jaminan asuransi, khususnya Third Party Liability (TPL). Asuransi TPL memberikan perlindungan terhadap tuntutan hukum dari pihak ketiga akibat kecelakaan. Penentuan premi murni yang tepat menjadi penting untuk menjaga keseimbangan antara risiko dan kompensasi finansial. Data klaim TPL memiliki karakteristik heterogenitas yang tidak teramati (unobserved heterogeneity) dengan fenomena overdispersion pada data frekuensi klaim dan heavy-tailed pada data besar klaim, sehingga distribusi tunggal kurang representatif. Penelitian ini bertujuan untuk memodelkan data klaim asuransi kendaraan bermotor jaminan TPL serta menghitung premi murni menggunakan pendekatan Collective Risk Model (CRM) berbasis distribusi campuran. Distribusi campuran Poisson-gamma digunakan untuk memodelkan frekuensi klaim, sedangkan distribusi campuran Rayleigh-gamma diusulkan sebagai alternatif baru untuk memodelkan besar klaim. Estimasi parameter dilakukan menggunakan metode momen dan MLE, dengan uji kecocokan model Chi-Square dan Kolmogorov-Smirnov. Pemilihan model terbaik didasarkan nilai C-S test dan K-S test. Data penelitian merupakan data sekunder dari PT. X yang menyediakan asuransi kendaraan bermotor dengan perluasan TPL pada underwriting year 2023 di Wilayah 2. Hasil penelitian menunjukkan bahwa distribusi campuran Poisson-gamma paling sesuai untuk memodelkan data frekuensi klaim karena mampu menangkap fenomena overdispersion dan heterogenitas risiko. Distribusi campuran Rayleigh-gamma secara konsisten memberikan hasil terbaik untuk data besar klaim yang bersifat right-skewed dan heavy- tailed. Melalui pendekatan CRM, diperoleh bahwa nilai premi murni meningkat seiring dengan kenaikan nilai harapan frekuensi klaim dan besar klaim. Model ini menghasilkan estimasi premi murni yang objektif, stabil, dan representatif terhadap risiko aktual. Hasil penelitian ini dapat dijadikan dasar dalam penyusunan tarif premi asuransi kendaraan bermotor yang adil, rasional, dan berkelanjutan.",
+      "kata_kunci": "Asuransi TPL, Collective Risk Model, Distribusi Campuran, Poisson- gamma, Rayleigh-gamma, Premi Murni",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 10,
@@ -962,7 +1049,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Penelitian ini bertujuan untuk mendesain ulang index match outcome yang terdapat di dalam player performance indeks (PPI). Pendesainan ulang ini disesuaikan dengan karakteristik data pertandingan BRI Liga 1 Indonesia musim 2024–2025. Salah satu kelemahan sistem PPI sebelumnya adalah belum mempertimbangkan dependensi antara jumlah gol dan banyak tendangan tim kandang dan tandang, sehingga mengurangi ketepatan evaluasi performa pemain. Untuk menjawab hal tersebut, penelitian ini menggunakan pendekatan regresi Poisson secara bivariat, guna memodelkan harapan banyak tendangan sebagai variabel cacah yang dipengaruhi oleh aksi-aksi pemain seperti dribble, passing, crossing, tackle, interception, clearance, yellow card dan red card. Data diperoleh dari platform statistik resmi Sofascore.com, whoscored.com, flashscore.co.id dan transfermarket.com. Selain itu, fungsi probabilitas dari distribusi Poisson bivariat juga digunakan dalam menghitung harapan jumlah poin tim pada index match outcome sebagai pendekatan yang mengakomodasi korelasi antar hasil gol. Hasil penelitian menunjukkan bahwa aksi pemain dribble dan cross memiliki pengaruh signifikan terhadap banyaknya tendangan yang berujung pada peluang mencetak gol. Lebih lanjut, nilai indeks match outcome (IMO) berhasil dihitung untuk setiap pemain dengan pendekatan Poisson bivariat dan menggabungkan kontribusi ofensif dan defensif terhadap hasil akhir pertandingan. Nilai IMO tertinggi dicapai oleh pemain dengan kontribusi signifikan dalam aksi-aksi krusial seperti dribble dan cross. Penelitian ini memberikan kontribusi dalam mengembangkan alat evaluasi performa pemain yang lebih obyektif dan berbasis data statistik pertandingan nyata. Desain ulang IMO berbasis regresi bivariat ini diharapkan dapat digunakan oleh pelatih, analis data olahraga, dan federasi sepak bola sebagai dasar pengambilan keputusan taktis dan strategis.",
+      "kata_kunci": "Sepak bola, Indeks Match Outcome, Regresi Poisson bivariat, evaluasi kinerja pemain.",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     },
     {
       "no": 11,
@@ -989,7 +1079,10 @@
         "access": "request-email",
         "fileCount": 13,
         "verifiedOn": "2026-11-02"
-      }
+      },
+      "abstrak": "Pemahaman hubungan kompleks antarproduk dalam transaksi ritel penting untuk mendukung keputusan strategis seperti penataan rak, perencanaan promosi bundling, dan strategi cross-selling. Namun, metode asosiasi tradisional seperti Apriori umumnya menghasilkan aturan yang bersifat simetris dan terbatas pada hubungan berpasangan, sehingga kurang mampu menangkap arah hubungan maupun ketergantungan bersyarat ketika banyak kategori muncul bersama. Penelitian ini mengusulkan penggunaan Bayesian Network (BN) sebagai pendekatan alternatif dalam Market Basket Analysis (MBA) untuk memodelkan dependensi multivariat terarah melalui Directed Acyclic Graph (DAG) serta mengkuantifikasikannya melalui Conditional Probability Tables (CPT). Studi ini menggunakan data transaksi ritel di Indonesia periode Juni–Juli 2025. Setelah preprocessing, agregasi kategori, serta filtering untuk mengurangi sparsity, data direpresentasikan sebagai matriks biner berukuran 441 transaksi × 31 kategori produk. Pembelajaran struktur BN dilakukan menggunakan perangkat lunak BANJO dengan pencarian Simulated Annealing, operator perubahan struktur Random Local Move, aturan penerimaan Metropolis, serta fungsi skor Bayesian Dirichlet equivalent (BDe) dengan Equivalent Sample Size (ESS) dan batas maksimum tiga parent per node. Untuk mengurangi risiko solusi lokal, BANJO dijalankan secara multi-seed dan diringkas menggunakan pendekatan ensemble berbasis Top-K network per seed. Edge kemudian dipilih berdasarkan dukungan lintas-run (edge support) pada beberapa ambang 𝜇 dan struktur akhir dipastikan tetap acyclic melalui prosedur enforce DAG. Setelah struktur global final ditetapkan, parameter CPT dihitung menggunakan Maximum Likelihood Estimation (MLE) berbasis frekuensi relatif dari data transaksi. Pendekatan ini menghasilkan model asosiasi yang lebih informatif dan dapat ditafsirkan, sekaligus memberikan dasar probabilistik yang kuat untuk memahami keterkaitan antar produk dan mendukung pengambilan keputusan di ritel modern.",
+      "kata_kunci": "Bayesian Network, Market Basket Analysis, probabilistic modeling, edge support, Conditional Probability Table",
+      "sumber_abstrak": "Abstrak tesis penulis (berkas yang diserahkan kepada prodi)"
     }
   ]
 }

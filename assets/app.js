@@ -6125,7 +6125,9 @@ function renderAlumni() {
       record.pembimbing2,
       record.tahun_masuk,
       record.tahun_lulus,
-      record.tema
+      record.tema,
+      record.abstrak,
+      record.kata_kunci
     ].join(" ");
     return !query || normalize(haystack).includes(query);
   });
@@ -6172,6 +6174,8 @@ function renderAlumni() {
         <h3>${escapeHTML(record.nama)}</h3>
         <p class="syllabus-code">${escapeHTML(record.npm || t("npmUnavailable"))}</p>
         <p>${escapeHTML(record.judul)}</p>
+        ${record.abstrak ? `<div class="thesis-abstract"><p class="thesis-abstract-preview"><strong>Cuplikan abstrak:</strong> ${escapeHTML(record.abstrak.length > 280 ? record.abstrak.slice(0, 280).replace(/\s+\S*$/, '') + '…' : record.abstrak)}</p><details><summary>Baca abstrak lengkap</summary><p class="thesis-abstract-body">${escapeHTML(record.abstrak)}</p><p><strong>Kata kunci:</strong> ${escapeHTML(record.kata_kunci || '')}</p><small>Sumber: ${escapeHTML(record.sumber_abstrak)}. Teks mengikuti dokumen asli; tata letak dirapikan untuk web.</small></details></div>` : `<p class="thesis-abstract-pending">Abstrak belum tersedia pada arsip yang diterima prodi.</p>`}
+
         <small>${escapeHTML(t("advisors"))}: ${escapeHTML([record.pembimbing1, record.pembimbing2].filter(Boolean).join(` ${t("and")} `) || t("notAvailable"))}</small>
         ${record.thesisArchive ? `<div class="thesis-access-actions"><p><strong>Akses tesis melalui persetujuan Kaprodi</strong> · ${Number(record.thesisArchive.fileCount)} berkas terindeks</p><a class="button button-primary" href="akses-tesis.html?npm=${encodeURIComponent(record.npm)}">Minta akses melalui email ↗</a></div>` : ''}
 
@@ -6211,7 +6215,7 @@ function mergeVisiblePageKnowledge() {
 
 async function loadAlumni() {
   try {
-    const response = await fetch("data/alumni.json?v=20261102-thesis-access", { cache: "default" });
+    const response = await fetch("data/alumni.json?v=20261103-abstracts", { cache: "default" });
     if (!response.ok) throw new Error("Data alumni tidak dapat dimuat.");
     const data = await response.json();
     if (!data?.records?.length) throw new Error("Data alumni kosong.");
