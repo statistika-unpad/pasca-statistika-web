@@ -421,6 +421,7 @@ const workspacePanelIds = [
   "stakeholder-survey",
   "mahasiswa",
   "sharing-session-alumni",
+  "pkm",
   "program-pengabdian",
   "hibah-riset",
   "publikasi-dosen",
