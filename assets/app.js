@@ -390,6 +390,7 @@ const goatTotalCount = document.getElementById("goatTotalCount");
 const goatDashboardLink = document.getElementById("goatDashboardLink");
 const workspaceLayout = document.getElementById("program-workspace");
 const workspacePanelIds = [
+  "pusat-survei",
   "ikk-prodi",
   "buku-pedoman",
   "kalender-akademik",
