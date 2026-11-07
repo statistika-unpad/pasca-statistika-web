@@ -431,6 +431,15 @@ const workspacePanelIds = [
   "special-moment",
   "video-testimoni",
   "web-s3",
+  "s3-vision-mission",
+  "s3-tujuan",
+  "s3-profil",
+  "s3-cpl",
+  "s3-dokumen",
+  "s3-survei",
+  "s3-rps",
+  "s3-panduan-disertasi",
+
   "komentar",
   "chatbot"
 ];
@@ -2445,7 +2454,7 @@ function activeWorkspaceIdFromHash() {
 }
 
 function workspaceProgramForPanel(panelId, fallback = activeWorkspaceProgram) {
-  if (panelId === "web-s3") return "s3";
+  if (panelId === "web-s3" || ["s3-vision-mission", "s3-tujuan", "s3-profil", "s3-cpl", "s3-dokumen", "s3-survei", "s3-rps", "s3-panduan-disertasi"].includes(panelId)) return "s3";
   if (panelId === "kalender-akademik") return "none";
   if (panelId === "chatbot" || panelId === "komentar") {
     return fallback === "s3" ? "s3" : "s2";
@@ -2494,15 +2503,17 @@ function setActiveWorkspacePanel(
   programOverride = "",
   panelScrollTarget = ""
 ) {
+  if (panelId === "web-s3" && ["s3-vision-mission", "s3-tujuan", "s3-profil", "s3-cpl", "s3-dokumen", "s3-survei", "s3-rps", "s3-panduan-disertasi"].includes(panelScrollTarget)) { panelId = panelScrollTarget; panelScrollTarget = ""; }
   const requestedId = normalizeWorkspacePanelId(panelId);
   const activeId = workspacePanelIds.includes(requestedId) ? requestedId : "kalender-akademik";
   const nextProgram = programOverride || workspaceProgramForPanel(activeId);
-  const nextPanelScrollTarget = panelScrollTarget || (activeId === "web-s3" ? "s3-overview" : "");
+  const nextPanelScrollTarget = panelScrollTarget === "s3-overview" ? "" : panelScrollTarget;
   setWorkspaceProgram(nextProgram);
   activePanelScrollTarget = nextPanelScrollTarget;
   document.querySelectorAll(".workspace-panels > .section").forEach((section) => {
     section.classList.toggle("active-panel", section.id === activeId);
   });
+  if (nextProgram === "s3") document.getElementById(activeId)?.scrollTo({top:0,behavior:"instant"});
   hydrateWorkspaceFrames(activeId);
   document.querySelectorAll(".workspace-menu-list [data-workspace-target]").forEach((link) => {
     const linkProgram = link.dataset.programSelect || activeWorkspaceProgram;
@@ -2536,7 +2547,7 @@ function setActiveWorkspacePanel(
     window.setTimeout(scrollSubPanel, 180);
     window.setTimeout(scrollSubPanel, 760);
   }
-  loadWorkspacePanelData(activeId);
+  loadWorkspacePanelData(["s3-vision-mission", "s3-tujuan", "s3-profil", "s3-cpl", "s3-dokumen", "s3-survei", "s3-rps", "s3-panduan-disertasi"].includes(activeId) ? "web-s3" : activeId);
 }
 
 function placeStudentAchievementsInsideStudentPanel() {
@@ -6256,7 +6267,7 @@ async function loadRpsDocs() {
 
 async function loadS3Site() {
   try {
-    const response = await fetch("data/s3_statistika.json?v=20261015", { cache: "no-cache" });
+    const response = await fetch("data/s3_statistika.json?v=20261107-disertasi", { cache: "no-cache" });
     if (!response.ok) throw new Error("Data Web S3 tidak dapat dimuat.");
     const data = await response.json();
     if (!data?.rps?.documents?.length) throw new Error("Data Web S3 kosong.");

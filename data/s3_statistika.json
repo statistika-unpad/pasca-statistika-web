@@ -164,6 +164,24 @@
       "href": "%40Dokumen%20S3/Naskah%20Syarat%20Akreditasi%20Minimal.pdf?v=20260614143751",
       "sizeKb": 4763,
       "format": "PDF"
+    },
+    {
+      "id": "panduan-disertasi-kumpulan-artikel-2026",
+      "title": "Panduan Penulisan Disertasi Tipe Kumpulan Artikel",
+      "description": "Panduan Universitas Padjadjaran tahun 2026, disusun oleh PIPP, Direktorat Akademik.",
+      "file": "Panduan Penulisan Disertasi Tipe Kumpulan Artikel.pdf",
+      "href": "dokumen/s3/panduan-disertasi-kumpulan-artikel-2026.pdf",
+      "sizeKb": 925,
+      "format": "PDF"
+    },
+    {
+      "id": "panduan-disertasi-konvensional-2026",
+      "title": "Panduan Penulisan Disertasi Tipe Konvensional",
+      "description": "Panduan Universitas Padjadjaran tahun 2026, disusun oleh PIPP, Direktorat Akademik.",
+      "file": "Panduan Panduan Disertasi Tipe Konvensional.pdf",
+      "href": "dokumen/s3/panduan-disertasi-konvensional-2026.pdf",
+      "sizeKb": 753,
+      "format": "PDF"
     }
   ],
   "surveys": [
