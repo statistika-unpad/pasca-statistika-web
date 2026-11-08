@@ -157,6 +157,23 @@
 <style id="s3-panel-layout">
 .s3-panel-heading{padding:30px;margin-bottom:24px;border-radius:20px;background:linear-gradient(120deg,#0b263e,#175e56);color:#fff;box-shadow:0 12px 30px #123e4b16}.s3-panel-heading h2{color:#fff;margin:8px 0 10px;font-size:clamp(28px,4vw,40px)}.s3-panel-heading p{color:#d8e8e7;margin:0}.s3-panel-heading .section-kicker{color:#efd29a}.s3-separate-panel .s3-block{margin-top:0}.s3-separate-panel .s3-scroll-list{max-height:none;overflow:visible}.s3-dissertation-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.s3-dissertation-card{padding:30px;border:1px solid #d9e4e5;border-top:4px solid #c4a15b;border-radius:18px;background:linear-gradient(145deg,#fff,#f1f6f4);box-shadow:0 12px 26px #123e4b0b}.s3-dissertation-card h3{font-size:24px;color:#153a4e;line-height:1.35}.s3-dissertation-card p{color:#526575;font-size:14px;line-height:1.8}.s3-dissertation-card .button-secondary{color:#153a4e;background:#fff;border:1px solid #c5d4d8}.s3-dissertation-card .button-secondary:hover{background:#eaf2ef}.s3-guide-meta{display:block;margin:20px 0;color:#68797e;font-size:12px}.s3-dissertation-card .hero-actions{flex-wrap:wrap;gap:10px}.s3-guide-banner{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;margin:24px 0;padding:26px;border:1px solid #d9c69e;border-radius:18px;background:#fcf8ef}.s3-guide-banner h3{color:#153a4e;margin:10px 0;font-size:23px}.s3-guide-banner p{color:#526575;margin:0}@media(max-width:720px){.s3-dissertation-grid{grid-template-columns:1fr}.s3-panel-heading,.s3-dissertation-card{padding:22px}}
 </style>
+<style id="mutu-style">
+#penjaminan-mutu .mutu-hero{padding:40px;border-radius:22px;background:linear-gradient(120deg,#102e49,#0c504d);color:#fff;box-shadow:0 16px 40px #153c4920;border-top:4px solid #d5ad62}
+#penjaminan-mutu .mutu-hero h2{font-size:clamp(32px,4vw,52px);color:#fff;margin:12px 0}
+#penjaminan-mutu .mutu-hero p{color:#e0e9ec;max-width:680px}
+#penjaminan-mutu .mutu-eyebrow{font-size:12px;letter-spacing:1.7px;font-weight:800;color:#d9b878}
+#penjaminan-mutu .mutu-facts{display:flex;flex-wrap:wrap;gap:30px;margin-top:28px;border-top:1px solid #ffffff30;padding-top:22px}
+#penjaminan-mutu .mutu-facts span{display:grid;gap:4px;font-size:13px;color:#dde8ed}#penjaminan-mutu .mutu-facts b{font-size:28px;color:#f0ce8d}
+#penjaminan-mutu .mutu-summary{display:block;padding:28px;margin:24px 0 32px;border:1px solid #d8c49d;border-radius:18px;background:linear-gradient(120deg,#fffaf0,#fff);text-decoration:none;box-shadow:0 8px 24px #172e4310}
+#penjaminan-mutu .mutu-summary .mutu-eyebrow{color:#82602a}#penjaminan-mutu .mutu-summary h3{font-size:24px;color:#15344c;margin:12px 0}#penjaminan-mutu .mutu-summary p{color:#526476}#penjaminan-mutu .mutu-summary strong{color:#096353}
+#penjaminan-mutu .mutu-group{margin:30px 0}#penjaminan-mutu .mutu-group>h3{color:#18394d;font-size:21px;display:flex;gap:14px;align-items:center}#penjaminan-mutu .mutu-group>h3>span{color:#97753e;font-size:14px}
+#penjaminan-mutu .mutu-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+#penjaminan-mutu .mutu-doc{display:flex;flex-direction:column;align-items:flex-start;padding:24px;border:1px solid #dce4e8;border-radius:15px;background:#fff;box-shadow:0 5px 18px #173b4910;text-decoration:none;transition:transform .2s,border-color .2s}
+#penjaminan-mutu .mutu-doc:hover{transform:translateY(-3px);border-color:#9b7e49}#penjaminan-mutu .mutu-doc small{color:#637382;font-size:12px;letter-spacing:.7px}#penjaminan-mutu .mutu-doc h4{color:#16364d;font-size:17px;margin:12px 0 20px;line-height:1.5}#penjaminan-mutu .mutu-doc>span{margin-top:auto;font-weight:700;color:#0d695a;font-size:14px}
+#penjaminan-mutu a:focus-visible{outline:3px solid #b88a2c;outline-offset:4px}
+@media(max-width:640px){#penjaminan-mutu .mutu-grid{grid-template-columns:1fr}#penjaminan-mutu .mutu-hero{padding:24px}#penjaminan-mutu .mutu-summary{padding:22px}#penjaminan-mutu .mutu-facts{gap:20px}}
+@media(prefers-reduced-motion:reduce){#penjaminan-mutu .mutu-doc{transition:none}}
+</style>
 </head>
 <body>
   <div class="topbar">
@@ -245,6 +262,7 @@
           <a href="#renstra-program-studi" data-program-select="s2" data-workspace-target="renstra-program-studi" data-i18n="workspaceRenstra">Renstra Program Studi</a>
           <a href="#ikk-prodi" data-program-select="s2" data-workspace-target="ikk-prodi">IKK Prodi</a>
           <a href="#dokumen-sk" data-program-select="s2" data-workspace-target="dokumen-sk" data-i18n="workspaceSkDocuments">Dokumen SK</a>
+          <a href="#penjaminan-mutu" data-program-select="s2" data-workspace-target="penjaminan-mutu">Penjaminan Mutu</a>
           <a href="#lamsama" data-program-select="s2" data-workspace-target="lamsama" data-i18n="workspaceLamsama">LAMSAMA</a>
 
           <span class="workspace-menu-group-label">Program Pendidikan</span>
@@ -1043,6 +1061,10 @@
 <noscript><p>Aktifkan JavaScript untuk pencarian dan tombol Salin Link. PDF tetap dapat dibuka, dan alamatnya dapat disalin dari kolom link.</p></noscript></section>
 <section class="instructions"><h2>Cara menggunakan link</h2><ol><li>Pilih nama dosen dan kategori dokumen.</li><li>Periksa nama, peran, dan nomor surat melalui <strong>Buka PDF</strong>.</li><li>Tekan <strong>Salin Link</strong>, lalu tempel alamat PDF pada kolom tautan dokumen di SISTER.</li></ol><p>Jika penyalinan otomatis dibatasi browser, pilih teks pada kolom link dan salin secara manual. Dokumen ditampilkan sesuai berkas yang diterima; catatan perbedaan metadata tersedia pada kartu undangan terkait.</p></section></div><div id="copy-status" role="status" aria-live="polite"></div></div></section>
 
+<section class="section" id="penjaminan-mutu" aria-labelledby="mutu-title"><div class="container">
+<div class="mutu-hero"><p class="mutu-eyebrow">S2 STATISTIKA TERAPAN · LAMSAMA</p><h2 id="mutu-title">Penjaminan Mutu</h2><p>Dokumentasi evaluasi dan perbaikan mutu program studi, periode 2022–2026.</p><div class="mutu-facts"><span><b>5</b> Tahun dokumentasi</span><span><b>15</b> Dokumen pendukung</span><span><b>1</b> Rangkuman terpadu</span></div></div>
+<a class="mutu-summary" href="penjaminan-mutu/Laporan_Penjaminan_Mutu_S2_Statistika_Terapan_Unpad_2022_2026.html" target="_blank" rel="noopener"><span class="mutu-eyebrow">MULAI DARI SINI · RANGKUMAN HTML</span><h3>Laporan Penjaminan Mutu 2022–2026 <span aria-hidden="true">↗</span></h3><p>Baca sintesis AMI, RTM, rencana tindak lanjut, dan survei kepuasan pemangku kepentingan.</p><strong>Baca rangkuman lengkap →</strong></a>
+<div class="mutu-group"><h3><span>01</span> Audit Mutu Internal</h3><div class="mutu-grid"><a class="mutu-doc" href="penjaminan-mutu/01_Laporan_Audit_Mutu_Internal_AMI_2022.pdf" target="_blank" rel="noopener"><small>PDF · 1.1 MB</small><h4>Audit Mutu Internal (AMI) 2022</h4><span>Buka dokumen ↗</span></a><a class="mutu-doc" href="penjaminan-mutu/03_Laporan_Audit_Mutu_Internal_AMI_2023.pdf" target="_blank" rel="noopener"><small>PDF · 1.5 MB</small><h4>Audit Mutu Internal (AMI) 2023</h4><span>Buka dokumen ↗</span></a><a class="mutu-doc" href="penjaminan-mutu/05_Laporan_Audit_Mutu_Internal_AMI_2024.pdf" target="_blank" rel="noopener"><small>PDF · 14.6 MB</small><h4>Audit Mutu Internal (AMI) 2024</h4><span>Buka dokumen ↗</span></a><a class="mutu-doc" href="penjaminan-mutu/07_Laporan_Audit_Mutu_Internal_AMI_2025.pdf" target="_blank" rel="noopener"><small>PDF · 2.3 MB</small><h4>Audit Mutu Internal (AMI) 2025</h4><span>Buka dokumen ↗</span></a><a class="mutu-doc" href="penjaminan-mutu/09_Laporan_AMI_2026_ke_Dekan_FMIPA.pdf" target="_blank" rel="noopener"><small>PDF · 3.9 MB</small><h4>Laporan AMI 2026 kepada Dekan FMIPA</h4><span>Buka dokumen ↗</span></a></div></div><div class="mutu-group"><h3><span>02</span> Tinjauan Manajemen &amp; Tindak Lanjut</h3><div class="mutu-grid"><a class="mutu-doc" href="penjaminan-mutu/02_Laporan_RTM_dan_RTL_2022.pdf" target="_blank" rel="noopener"><small>PDF · 0.7 MB</small><h4>RTM dan Rencana Tindak Lanjut 2022</h4><span>Buka dokumen ↗</span></a><a class="mutu-doc" href="penjaminan-mutu/04_Laporan_RTM_dan_RTL_2023.pdf" target="_blank" rel="noopener"><small>PDF · 0.4 MB</small><h4>RTM dan Rencana Tindak Lanjut 2023</h4><span>Buka dokumen ↗</span></a><a class="mutu-doc" href="penjaminan-mutu/06_Laporan_RTM_dan_RTL_2024.pdf" target="_blank" rel="noopener"><small>PDF · 2.5 MB</small><h4>RTM dan Rencana Tindak Lanjut 2024</h4><span>Buka dokumen ↗</span></a><a class="mutu-doc" href="penjaminan-mutu/08_Laporan_RTM_dan_RTL_2025.pdf" target="_blank" rel="noopener"><small>PDF · 1.7 MB</small><h4>RTM dan Rencana Tindak Lanjut 2025</h4><span>Buka dokumen ↗</span></a><a class="mutu-doc" href="penjaminan-mutu/10_Berita_acara_dan_notulen_rapat_tinjauan_manajemen_RTM.pdf" target="_blank" rel="noopener"><small>PDF · 1.9 MB</small><h4>Berita Acara dan Notulen RTM</h4><span>Buka dokumen ↗</span></a></div></div><div class="mutu-group"><h3><span>03</span> Metode &amp; Data Pendukung</h3><div class="mutu-grid"><a class="mutu-doc" href="penjaminan-mutu/11_Metode_analisis_Sampling_Data_Mentah.pdf" target="_blank" rel="noopener"><small>PDF · 0.5 MB</small><h4>Metode Analisis, Sampling, dan Data Mentah</h4><span>Buka dokumen ↗</span></a></div></div><div class="mutu-group"><h3><span>04</span> Survei Kepuasan</h3><div class="mutu-grid"><a class="mutu-doc" href="penjaminan-mutu/12_Laporan_survei_kepuasan_pemangku_kepentingan_2022.pdf" target="_blank" rel="noopener"><small>PDF · 2.9 MB</small><h4>Survei Kepuasan Pemangku Kepentingan 2022</h4><span>Buka dokumen ↗</span></a><a class="mutu-doc" href="penjaminan-mutu/13_Laporan_survei_kepuasan_pemangku_kepentingan_2023.pdf" target="_blank" rel="noopener"><small>PDF · 3.5 MB</small><h4>Survei Kepuasan Pemangku Kepentingan 2023</h4><span>Buka dokumen ↗</span></a><a class="mutu-doc" href="penjaminan-mutu/14_Laporan_survei_kepuasan_pemangku_kepentingan_2024.pdf" target="_blank" rel="noopener"><small>PDF · 1.5 MB</small><h4>Survei Kepuasan Pemangku Kepentingan 2024</h4><span>Buka dokumen ↗</span></a><a class="mutu-doc" href="penjaminan-mutu/15_Laporan_survei_kepuasan_pemangku_kepentingan_2025.pdf" target="_blank" rel="noopener"><small>PDF · 3.7 MB</small><h4>Survei Kepuasan Pemangku Kepentingan 2025</h4><span>Buka dokumen ↗</span></a></div></div></div></section>
     <section class="section lamsama-section" id="lamsama">
       <div class="container">
         <div class="lamsama-hero">
@@ -1072,6 +1094,7 @@
           </div>
         </div>
 
+        <div class="lamsama-context"><div><strong>Penjaminan Mutu 2022–2026</strong><p>Rangkuman terpadu dan 15 dokumen AMI, RTM, metode analisis, serta survei kepuasan.</p></div><div class="lamsama-context-actions"><a class="lamsama-update-cta" href="#penjaminan-mutu" data-program-select="s2" data-workspace-target="penjaminan-mutu">Buka Penjaminan Mutu →</a><a class="lamsama-update-cta" href="penjaminan-mutu/Laporan_Penjaminan_Mutu_S2_Statistika_Terapan_Unpad_2022_2026.html" target="_blank" rel="noopener">Baca Rangkuman ↗</a></div></div>
         <div class="lamsama-grid" id="lamsamaRows" aria-live="polite"></div>
       </div>
     </section>
@@ -3559,7 +3582,7 @@
   <script src="assets/obe-alignment.js?v=20260913" defer></script>
   <script src="assets/obe-monev-2026-data.js?v=20260921" defer></script>
   <script src="assets/obe-monev-2026.js?v=20260921-2" defer></script>
-  <script src="assets/app.js?v=20261107-s3-panels" defer></script>
+  <script src="assets/app.js?v=20261108-mutu" defer></script>
   <script>
     window.addEventListener("load", () => {
       const loadEnhancements = () => {
