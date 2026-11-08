@@ -179,6 +179,7 @@
 @media(max-width:640px){#penjaminan-mutu .mutu-grid{grid-template-columns:1fr}#penjaminan-mutu .mutu-hero{padding:24px}#penjaminan-mutu .mutu-summary{padding:22px}#penjaminan-mutu .mutu-facts{gap:20px}}
 @media(prefers-reduced-motion:reduce){#penjaminan-mutu .mutu-doc{transition:none}}
 </style>
+<link rel="stylesheet" href="assets/navigation.css?v=20261108">
 </head>
 <body>
   <div class="topbar">
@@ -250,73 +251,64 @@
       </div>
     </section>
 
-    <div class="workspace-layout" id="program-workspace" data-program="none">
+    <section class="portal-start container" aria-labelledby="portal-start-title"><div class="portal-start-heading"><div><span>PANDUAN AKSES</span><h2 id="portal-start-title">Apa yang Anda cari?</h2></div><p>Pilih kebutuhan Anda, lalu telusuri menu program S2 atau S3.</p></div><div class="portal-shortcuts"><a href="#pmb" data-program-select="s2" data-workspace-target="pmb"><span class="portal-shortcut-number">01</span><h3>Calon mahasiswa</h3><p>Pendaftaran dan informasi masuk S2</p><span class="portal-shortcut-arrow" aria-hidden="true">↗</span></a><a href="#web-s3" data-program-select="s3" data-workspace-target="web-s3"><span class="portal-shortcut-number">02</span><h3>Program doktor</h3><p>Program, akademik, dan pendanaan S3</p><span class="portal-shortcut-arrow" aria-hidden="true">↗</span></a><a href="#kurikulum" data-program-select="s2" data-workspace-target="kurikulum"><span class="portal-shortcut-number">03</span><h3>Mahasiswa aktif</h3><p>Pembelajaran, kurikulum, dan panduan</p><span class="portal-shortcut-arrow" aria-hidden="true">↗</span></a><a href="#lulusan-tesis" data-program-select="s2" data-workspace-target="lulusan"><span class="portal-shortcut-number">04</span><h3>Alumni & Tesis</h3><p>Lulusan, judul, dan ringkasan tesis</p><span class="portal-shortcut-arrow" aria-hidden="true">↗</span></a><a href="#pusat-survei" data-program-select="s2" data-workspace-target="pusat-survei"><span class="portal-shortcut-number">05</span><h3>Survei & Tracer</h3><p>Formulir dan hasil evaluasi</p><span class="portal-shortcut-arrow" aria-hidden="true">↗</span></a><a href="#penjaminan-mutu" data-program-select="s2" data-workspace-target="penjaminan-mutu"><span class="portal-shortcut-number">06</span><h3>Mutu & Akreditasi</h3><p>Laporan mutu dan akses LAMSAMA</p><span class="portal-shortcut-arrow" aria-hidden="true">↗</span></a></div></section>
+<div class="workspace-layout" id="program-workspace" data-program="none">
       <aside class="workspace-sidebar" aria-label="Menu konten program">
         <div class="workspace-sidebar-head">
           <strong class="workspace-title-s2" data-i18n="frontS2MenuTitle">Menu Program Informasi S2 Statistika Terapan</strong>
           <strong class="workspace-title-s3" data-i18n="frontS3MenuTitle">Menu Program Informasi S3 Statistika</strong>
         </div>
         <a class="workspace-home-link" href="#home" data-i18n="workspaceBackHome">Kembali ke Tampilan Awal</a>
-        <nav class="workspace-menu-list workspace-menu-s2">
-          <a class="survey-hub-menu" href="#pusat-survei" data-program-select="s2" data-workspace-target="pusat-survei">Pusat Survei · Kepuasan &amp; Tracer</a>
-          <a href="#program-profile" data-program-select="s2" data-workspace-target="program-profile" data-i18n="workspaceProgramProfile">Program Profile</a>
-          <a class="faculty-profile-menu-link" href="profil-dosen-statistika-unpad/">Profil Dosen</a>
-          <a href="#etika-akademik-dosen" data-program-select="s2" data-workspace-target="etika-akademik-dosen">Etika Akademik Dosen</a>
-          <a href="#buku-pedoman" data-program-select="s2" data-workspace-target="buku-pedoman">Buku Pedoman &amp; Panduan</a>
-          <a href="#panduan-ai" data-program-select="s2" data-workspace-target="panduan-ai">Panduan AI</a>
-          <a href="#renstra-program-studi" data-program-select="s2" data-workspace-target="renstra-program-studi" data-i18n="workspaceRenstra">Renstra Program Studi</a>
-          <a href="#ikk-prodi" data-program-select="s2" data-workspace-target="ikk-prodi">IKK Prodi</a>
-          <a href="#dokumen-sk" data-program-select="s2" data-workspace-target="dokumen-sk" data-i18n="workspaceSkDocuments">Dokumen SK</a>
-          <a href="#penjaminan-mutu" data-program-select="s2" data-workspace-target="penjaminan-mutu">Penjaminan Mutu</a>
-          <a href="#lamsama" data-program-select="s2" data-workspace-target="lamsama" data-i18n="workspaceLamsama">LAMSAMA</a>
-
-          <span class="workspace-menu-group-label">Program Pendidikan</span>
-          <a class="workspace-menu-subitem" href="#fasilitas-pembelajaran" data-program-select="s2" data-workspace-target="fasilitas-pembelajaran">Fasilitas Pembelajaran</a>
-          <a class="workspace-menu-subitem" href="#kurikulum" data-program-select="s2" data-workspace-target="kurikulum" data-i18n="workspaceLearningProcess">Proses Belajar Mengajar</a>
-          <a class="workspace-menu-subitem teaching-collaboration-menu" href="#kolaborasi-pengajaran" data-program-select="s2" data-workspace-target="kolaborasi-pengajaran">Kolaborasi Pengajaran</a>
-          <a class="workspace-menu-subitem" href="#beasiswa" data-program-select="s2" data-workspace-target="beasiswa" data-i18n="workspaceScholarships">Beasiswa</a>
-          <a class="workspace-menu-subitem" href="#pmb" data-program-select="s2" data-workspace-target="pmb" data-i18n="workspacePmb">PMB</a>
-          <a class="workspace-menu-subitem" href="#mahasiswa" data-program-select="s2" data-workspace-target="mahasiswa">Mahasiswa</a>
-          <a class="workspace-menu-subitem" href="portofolio-mahasiswa/">Portofolio Mahasiswa</a>
-          <a class="workspace-menu-subitem" href="#lulusan-tesis" data-program-select="s2" data-workspace-target="lulusan" data-i18n="workspaceThesisTitles">Judul Tesis Mahasiswa</a>
-          <a class="workspace-menu-subitem" href="#tracer-studi" data-program-select="s2" data-workspace-target="tracer-studi" data-i18n="workspaceTracer">Tracer Studi</a>
-          <a class="workspace-menu-subitem" href="#stakeholder-survey" data-program-select="s2" data-workspace-target="stakeholder-survey" data-i18n="workspaceStakeholderSurvey">Stakeholder Survey</a>
-
-          <span class="workspace-menu-group-label">Program Penelitian</span>
-          <a class="workspace-menu-subitem" href="#roadmap-penelitian" data-program-select="s2" data-workspace-target="roadmap-penelitian" data-i18n="workspaceResearchRoadmap">Roadmap Penelitian</a>
-          <a class="workspace-menu-subitem" href="#pks-moa" data-program-select="s2" data-workspace-target="pks-moa" data-i18n="workspacePksMoa">PKS-MoA</a>
-          <a class="workspace-menu-subitem" href="#hibah-riset" data-program-select="s2" data-workspace-target="hibah-riset" data-i18n="workspaceResearchGrants">Hibah Riset Dosen</a>
-          <a class="workspace-menu-subitem" href="#publikasi-dosen" data-program-select="s2" data-workspace-target="publikasi-dosen" data-i18n="workspaceFacultyPublications">Publikasi Dosen</a>
-          <a class="workspace-menu-subitem" href="#kolaborasi-dosen-mahasiswa" data-program-select="s2" data-workspace-target="kolaborasi-dosen-mahasiswa" data-i18n="workspaceFacultyStudentCollaboration">Kolaborasi Dosen dan Mahasiswa</a>
-
-          <span class="workspace-menu-group-label">Layanan Akademik</span>
-          <a class="workspace-menu-subitem consultation-menu-link" href="#konsultasi-data-analysis" data-program-select="s2" data-workspace-target="konsultasi-data-analysis">Konsultasi Data Analysis</a>
-          <a class="workspace-menu-subitem" href="#chatbot" data-program-select="s2" data-workspace-target="chatbot">Tanya Asisten Prodi</a>
-
-          <a href="#pkm" data-program-select="s2" data-workspace-target="pkm">PKM</a>
-          <a href="#program-pengabdian" data-program-select="s2" data-workspace-target="program-pengabdian" data-i18n="workspacePkm">Program Pengabdian</a>
-          <a href="#special-moment" data-program-select="s2" data-workspace-target="special-moment" data-i18n="workspaceSpecialMoment">Special Moment</a>
-          <a href="#video-testimoni" data-program-select="s2" data-workspace-target="video-testimoni" data-i18n="workspaceTestimonials">Video Testimoni</a>
-          <a href="#komentar" data-program-select="s2" data-workspace-target="komentar" data-i18n="workspaceComments">Komentar & Jejak</a>
-        </nav>
-        <nav class="workspace-menu-list workspace-menu-s3">
-          <a href="s3-akademik-beasiswa.html" target="_blank" rel="noopener">Informasi Akademik &amp; Beasiswa</a>
-          <a class="workspace-menu-subitem" href="s3-akademik-beasiswa.html#program-doktor" target="_blank" rel="noopener">Program Doktor &amp; Jalur Disertasi</a>
-          <a class="workspace-menu-subitem" href="s3-akademik-beasiswa.html#biaya-mandiri" target="_blank" rel="noopener">Biaya Studi &amp; Pendanaan Mandiri</a>
-          <a class="workspace-menu-subitem" href="s3-akademik-beasiswa.html#beasiswa" target="_blank" rel="noopener">Beasiswa &amp; Pendanaan</a>
-          <a class="workspace-menu-subitem" href="s3-akademik-beasiswa.html#cek-peluang" target="_blank" rel="noopener">Cek Peluang Beasiswa</a>
-          <a class="workspace-menu-subitem" href="s3-akademik-beasiswa.html#dokumen-regulasi" target="_blank" rel="noopener">Dokumen dan Regulasi</a>
-          <a href="#web-s3" data-program-select="s3" data-workspace-target="web-s3" data-i18n="workspaceS3Overview">Ringkasan S3</a>
-          <a href="#s3-vision-mission" data-program-select="s3" data-workspace-target="s3-vision-mission" data-i18n="workspaceS3VisionMission">Visi dan Misi</a>
-          <a href="#s3-tujuan" data-program-select="s3" data-workspace-target="s3-tujuan" data-i18n="s3ObjectivesLabel">Tujuan</a>
-          <a href="#s3-profil" data-program-select="s3" data-workspace-target="s3-profil" data-i18n="s3ProfilesKicker">Profil Lulusan S3</a>
-          <a href="#s3-cpl" data-program-select="s3" data-workspace-target="s3-cpl" data-i18n="s3CplKicker">Capaian Pembelajaran Lulusan</a>
-          <a href="#s3-panduan-disertasi" data-program-select="s3" data-workspace-target="s3-panduan-disertasi">Panduan Disertasi</a>
-          <a href="#s3-dokumen" data-program-select="s3" data-workspace-target="s3-dokumen" data-i18n="s3DocsLabel">Dokumen Akademik</a>
-          <a href="#s3-survei" data-program-select="s3" data-workspace-target="s3-survei" data-i18n="s3SurveysKicker">Survei S3</a>
-          <a href="#s3-rps" data-program-select="s3" data-workspace-target="s3-rps" data-i18n="s3RpsKicker">RPS S3 Statistika</a>
-          <a href="#chatbot" data-program-select="s3" data-workspace-target="chatbot" data-i18n="workspaceChatbot">Chatbot Prodi</a>
-        </nav>
+        <button class="portal-nav-mobile" type="button" aria-expanded="true">Pilih menu program <span aria-hidden="true">−</span></button><div class="portal-navigation-tools"><div class="portal-program-switch" aria-label="Pilih program"><a href="#program-profile" data-program-select="s2" data-workspace-target="program-profile">S2 · Magister</a><a href="#web-s3" data-program-select="s3" data-workspace-target="web-s3">S3 · Doktor</a></div><label for="portal-menu-search">Cari menu program</label><div class="portal-search-wrap"><input id="portal-menu-search" type="search" placeholder="Contoh: tesis, survei, beasiswa" autocomplete="off" aria-describedby="portal-search-status"><button id="portal-search-clear" type="button" aria-label="Hapus pencarian">×</button></div><p id="portal-search-status" role="status" aria-live="polite">Pilih kelompok menu di bawah.</p><button id="portal-expand-menus" type="button">Buka semua kelompok</button></div>
+<nav class="workspace-menu-list workspace-menu-s2"><details class="portal-menu-group" open><summary>Mengenal Program<span class="portal-group-count">5</span></summary><div class="portal-menu-items"><a href="#program-profile" data-program-select="s2" data-workspace-target="program-profile" data-i18n="workspaceProgramProfile">Program Profile</a>
+<a class="faculty-profile-menu-link" href="profil-dosen-statistika-unpad/">Profil Dosen</a>
+<a href="#renstra-program-studi" data-program-select="s2" data-workspace-target="renstra-program-studi" data-i18n="workspaceRenstra">Renstra Program Studi</a>
+<a class="workspace-menu-subitem" href="#fasilitas-pembelajaran" data-program-select="s2" data-workspace-target="fasilitas-pembelajaran">Fasilitas Pembelajaran</a>
+<a href="#video-testimoni" data-program-select="s2" data-workspace-target="video-testimoni" data-i18n="workspaceTestimonials">Video Testimoni</a></div></details>
+<details class="portal-menu-group" open><summary>Pendaftaran &amp; Beasiswa<span class="portal-group-count">2</span></summary><div class="portal-menu-items"><a class="workspace-menu-subitem" href="#pmb" data-program-select="s2" data-workspace-target="pmb" data-i18n="workspacePmb">PMB</a>
+<a class="workspace-menu-subitem" href="#beasiswa" data-program-select="s2" data-workspace-target="beasiswa" data-i18n="workspaceScholarships">Beasiswa</a></div></details>
+<details class="portal-menu-group" open><summary>Perkuliahan &amp; Panduan<span class="portal-group-count">5</span></summary><div class="portal-menu-items"><a class="workspace-menu-subitem" href="#kurikulum" data-program-select="s2" data-workspace-target="kurikulum" data-i18n="workspaceLearningProcess">Proses Belajar Mengajar</a>
+<a class="workspace-menu-subitem teaching-collaboration-menu" href="#kolaborasi-pengajaran" data-program-select="s2" data-workspace-target="kolaborasi-pengajaran">Kolaborasi Pengajaran</a>
+<a href="#buku-pedoman" data-program-select="s2" data-workspace-target="buku-pedoman">Buku Pedoman &amp; Panduan</a>
+<a href="#panduan-ai" data-program-select="s2" data-workspace-target="panduan-ai">Panduan AI</a>
+<a href="#etika-akademik-dosen" data-program-select="s2" data-workspace-target="etika-akademik-dosen">Etika Akademik Dosen</a></div></details>
+<details class="portal-menu-group" open><summary>Mahasiswa, Tesis &amp; Alumni<span class="portal-group-count">4</span></summary><div class="portal-menu-items"><a class="workspace-menu-subitem" href="#mahasiswa" data-program-select="s2" data-workspace-target="mahasiswa">Mahasiswa</a>
+<a class="workspace-menu-subitem" href="portofolio-mahasiswa/">Portofolio Mahasiswa</a>
+<a class="workspace-menu-subitem" href="#lulusan-tesis" data-program-select="s2" data-workspace-target="lulusan" data-i18n="workspaceThesisTitles">Judul Tesis Mahasiswa</a>
+<a class="workspace-menu-subitem" href="#tracer-studi" data-program-select="s2" data-workspace-target="tracer-studi" data-i18n="workspaceTracer">Tracer Studi</a></div></details>
+<details class="portal-menu-group" open><summary>Survei, Mutu &amp; Akreditasi<span class="portal-group-count">6</span></summary><div class="portal-menu-items"><a class="survey-hub-menu" href="#pusat-survei" data-program-select="s2" data-workspace-target="pusat-survei">Pusat Survei · Kepuasan &amp; Tracer</a>
+<a href="#penjaminan-mutu" data-program-select="s2" data-workspace-target="penjaminan-mutu">Penjaminan Mutu</a>
+<a href="#lamsama" data-program-select="s2" data-workspace-target="lamsama" data-i18n="workspaceLamsama">LAMSAMA</a>
+<a href="#ikk-prodi" data-program-select="s2" data-workspace-target="ikk-prodi">IKK Prodi</a>
+<a class="workspace-menu-subitem" href="#stakeholder-survey" data-program-select="s2" data-workspace-target="stakeholder-survey" data-i18n="workspaceStakeholderSurvey">Stakeholder Survey</a>
+<a href="#dokumen-sk" data-program-select="s2" data-workspace-target="dokumen-sk" data-i18n="workspaceSkDocuments">Dokumen SK</a></div></details>
+<details class="portal-menu-group" open><summary>Riset, Kemitraan &amp; Pengabdian<span class="portal-group-count">7</span></summary><div class="portal-menu-items"><a class="workspace-menu-subitem" href="#roadmap-penelitian" data-program-select="s2" data-workspace-target="roadmap-penelitian" data-i18n="workspaceResearchRoadmap">Roadmap Penelitian</a>
+<a class="workspace-menu-subitem" href="#hibah-riset" data-program-select="s2" data-workspace-target="hibah-riset" data-i18n="workspaceResearchGrants">Hibah Riset Dosen</a>
+<a class="workspace-menu-subitem" href="#publikasi-dosen" data-program-select="s2" data-workspace-target="publikasi-dosen" data-i18n="workspaceFacultyPublications">Publikasi Dosen</a>
+<a class="workspace-menu-subitem" href="#kolaborasi-dosen-mahasiswa" data-program-select="s2" data-workspace-target="kolaborasi-dosen-mahasiswa" data-i18n="workspaceFacultyStudentCollaboration">Kolaborasi Dosen dan Mahasiswa</a>
+<a class="workspace-menu-subitem" href="#pks-moa" data-program-select="s2" data-workspace-target="pks-moa" data-i18n="workspacePksMoa">PKS-MoA</a>
+<a href="#pkm" data-program-select="s2" data-workspace-target="pkm">PKM</a>
+<a href="#program-pengabdian" data-program-select="s2" data-workspace-target="program-pengabdian" data-i18n="workspacePkm">Program Pengabdian</a></div></details>
+<details class="portal-menu-group" open><summary>Layanan &amp; Kegiatan<span class="portal-group-count">4</span></summary><div class="portal-menu-items"><a class="workspace-menu-subitem consultation-menu-link" href="#konsultasi-data-analysis" data-program-select="s2" data-workspace-target="konsultasi-data-analysis">Konsultasi Data Analysis</a>
+<a class="workspace-menu-subitem" href="#chatbot" data-program-select="s2" data-workspace-target="chatbot">Tanya Asisten Prodi</a>
+<a href="#special-moment" data-program-select="s2" data-workspace-target="special-moment" data-i18n="workspaceSpecialMoment">Special Moment</a>
+<a href="#komentar" data-program-select="s2" data-workspace-target="komentar" data-i18n="workspaceComments">Komentar & Jejak</a></div></details></nav>
+        <nav class="workspace-menu-list workspace-menu-s3"><details class="portal-menu-group" open><summary>Mengenal Program Doktor<span class="portal-group-count">5</span></summary><div class="portal-menu-items"><a href="#web-s3" data-program-select="s3" data-workspace-target="web-s3" data-i18n="workspaceS3Overview">Ringkasan S3</a>
+<a href="#s3-vision-mission" data-program-select="s3" data-workspace-target="s3-vision-mission" data-i18n="workspaceS3VisionMission">Visi dan Misi</a>
+<a href="#s3-tujuan" data-program-select="s3" data-workspace-target="s3-tujuan" data-i18n="s3ObjectivesLabel">Tujuan</a>
+<a href="#s3-profil" data-program-select="s3" data-workspace-target="s3-profil" data-i18n="s3ProfilesKicker">Profil Lulusan S3</a>
+<a href="#s3-cpl" data-program-select="s3" data-workspace-target="s3-cpl" data-i18n="s3CplKicker">Capaian Pembelajaran Lulusan</a></div></details>
+<details class="portal-menu-group" open><summary>Pendaftaran, Biaya &amp; Beasiswa<span class="portal-group-count">5</span></summary><div class="portal-menu-items"><a href="s3-akademik-beasiswa.html" target="_blank" rel="noopener">Informasi Akademik &amp; Beasiswa</a>
+<a class="workspace-menu-subitem" href="s3-akademik-beasiswa.html#program-doktor" target="_blank" rel="noopener">Program Doktor &amp; Jalur Disertasi</a>
+<a class="workspace-menu-subitem" href="s3-akademik-beasiswa.html#biaya-mandiri" target="_blank" rel="noopener">Biaya Studi &amp; Pendanaan Mandiri</a>
+<a class="workspace-menu-subitem" href="s3-akademik-beasiswa.html#beasiswa" target="_blank" rel="noopener">Beasiswa &amp; Pendanaan</a>
+<a class="workspace-menu-subitem" href="s3-akademik-beasiswa.html#cek-peluang" target="_blank" rel="noopener">Cek Peluang Beasiswa</a></div></details>
+<details class="portal-menu-group" open><summary>Akademik, Dokumen &amp; Layanan<span class="portal-group-count">6</span></summary><div class="portal-menu-items"><a href="#s3-panduan-disertasi" data-program-select="s3" data-workspace-target="s3-panduan-disertasi">Panduan Disertasi</a>
+<a href="#s3-dokumen" data-program-select="s3" data-workspace-target="s3-dokumen" data-i18n="s3DocsLabel">Dokumen Akademik</a>
+<a href="#s3-rps" data-program-select="s3" data-workspace-target="s3-rps" data-i18n="s3RpsKicker">RPS S3 Statistika</a>
+<a class="workspace-menu-subitem" href="s3-akademik-beasiswa.html#dokumen-regulasi" target="_blank" rel="noopener">Dokumen dan Regulasi</a>
+<a href="#s3-survei" data-program-select="s3" data-workspace-target="s3-survei" data-i18n="s3SurveysKicker">Survei S3</a>
+<a href="#chatbot" data-program-select="s3" data-workspace-target="chatbot" data-i18n="workspaceChatbot">Chatbot Prodi</a></div></details></nav>
         <div class="workspace-sidebar-video workspace-sidebar-video-s2">
           <div class="workspace-sidebar-video-copy">
             <span data-i18n="sidebarVideoKicker">Video Profil</span>
@@ -3458,7 +3450,7 @@
   </dialog>
 
   <aside class="contact-action-dock" aria-label="Kontak dan konsultasi S2 Statistika Terapan">
-    <span class="contact-action-label">Kontak &amp; Konsultasi</span>
+    <button class="portal-contact-toggle" type="button" aria-expanded="true" aria-controls="portal-contact-links">Kontak &amp; bantuan <span aria-hidden="true">−</span></button><div id="portal-contact-links">
     <a class="contact-action contact-action-assistant" href="#chatbot" data-program-select="s2" data-workspace-target="chatbot" aria-label="Tanya Asisten" title="Tanya Asisten">
       <span class="contact-action-icon contact-action-icon-brand" aria-hidden="true">M</span>
       <span>Tanya Asisten</span>
@@ -3471,6 +3463,7 @@
       <span class="contact-action-icon" aria-hidden="true">WA</span>
       <span>Konsultasi WhatsApp</span>
     </a>
+    </div>
   </aside>
 
   <footer class="footer">
@@ -3592,7 +3585,8 @@
   <script src="assets/obe-alignment.js?v=20260913" defer></script>
   <script src="assets/obe-monev-2026-data.js?v=20260921" defer></script>
   <script src="assets/obe-monev-2026.js?v=20260921-2" defer></script>
-  <script src="assets/app.js?v=20261108-mutu" defer></script>
+  <script src="assets/app.js?v=20261108-navigation" defer></script>
+<script src="assets/navigation.js?v=20261108" defer></script>
   <script>
     window.addEventListener("load", () => {
       const loadEnhancements = () => {
