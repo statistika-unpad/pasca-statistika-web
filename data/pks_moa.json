@@ -1,8 +1,31 @@
 {
-  "total": 17,
-  "national": 7,
+  "total": 18,
+  "national": 8,
   "international": 10,
   "agreements": [
+    {
+      "id": "pks-pusdiklat-bps-2026",
+      "type": "PKS",
+      "year": 2026,
+      "scope": "Nasional",
+      "number": "Nomor: 29/KS.PUSDIKLAT BPS/14-VIII/2026 | Nomor: 1689/UN6.D/HK.07.00/2026 - PKS | 14 Agustus 2026",
+      "titleId": "Penyelenggaraan Pendidikan Magister Statistika Terapan bagi Peserta Program Tugas Belajar BPS Tahun 2026",
+      "titleEn": "Applied Statistics Master’s Education for BPS Study Assignment Participants in 2026",
+      "collaborator": "Pusat Pendidikan dan Pelatihan Badan Pusat Statistik (Pusdiklat BPS)",
+      "documentLabel": "PKS Pusdiklat BPS – FMIPA Unpad 2026",
+      "documentAvailable": false,
+      "accessRole": "kaprodi",
+      "summaryId": [
+        "Kerja sama antara Pusdiklat BPS dan FMIPA Universitas Padjadjaran ini mendukung pengembangan kompetensi sumber daya manusia BPS melalui Program Magister Statistika Terapan. Peserta merupakan pegawai BPS yang memenuhi persyaratan dan lulus seleksi penerimaan mahasiswa, dengan beban pendidikan minimal 42 SKS.",
+        "Ruang lingkupnya mencakup penyelenggaraan pendidikan dan pendanaan melalui beasiswa untuk tahun akademik 2026/2027 sampai 2027/2028. PKS memuat lima peserta tugas belajar Angkatan XV, dengan pelaksanaan pendidikan selama tiga semester dalam rentang 19 bulan, mulai 3 Agustus 2026 sampai Februari 2028.",
+        "Unpad menyelenggarakan pendidikan dan menyampaikan laporan perkembangan akademik setiap akhir semester; BPS mendukung pendanaan sesuai perjanjian. Kedua pihak melakukan pemantauan dan evaluasi paling sedikit sekali setahun. PKS berlaku empat tahun sejak ditandatangani dan memuat ketentuan kerahasiaan serta perlindungan data pribadi."
+      ],
+      "summaryEn": [
+        "This partnership between the BPS Education and Training Center and Universitas Padjadjaran’s Faculty of Mathematics and Natural Sciences supports BPS staff development through the Master’s Program in Applied Statistics. Eligible BPS employees must pass the university’s admissions process and complete at least 42 credits.",
+        "The agreement covers education and scholarship funding for academic years 2026/2027 through 2027/2028. It specifies five study-assignment participants in Cohort XV, with three semesters of education over 19 months, from 3 August 2026 to February 2028.",
+        "Unpad provides education and academic progress reports at the end of each semester, while BPS provides funding under the agreement. Monitoring and evaluation take place at least annually. The agreement runs for four years from signing and includes confidentiality and personal data protection provisions."
+      ]
+    },
     {
       "id": "pks-ub-2025",
       "type": "PKS",

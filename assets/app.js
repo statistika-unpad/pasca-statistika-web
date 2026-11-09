@@ -5922,7 +5922,9 @@ function renderPksMoa() {
       agreement.titleId,
       agreement.titleEn,
       agreement.collaborator,
-      agreement.documentLabel
+      agreement.documentLabel,
+      ...(agreement.summaryId || []),
+      ...(agreement.summaryEn || [])
     ].join(" "));
     return matchesType && (!query || searchable.includes(query));
   });
@@ -5950,7 +5952,7 @@ function renderPksMoa() {
       : agreement.scope;
     const typeClass = String(agreement.type || "").toLowerCase();
     return `
-      <article class="pks-moa-card ${escapeHTML(typeClass)}">
+      <article class="pks-moa-card ${escapeHTML(typeClass)}" data-agreement-id="${escapeHTML(agreement.id)}">
         <div class="pks-moa-card-head">
           <span class="pks-moa-type">${escapeHTML(agreement.type)}</span>
           <span class="pks-moa-scope">${escapeHTML(scope)}</span>
@@ -5962,14 +5964,15 @@ function renderPksMoa() {
         </div>
         <p class="pks-moa-title">${escapeHTML(title)}</p>
         <div class="pks-moa-number">${escapeHTML(agreement.number)}</div>
+        ${(agreement.summaryId || []).length ? `<div class="pks-public-summary"><h4>${currentLang === "en" ? "Partnership summary" : "Ringkasan kerja sama"}</h4>${(currentLang === "en" ? agreement.summaryEn || agreement.summaryId : agreement.summaryId).map(paragraph => `<p>${escapeHTML(paragraph)}</p>`).join("")}</div>` : ""}
         <div class="pks-moa-document">
           <span data-i18n="pksMoaDocument">${escapeHTML(t("pksMoaDocument"))}</span>
           <strong>${escapeHTML(agreement.documentLabel)}</strong>
         </div>
-        <button class="pks-moa-open restricted-document-button" type="button" data-admin-document data-admin-document-type="pks" data-admin-document-name="${escapeHTML(agreement.documentLabel)}">
+        ${agreement.accessRole === "kaprodi" ? `<p class="pks-kaprodi-notice"><strong>${currentLang === "en" ? "Full document: program head only" : "Dokumen lengkap khusus kaprodi"}</strong><span>${currentLang === "en" ? "Only this summary is published. The original file is not available for public download." : "Website hanya menampilkan ringkasan. Berkas asli tidak tersedia untuk unduhan publik."}</span></p>` : `<button class="pks-moa-open restricted-document-button" type="button" data-admin-document data-admin-document-type="pks" data-admin-document-name="${escapeHTML(agreement.documentLabel)}">
           <span>${escapeHTML(t("pksMoaOpen"))}</span>
           <span aria-hidden="true">&#128274;</span>
-        </button>
+        </button>`}
       </article>
     `;
   }).join("");
@@ -6449,7 +6452,7 @@ async function loadFacultyPublications() {
 
 async function loadPksMoa() {
   try {
-    const response = await fetch("data/pks_moa.json", { cache: "default" });
+    const response = await fetch("data/pks_moa.json?v=20261109-bps", { cache: "default" });
     if (!response.ok) throw new Error("Data PKS-MoA tidak dapat dimuat.");
     const data = await response.json();
     if (!data?.agreements?.length) throw new Error("Data PKS-MoA kosong.");
