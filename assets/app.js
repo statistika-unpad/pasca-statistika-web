@@ -425,7 +425,6 @@ const workspacePanelIds = [
   "mahasiswa",
   "sharing-session-alumni",
   "pkm",
-  "program-pengabdian",
   "hibah-riset",
   "publikasi-dosen",
   "kolaborasi-dosen-mahasiswa",
@@ -2434,6 +2433,7 @@ function t(key) {
 }
 
 function normalizeWorkspacePanelId(id) {
+  if (id === "program-pengabdian") return "pkm";
   if (id === "lulusan-tesis") return "lulusan";
   if (id === "peo" || id === "obe-alignment") return "program-profile";
   if (id === "panduan-akademik") return "pedoman-pendidikan";
@@ -2442,6 +2442,7 @@ function normalizeWorkspacePanelId(id) {
 }
 
 function workspacePanelScrollTargetFromHash(id) {
+  if (id === "program-pengabdian") return id;
   if (id === "peo" || id === "obe-alignment") return id;
   return id === "prestasi-mahasiswa" ? "prestasi-mahasiswa" : "";
 }
@@ -6565,7 +6566,7 @@ const WORKSPACE_DATA_LOADERS = {
     ["tracer-studies", loadTracerStudies],
     ["graduate-user-satisfaction", loadGraduateUserSatisfaction]
   ],
-  "program-pengabdian": [["pkm-reports", loadPkmReports]],
+  "pkm": [["pkm-reports", loadPkmReports]],
   "hibah-riset": [["research-grants", loadResearchGrants]],
   "publikasi-dosen": [["faculty-publications", loadFacultyPublications]],
   "special-moment": [["special-moments", loadSpecialMoments]],
