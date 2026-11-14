@@ -390,6 +390,7 @@ const goatTotalCount = document.getElementById("goatTotalCount");
 const goatDashboardLink = document.getElementById("goatDashboardLink");
 const workspaceLayout = document.getElementById("program-workspace");
 const workspacePanelIds = [
+  "pusat-riset",
   "laporan-survei",
   "penjaminan-mutu",
   "pusat-survei",
@@ -2525,7 +2526,8 @@ function setActiveWorkspacePanel(
     const parentLearningProcessMatch = linkTarget === "kurikulum" && learningProcessPanelIds.includes(activeId);
     const parentEvaluationMatch = linkTarget === "evaluasi" && evaluationPanelIds.includes(activeId);
     const sameProgram = linkProgram === activeWorkspaceProgram;
-    const samePanel = linkTarget === activeId || parentLearningProcessMatch || parentEvaluationMatch;
+    const parentResearchMatch = linkTarget === "pusat-riset" && ["roadmap-penelitian", "hibah-riset", "publikasi-dosen", "kolaborasi-dosen-mahasiswa"].includes(activeId);
+    const samePanel = linkTarget === activeId || parentLearningProcessMatch || parentEvaluationMatch || parentResearchMatch;
     const sameSubPanel = parentLearningProcessMatch || parentEvaluationMatch
       ? true
       : activePanelScrollTarget

@@ -7,7 +7,9 @@
   const expand = document.getElementById('portal-expand-menus');
   const normalize = text => text.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const menu = () => root.querySelector(root.dataset.program === 's3' ? '.workspace-menu-s3' : '.workspace-menu-s2');
-  const aliases = {pmb:'pendaftaran penerimaan calon mahasiswa admissions',lulusan:'tesis abstrak alumni thesis graduates', 'pusat-survei':'survey survei kepuasan tracer evaluasi', 'penjaminan-mutu':'ami rtm rtl mutu audit quality',lamsama:'akreditasi accreditation','dokumen-sk':'surat keputusan dokumen sk',pkm:'pengabdian masyarakat'};
+  const aliases = {
+    "pusat-riset":"roadmap penelitian hibah riset dosen publikasi kolaborasi mahasiswa research publications",
+    "laporan-survei":"report laporan hasil survei kepuasan pengguna lulusan peo kurikulum calon mahasiswa",pmb:'pendaftaran penerimaan calon mahasiswa admissions',lulusan:'tesis abstrak alumni thesis graduates', 'pusat-survei':'survey survei kepuasan tracer evaluasi', 'penjaminan-mutu':'ami rtm rtl mutu audit quality',lamsama:'akreditasi accreditation','dokumen-sk':'surat keputusan dokumen sk',pkm:'pengabdian masyarakat'};
   let previousProgram = root.dataset.program;
   let savedOpen = null;
   function updateExpandLabel() {
