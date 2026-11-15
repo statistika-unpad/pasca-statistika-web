@@ -9,3 +9,8 @@ body{background:#faf8f2}.site-header{background:#fffdf8;border-bottom:1px solid 
 @media(prefers-reduced-motion:reduce){.portal-shortcuts a{transition:none}}
 .site-header .nav-shell{display:flex;align-items:center;flex-wrap:nowrap}.site-header .language-switch{flex-shrink:0}.site-header .brand{min-width:0}.campus-header-instagram{white-space:nowrap}
 @media(max-width:600px){.site-header .nav-shell{flex-wrap:wrap}.site-header .brand{flex:1 1 70%}.site-header .language-switch{margin-left:auto}.campus-header-instagram{order:3;flex-basis:100%;padding-bottom:5px}}
+
+/* Social links remain adjacent on both desktop and mobile. */
+.site-header .brand-chip-sub{font-size:16px!important;letter-spacing:1.6px;font-weight:800}.campus-header-social{display:flex;align-items:center;gap:18px;margin-left:auto}.campus-header-social a{margin:0;flex-basis:auto;color:#765537;font-size:13px;font-weight:700;text-decoration:none;white-space:nowrap}.campus-header-social .campus-header-youtube{color:#a82c30}.campus-social-actions{display:flex;flex-wrap:wrap;gap:12px}.campus-youtube{background:#a82c30}.campus-header-social a:focus-visible{outline:3px solid #b88f3e;outline-offset:4px}
+@media(max-width:800px){.site-header .brand-chip-sub{font-size:14px!important}.campus-header-social{gap:12px}.campus-header-social a{font-size:12px}}
+@media(max-width:600px){.campus-header-social{order:3;flex-basis:100%;margin-left:0;padding-bottom:5px}.campus-header-social a{flex-basis:auto;order:initial;padding:0}}
