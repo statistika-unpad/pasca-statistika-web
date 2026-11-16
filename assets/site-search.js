@@ -5,7 +5,7 @@
  const tokens=s=>normalize(s).match(/[a-z0-9]+/g)?.filter(t=>t.length>1&&!stop.has(t))||[];
  const safe=u=>{try{const x=new URL(u,location.href);return ['http:','https:'].includes(x.protocol)?u:null}catch{return null}};
  let chunks=[],ready=null;
- function load(){return ready||(ready=fetch('data/knowledge_chunks.json?v=20261116').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{chunks=Array.isArray(data)?data:[]}).catch(()=>{ready=null}));}
+ function load(){return ready||(ready=fetch('data/knowledge_chunks.json?v=20261116-history').then(r=>{if(!r.ok)throw Error();return r.json()}).then(data=>{chunks=Array.isArray(data)?data:[]}).catch(()=>{ready=null}));}
  function records(){const out=chunks.map(c=>({title:c.title||c.sourceTitle||'Dokumen akademik',text:c.text||'',url:safe(c.sourceUrl||c.url||'#chatbot')}));
  document.querySelectorAll('section[id]:not(#chatbot)').forEach(s=>{const title=s.querySelector('h1,h2,h3')?.textContent.trim()||s.id;const clone=s.cloneNode(true);clone.querySelectorAll('script,style,input,button,nav').forEach(e=>e.remove());const text=clone.textContent.replace(/\s+/g,' ').trim();for(let i=0;i<text.length;i+=900)out.push({title,text:text.slice(i,i+1100),url:'#'+s.id});});
  document.querySelectorAll('main a[href],.workspace-menu a[href],.campus-header-social a[href]').forEach(a=>{let title=a.textContent.replace(/\s+/g,' ').trim();if(title.length>4&&safe(a.getAttribute('href')))out.push({title,text:title,url:a.getAttribute('href')});});return out.filter(r=>r.url&&r.text);}

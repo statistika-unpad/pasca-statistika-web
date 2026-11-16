@@ -6607,7 +6607,7 @@ async function loadKnowledge() {
   if (knowledgeLoadPromise) return knowledgeLoadPromise;
   knowledgeLoadPromise = (async () => {
     try {
-      const response = await fetch("data/knowledge_chunks.json?v=20261015", { cache: "no-cache" });
+      const response = await fetch("data/knowledge_chunks.json?v=20261116-history", { cache: "no-cache" });
       if (!response.ok) throw new Error("Knowledge base tidak dapat dimuat.");
       const chunks = await response.json();
       if (!Array.isArray(chunks) || !chunks.length) throw new Error("Knowledge base kosong.");
