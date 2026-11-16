@@ -4627,6 +4627,19 @@ async function ask(question) {
   let local;
   try {
     local = buildLocalAnswer(question);
+    if (window.PascaSearch) {
+      await window.PascaSearch.load();
+      const found = window.PascaSearch.search(question, 4);
+      if (found.length) {
+        const sources = found.map(hit => ({title: hit.title, url: hit.url}));
+        if ((/belum menemukan|not found/i.test(local.answer) || /buka|dimana|di mana|carikan|link|tautan/i.test(question))) {
+          local.answer = (currentLang === "en" ? "Relevant website information:\n\n" : "Berikut informasi yang saya temukan di website:\n\n") + found.slice(0,3).map(hit => hit.title + "\n" + hit.snippet).join("\n\n");
+          local.sources = sources;
+        } else {
+          local.sources = [...(local.sources || []), ...sources];
+        }
+      }
+    }
   } catch (error) {
     console.error("Chatbot local gagal memproses pertanyaan:", error);
     local = {

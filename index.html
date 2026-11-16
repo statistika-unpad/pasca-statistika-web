@@ -204,7 +204,7 @@
 #pusat-riset .research-hub-hero{padding:36px;background:linear-gradient(125deg,#173a58,#36556e,#31685e);border-radius:22px;color:#fff;border-top:4px solid #d1af65;margin-bottom:24px}#pusat-riset .research-hub-hero h2{font-size:clamp(28px,3vw,40px);color:#fff;margin:12px 0}#pusat-riset .research-hub-hero p{line-height:1.8;color:#e7eff3}#pusat-riset .research-hub-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}#pusat-riset .research-hub-card{padding:28px;border:1px solid #d2e0e5;border-radius:18px;background:linear-gradient(140deg,#fff,#f0f6f5);text-decoration:none;box-shadow:0 8px 25px #183a4d10}#pusat-riset .research-hub-card>span{color:#93703c;font-size:12px;letter-spacing:2px;font-weight:800}#pusat-riset .research-hub-card h3{font-size:23px;color:#163e53;margin:14px 0}#pusat-riset .research-hub-card p{color:#526c79;line-height:1.7}#pusat-riset .research-hub-card strong{color:#166456;font-size:14px}#pusat-riset .research-hub-card:hover{border-color:#a17c42}#pusat-riset .research-hub-card:focus-visible{outline:3px solid #a17c42;outline-offset:3px}
 @media(max-width:650px){#laporan-survei .survey-report-grid,#pusat-riset .research-hub-grid{grid-template-columns:1fr}#pusat-riset .research-hub-hero{padding:25px}}
 </style>
-<link rel="stylesheet" href="assets/campus-style.css?v=20261115-social">
+<link rel="stylesheet" href="assets/campus-style.css?v=20261116-search">
 </head>
 <body>
   <div class="topbar">
@@ -227,7 +227,7 @@
           </span>
         </span>
       </a>
-<div class="campus-header-social"><a class="campus-header-instagram" href="https://www.instagram.com/magister_stat_unpad/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Magister Statistika Unpad">Instagram ↗</a><a class="campus-header-youtube" href="https://www.youtube.com/@departemenstatistikaunpad" target="_blank" rel="noopener noreferrer" aria-label="YouTube Departemen Statistika Unpad">YouTube ↗</a></div>
+<form id="global-search-form" role="search"><label class="global-search-label" for="global-search-input">Informasi apa yang Anda mau cari?</label><div><input id="global-search-input" type="search" placeholder="Informasi apa yang Anda mau cari?" required maxlength="200"><button type="submit" aria-label="Cari informasi">Cari</button></div></form><div class="campus-header-social"><a class="campus-header-instagram" href="https://www.instagram.com/magister_stat_unpad/" target="_blank" rel="noopener noreferrer" aria-label="Instagram Magister Statistika Unpad">Instagram ↗</a><a class="campus-header-youtube" href="https://www.youtube.com/@departemenstatistikaunpad" target="_blank" rel="noopener noreferrer" aria-label="YouTube Departemen Statistika Unpad">YouTube ↗</a></div>
       <div class="language-switch" role="group" aria-label="Pilihan bahasa">
         <button class="active" type="button" data-lang="id" aria-pressed="true">ID</button>
         <button type="button" data-lang="en" aria-pressed="false">EN</button>
@@ -3615,7 +3615,7 @@
   <script src="assets/obe-alignment.js?v=20260913" defer></script>
   <script src="assets/obe-monev-2026-data.js?v=20260921" defer></script>
   <script src="assets/obe-monev-2026.js?v=20260921-2" defer></script>
-  <script src="assets/app.js?v=20261115-consolidation" defer></script>
+  <script src="assets/site-search.js?v=20261116" defer></script><script src="assets/app.js?v=20261116-search" defer></script>
 <script src="assets/navigation.js?v=20261115" defer></script>
   <script>
     window.addEventListener("load", () => {
@@ -3756,5 +3756,5 @@
 <script src="assets/publication-collaborations.js?v=20261014" defer></script>
 <script src="assets/publications-refresh.js?v=20261014-collab" defer></script>
 <script src="assets/home-refresh.js?v=20261114" defer></script>
-</body>
+<dialog id="global-search-dialog" aria-labelledby="global-search-title"><div class="global-search-top"><h2 id="global-search-title">Pencarian informasi</h2><button type="button" aria-label="Tutup pencarian">Tutup ×</button></div><p id="global-search-status" role="status"></p><div id="global-search-results"></div></dialog></body>
 </html>
