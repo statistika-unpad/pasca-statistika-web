@@ -1,8 +1,48 @@
 {
-  "total": 18,
-  "national": 8,
+  "total": 20,
+  "national": 10,
   "international": 10,
   "agreements": [
+    {
+      "id": "pks-diskominfo-kab-bandung-2026",
+      "type": "PKS",
+      "year": 2026,
+      "scope": "Nasional",
+      "number": "Nomor: 000.6.5.3/035/2026/DISKOMINFO | Nomor: 1808/UN6.D/HK.07.00/2026 - PKS | 1 September 2026",
+      "titleId": "Implementasi Tri Dharma Perguruan Tinggi dalam Mendukung Pengelolaan Data Statistik di Kabupaten Bandung",
+      "titleEn": "University Education, Research and Community Engagement Supporting Statistical Data Management in Bandung Regency",
+      "collaborator": "Pemerintah Kabupaten Bandung (Dinas Komunikasi dan Informatika)",
+      "documentLabel": "1808_DISKOMINFO PEMERINTAH KAB BANDUNG.pdf",
+      "documentAvailable": true,
+      "summaryId": [
+        "Kerja sama Pemerintah Kabupaten Bandung dan FMIPA Universitas Padjadjaran untuk mendukung pengelolaan data statistik serta meningkatkan peran perguruan tinggi dalam pembangunan daerah.",
+        "Ruang lingkupnya meliputi magang kerja dan/atau magang penelitian mahasiswa, penelitian bersama serta penyediaan narasumber. Pengabdian kepada masyarakat dilakukan melalui pendampingan perangkat daerah dalam pengumpulan, pengolahan, dan analisis data statistik nonspasial maupun spasial."
+      ],
+      "summaryEn": [
+        "This agreement between Bandung Regency Government and Universitas Padjadjaran’s Faculty of Mathematics and Natural Sciences supports statistical data management and the university’s contribution to regional development.",
+        "Activities include student work or research internships, joint research and expert contributions. Community engagement provides regional government offices with assistance in collecting, processing and analysing both spatial and non-spatial statistical data."
+      ]
+    },
+    {
+      "id": "pks-pten-2026",
+      "type": "PKS",
+      "year": 2026,
+      "scope": "Nasional",
+      "number": "Nomor: PTEN.DIR/PKS-005/2026 | Nomor: 1591/UN6.D/HK.07.00/2026/PKS | 3 Agustus 2026",
+      "titleId": "Pengembangan dan Peningkatan Kualitas Sumber Daya Manusia",
+      "titleEn": "Human Resource Development and Quality Improvement",
+      "collaborator": "PT Penyelesaian Transaksi Elektronik Nasional (PTEN)",
+      "documentLabel": "PKS Dept Stat dan PTEN 16112026.pdf",
+      "documentAvailable": true,
+      "summaryId": [
+        "Kerja sama PT Penyelesaian Transaksi Elektronik Nasional dan FMIPA Universitas Padjadjaran berfokus pada pengembangan sumber daya manusia serta dukungan terhadap pendidikan, penelitian, dan pengabdian kepada masyarakat.",
+        "Kegiatan mencakup program CSR berupa seminar, lokakarya, kuliah umum, dan diskusi kelompok terarah bagi mahasiswa dan dosen, serta program magang kerja maupun magang penelitian yang disepakati kedua pihak. Pelaksanaan dikoordinasikan bersama dan disertai monitoring serta evaluasi."
+      ],
+      "summaryEn": [
+        "This partnership between PT Penyelesaian Transaksi Elektronik Nasional and Universitas Padjadjaran’s Faculty of Mathematics and Natural Sciences focuses on human resource development and support for education, research and community engagement.",
+        "Activities include CSR seminars, workshops, public lectures and focus group discussions for students and lecturers, alongside agreed work and research internships. Both parties coordinate implementation and conduct monitoring and evaluation."
+      ]
+    },
     {
       "id": "pks-pusdiklat-bps-2026",
       "type": "PKS",
@@ -12,7 +52,7 @@
       "titleId": "Penyelenggaraan Pendidikan Magister Statistika Terapan bagi Peserta Program Tugas Belajar BPS Tahun 2026",
       "titleEn": "Applied Statistics Master’s Education for BPS Study Assignment Participants in 2026",
       "collaborator": "Pusat Pendidikan dan Pelatihan Badan Pusat Statistik (Pusdiklat BPS)",
-      "documentLabel": "PKS Pusdiklat BPS – FMIPA Unpad 2026",
+      "documentLabel": "PKS_Unpad_Statistik_2026 (1).pdf",
       "documentAvailable": false,
       "accessRole": "kaprodi",
       "summaryId": [

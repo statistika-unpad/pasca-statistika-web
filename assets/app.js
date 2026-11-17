@@ -6469,7 +6469,7 @@ async function loadFacultyPublications() {
 
 async function loadPksMoa() {
   try {
-    const response = await fetch("data/pks_moa.json?v=20261109-bps", { cache: "default" });
+    const response = await fetch("data/pks_moa.json?v=20261117-pks", { cache: "default" });
     if (!response.ok) throw new Error("Data PKS-MoA tidak dapat dimuat.");
     const data = await response.json();
     if (!data?.agreements?.length) throw new Error("Data PKS-MoA kosong.");
